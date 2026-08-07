@@ -25,7 +25,7 @@ using TaleWorlds.CampaignSystem.ComponentInterfaces;
 using TaleWorlds.CampaignSystem.Conversation;
 using TaleWorlds.CampaignSystem.Encounters;
 using TaleWorlds.CampaignSystem.GameMenus;
-using TaleWorlds.CampaignSystem.Overlay;
+using TaleWorlds.MountAndBlade.GauntletUI.Widgets.Menu.Overlay;
 using TaleWorlds.CampaignSystem.Party;
 using TaleWorlds.CampaignSystem.Settlements;
 using TaleWorlds.CampaignSystem.Settlements.Locations;
@@ -106,7 +106,7 @@ namespace ArenaOverhaul.CampaignBehaviors
 
             campaignGameStarter.AddGameMenuOption("town_arena", "town_arena_nearby_tournaments", "{=aiDNBFQ4U}Nearby Tournaments", args => { _tournamentListOffset = 0; args.optionLeaveType = GameMenuOption.LeaveType.Submenu; return true; }, x => GameMenu.SwitchToMenu("nearby_tournaments_list"), false, 4, false);
 
-            campaignGameStarter.AddGameMenu("nearby_tournaments_list", "{=!}{MENU_TEXT}", new OnInitDelegate(game_menu_nearby_tournaments_list_on_init), GameOverlays.MenuOverlayType.SettlementWithBoth, GameMenu.MenuFlags.None, null);
+            campaignGameStarter.AddGameMenu("nearby_tournaments_list", "{=!}{MENU_TEXT}", new OnInitDelegate(game_menu_nearby_tournaments_list_on_init), GameMenu.MenuOverlayType.SettlementWithBoth, GameMenu.MenuFlags.None, null);
 
             campaignGameStarter.AddGameMenuOption("nearby_tournaments_list", "nearby_tournaments_list_nextpage", "{=uBC62Jdh1}Next page...", args => { args.optionLeaveType = GameMenuOption.LeaveType.Continue; return _tournamentListOffset * _tournamentListEntriesPerPage + _tournamentListEntriesPerPage < _tournamentListTotalCount; }, x => { ++_tournamentListOffset; GameMenu.SwitchToMenu("nearby_tournaments_list"); }, false, 30, false);
             campaignGameStarter.AddGameMenuOption("nearby_tournaments_list", "nearby_tournaments_list_previouspage", "{=De0boqLm0}Previous page...", args => { args.optionLeaveType = GameMenuOption.LeaveType.LeaveTroopsAndFlee; return _tournamentListOffset > 0; }, x => { --_tournamentListOffset; GameMenu.SwitchToMenu("nearby_tournaments_list"); }, false, 20, false);
@@ -114,10 +114,10 @@ namespace ArenaOverhaul.CampaignBehaviors
 
             campaignGameStarter.AddGameMenuOption("menu_town_tournament_join", "participate_as_team", "{=xRkr497KP}Join as a team", new GameMenuOption.OnConditionDelegate(team_game_select_roster_condition), new GameMenuOption.OnConsequenceDelegate(team_game_select_roster_consequence), false, 1, false);
 
-#if DEBUG // only needed when debugging for testing
-            campaignGameStarter.AddGameMenuOption("town_arena", "test_add_tournament_game", "Add Tournament", new GameMenuOption.OnConditionDelegate(AddTournamentCondition), new GameMenuOption.OnConsequenceDelegate(AddTournamentConsequence), false, 5, true);
-            campaignGameStarter.AddGameMenuOption("town_arena", "test_resolve_tournament_game", "Resolve Tournament", new GameMenuOption.OnConditionDelegate(ResolveTournamentCondition), new GameMenuOption.OnConsequenceDelegate(ResolveTournamentConsequence), false, 6, true);
-#endif
+//#if DEBUG // only needed when debugging for testing
+//            campaignGameStarter.AddGameMenuOption("town_arena", "test_add_tournament_game", "Add Tournament", new GameMenuOption.OnConditionDelegate(AddTournamentCondition), new GameMenuOption.OnConsequenceDelegate(AddTournamentConsequence), false, 5, true);
+//            campaignGameStarter.AddGameMenuOption("town_arena", "test_resolve_tournament_game", "Resolve Tournament", new GameMenuOption.OnConditionDelegate(ResolveTournamentCondition), new GameMenuOption.OnConsequenceDelegate(ResolveTournamentConsequence), false, 6, true);
+//#endif
         }
 
         protected void AddDialogs(CampaignGameStarter campaignGameStarter)
@@ -471,7 +471,7 @@ namespace ArenaOverhaul.CampaignBehaviors
         private void game_menu_nearby_tournaments_list_on_init(MenuCallbackArgs args)
         {
             List<Town> nearbyTournamentTowns = GetNearbyTournaments();
-            List<float> nearbyTownDistances = Town.AllTowns.Where(x => x != Settlement.CurrentSettlement.Town).Select(town => town.Settlement.Position2D.DistanceSquared(Settlement.CurrentSettlement.Position2D)).OrderBy(dist => dist).ToList();
+            List<float> nearbyTownDistances = Town.AllTowns.Where(x => x != Settlement.CurrentSettlement.Town).Select(town => town.Settlement.GetPosition2D.DistanceSquared(Settlement.CurrentSettlement.GetPosition2D)).OrderBy(dist => dist).ToList();
             _tournamentListTotalCount = nearbyTournamentTowns.Count;
 
             TextObject tournamentList = new("{=zvb5PZ5OA}Tournaments are currently being held in {TOURNAMENTS} {?TOURNAMENTS.PLURAL_FORM}towns{?}town{\\?}.{NEW_LINE}{TORNAMENT_LIST.START}{?TORNAMENT_LIST.IS_PLURAL}{NEW_LINE}{?}{\\?}{TORNAMENT_LIST.END}");
@@ -485,7 +485,7 @@ namespace ArenaOverhaul.CampaignBehaviors
             //local methods
             static List<Town> GetNearbyTournaments()
             {
-                return Town.AllTowns.Where(x => Campaign.Current.TournamentManager.GetTournamentGame(x) != null && x != Settlement.CurrentSettlement.Town).OrderBy(x => x.Settlement.Position2D.DistanceSquared(Settlement.CurrentSettlement.Position2D)).ToList();
+                return Town.AllTowns.Where(x => Campaign.Current.TournamentManager.GetTournamentGame(x) != null && x != Settlement.CurrentSettlement.Town).OrderBy(x => x.Settlement.GetPosition2D.DistanceSquared(Settlement.CurrentSettlement.GetPosition2D)).ToList();
             }
 
             static string GetDistanceEstimate(Town town, List<float> nearbyTownDistances, out bool isCloseBy)
@@ -497,7 +497,7 @@ namespace ArenaOverhaul.CampaignBehaviors
                 float twoFourthDistance = nearbyTownDistances[twoFourthIdx];
                 float threeFourthDistance = nearbyTownDistances[threeFourthIdx];
 
-                float distanceInQuestion = town.Settlement.Position2D.DistanceSquared(Settlement.CurrentSettlement.Position2D);
+                float distanceInQuestion = town.Settlement.GetPosition2D.DistanceSquared(Settlement.CurrentSettlement.GetPosition2D);
                 if (distanceInQuestion < twoFourthDistance)
                 {
                     isCloseBy = true;
@@ -673,7 +673,7 @@ namespace ArenaOverhaul.CampaignBehaviors
             shouldBeDisabled &= TeamTournamentHelpers.IsTournamentActive;
             canPlayerDo &= TeamTournamentHelpers.IsTournamentActive;
 
-            if (shouldBeDisabled || string.IsNullOrEmpty(disabledText.ToString()))
+            if (shouldBeDisabled || string.IsNullOrEmpty(disabledText?.ToString()))
                 disabledText = new TextObject("{=Ams5ccKzh}Roster can only be selected for team tournaments.");
 
             return TWHelpers.MenuHelper.SetOptionProperties(args, canPlayerDo, shouldBeDisabled, disabledText);
@@ -689,7 +689,7 @@ namespace ArenaOverhaul.CampaignBehaviors
                     new TeamTournamentInfo().OpenSelectionMenu(menuViewContext);
             }
         }
-
+/*
 #if DEBUG // only needed when debugging for testing
         private bool AddTournamentCondition(MenuCallbackArgs args) => !Settlement.CurrentSettlement.Town.HasTournament;
         private void AddTournamentConsequence(MenuCallbackArgs args)
@@ -710,7 +710,7 @@ namespace ArenaOverhaul.CampaignBehaviors
             GameMenu.SwitchToMenu("town_arena");
         }
 #endif
-
+*/
 #pragma warning restore IDE1006 // Naming Styles
 
         public override void SyncData(IDataStore dataStore)

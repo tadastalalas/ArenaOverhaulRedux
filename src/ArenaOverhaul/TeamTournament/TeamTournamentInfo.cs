@@ -57,6 +57,25 @@ namespace ArenaOverhaul.TeamTournament
             var mainHeroRoster = TroopRoster.CreateDummyTroopRoster();
             mainHeroRoster.AddToCounts(Hero.MainHero.CharacterObject, 1);
 
+            #if v120 || v121 || v122 || v123 || v124 || v125 || v126 || v127 || v128 || v129 || v1210 || v1211 || v145
+            menuViewContext.MenuContext.OpenTroopSelection(
+                GetAvailableSelection(),
+                mainHeroRoster,
+                null, // ships list, probably they added this because of naval raids
+                delegate (CharacterObject character) { return !character.IsPlayerCharacter; },
+                delegate (TroopRoster selection)
+                {
+                    SelectedRoster = selection;
+                    var tournamentGame = Campaign.Current.TournamentManager.GetTournamentGame(Settlement.CurrentSettlement.Town);
+                    GameMenu.SwitchToMenu("town");
+                    tournamentGame.PrepareForTournamentGame(true);
+                    Campaign.Current.TournamentManager.OnPlayerJoinTournament(tournamentGame.GetType(), Settlement.CurrentSettlement);
+                },
+                TeamSize,
+                2,  // minimum 2 members in a team
+                false
+            );
+            #else
             menuViewContext.MenuContext.OpenTroopSelection(
                 GetAvailableSelection(),
                 mainHeroRoster,
@@ -69,8 +88,10 @@ namespace ArenaOverhaul.TeamTournament
                     tournamentGame.PrepareForTournamentGame(true);
                     Campaign.Current.TournamentManager.OnPlayerJoinTournament(tournamentGame.GetType(), Settlement.CurrentSettlement);
                 },
-                TeamSize
+                TeamSize,
+                2  // minimum 2 members in a team
             );
+            #endif
         }
 
         public bool IsTeamTournament => SelectedRoster != null;
@@ -93,10 +114,15 @@ namespace ArenaOverhaul.TeamTournament
             foreach (var character in selectableChars)
                 flattenTroopRoster.Add(character, 1, 0);
 
-            availableRoster.Add(flattenTroopRoster);
+            // add the flattened heroes selection into the roster
+            foreach (var element in flattenTroopRoster)
+                availableRoster.AddToCounts(element.Troop, 1, false, element.IsWounded ? 1 : 0, element.Xp, true, -1);
 
             // now also add own troops in party roster
-            availableRoster.Add(MobileParty.MainParty.MemberRoster.ToFlattenedRoster().Where(x => (!x.Troop.IsHero || !availableRoster.Contains(x.Troop)) && !x.IsWounded && x.Troop.CanBeAParticipant(false, false)));
+            var partyTroops = MobileParty.MainParty.MemberRoster.ToFlattenedRoster()
+                .Where(x => (!x.Troop.IsHero || !availableRoster.Contains(x.Troop)) && !x.IsWounded && x.Troop.CanBeAParticipant(false, false));
+            foreach (var element in partyTroops)
+                availableRoster.AddToCounts(element.Troop, 1, false, 0, element.Xp, true, -1);
             return availableRoster;
         }
 

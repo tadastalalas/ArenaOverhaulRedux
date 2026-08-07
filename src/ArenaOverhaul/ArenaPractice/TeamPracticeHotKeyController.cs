@@ -14,6 +14,7 @@ using TaleWorlds.CampaignSystem;
 using TaleWorlds.CampaignSystem.CharacterDevelopment;
 using TaleWorlds.CampaignSystem.TournamentGames;
 using TaleWorlds.Core;
+using TaleWorlds.Core.ImageIdentifiers;
 using TaleWorlds.Core.ViewModelCollection.Information;
 using TaleWorlds.InputSystem;
 using TaleWorlds.Localization;
@@ -39,7 +40,8 @@ namespace ArenaOverhaul.ArenaPractice
             DefaultKey = InputKey.Slash;
             Category = HotKeyManager.Categories[HotKeyCategory.Action];
 
-            Predicate = () => Mission.Current?.GetMissionBehavior<ArenaPracticeFightMissionController>()?.IsPlayerPracticing ?? false && (AOArenaBehaviorManager.Instance?.PracticeMode ?? ArenaPracticeMode.Standard) == ArenaPracticeMode.Team;
+            Predicate = () => (Mission.Current?.GetMissionBehavior<ArenaPracticeFightMissionController>()?.IsPlayerPracticing ?? false)
+                              && (AOArenaBehaviorManager.Instance?.PracticeMode ?? ArenaPracticeMode.Standard) == ArenaPracticeMode.Team;
         }
 
         protected override void OnReleased()
@@ -58,7 +60,7 @@ namespace ArenaOverhaul.ArenaPractice
                 var inquiryElementList = new List<InquiryElement>();
                 mission.PlayerTeam.ActiveAgents
                     .Where(IsFittingToSwitchTo).ToList()
-                    .ForEach(x => inquiryElementList.Add(new InquiryElement(x, x.Name.ToString(), new ImageIdentifier(CharacterCode.CreateFrom(x.Character)))));
+                    .ForEach(x => inquiryElementList.Add(new InquiryElement(x, x.Name.ToString(), new CharacterImageIdentifier(CharacterCode.CreateFrom(x.Character)))));
 
                 for (var i = TeamPracticeStatsManager.SpawnedAliedAgentCount; i < AOArenaBehaviorManager._lastPlayerRelatedCharacterList!.Count; i++)
                 {
@@ -67,7 +69,7 @@ namespace ArenaOverhaul.ArenaPractice
                     {
                         TextObject hint = new("{=}This hero is not yet in the fight and is {QUEUE_NUMBER} in line to enter the arena.");
                         LocalizationHelper.SetNumericVariable(hint, "QUEUE_NUMBER", i - TeamPracticeStatsManager.SpawnedAliedAgentCount + 1);
-                        inquiryElementList.Add(new InquiryElement(characterObject, characterObject.Name.ToString(), new ImageIdentifier(CharacterCode.CreateFrom(characterObject)), true, hint.ToString()));
+                        inquiryElementList.Add(new InquiryElement(characterObject, characterObject.Name.ToString(), new CharacterImageIdentifier(CharacterCode.CreateFrom(characterObject)), true, hint.ToString()));
                     }
                 }
 
@@ -86,10 +88,10 @@ namespace ArenaOverhaul.ArenaPractice
                                     case Agent agent:
                                         if (mainAgent != null)
                                         {
-                                            mainAgent.Controller = Agent.ControllerType.AI;
+                                            mainAgent.Controller = AgentControllerType.AI;
                                             mainAgent.SetWatchState(Agent.WatchState.Alarmed);
                                         }
-                                        agent.Controller = Agent.ControllerType.Player;
+                                        agent.Controller = AgentControllerType.Player;
                                         break;
                                     default:
                                         break;

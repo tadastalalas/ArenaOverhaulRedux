@@ -10,6 +10,7 @@ using TaleWorlds.CampaignSystem;
 using TaleWorlds.CampaignSystem.Settlements;
 using TaleWorlds.CampaignSystem.TournamentGames;
 using TaleWorlds.Core;
+using TaleWorlds.Core.ViewModelCollection.ImageIdentifiers;
 using TaleWorlds.Core.ViewModelCollection.Information;
 using TaleWorlds.Library;
 using TaleWorlds.Localization;
@@ -53,7 +54,7 @@ namespace ArenaOverhaul.TeamTournament.ViewModels
             Tournament.TournamentEnd += OnTournamentEnd;
             Tournament.MatchEnd += OnMatchEnd;
 
-            PrizeVisual = (HasPrizeItem ? new ImageIdentifierVM(Tournament.TournamentGame.Prize) : new ImageIdentifierVM(ImageIdentifierType.Null));
+            PrizeVisual = (HasPrizeItem ? new ItemImageIdentifierVM(Tournament.TournamentGame.Prize) : new ItemImageIdentifierVM(null, ""));
             _skipAllRoundsHint = new HintViewModel();
             RefreshValues();
         }
@@ -168,7 +169,7 @@ namespace ArenaOverhaul.TeamTournament.ViewModels
 
             IsWinnerHero = TournamentWinner.Member.Character.IsHero;
             if (IsWinnerHero)
-                WinnerBanner = new ImageIdentifierVM(BannerCode.CreateFrom(TournamentWinner.Member.Character.HeroObject.ClanBanner), true);
+                WinnerBanner = new BannerImageIdentifierVM(TournamentWinner.Member.Character.HeroObject.ClanBanner, true);
 
             if (TournamentWinner.IsMainHero)
             {
@@ -193,7 +194,7 @@ namespace ArenaOverhaul.TeamTournament.ViewModels
                 if (Tournament.TournamentGame.Prize != null)
                 {
                     GameTexts.SetVariable("REWARD", Tournament.TournamentGame.Prize.Name.ToString());
-                    BattleRewards!.Add(new TournamentRewardVM(GameTexts.FindText("str_tournament_reward", null).ToString(), new ImageIdentifierVM(Tournament.TournamentGame.Prize)));
+                    BattleRewards!.Add(new TournamentRewardVM(GameTexts.FindText("str_tournament_reward", null).ToString(), new ItemImageIdentifierVM(Tournament.TournamentGame.Prize)));
                 }
 
                 if (Tournament.OverallExpectedDenars > 0)
@@ -968,7 +969,7 @@ namespace ArenaOverhaul.TeamTournament.ViewModels
         }
 
         [DataSourceProperty]
-        public ImageIdentifierVM? WinnerBanner
+        public BannerImageIdentifierVM? WinnerBanner
         {
             get
             {
@@ -1025,7 +1026,7 @@ namespace ArenaOverhaul.TeamTournament.ViewModels
         private bool _isWinnerHero;
         private string _winnerIntro = string.Empty;
         private ImageIdentifierVM? _prizeVisual;
-        private ImageIdentifierVM? _winnerBanner;
+        private BannerImageIdentifierVM? _winnerBanner;
         private MBBindingList<TournamentRewardVM>? _battleRewards;
         private HintViewModel _skipAllRoundsHint;
     }

@@ -142,7 +142,9 @@ namespace ArenaOverhaul.Tournament
         }
 
         public static int GetTakedownRenownReward(Hero hero, Town town) =>
-            Math.Min(_renownAwardees[town].FirstOrDefault(x => x.Awardee == hero).RenownAward, Campaign.Current.Models.TournamentModel.GetRenownReward(hero, town) * 2);
+            _renownAwardees.TryGetValue(town, out var awardees)
+                ? Math.Min(awardees.FirstOrDefault(x => x.Awardee == hero).RenownAward, Campaign.Current.Models.TournamentModel.GetRenownReward(hero, town) * 2)
+                : 0;
 
         private static void GiveRenownReward(Hero winnerHero, Town town)
         {

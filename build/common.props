@@ -3,19 +3,19 @@
 
     <!--Module Version-->
     <PropertyGroup>
-        <Version>1.5.7</Version>
+        <Version>1.5.11</Version>
     </PropertyGroup>
 
     <!-- Versions of Major Dependencies (for Package References & SubModule.xml Substitution) -->
     <PropertyGroup>
         <!--Harmony Version-->
-        <HarmonyVersion>2.3.3</HarmonyVersion>
+        <HarmonyVersion>2.4.2</HarmonyVersion>
         <!--ButterLib Version-->
-        <ButterLibVersion>2.9.18</ButterLibVersion>
+        <ButterLibVersion>2.11.1</ButterLibVersion>
         <!--UIExtenderEx Version-->
-        <UIExtenderExVersion>2.12.0</UIExtenderExVersion>
+        <UIExtenderExVersion>2.13.3</UIExtenderExVersion>
         <!--MCM Version-->
-        <MCMVersion>5.10.1</MCMVersion>
+        <MCMVersion>5.12.2</MCMVersion>
         <!--BUTRShared Version-->
         <BUTRSharedVersion>3.0.0.142</BUTRSharedVersion>
         <!--BuildResources Version-->
@@ -31,7 +31,7 @@
     <PropertyGroup>
         <ModuleId>ArenaOverhaul</ModuleId>
         <ModuleName>$(ModuleId)</ModuleName>
-        <DisplayName>Arena Overhaul</DisplayName>
+        <DisplayName>Arena Overhaul Redux</DisplayName>
         <RootNamespace>$(ModuleName)</RootNamespace>
     </PropertyGroup>
 

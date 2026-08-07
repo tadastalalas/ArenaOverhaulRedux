@@ -1,6 +1,7 @@
 ﻿using TaleWorlds.CampaignSystem;
 using TaleWorlds.Core;
 using TaleWorlds.Core.ViewModelCollection;
+using TaleWorlds.Core.ViewModelCollection.ImageIdentifiers;
 using TaleWorlds.Library;
 
 namespace ArenaOverhaul.TeamTournament.ViewModels
@@ -11,7 +12,7 @@ namespace ArenaOverhaul.TeamTournament.ViewModels
 
         public TeamTournamentMemberVM()
         {
-            _visual = new ImageIdentifierVM(ImageIdentifierType.Null);
+            _visual = new CharacterImageIdentifierVM(null);
             _character = new CharacterViewModel(CharacterViewModel.StanceTypes.CelebrateVictory);
         }
 
@@ -38,7 +39,7 @@ namespace ArenaOverhaul.TeamTournament.ViewModels
                 Name = member.Team!.Name;
                 Character = new CharacterViewModel(CharacterViewModel.StanceTypes.CelebrateVictory);
                 Character.FillFrom(member.Character, -1);
-                Visual = new ImageIdentifierVM(CharacterCode.CreateFrom(member.Character));
+                Visual = new CharacterImageIdentifierVM(CharacterCode.CreateFrom(member.Character));
                 IsValid = true;
                 IsMainHero = member.IsPlayer;
             }

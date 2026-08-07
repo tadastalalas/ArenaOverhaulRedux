@@ -35,10 +35,6 @@ namespace ArenaOverhaul.Helpers
 
         public static readonly FieldRef<MissionArenaPracticeFightVM, ArenaPracticeFightMissionController> MAPFVMPracticeMissionControllerByRef = FieldRefAccess<MissionArenaPracticeFightVM, ArenaPracticeFightMissionController>("_practiceMissionController");
 
-        public static readonly FieldRef<FightTournamentGame, List<ItemObject>> FTGPossibleRegularRewardItemObjectsCacheByRef = FieldRefAccess<FightTournamentGame, List<ItemObject>>("_possibleRegularRewardItemObjectsCache");
-        public static readonly FieldRef<FightTournamentGame, List<ItemObject>> FTGPossibleEliteRewardItemObjectsCacheByRef = FieldRefAccess<FightTournamentGame, List<ItemObject>>("_possibleEliteRewardItemObjectsCache");
-        public static readonly FieldRef<FightTournamentGame, List<ItemObject>> FTGPossibleBannerRewardItemObjectsCacheByRef = FieldRefAccess<FightTournamentGame, List<ItemObject>>("_possibleBannerRewardItemObjectsCache");
-
         public static readonly FieldRef<int[]> DCTMTierLowerRenownLimitsByRef = StaticFieldRefAccess<int[]>(fiTierLowerRenownLimits);
     }
 }

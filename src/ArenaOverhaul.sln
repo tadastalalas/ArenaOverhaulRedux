@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 17
-VisualStudioVersion = 17.9.34728.123
+# Visual Studio Version 18
+VisualStudioVersion = 18.6.11822.322 stable
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ArenaOverhaul", "ArenaOverhaul\ArenaOverhaul.csproj", "{8DBCDF43-F035-4E37-B53D-70B52431A73E}"
 EndProject
@@ -45,8 +45,8 @@ Global
 		{8DBCDF43-F035-4E37-B53D-70B52431A73E}.Beta_Debug|x64.Build.0 = Beta_Debug|x64
 		{8DBCDF43-F035-4E37-B53D-70B52431A73E}.Beta_Release|x64.ActiveCfg = Beta_Release|x64
 		{8DBCDF43-F035-4E37-B53D-70B52431A73E}.Beta_Release|x64.Build.0 = Beta_Release|x64
-		{8DBCDF43-F035-4E37-B53D-70B52431A73E}.Debug|x64.ActiveCfg = Debug|x64
-		{8DBCDF43-F035-4E37-B53D-70B52431A73E}.Debug|x64.Build.0 = Debug|x64
+		{8DBCDF43-F035-4E37-B53D-70B52431A73E}.Debug|x64.ActiveCfg = Stable_Debug|x64
+		{8DBCDF43-F035-4E37-B53D-70B52431A73E}.Debug|x64.Build.0 = Stable_Debug|x64
 		{8DBCDF43-F035-4E37-B53D-70B52431A73E}.Minimal_Debug|x64.ActiveCfg = Debug|x64
 		{8DBCDF43-F035-4E37-B53D-70B52431A73E}.Minimal_Debug|x64.Build.0 = Debug|x64
 		{8DBCDF43-F035-4E37-B53D-70B52431A73E}.Minimal_Release|x64.ActiveCfg = Release|x64

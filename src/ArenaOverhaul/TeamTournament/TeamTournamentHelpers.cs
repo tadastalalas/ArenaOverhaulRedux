@@ -20,8 +20,7 @@ namespace ArenaOverhaul.TeamTournament
               .GetListOfCharacters()
               .Where(x =>
                   x != null
-                  && x.Character.IsHero
-                  && !x.IsHidden)
+                  && x.Character.IsHero)
               .Select(sel => sel.Character);
         }
 

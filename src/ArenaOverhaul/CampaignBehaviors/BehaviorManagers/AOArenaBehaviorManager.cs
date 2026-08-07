@@ -480,7 +480,7 @@ namespace ArenaOverhaul.CampaignBehaviors.BehaviorManagers
                     iterationAddCount = 0;
                     foreach (var troopRosterElement in troopRoster)
                     {
-                        if (characterObjectList.Count(x => x == troopRosterElement.Character) <= troopRosterElement.Number - troopRosterElement.WoundedNumber)
+                        if (characterObjectList.Count(x => x == troopRosterElement.Character) < troopRosterElement.Number - troopRosterElement.WoundedNumber)
                         {
                             iterationAddCount++;
                             characterObjectList.Add(troopRosterElement.Character);
@@ -693,6 +693,7 @@ namespace ArenaOverhaul.CampaignBehaviors.BehaviorManagers
             CompanionLoadouts ??= [];
             WeaponLoadoutInformation ??= [];
             ParryWeaponLoadoutInformation ??= [];
+            TournamentPrizes ??= [];
         }
 
         internal record class WeaponLoadoutInfo(string ItemIDs, int LoadoutStage, int LoadoutIndex, int OneHandedScore, int TwoHandedScore, int PolearmScore, int BowScore, int CrossbowScore, int ThrowingScore)

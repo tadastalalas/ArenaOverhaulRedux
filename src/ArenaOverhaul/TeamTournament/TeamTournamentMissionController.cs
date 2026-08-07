@@ -196,7 +196,7 @@ namespace ArenaOverhaul.TeamTournament
             var agentBuildData = new AgentBuildData(new SimpleAgentOrigin(character, -1, null, member.Descriptor)).Team(team).InitialPosition(frame.origin);
             agentBuildData = agentBuildData.InitialDirection(frame.rotation.f.AsVec2.Normalized())
                 .Equipment(member.MatchEquipment).ClothingColor1(team.Color).ClothingColor2(team.Color).Banner(team.Banner)
-                .Controller(character.IsPlayerCharacter ? Agent.ControllerType.Player : Agent.ControllerType.AI);
+                .Controller(character.IsPlayerCharacter ? AgentControllerType.Player : AgentControllerType.AI);
             var agent = Mission.SpawnAgent(agentBuildData, false);
 
             if (character.IsPlayerCharacter)
@@ -279,7 +279,7 @@ namespace ArenaOverhaul.TeamTournament
                     if (damage > affectedAgent.HealthLimit)
                         damage = affectedAgent.HealthLimit;
 
-                    EnemyHitReward(affectedAgent, affectorAgent, movementSpeedDamageModifier, shotDifficulty, attackerWeapon, attackType, XpShareForDamage * damage / affectedAgent.HealthLimit, damage);
+                    EnemyHitReward(affectedAgent, affectorAgent, movementSpeedDamageModifier, shotDifficulty, attackerWeapon, attackType, XpShareForDamage * damage / affectedAgent.HealthLimit, damage, false);
                 }
             }
         }
@@ -292,7 +292,8 @@ namespace ArenaOverhaul.TeamTournament
           WeaponComponentData lastAttackerWeapon,
           AgentAttackType attackType,
           float hitpointRatio,
-          float damageAmount)
+          float damageAmount,
+          bool isSneakAttack)
         {
             CharacterObject affectedCharacter = (CharacterObject) affectedAgent.Character;
             CharacterObject affectorCharacter = (CharacterObject) affectorAgent.Character;
@@ -305,7 +306,7 @@ namespace ArenaOverhaul.TeamTournament
                     lastSpeedBonus, lastShotDifficulty, lastAttackerWeapon,
                     hitpointRatio, CombatXpModel.MissionTypeEnum.Tournament,
                     affectorAgent.MountAgent != null, affectorAgent.Team == affectedAgent.Team,
-                    false, damageAmount, affectedAgent.Health < 1f, false, isHorseCharge);
+                    false, damageAmount, affectedAgent.Health < 1f, false, isHorseCharge, isSneakAttack);
             }
             //NoticableTakedowns for renown reward
             if (affectedAgent.Origin == null || affectorAgent == null || affectorAgent.Origin == null)

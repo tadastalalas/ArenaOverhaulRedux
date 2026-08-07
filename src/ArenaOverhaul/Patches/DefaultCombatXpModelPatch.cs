@@ -8,7 +8,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Reflection;
 using System.Reflection.Emit;
-
+using TaleWorlds.CampaignSystem.ComponentInterfaces;
 using TaleWorlds.CampaignSystem.GameComponents;
 
 namespace ArenaOverhaul.Patches
@@ -20,25 +20,24 @@ namespace ArenaOverhaul.Patches
         private static readonly MethodInfo? miGetPracticeFightXPRate = AccessTools.Method(typeof(DefaultCombatXpModelPatch), "GetPracticeFightXPRate");
 
         [HarmonyTranspiler]
-        [HarmonyPatch("GetXpFromHit")]
-        public static IEnumerable<CodeInstruction> GetXpFromHitTranspiler(IEnumerable<CodeInstruction> instructions, MethodBase __originalMethod)
+        [HarmonyPatch("GetXpfMultiplierForMissionType")]
+        public static IEnumerable<CodeInstruction> GetXpfMultiplierForMissionTypeTranspiler(IEnumerable<CodeInstruction> instructions, MethodBase __originalMethod)
         {
             List<CodeInstruction> codes = new(instructions);
             int numberOfEdits = 0;
             for (int i = 0; i < codes.Count; ++i)
             {
-                if (numberOfEdits == 0 && codes[i].LoadsConstant(0.33f))
+                if (codes[i].LoadsConstant(0.33f))
                 {
                     codes[i].opcode = OpCodes.Call;
                     codes[i].operand = miGetTournamentXPRate;
                     ++numberOfEdits;
                 }
-                else if (numberOfEdits == 1 && codes[i].LoadsConstant(1.0 / 16.0))
+                else if (codes[i].LoadsConstant(1.0 / 16.0))
                 {
                     codes[i].opcode = OpCodes.Call;
                     codes[i].operand = miGetPracticeFightXPRate;
                     ++numberOfEdits;
-                    break;
                 }
             }
 
@@ -49,6 +48,16 @@ namespace ArenaOverhaul.Patches
                 LoggingHelper.LogNoHooksIssue(codes, numberOfEdits, RequiredNumberOfEdits, __originalMethod, [], []);
             }
             return codes.AsEnumerable();
+        }
+        
+        [HarmonyPostfix]
+        [HarmonyPatch("GetXpfMultiplierForMissionType")]
+        public static void GetXpfMultiplierForMissionTypePostfix(ref float __result, CombatXpModel.MissionTypeEnum missionType)
+        {
+            if (missionType == CombatXpModel.MissionTypeEnum.Tournament)
+                __result = (float) GetTournamentXPRate();
+            else if (missionType == CombatXpModel.MissionTypeEnum.PracticeFight)
+                __result = (float) GetPracticeFightXPRate();
         }
 
         internal static double GetTournamentXPRate()

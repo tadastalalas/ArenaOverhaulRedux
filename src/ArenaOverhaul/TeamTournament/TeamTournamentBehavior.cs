@@ -127,7 +127,10 @@ namespace ArenaOverhaul.TeamTournament
             }
             var distinctTroops = garrisonTroops.
                 Distinct().
-                OrderByDescending(x => x.GetBattlePower());
+                OrderByDescending(x => x.GetBattlePower()).ToList();
+            
+            if (distinctTroops.Count == 0)
+                distinctTroops = [.. GetSimpletons(Settlement.Culture).Distinct().OrderByDescending(x => x.GetBattlePower())];
 
             //Create list of combatants
             var charsToUse = combatantHeroes.
