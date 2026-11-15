@@ -1,0 +1,71 @@
+## AOR v1.5.7.0
+
+- Migrated the mod to the multi-version standard (one code base, one DLL per game version, `Bannerlord.ModuleLoader`).
+  - `ArenaOverhaul.csproj`: `Bannerlord.BuildResourcesLite.Sdk` 1.2.3.41, `netstandard2.0`, AssemblyName `$(ModuleId).v$(GameVersion)`, `BuildForWindowsStore`, `v<ver>` define.
+    ModuleId `ArenaOverhaul` (kept; renamed later in this version, see below), ModuleName "Arena Overhaul Redux", ModuleUrl Nexus mods/11459.
+  - Removed `build\common.props`, `src\Directory.Build.*`, the repo's own `supported-game-versions.txt` (the shared one above the repo is used), game references, TargetFrameworks.
+  - Packages: `Bannerlord.ModuleLoader.Injector` 1.0.1.50 (new), `Lib.Harmony` 2.4.3 -> 2.4.2 (2.4.3+ forbidden), `Harmony.Extensions` 3.2.0.77,
+    `Bannerlord.ButterLib` 2.11.1, `Bannerlord.MCM` 5.13.1, `Bannerlord.UIExtenderEx` 3.0.3, `Newtonsoft.Json` 13.0.5-beta1 (all compile-only where another module ships the DLL).
+  - Version 1.6.5 -> 1.5.7.0 (VERSION rule: newest game version + release count).
+  - `_Module\SubModule.xml`: tokens, single "Bannerlord Module Loader" submodule; Harmony, ButterLib, UIExtenderEx required; MCM moved to optional `LoadBeforeThis` metadata; the `Xmls` block is kept.
+    The required versions now come from the package versions (`$harmonyversion$`, `$butterlibversion$`, `$uiextenderexversion$`, `$mcmversion$`).
+  - `ArenaOverhaul.sln` rewritten for the root csproj (Debug / Release, x64). `Properties\launchSettings.json`: `$(ModuleName)` -> `$(ModuleId)` (ModuleName now has spaces).
+- Restructured the repo: root folder `Bannerlord.ArenaOverhaul` -> `ArenaOverhaulRedux`, `src\ArenaOverhaul\…` -> one level of folders next to the csproj
+  (`Behaviors`, `Compat`, `Core`, `Data`, `Diagnostics`, `Managers`, `Missions`, `Models`, `Patches`, `UI`, `_Module`, `Properties`). Done with `git mv`; namespaces are file-scoped `ArenaOverhaul.<Folder>`.
+  - Deleted: `.github\workflows\*`, `.github\dependabot.yml`, root `changelog.txt`, `Data\CompanionPracticeSettings.cs`, `Diagnostics\DebugHelper.cs`, `Diagnostics\HarmonyHelper.cs`, `Diagnostics\PatchExtension.cs`,
+    `_Module\ModuleData\Languages\language_data.xml` (English override).
+  - `_Module\AOR_Changelog.txt` -> `_Module\Changelog.txt`. `NexusDescription.txt` moved to the repo root and rewritten from the template.
+  - `dotnet format`: no `var`, file-scoped namespaces. No other style change (see "Not done").
+- Settings (SETTINGS rule):
+  - `Data\ModConfiguration.cs`: 123 settings + `LoggingEnabled`, 8 sections in MCM group order, defaults / min / max as consts, `Clamp` on load.
+  - `Data\MCMSettings.cs`: the only file with MCM types. Id "ArenaOverhaulRedux" and FolderName "Arena Overhaul Redux" kept, property names and types kept, presets kept.
+    Per-save hero practice settings kept ("CompanionPracticeSettings_v<major>", folder "AO Hero Practice Settings"); the weapon priorities are read through
+    `Func<WeaponPreference>` sources in `Data\HeroPracticeSettings.cs`, so no MCM type leaves the file.
+  - `Core\ModSettings.cs`: MCM values read live, xml values cached; `Reload()` in `SubModule.OnBeforeInitialModuleScreenSetAsRoot` and `OnGameStart`.
+  - `_Module\ModConfiguration.xml` ships with the defaults. Without MCM every clan hero uses the "Default Arena Practice settings for heroes" values, no weapon priorities (my decision).
+  - "Log technical Transpiler info" removed; "Logging for debugging" (`LoggingEnabled`, default false) added as the last entry of the new last group "Technical settings" (GroupOrder 101).
+- Texts (TEXT / UI rule):
+  - All 198 `"{=id}…"` literals moved to `Core\Texts.cs` (`Texts.Ids.X`, 4 static `TextObject`s). English table `std_module_strings_xml.xml` regenerated: 464 rows.
+  - Where code and xml disagreed the code text won (xml typos "alowed", "wepon", "nubmber", "campion", a Cyrillic "Е", outdated defaults); `AOgtMenuG1` / `AOgtMenuK1` use the code text.
+  - `{GOLD ICON}` -> `{GOLD_ICON}` in `_Module\ModuleData\module_strings.xml` and the English table.
+  - New ids: `AOR_m3XpR8d` (HeroQueuedHint), `AOR_J5sWy1F` (AwaitingHero), `AOR_q7Hn2Lw` (LoggingEnabled), `AOR_Vz4kT9c` (LoggingEnabledHint).
+    Dropped unused rows: `miUO4w1hn`, `5KIeqRJJX`, `LRhyA9mqB`, `awGzg6S1d`, `FOtSSoEAh`, `37S9xfodK`.
+  - 12 languages added (BR, CNs, CNt, DE, FR, IT, JP, KO, PL, RU, SP, TR), 464 rows each, AI translated; checked for row count, ids, tokens and encoding.
+    "Technical settings" / "Logging for debugging" / its hint reuse the BanditMilitiasRedux translations.
+- Logger (LOGGING rule): `Diagnostics\AorLog.cs` writes to `Modules\ArenaOverhaulRedux\logs`. `Diagnostics\TranspilerReport.cs` replaces the on-screen / debug transpiler messages
+  (`HooksNotFound`, `HookNotApplied`), always written. The "Loaded Arena Overhaul!" on-screen message is gone.
+- `SubModule.cs` rewritten: `PatchAll` once in `OnBeforeInitialModuleScreenSetAsRoot` (as before: before the main menu), then `TournamentsXPandedCompat.TryApply`;
+  behavior and decorator models registered in `OnGameStart`; `OnGameEnd` unregisters the per-save hero settings. `Core\ModInfo.cs` holds the ids and paths.
+- `Compat\TournamentsXPandedCompat.cs` (`TryApply`, `AccessTools.TypeByName`, null checks, log) and `Compat\TournamentsXPandedRewards.cs` (reflection lookup) replace the old optional-mod patch code.
+- Internal renames (no saved name changed): `EnteredPracticeFightFromMenu`, `_heroPracticeSettings`, `LastPlayerRelatedCharacters`;
+  `AOArenaBehaviorManager.EnsureHeroPracticeSettings` / `RegisterHeroPracticeSettings` / `UnregisterHeroPracticeSettings` / `RefreshHeroPracticeSettings`; `Core\ArenaPracticeMode.cs` split out.
+- 1.5.7:
+  - All three versions compile from the same files.
+  - `Missions\TeamTournamentBehavior.cs`: `#if !LOWER_THAN_1_5` override `OnAfterMissionLoadingFinished` -> `Mission.OnInitialSpawnCompleted()`.
+    Vanilla 1.5.7 `TournamentBehavior` (which this class replaces in team tournaments) gained that override; without it `Mission.OnDeploymentFinished` would never run in a team tournament on 1.5.7.
+  - Checked against the installed 1.5.7 game with a test program (Harmony 2.4.2 from `Bannerlord.Harmony`): all 15 patch classes apply, 47 vanilla methods patched, no exception,
+    no null reflection handle except the optional Tournaments XPanded ones, every transpiler changed its method.
+  - Compared 1.4.8 with 1.5.7 (decompiled): identical `ArenaMasterCampaignBehavior`, `FightTournamentGame`, `TournamentGame`, `TournamentCampaignBehavior`, `TournamentFightMissionController`,
+    `TournamentManager`, `TournamentVM` and its sub-VMs, `DefaultTournamentModel`, `TournamentModel`, `MapNotificationItemBaseVM`, `TournamentMissionStarter`, `TournamentMissionViews`,
+    `MissionArenaPracticeFightVM`, `SettlementAccessModel`, `InformationData`. Prefab `ArenaPracticeFight` still has `ListPanel[@IsVisible='@IsPlayerPracticing']`.
+  - Not compared (test in game): the changed vanilla files `SandBoxMissionViews`, `SandBoxMissions`, `SandBoxViewCreator`, `Mission`, `Clan`; the mod's copies of vanilla code in
+    `Missions\TeamTournamentMissionController.cs` and `UI\TeamTournament*VM.cs` line by line.
+- Not done (my decision, to keep the cost down): the code-style pass. The gameplay code in `Patches\`, `Managers\`, `Missions\`, `Behaviors\`, `UI\`, `Models\` and the `Core\` helpers
+  keeps its older style (patch class shape and names, no feature headers, numbers inside the code, LINQ, public where internal would do). Listed as a kept exception in `.github\copilot-instructions.md`.
+- New files: `FEATURES.md`, `DevChangelog.md`, `.github\copilot-instructions.md`.
+- Save compatibility: none. SyncData key `_AOArenaBehaviorManager`, definer base id 2003477000 (class ids 1, 2, 3, 100), saved type names and the behavior class name are unchanged.
+  MCM values are kept (same Id, folder and property names); only the removed "Log technical Transpiler info" value is ignored.
+- To test (1.5.7, 1.4.8, 1.4.7; with MCM and without MCM):
+  - Old save loads; Grand / Kingdom Tournament state, map popups and hosting cooldowns are still there.
+  - With MCM: old setting values are still there; the per-save "Hero Practice Settings" menu appears in a campaign, weapon priorities work, presets work.
+  - Without MCM: `Modules\ArenaOverhaulRedux\ModConfiguration.xml` values are used; deleting or breaking the file recreates it.
+  - Every practice mode from the arena master and from the arena menu: loadout choice, playing as a companion, Team Practice hero switching (hotkey), rewards panel, champion prize.
+  - A normal tournament: prize, reroll, betting, round rewards, results screen, injuries. A team tournament on 1.5.7 (new `#if` block): starts, rounds advance, bracket screen.
+  - Hosting a tournament; a Grand and a Kingdom Tournament (announcement, join lock, results popup).
+  - Texts in another language; "Logging for debugging" on -> a file in `Modules\ArenaOverhaulRedux\logs`.
+  - With Tournaments XPanded: no error in the log, prize options hidden for Grand / Kingdom Tournaments.
+- Renamed the project and the module: `ArenaOverhaul.csproj` / `.sln` -> `ArenaOverhaulRedux.csproj` / `.sln`; ModuleId `ArenaOverhaul` -> `ArenaOverhaulRedux` (`$(MSBuildProjectName)`).
+  - Deployed folder `Modules\ArenaOverhaulRedux`; DLLs `ArenaOverhaulRedux.v<ver>.dll`, loader `Bannerlord.ModuleLoader.ArenaOverhaulRedux.dll`.
+  - `Core\ModInfo.ModuleId` = `ArenaOverhaulRedux`; `UI\ArenaPracticeFightPrefabExtension` loads the prefab through `ModInfo.ModuleId` (was the literal `"ArenaOverhaul"`).
+  - Unchanged: namespaces `ArenaOverhaul.*`, Harmony id `Bannerlord.ArenaOverhaul`, hotkey group `ArenaOverhaul`, UIExtender id, MCM Id, SyncData key, save definer ids.
+  - Save-compat: old saves list the module `ArenaOverhaul`; the game warns that it is missing on load. Accepted (owner's decision). Test: load an old save.

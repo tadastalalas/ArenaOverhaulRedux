@@ -1,0 +1,23 @@
+﻿AOR v1.5.7.0 :
+- Added support for game version 1.5.7. Game versions 1.4.8 and 1.4.7 are still supported.
+	Version numbers now follow the game version: v1.5.7.0 is the update after v1.6.5.
+- Mod Configuration Menu is now optional. Without it, change the settings in Modules\ArenaOverhaulRedux\ModConfiguration.xml.
+	The settings of single heroes (loadout options and weapon priorities) still need Mod Configuration Menu.
+	Without it every clan hero uses the "Default Arena Practice settings for heroes" and no weapon priorities.
+- Added translations for 12 languages.
+- Removed the "Loaded Arena Overhaul!" message at game start.
+- Fixed "{GOLD ICON}" showing as text instead of the gold icon.
+- Fixed typos and outdated default values in several texts and setting descriptions.
+
+AOR v1.6.5 :
+- Fixed the arena master's "Sign me up for the tournament" option bypassing the Grand/kingdom tournament join lock. It is now shown disabled with the reason.
+
+AOR v1.6.4 :
+- Changed Team Practice to always spawn family and companions before regular troops.
+- Fixed crafted weapons (from smithing or smithing orders, including ones left over from other saves) being offered as tournament prizes.
+- Fixed automatic player loadout not being applied when entering standard practice from the arena menu.
+- Fixed arena menu practice options showing loadout prices calculated for a different practice mode.
+- Fixed practice reward explanation showing the champion prize rules of the wrong practice mode.
+- Fixed a crash when talking to the arena master about practice while the player hero has no party.
+- Fixed the tournament results screen (regular and team tournaments) not showing the influence reward, or understating it for Grand/kingdom tournaments.
+- Fixed Grand/Kingdom tournament banner messages ignoring the map popup settings.

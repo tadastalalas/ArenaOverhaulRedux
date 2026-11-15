@@ -1,0 +1,472 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" type="string">
+	<tags>
+		<tag language="简体中文" />
+	</tags>
+	<strings>
+		<string id="n3lrq7FfM" text="竞技场大修 Redux" />
+		<string id="a3uuVmMKR" text="大型练习赛" />
+		<string id="QI6a1mxh9" text="格挡练习赛" />
+		<string id="wWZ82hgqV" text="团队练习赛" />
+		<string id="aiDNBFQ4U" text="附近的锦标赛" />
+		<string id="uBC62Jdh1" text="下一页……" />
+		<string id="De0boqLm0" text="上一页……" />
+		<string id="fakGolQMf" text="返回竞技场" />
+		<string id="ForHVzTkJ" text="另外，这里时不时还会举办所谓的大型练习赛。说白了还是那一套，只是打得更久，也激烈得多。我劝你带上几个手下一起来，对他们来说是不错的历练。只是别忘了——场上不许结队，否则就会被取消资格。[ib:closed][if:convo_bared_teeth]" />
+		<string id="nZVbLJnVn" text="那这些大型练习赛呢，也有奖励吗？奖金有多少？" />
+		<string id="fpPMPCNp5" text="我的手下比我更需要训练。我想我还是留在这儿，派别人上场吧。" />
+		<string id="7ONiAo9q0" text="行，谁是那个幸运儿？[ib:closed][if:convo_bared_teeth]" />
+		<string id="cB4QnrtWM" text="还有别的事吗？[ib:normal]" />
+		<string id="y9zNkuGg0" text="我想为我的同伴挑选装备。" />
+		<string id="0uFoXskRW" text="没有了，好戏开场吧。" />
+		<string id="BbpYVQSc6" text="我改主意了，我要亲自上场。" />
+		<string id="VVjb1EG4d" text="等等，这事我得再想想。" />
+		<string id="MqTDJG0uG" text="我想自己挑选装备。" />
+		<string id="iDGR9F0Gn" text="行{?WEAPON_CHOICE_HAS_PRICE}，不过这得花你 {WEAPON_CHOICE_PRICE}{GOLD_ICON}{?}{\?}！你要拿哪一套武器？[ib:closed][if:convo_bared_teeth]" />
+		<string id="DGsGeb4LA" text="我想要更好的装备。" />
+		<string id="lIBwkFipY" text="算了，当我没说。" />
+		<string id="7f21TSn5W" text="我想参加大型练习赛……" />
+		<string id="MnhLtl9Nn" text="好，召集你的人，上场吧！下去的路上别忘了拿件练习武器。[if:convo_approving]" />
+		<string id="jBqErWEjU" text="你能为我安排一场特别的比赛吗？" />
+		<string id="EYXQnjEvK" text="那得看情况。你具体是怎么打算的？[ib:hip][if:convo_thinking]" />
+		<string id="h2Gv6NA8J" text="我想练习格挡。" />
+		<string id="RyUSbmDhf" text="这座竞技场向来不使用适合格挡练习的武器配置。" />
+		<string id="9yIQ6Qd1E" text="这可是一项非常重要的本事，练一练对其他人也有好处……我想这场比赛我能安排{?PRACTICE_CHOICE_HAS_PRICE}，不过得花你 {PRACTICE_CHOICE_PRICE}{GOLD_ICON}{?}{\?}。哦，还有，别指望有什么奖金，这种练习观众多半提不起兴趣。要是你还愿意，下去的路上别忘了拿件练习武器。[if:convo_calm_friendly][ib:confident]" />
+		<string id="iXwumAizJ" text="我想和我的战友们组队并肩作战。你能不能办一场团队练习赛？" />
+		<string id="LTfWl2OPC" text="这肯定能让场子热闹起来！{?PRACTICE_CHOICE_HAS_PRICE}这主意我喜欢，不过要把这样一场比赛办得像样，我得费不少功夫，所以得花你 {PRACTICE_CHOICE_PRICE}{GOLD_ICON}。往好处想，{?}{\?}我看观众一定会看得很过瘾，奖金也会跟着水涨船高。要是你还愿意，下去的路上别忘了拿件练习武器。[ib:nervous2][if:convo_excited]" />
+		<string id="wuuxg3Lkg" text="那么……想再来一场吗？[ib:normal]" />
+		<string id="6kW561DVB" text="我得歇一会儿，我的手下也需要训练。这次我就留在这儿，派别人上场吧。" />
+		<string id="RKNcniRPk" text="这次我想派别人上场。" />
+		<string id="7NfBn2JvL" text="我想活动活动筋骨，这次我要亲自上场。" />
+		<string id="8k8br8lfq" text="{?COMPANION_GENDER}她{?}他{\?}用标准装备就行。" />
+		<string id="rPVHszLLs" text="当然。不过我想为{COMPANION_NAME}另选一套武器配置。" />
+		<string id="WRO1rFtQm" text="我用标准装备就行。" />
+		<string id="uLNYivCXl" text="当然。不过我想换一套新的武器配置。" />
+		<string id="zvb5PZ5OA" text="目前有 {TOURNAMENTS} 座{?TOURNAMENTS.PLURAL_FORM}城镇{?}城镇{\?}正在举办锦标赛。{?SHOW_PAGES}第 {PAGE} 页，共 {PAGES} 页。{?}{\?}{NEW_LINE}{NEW_LINE}{TORNAMENT_LIST.START}{?TORNAMENT_LIST.IS_PLURAL}{NEW_LINE}{NEW_LINE}{?}{\?}{TORNAMENT_LIST.END}" />
+		<string id="UOpsoG57t" text="{NAME}{NEW_LINE}    [{TIER} 级{TYPE}，价值 {GOLD} {GOLD_ICON}]" />
+		<string id="AOtlEntry1" text="{INDEX}. {TOWN_LINK} [{DISTANCE_ESTIMATE}，{TAG}]{NEW_LINE}    {TOURNAMENT_AGE} {?TOURNAMENT_AGE.PLURAL_FORM}天{?}天{\?}前开始。{NEW_LINE}    奖品：{ITEM_PRIZE}{?GOLD_PRIZES_ENABLED}{NEW_LINE}    金币：{GOLD_PRIZE}{GOLD_ICON}{?}{\?}" />
+		<string id="AOtlTag000" text="刚开始" />
+		<string id="AOtlTag001" text="还赶得上" />
+		<string id="AOtlTag002" text="得抓紧" />
+		<string id="AOtlTag003" text="赶得上" />
+		<string id="AOtlTag004" text="得抓紧" />
+		<string id="AOtlTag005" text="希望渺茫" />
+		<string id="EPjU6L6kg" text="你的金币不够！{NEW_LINE}{NEW_LINE}{EXPENSES_BREAKDOWN}" />
+		<string id="9REfw5FN6" text="{EXPENSES_BREAKDOWN}{NEW_LINE}{NEW_LINE}按这个价格，你目前付得起 {AFFORDABLE_ROUNDS} {?AFFORDABLE_ROUNDS.PLURAL_FORM}场练习赛{?}场练习赛{\?}。" />
+		<string id="OXad58sEV" text="{?PRACTICE_CHOICE_HAS_PRICE}{NEW_LINE} - 特殊练习类型的费用：{PRACTICE_CHOICE_PRICE}{GOLD_ICON}。{?}{\?}" />
+		<string id="bO70zCDVt" text="{?WEAPON_CHOICE_HAS_PRICE}{NEW_LINE} - 使用自选武器配置的费用：{WEAPON_CHOICE_PRICE}{GOLD_ICON}。{?}{\?}" />
+		<string id="M8fIDW2lQ" text="{?COMPANION_WEAPON_CHOICES_HAVE_PRICE}{NEW_LINE} - 你的同伴使用自选武器配置的费用：全员共计 {COMPANION_WEAPON_CHOICES_PRICE}{GOLD_ICON}。{?}{\?}" />
+		<string id="Oz5qSUyk9" text="按照所要求的规则和偏好安排一场练习赛，总共要花你 {TOTAL_EXPENSES}{GOLD_ICON}。{NEW_LINE}{NEW_LINE}其中包括：{ARRANGEMENT_EXPENSES}{PLAYER_LOADOUT_EXPENSES}{COMPANION_LOADOUT_EXPENSES}" />
+		<string id="YxVkSN8sn" text="你被击败了，但你的队伍仍在战斗，如果愿意，你可以切换到另一名英雄。" />
+		<string id="xRdn4pEme" text="可用角色" />
+		<string id="jq2jXUcse" text="选择要切换到的队友" />
+		<string id="XZcFEonSW" text="你的队伍中没有可切换的角色！" />
+		<string id="Iz2BWpesF" text="目前无法切换到其他角色！" />
+		<string id="UuAz2vxM3" text="你的队伍仍在战斗。你要离开竞技场吗？" />
+		<string id="PumaUhrt2" text="预先格挡：{PREPARED_BLOCKS}" />
+		<string id="XiR0Srf50" text="完美格挡：{PERFECT_BLOCKS}" />
+		<string id="R0UCmq6Jn" text="对砍格挡：{CHAMBER_BLOCKS}" />
+		<string id="CSGg2vSS3" text="被击中次数：{HITS_TAKEN}" />
+		<string id="l1z9vuw8B" text="剩余友军：{ALLIES_REMAINING}" />
+		<string id="HxdMLgPrk" text="无效物品" />
+		<string id="ZMHaMWEhM" text="马匹" />
+		<string id="8G7OMyMbp" text="单手武器" />
+		<string id="XuZG0Aoio" text="双手武器" />
+		<string id="CqFjTkLpa" text="长杆武器" />
+		<string id="a0BgoRSGt" text="箭矢" />
+		<string id="cGVcwzcts" text="弩矢" />
+		<string id="1w2htuOn2" text="盾牌" />
+		<string id="KsH4vdaKZ" text="弓" />
+		<string id="wXthM7Mmt" text="弩" />
+		<string id="t3EkeJDz6" text="投掷武器" />
+		<string id="FjujPkPsk" text="货物" />
+		<string id="6p4MDI4FN" text="头部护甲" />
+		<string id="JH2tZrJmd" text="身体护甲" />
+		<string id="aMMn9E0nk" text="腿部护甲" />
+		<string id="3LtYT36O8" text="手部护甲" />
+		<string id="OBZsswRvq" text="手枪" />
+		<string id="mwmowr3Pl" text="火枪" />
+		<string id="RnZzjAmRe" text="子弹" />
+		<string id="5PmQkkEOf" text="牲畜" />
+		<string id="IA8SfaiLs" text="书籍" />
+		<string id="zWPK2mgHx" text="胸甲" />
+		<string id="z3x97kWhJ" text="披风" />
+		<string id="PxZJzp7zk" text="马铠" />
+		<string id="G5Tk9ZJwy" text="旗帜" />
+		<string id="hWj4T9N6e" text="物品" />
+		<string id="gaJDVkvHa" text="{VALOR_PRIZES_DESCRIPTION}{CHAMPION_PRIZE_DESCRIPTION}听起来不错吧？[if:convo_nonchalant]" />
+		<string id="hsDqRWEYr" text="要是你能在倒下之前打倒 {OPPONENT_COUNT_1} 个对手，就能拿到 {PRIZE_1}{GOLD_ICON}。" />
+		<string id="8qZeWlW2A" text="要是你能在倒下之前打倒 {OPPONENT_COUNT_1} 个对手，就能拿到 {PRIZE_1}{GOLD_ICON}。至少放倒 {OPPONENT_COUNT_2} 个对手，还能拿到 {PRIZE_2}{GOLD_ICON}。" />
+		<string id="pBCjfH33W" text="要是你能在倒下之前打倒 {OPPONENT_COUNT_1} 个对手，就能拿到 {PRIZE_1}{GOLD_ICON}。至少放倒 {OPPONENT_COUNT_2} 个对手能拿到 {PRIZE_2}{GOLD_ICON}，要是能击败 {OPPONENT_COUNT_3} 个对手，就是 {PRIZE_3}{GOLD_ICON}。" />
+		<string id="S0uBAbZiF" text="要是你能在倒下之前打倒 {OPPONENT_COUNT_1} 个对手，就能拿到 {PRIZE_1}{GOLD_ICON}。至少放倒 {OPPONENT_COUNT_2} 个对手能拿到 {PRIZE_2}{GOLD_ICON}，击败 {OPPONENT_COUNT_3} 个对手是 {PRIZE_3}{GOLD_ICON}，要是你能撑得够久，打倒 {OPPONENT_COUNT_4} 个对手，那就是 {PRIZE_4}{GOLD_ICON}。" />
+		<string id="jhJZqz0OL" text="要是你能在倒下之前打倒 {OPPONENT_COUNT_1} 个对手，就能拿到 {PRIZE_1}{GOLD_ICON}。至少放倒 {OPPONENT_COUNT_2} 个对手能拿到 {PRIZE_2}{GOLD_ICON}，击败 {OPPONENT_COUNT_3} 个对手是 {PRIZE_3}{GOLD_ICON}，撑得够久、打倒 {OPPONENT_COUNT_4} 个对手是 {PRIZE_4}{GOLD_ICON}，要是你居然能击败 {OPPONENT_COUNT_5} 个对手，那就是 {PRIZE_5}{GOLD_ICON}——这可绝不是件容易事。" />
+		<string id="nwnxJV2rZ" text="要是你能成为最后一个站着的斗士，就能赢得比赛的大奖：{PRIZE_CHAMP}{GOLD_ICON}。" />
+		<string id="AAPfCIEuZ" text="要是你能成为最后一个站着的斗士，还能额外赢得比赛的大奖：{PRIZE_CHAMP}{GOLD_ICON}。" />
+		<string id="3UtRes0Un" text="不过，要是你能成为最后一个站着的斗士，就能赢得比赛的大奖：{PRIZE_CHAMP}{GOLD_ICON}。要是你打得实在精彩，亲手击败许多对手，说不定还能翻上好几倍。" />
+		<string id="4uOu7an2u" text="嘿！你这位手下身上的淤青可真不小。不过别担心，谁都有被痛揍一顿的时候。要紧的是从错误中吸取教训，接着打下去。冠军都是这么干的。" />
+		<string id="s2B3i84HL" text="啊，经验这东西，都是从惨痛的错误里换来的！但愿你的队伍已经攒下了一些，我建议你们都回到场上去，把它好好派上用场。冠军都是这么干的。" />
+		<string id="bWSPsaDyt" text="看来你的手下打倒了 {OPPONENT_COUNT} 个对手。不赖。但这还拿不到奖金。换作是我，我会马上把{?COMPANION.GENDER}她{?}他{\?}再派回去，或者干脆亲自上场，让大伙儿瞧瞧我的本事……" />
+		<string id="0xwJY4TYS" text="看来你的队伍打倒了 {OPPONENT_COUNT} 个对手。不赖。但这还拿不到奖金。换作是我，我会召集手下，给他们鼓鼓劲，马上杀回场上，让大伙儿瞧瞧我们的本事……" />
+		<string id="tU4Oa8XN1" text="{COMPANION.LINK}在场上打得相当不错。有几招很漂亮。失误当然也有，但{?COMPANION.GENDER}她{?}他{\?}确实大有前途。而且打倒了 {OPPONENT_COUNT} 个对手，为你赢得了 {PRIZE}{GOLD_ICON} 的奖金。" />
+		<string id="IMAm6VMLR" text="你的队伍在场上打得相当不错。有几招很漂亮。失误当然也有，但你们确实大有前途。而且你们打倒了 {OPPONENT_COUNT} 个对手，赢得了 {PRIZE}{GOLD_ICON} 的奖金。" />
+		<string id="N5d76ElzV" text="漂亮，{PLAYER.LINK}，漂亮。这位{COMPANION.LINK}{?COMPANION.GENDER}女士{?}先生{\?}打倒了足足 {OPPONENT_COUNT} 个对手。{?COMPANION.GENDER}她{?}他{\?}凭着{?COMPANION.GENDER}她{?}他{\?}那股胆气，成了观众的宠儿。当然，也为你赢得了 {PRIZE}{GOLD_ICON} 的奖金。" />
+		<string id="injn095f0" text="漂亮，{PLAYER.LINK}，漂亮。你的队伍打倒了足足 {OPPONENT_COUNT} 个对手。你们凭着那股胆气，成了观众的宠儿。当然，你们也赢得了 {PRIZE}{GOLD_ICON} 的奖金。" />
+		<string id="xe4cfXIBa" text="打得漂亮，{PLAYER.LINK}。{COMPANION.LINK}打倒了 {OPPONENT_COUNT} 个对手。凭这样的表现，{?COMPANION.GENDER}她{?}他{\?}当然该拿奖：{PRIZE}{GOLD_ICON}。不错吧？" />
+		<string id="luDin5D4D" text="打得漂亮，{PLAYER.LINK}。你的队伍打倒了 {OPPONENT_COUNT} 个对手。凭这样的表现，你们当然该拿奖：{PRIZE}{GOLD_ICON}。不错吧？" />
+		<string id="ETDxIDLAf" text="大师级的表演，{COMPANION.LINK}。啪！咔嚓！你放倒了他们 {OPPONENT_COUNT} 个。观众爱死了。{PLAYER.LINK}，你这位前途无量的武艺好手刚刚为你赢得了 {PRIZE}{GOLD_ICON} 的奖金。" />
+		<string id="UUuKSdZ7b" text="大师级的表演，{PLAYER.LINK}。啪！咔嚓！你的队伍放倒了他们 {OPPONENT_COUNT} 个。观众爱死了。你们赢得了 {PRIZE}{GOLD_ICON} 的奖金。" />
+		<string id="GLYFl5ImO" text="来，让我好好瞧瞧你这位奇才，{PLAYER.LINK}。这样有朝一日我就能告诉我的孩子们，真正的宗师长什么样……{COMPANION.LINK}竟然一口气击败了 {OPPONENT_COUNT} 个对手！难以置信！哦，当然，这也就是说我欠你 {PRIZE}{GOLD_ICON} 的奖金。" />
+		<string id="aDC8zdCmt" text="来，让我好好瞧瞧你，{PLAYER.LINK}。这样有朝一日我就能告诉我的孩子们，真正的宗师长什么样！你竟然一口气击败了 {OPPONENT_COUNT} 个对手！难以置信！哦，当然，你也为自己赢得了 {PRIZE}{GOLD_ICON} 的奖金。" />
+		<string id="b42weJbT2" text="这才叫团队配合！你的队伍竟然一口气击败了 {OPPONENT_COUNT} 个对手！难以置信！你们赢得了 {PRIZE}{GOLD_ICON} 的奖金，每一枚钱币都是你们应得的。" />
+		<string id="YL3QBzHns" text="恭喜，{PLAYER.LINK}，{COMPANION.LINK}是冠军！{?COMPANION.GENDER}她{?}他{\?}在场上的那场战斗真叫人难忘！作为最后站着的人，{COMPANION.LINK}赢得了头奖：{PRIZE}{GOLD_ICON}。" />
+		<string id="DwOtDP6SQ" text="恭喜，{PLAYER.LINK}，你的队伍是冠军！作为最后站着的人，你们赢得了头奖：{PRIZE}{GOLD_ICON}。" />
+		<string id="dKWMj58Bq" text="恭喜，{PLAYER.LINK}，{COMPANION.LINK}是冠军！{?COMPANION.GENDER}她{?}他{\?}在场上的那场战斗真叫人难忘！作为最后站着的人，{COMPANION.LINK}自然赢得了头奖：{PRIZE}{GOLD_ICON}，其中包括打倒 {OPPONENT_COUNT} 个对手所得的 {VALOR_PRIZE}{GOLD_ICON}。" />
+		<string id="nZ1Ar0MOd" text="恭喜，冠军！你在场上的那场战斗真叫人难忘！作为最后站着的人，你自然赢得了头奖：{PRIZE}{GOLD_ICON}，其中包括打倒 {OPPONENT_COUNT} 个对手所得的 {VALOR_PRIZE}{GOLD_ICON}。" />
+		<string id="UISWBTRY2" text="恭喜，{PLAYER.LINK}，你的队伍是冠军！这场战斗真叫人难忘！作为最后站着的人，你们自然赢得了头奖：{PRIZE}{GOLD_ICON}，其中包括打倒 {OPPONENT_COUNT} 个对手所得的 {VALOR_PRIZE}{GOLD_ICON}。" />
+		<string id="YZcU0ocKX" text="恭喜，{PLAYER.LINK}，{COMPANION.LINK}是冠军！{?COMPANION.GENDER}她{?}他{\?}在场上的那场战斗绝对叫人难忘！作为最后站着的人，{COMPANION.LINK}赢得了头奖：{PRIZE}{GOLD_ICON}，其中包括打倒 {OPPONENT_COUNT} 个对手所得的 {VALOR_PRIZE}{GOLD_ICON}。我得说，这场打得真精彩，观众看得如痴如醉，所以这里的每一枚钱币都是你这位英雄应得的，我的朋友。" />
+		<string id="oYDKCzkid" text="恭喜，冠军！你在场上的那场战斗真叫人难忘！作为最后站着的人，你自然赢得了头奖：{PRIZE}{GOLD_ICON}，其中包括打倒 {OPPONENT_COUNT} 个对手所得的 {VALOR_PRIZE}{GOLD_ICON}。我得说，这场打得真精彩，观众看得如痴如醉，所以这里的每一枚钱币都是你应得的，我的朋友。" />
+		<string id="TFRz8p0Z6" text="恭喜，{PLAYER.LINK}，你的队伍是冠军！这场战斗绝对叫人难忘！作为最后站着的人，你们赢得了头奖：{PRIZE}{GOLD_ICON}，其中包括打倒 {OPPONENT_COUNT} 个对手所得的 {VALOR_PRIZE}{GOLD_ICON}。我得说，这场打得真精彩，观众看得如痴如醉，所以这里的每一枚钱币都是你和你的手下应得的，我的朋友。" />
+		<string id="6bnQLhQQB" text="恭喜，{PLAYER.LINK}，{COMPANION.LINK}是冠军！{?COMPANION.GENDER}她{?}他{\?}在场上的那场战斗真叫人难忘！{COMPANION.LINK}不仅是最后站着的人，还打得像头猛兽，因此赢得了双倍的标准头奖：{PRIZE}{GOLD_ICON}。" />
+		<string id="dKdBMUgOL" text="恭喜，冠军！你在场上的那场战斗真叫人难忘！你不仅是最后站着的人，还打得像头猛兽，因此赢得了双倍的标准头奖：{PRIZE}{GOLD_ICON}。" />
+		<string id="phgJ8tmZV" text="恭喜，{PLAYER.LINK}，你的队伍是冠军！这场战斗真叫人难忘！你们不仅是最后站着的人，还打得像一群猛兽，因此赢得了双倍的标准头奖：{PRIZE}{GOLD_ICON}。" />
+		<string id="41XqfyWOi" text="恭喜，{PLAYER.LINK}，{COMPANION.LINK}是冠军！而且{?COMPANION.GENDER}她{?}他{\?}在场上的那场战斗真叫人难忘！{COMPANION.LINK}不仅是最后站着的人，还打得像个真正的英雄，因此赢得了三倍的标准头奖：{PRIZE}{GOLD_ICON}。" />
+		<string id="BtSwRTvu9" text="恭喜，冠军！你在场上的那场战斗真叫人难忘！你不仅是最后站着的人，还打得像个真正的英雄，因此赢得了三倍的标准头奖：{PRIZE}{GOLD_ICON}。" />
+		<string id="PgMuEBsXX" text="恭喜，{PLAYER.LINK}，你的队伍是冠军！这场战斗真叫人难忘！你们不仅是最后站着的人，还打得像真正的英雄，因此赢得了三倍的标准头奖：{PRIZE}{GOLD_ICON}。" />
+		<string id="KPp4pG1Ky" text="恭喜，{PLAYER.LINK}，{COMPANION.LINK}是冠军！而且，我的天，{?COMPANION.GENDER}她{?}他{\?}在场上的那场战斗真叫人难忘！{COMPANION.LINK}{?COMPANION.GENDER}女士{?}先生{\?}亲手解决了足足一半的参赛者，因此赢得了相当于平常四倍的冠军奖金！拿去吧，{PRIZE}{GOLD_ICON}。[if:convo_merry]" />
+		<string id="I2A8Heq2r" text="恭喜，冠军！你在场上的那场战斗真叫人难忘！你亲手解决了足足一半的参赛者，因此赢得了相当于平常四倍的冠军奖金！拿去吧，{PRIZE}{GOLD_ICON}。[if:convo_merry]" />
+		<string id="gmzDTwOFX" text="恭喜，{PLAYER.LINK}，你的队伍是冠军！这场战斗绝对叫人难忘！你的手下解决了足足一半的参赛者，因此赢得了相当于平常四倍的冠军奖金！拿去吧，{PRIZE}{GOLD_ICON}。[if:convo_merry]" />
+		<string id="XdkGt7jFa" text="好啊，{PLAYER.LINK}，场上那一战可是真正的宗师手笔！能在这里接待{COMPANION.LINK}这样的斗士，是我的荣幸。凭着这番出众的表现，{?COMPANION.GENDER}她{?}他{\?}赢得了 {PRIZE}{GOLD_ICON} 的丰厚奖金。[if:convo_merry]" />
+		<string id="3yLYLKZYW" text="恭喜，宗师！能在这里接待你这样的斗士，是我的荣幸。凭着这番出众的表现，你赢得了 {PRIZE}{GOLD_ICON} 的丰厚奖金。[if:convo_merry]" />
+		<string id="uU3Ya5GfN" text="好啊，{PLAYER.LINK}，场上那一战值得谱成歌谣！或者写进传说。能在我这座小小的竞技场里接待这样的斗士，是我的荣幸。凭着这番出众的表现，你们赢得了 {PRIZE}{GOLD_ICON} 的丰厚奖金。[if:convo_merry]" />
+		<string id="k0kOwkWzO" text="你跟我说你的手下需要练习格挡，可照我在场上看到的，{COMPANION.LINK}似乎更热衷于把我的斗士往死里揍。我劝你让{?COMPANION.GENDER}她{?}他{\?}多把心思放在防守和反击上，要不就别拿这种胡闹来浪费我的时间。[ib:closed][if:convo_confused_annoyed]" />
+		<string id="6vlrvSbAY" text="你跟我说你需要练习格挡，可照我在场上看到的，你似乎更热衷于把我的斗士往死里揍。我劝你多把心思放在防守和反击上，要不就别拿这种胡闹来浪费我的时间。[ib:closed][if:convo_confused_annoyed]" />
+		<string id="VGOnRoQck" text="照我刚才看到的，{COMPANION.LINK}确实需要练练格挡。我建议咱们接着练。[ib:weary][if:convo_confused_normal]" />
+		<string id="y508NVoOc" text="照我刚才看到的，你确实需要练练格挡。我建议你接着练。[ib:weary][if:convo_confused_normal]" />
+		<string id="0taUkpCCP" text="嗯，{COMPANION.LINK}在场上差一点就成了，不过{?COMPANION.GENDER}她{?}他{\?}得习惯更长时间地保持专注。[if:convo_approving]" />
+		<string id="fdxZnnGSu" text="嗯，你在场上差一点就成了，不过你得习惯更长时间地保持专注。[if:convo_approving]" />
+		<string id="wDLRbc8Mh" text="{COMPANION.LINK}在场上打得还算不错。但你要是想让{?COMPANION.GENDER}她{?}他{\?}真正精通近战，{?COMPANION.GENDER}她{?}他{\?}就得学会在一个动作里完成格挡和反击，并且多用这一招。这样{?COMPANION.GENDER}她{?}他{\?}才会成为一名不容小觑的斗士。[ib:warrior][if:convo_thinking]" />
+		<string id="N0ok57asq" text="你在场上打得还算不错。但你要是想真正精通近战，就得学会在一个动作里完成格挡和反击，并且多用这一招。这样你才会成为一名不容小觑的斗士。[ib:warrior][if:convo_thinking]" />
+		<string id="cvThaH27b" text="我得说，没倒下之前那表现确实叫人刮目相看，可要是真刀真枪地打，你这位学徒还是难逃一死。{COMPANION.LINK}得磨练{?COMPANION.GENDER}她自己{?}他自己{\?}，学会更长时间地保持专注。[ib:weary][if:convo_approving]" />
+		<string id="rJa1PaPJs" text="我得说，没倒下之前那表现确实叫人刮目相看，可要是真刀真枪地打，你还是难逃一死。你得磨练自己，学会更长时间地保持专注。[ib:weary][if:convo_approving]" />
+		<string id="KvdHaGhag" text="{COMPANION.LINK}在场上打得真不错。不过，我先前说过，这场比赛没有奖励。[if:convo_approving]" />
+		<string id="rcLuSrtwD" text="你在场上打得不错。不过，我先前说过，这场比赛没有奖励。[if:convo_approving]" />
+		<string id="aGr4Lb6I2" text="你击败了几位备受尊敬的对手，因而获得了声望：{RENOWN_TAKEDOWN_REWARD}" />
+		<string id="3ZgMoK2dU" text="你仍然获得了胜出轮次的奖励：{PER_ROUND_REWARD}" />
+		<string id="83tebCrzc" text="你还获得了胜出轮次的奖励：{PER_ROUND_REWARD}" />
+		<string id="aV0PTEzbW" text="你的胜出轮次奖励：{PER_ROUND_REWARD}" />
+		<string id="16t7gwMmW" text="你作为冠军获得的奖金：{TOTAL_GOLD_REWARD}" />
+		<string id="gVZq43GDI" text="{LEADER_NAME}的队伍 {TEAM_CALL_SIGN}" />
+		<string id="WA82hgPoO" text="阿尔法" />
+		<string id="bpGxcmlP6" text="贝塔" />
+		<string id="bmOsWMVsk" text="伽马" />
+		<string id="Tyl2ufxxy" text="德尔塔" />
+		<string id="OKSzdZMr8" text="艾普西隆" />
+		<string id="zsXVSOB4t" text="泽塔" />
+		<string id="fePbjEFQI" text="伊塔" />
+		<string id="9OZjTDg61" text="西塔" />
+		<string id="EmP3OR1tW" text="英雄的默认竞技场练习设置" />
+		<string id="pJ3cqM8RV" text="竞技场练习设置" />
+		<string id="bPkF9slVr" text="大型竞技场练习设置" />
+		<string id="zbfho3vSj" text="格挡练习设置" />
+		<string id="igoj9leYB" text="团队竞技场练习设置" />
+		<string id="08ifYu37H" text="技术设定" />
+		<string id="RRmGS7t6x" text="锦标赛设置" />
+		<string id="C5nJgxepr" text="奖励" />
+		<string id="oywDR1MSm" text="经验" />
+		<string id="ZlvTL5D4T" text="物质奖励" />
+		<string id="BCzO2WGq9" text="非物质奖励" />
+		<string id="h6sPrqfax" text="团队锦标赛" />
+		<string id="WnQ4qOI7d" text="兼容性设置" />
+		<string id="Awg6G0iNM" text="以省钱为优先" />
+		<string id="56nUSQP2R" text="以训练英雄为优先" />
+		<string id="gknaSzMr6" text="标准" />
+		<string id="aBVrVSioz" text="叠加" />
+		<string id="TY9SqFLBs" text="倍增" />
+		<string id="Hf3fpLNlh" text="从不" />
+		<string id="JHsRs730T" text="当奖品等级可以提升时" />
+		<string id="oVADnv9sb" text="当获得更好奖品的几率提高时" />
+		<string id="MwOn3n7yC" text="当情况发生变化时" />
+		<string id="z6lpZ65aK" text="练习服" />
+		<string id="o5AcCZgOn" text="锦标赛护甲" />
+		<string id="sBnb12g7c" text="平民装备" />
+		<string id="kKvvYWhMH" text="战斗装备" />
+		<string id="RYcQyTDa5" text="仅限非独特物品" />
+		<string id="y1RxvGxxl" text="始终，独特坐骑除外" />
+		<string id="NsbCj2rzB" text="始终" />
+		<string id="MnVVPRkao" text="这是用于配置英雄武器配置选项的默认值。启用后，相应的英雄可以为竞技场练习赛挑选武器，你需要为此支付通常的费用。否则，他们将和其他人一样使用随机武器。默认：启用。" />
+		<string id="XQY35WleC" text="这是用于配置英雄武器配置选项的默认值。启用后，只有在设置了武器偏好且竞技场中至少有一套符合条件的武器配置时，相应的英雄才会挑选练习武器。否则，他们将和其他人一样使用随机武器。默认：启用。" />
+		<string id="UO3idcKCw" text="这是用于配置英雄武器配置选项的默认值。启用后，相应的英雄在为竞技场练习赛挑选武器时，会优先选择更好、更昂贵的装备。否则，将选择符合给定偏好的最便宜的一套武器。默认：禁用。" />
+		<string id="NvKLJBxsf" text="允许操控同伴英雄" />
+		<string id="wtKB2udZJ" text="参赛者总数" />
+		<string id="gaGpV2GcX" text="同时在场的参赛者" />
+		<string id="0IOg4Ureb" text="同时在场参赛者的最小值" />
+		<string id="dAhEzcAlx" text="初始参赛者" />
+		<string id="vZgGTs8Nw" text="AI 队伍" />
+		<string id="BVhryIKKF" text="允许选择武器配置" />
+		<string id="L73kYZTnf" text="挑选武器的价格" />
+		<string id="3HviduB7g" text="练习防护装备" />
+		<string id="v7NfMok7L" text="英勇奖励 I 级" />
+		<string id="AFzr1BhC4" text="英勇奖励 II 级" />
+		<string id="wjlHVn6cG" text="英勇奖励 III 级" />
+		<string id="1JAQ3hGAk" text="英勇奖励 IV 级" />
+		<string id="MHzw7JXgh" text="英勇奖励 V 级" />
+		<string id="rQHQBnmZL" text="冠军奖金计算方式" />
+		<string id="oTOFfuU2c" text="冠军奖金" />
+		<string id="zDfS2JtnA" text="允许观战者获得经验" />
+		<string id="9dP3VJpOG" text="经验获取率" />
+		<string id="wFPnd1BNA" text="启用此选项后，你可以派一名同伴代替你参加竞技场练习，并在竞技场中操控该同伴。原版：禁用。默认：启用。" />
+		<string id="89f5zrS7i" text="竞技场练习的参赛者总数。建议设为 3 的倍数。默认 = 30。" />
+		<string id="oqpocFdUs" text="竞技场练习中同时在场参赛者的预计数量。建议设为 3 的倍数。默认 = 6。" />
+		<string id="iFjrzKw9e" text="竞技场练习中同时在场参赛者的最小数量。建议设为 2 的倍数。默认 = 2。" />
+		<string id="UuSkcTQSd" text="竞技场练习中同时在场参赛者的初始数量。任何大于 7 的数值都会导致多名斗士在同一处出场。默认 = 6。" />
+		<string id="aVm0YWzg9" text="竞技场练习赛中 AI 队伍的数量。设为 0 表示与同时在场的参赛者数量相等，这样能最大限度地降低遇到 AI 队友相互配合的几率。设为 1 表示所有人都会与你为敌。默认 = 0。" />
+		<string id="zGQrZqevv" text="启用此选项后，你可以为竞技场练习挑选武器。" />
+		<string id="rZH6qYOrT" text="为竞技场练习挑选武器时，每个武器阶段（等级）需要支付的金额。默认 = 10。" />
+		<string id="WW4PZP2LH" text="指定竞技场练习的参赛者应穿戴何种护甲或服装。除非被其他模组更改，选择[锦标赛护甲]的效果与[战斗装备]相同。除非你有明确的目的，否则不建议更改此设置。穿戴护甲虽然可能很有趣，但会让大多数远程练习武器失去作用。原版：[练习服]。默认：[练习服]。" />
+		<string id="GrjIc6hKr" text="在竞技场练习中击败至少 3 名斗士的奖金。默认 = 5。" />
+		<string id="j86zigBV7" text="在竞技场练习中击败至少 6 名斗士的奖金。默认 = 10。" />
+		<string id="0q32VAkkg" text="在竞技场练习中击败至少 10 名斗士的奖金。默认 = 25。" />
+		<string id="VjGDrAK3N" text="在竞技场练习中击败至少 20 名斗士的奖金。默认 = 60。" />
+		<string id="ws4xpzph6" text="在竞技场练习中击败至少 35 名斗士的奖金。在标准参赛人数下无法达成。默认 = 150。" />
+		<string id="8mGYZd0fL" text="指定竞技场练习中最后站着的人应如何奖励。标准 - 给予特别奖金。叠加 - 给予特别奖金以及已获得的英勇奖励。倍增 - 每获得一个高于 I 级的英勇奖励等级，就给予一份特别奖金。原版：[标准]。默认：[叠加]。" />
+		<string id="2ovQejh10" text="在竞技场练习中成为最后站着的人的基础奖金。默认 = 250。" />
+		<string id="gGEXaGsKV" text="竞技场练习赛中的经验获取率。原版 = 6%。默认 = 16.5%。" />
+		<string id="3xV72YIYo" text="启用此选项后，你可以派一名同伴代替你参加大型竞技场练习，并在竞技场中操控该同伴。原版：禁用。默认：启用。" />
+		<string id="65Ny4vNEE" text="大型竞技场练习的参赛者总数。建议设为 3 的倍数。默认 = 90。" />
+		<string id="sIQdRBwg9" text="大型竞技场练习中同时在场参赛者的预计数量。建议设为 3 的倍数。默认 = 9。" />
+		<string id="ZaLfvG7eX" text="大型竞技场练习中同时在场参赛者的最小数量。建议设为 2 的倍数。默认 = 4。" />
+		<string id="XwzmSDpAr" text="大型竞技场练习中同时在场参赛者的初始数量。任何大于 7 的数值都会导致多名斗士在同一处出场。默认 = 7。" />
+		<string id="VUnyu0h6n" text="大型竞技场练习赛中 AI 队伍的数量。设为 0 表示与同时在场的参赛者数量相等，这样能最大限度地降低遇到 AI 队友相互配合的几率。设为 1 表示所有人都会与你为敌。默认 = 0。" />
+		<string id="9otxYlTUa" text="启用此选项后，你可以为大型竞技场练习挑选武器。" />
+		<string id="B9xXCFneS" text="为大型竞技场练习挑选武器时，每个武器阶段（等级）需要支付的金额。默认 = 10。" />
+		<string id="sLGwAxSzA" text="指定大型竞技场练习的参赛者应穿戴何种护甲或服装。除非被其他模组更改，选择[锦标赛护甲]的效果与[战斗装备]相同。除非你有明确的目的，否则不建议更改此设置。穿戴护甲虽然可能很有趣，但会让大多数远程练习武器失去作用。默认：[练习服]。" />
+		<string id="M7utBJV6O" text="在大型竞技场练习中击败至少 3 名斗士的奖金。默认 = 10。" />
+		<string id="5Zkk4IRnM" text="在大型竞技场练习中击败至少 6 名斗士的奖金。默认 = 20。" />
+		<string id="ivrbCerwG" text="在大型竞技场练习中击败至少 10 名斗士的奖金。默认 = 50。" />
+		<string id="41COOOrtk" text="在大型竞技场练习中击败至少 20 名斗士的奖金。默认 = 120。" />
+		<string id="aPjrww0Yz" text="在大型竞技场练习中击败至少 35 名斗士的奖金。默认 = 300。" />
+		<string id="aUEgf6bh5" text="指定大型竞技场练习中最后站着的人应如何奖励。标准 - 给予特别奖金。叠加 - 给予特别奖金以及已获得的英勇奖励。倍增 - 每获得一个高于 I 级的英勇奖励等级，就给予一份特别奖金。默认：[叠加]。" />
+		<string id="FP34ZZ1b0" text="在大型竞技场练习中成为最后站着的人的基础奖金。默认 = 500。" />
+		<string id="YyniNTgz5" text="只有英雄和 3 级及以上的士兵才能参加大型竞技场练习。启用此选项后，当战友在竞技场中成功命中和击倒对手时，等级较低的士兵也会获得一些经验。" />
+		<string id="hTHzr3Q9U" text="大型竞技场练习赛中的经验获取率。原版 = 6%。默认 = 33.3%。" />
+		<string id="8wUeKx5yg" text="启用格挡练习" />
+		<string id="a7I7iKCIg" text="启用此选项后，竞技场中将开放格挡练习模式。原版：禁用。默认：启用。" />
+		<string id="W1eYm1Lse" text="格挡练习筹办费用" />
+		<string id="Igd6YZwx4" text="竞技场主管为筹办一场格挡练习赛收取的费用。默认 = 200。" />
+		<string id="b1rJAny0j" text="启用此选项后，你可以派一名同伴代替你练习格挡，并在竞技场中操控该同伴。原版：禁用。默认：启用。" />
+		<string id="ZTusmPG2b" text="格挡练习的参赛者总数。默认 = 15。" />
+		<string id="vSxY7fMyJ" text="格挡练习中同时在场参赛者的预计数量。默认 = 1。" />
+		<string id="7O4BbgHHd" text="格挡练习中同时在场参赛者的最小数量。默认 = 1。" />
+		<string id="FLOs28WoN" text="格挡练习中同时在场参赛者的初始数量。默认 = 1。" />
+		<string id="LHppRdTLa" text="格挡练习赛中 AI 队伍的数量。设为 1 表示所有人都会与你为敌。默认 = 1。" />
+		<string id="PBdkpnVB9" text="启用此选项后，你可以为格挡练习挑选武器。" />
+		<string id="vFzDsKyOM" text="为格挡练习挑选武器时，每个武器阶段（等级）需要支付的金额。默认 = 10。" />
+		<string id="yEovzkoTi" text="指定格挡练习的参赛者应穿戴何种护甲或服装。除非被其他模组更改，选择[锦标赛护甲]的效果与[战斗装备]相同。默认：[战斗装备]。" />
+		<string id="B0LJRZfnh" text="格挡练习赛中的经验获取率。原版 = 6%。默认 = 6%。" />
+		<string id="DxJKCdxsV" text="启用团队练习" />
+		<string id="LHCCk34mQ" text="启用此选项后，竞技场中将开放团队练习模式。原版：禁用。默认：启用。" />
+		<string id="6DKIRQm5C" text="团队练习筹办费用" />
+		<string id="qt2gEppSr" text="竞技场主管为筹办一场团队练习赛收取的费用。默认 = 200。" />
+		<string id="S0i7VyEO8" text="启用此选项后，你可以派一名同伴代替你参加团队竞技场练习，并在竞技场中操控该同伴。原版：禁用。默认：启用。" />
+		<string id="L6plpq9tN" text="团队竞技场练习的参赛者总数。建议设为 3 和 AI 队伍数量的公倍数。默认 = 300。" />
+		<string id="F5ltwpjLD" text="团队竞技场练习中同时在场参赛者的预计数量。建议设为 AI 队伍数量的倍数。默认 = 20。" />
+		<string id="rLeEchCEv" text="团队竞技场练习中同时在场参赛者的最小数量。建议设为 2 和 AI 队伍数量的公倍数。默认 = 12。" />
+		<string id="t7SvV15zK" text="团队竞技场练习中同时在场参赛者的初始数量。建议设为 AI 队伍数量的倍数。默认 = 20。" />
+		<string id="34SB5z6kv" text="团队竞技场练习赛中 AI 队伍的数量。设为 1 表示所有人都会与你的队伍为敌。默认 = 4。" />
+		<string id="yafmF17l3" text="启用此选项后，你可以为团队竞技场练习挑选武器。" />
+		<string id="HzpsY1I9V" text="为团队竞技场练习挑选武器时，每个武器阶段（等级）需要支付的金额。默认 = 20。" />
+		<string id="cgjoawOu3" text="指定团队竞技场练习的参赛者应穿戴何种护甲或服装。除非被其他模组更改，选择[锦标赛护甲]的效果与[战斗装备]相同。除非你有明确的目的，否则不建议更改此设置。穿戴护甲虽然可能很有趣，但会让大多数远程练习武器失去作用。默认：[练习服]。" />
+		<string id="8LHBbug9w" text="你的队伍在团队竞技场练习中击败至少 30 名斗士的奖金。默认 = 30。" />
+		<string id="EzSYzJjdR" text="你的队伍在团队竞技场练习中击败至少 50 名斗士的奖金。默认 = 60。" />
+		<string id="Z7cfjTozo" text="你的队伍在团队竞技场练习中击败至少 75 名斗士的奖金。默认 = 150。" />
+		<string id="rXdbJb3e8" text="你的队伍在团队竞技场练习中击败至少 100 名斗士的奖金。默认 = 350。" />
+		<string id="Nhslz7s3n" text="你的队伍在团队竞技场练习中击败至少 135 名斗士的奖金。默认 = 800。" />
+		<string id="Hmb8Ldjuq" text="指定团队竞技场练习中最后站着的队伍应如何奖励。标准 - 给予特别奖金。叠加 - 给予特别奖金以及已获得的英勇奖励。倍增 - 每获得一个高于 I 级的英勇奖励等级，就给予一份特别奖金。默认：[叠加]。" />
+		<string id="QItzcF4LK" text="在团队竞技场练习中成为最后站着的队伍的基础奖金。默认 = 1000。" />
+		<string id="Qcap6qw2T" text="只有英雄和 3 级及以上的士兵才能参加团队竞技场练习。启用此选项后，当战友在竞技场中成功命中和击倒对手时，等级较低的士兵也会获得一些经验。" />
+		<string id="J0Okfl8Ey" text="团队竞技场练习赛中的经验获取率。原版 = 6%。默认 = 33.3%。" />
+		<string id="qLyrVIJoy" text="AI 队伍 1 颜色索引" />
+		<string id="KSjkzF8uD" text="AI 队伍 2 颜色索引" />
+		<string id="WB6siZI93" text="AI 队伍 3 颜色索引" />
+		<string id="MftQIDNf1" text="AI 队伍 4 颜色索引" />
+		<string id="OKS7TtFM4" text="AI 队伍 5 颜色索引" />
+		<string id="DkLWDatCO" text="AI 队伍 6 颜色索引" />
+		<string id="hS7XbrLGG" text="最大赌注" />
+		<string id="gQvJ8Vvsk" text="锦标赛每一轮通常允许下注的金币上限。原版 = 150。默认 = 500。" />
+		<string id="qPAga7DLd" text="启用随机赔率" />
+		<string id="kGyR7NsKh" text="启用此选项后，赔率会略带随机性，但仍主要取决于对玩家胜算的预测。原版：禁用。默认：启用。" />
+		<string id="hARcKe6Jt" text="允许要人参赛" />
+		<string id="YqIOYTV0P" text="允许定居点的要人参加锦标赛。建议搭配锦标赛护甲类模组使用。原版：禁用。默认：启用。" />
+		<string id="cCAOeRdmt" text="奖品重抽条件" />
+		<string id="CDGmDeYii" text="指定锦标赛奖品是否重抽以及何时重抽。通常情况下，玩家加入锦标赛时，如果参赛贵族的数量自锦标赛创建以来发生了变化（这会影响奖品品质），奖品就会重抽。原版：[当情况发生变化时]。默认：[从不]。" />
+		<string id="IfsaDqygk" text="启用金币奖励" />
+		<string id="yVAG4f83d" text="启用此选项后，锦标赛还会有金币奖励。这是在通常的奖品和赌注赢利之外额外给予的。原版：禁用。默认：启用。" />
+		<string id="fH4Ev0UoC" text="启用奖品随声望提升" />
+		<string id="1THMacQwa" text="启用此选项后，锦标赛奖品会随玩家的声望而提升。这有些不合常规，但有助于让锦标赛在游戏中后期依然有价值。原版：禁用。默认：启用。" />
+		<string id="lu9G6m85v" text="启用高品质奖品" />
+		<string id="EQs8Z1eOO" text="启用此选项后，高品质版本的物品（大师级、领主级等）可以作为锦标赛奖品颁发。原版：禁用。默认：启用。" />
+		<string id="ZFv8WXbGE" text="精英奖品受文化限制" />
+		<string id="ffwi4bAIs" text="指定精英锦标赛奖品是否以及何时应像基础奖品一样，限定为与举办定居点的文化相符。原版：[从不]。默认：[始终，独特坐骑除外]。" />
+		<string id="DyNe9qH4v" text="每轮获胜奖励" />
+		<string id="aAquVsgYJ" text="参赛者在锦标赛中每赢一轮所获得的金币数量。原版 = 0。默认 = 0。" />
+		<string id="lkgaScPft" text="冠军的声望奖励" />
+		<string id="GWmYOkfOs" text="锦标赛冠军获得的声望数量。原版 = 3。默认 = 3。" />
+		<string id="1AR1Jq493" text="击败英雄的声望奖励" />
+		<string id="Fbt8Iewl4" text="每当锦标赛参赛者击倒一名声望相当或更高、或者锦标赛总胜场更多的英雄时，都会获得指定数量的声望。整场锦标赛中获得的总量不会超过冠军声望奖励的两倍。原版 = 0。默认 = 1。" />
+		<string id="eLKi8Ptgm" text="冠军的影响力奖励" />
+		<string id="uYmFPwO8z" text="锦标赛冠军获得的影响力数量，前提是其为任一王国的贵族领主。原版 = 1。默认 = 10。" />
+		<string id="C5fcetmfG" text="锦标赛战斗中的经验获取率。原版 = 33%。默认 = 66.6%。" />
+		<string id="PSnYupZhT" text="启用团队锦标赛" />
+		<string id="qHyqXp9tK" text="添加以团队身份报名并参加锦标赛的选项。" />
+		<string id="lDuOZkktY" text="队伍最小人数" />
+		<string id="Nv4MJ3oXq" text="锦标赛队伍成员的最小数量。一支队伍必须至少由两名参赛者组成。" />
+		<string id="Q6qQge312" text="队伍最大人数" />
+		<string id="4q3hSTZPZ" text="锦标赛队伍成员的最大数量。一支队伍必须至少由两名参赛者组成。数值冲突时，此设置优先于“队伍最小人数”。" />
+		<string id="6o45aTuZi" text="队伍最大数量" />
+		<string id="34r9jsdJq" text="一场锦标赛中队伍的最大数量。一场锦标赛必须至少有 8 支队伍。" />
+		<string id="rzIC6zMIv" text="获胜队伍的积分" />
+		<string id="lA71kgTie" text="启用后，获胜队伍中的每位英雄都会获得锦标赛排行榜积分。禁用后，只有队长会获得积分。" />
+		<string id="l2FTrzzXX" text="队伍 1 颜色索引" />
+		<string id="jWYXBiEZp" text="队伍 2 颜色索引" />
+		<string id="iRvUExaRI" text="队伍 3 颜色索引" />
+		<string id="F6qBgeAOk" text="队伍 4 颜色索引" />
+		<string id="3r3TStZPU" text="通过索引值设置队伍的旗帜颜色。可用颜色列表请查看 https://bannerlord.party/banner-colors/ 。" />
+		<string id="Ams5ccKzh" text="只有团队锦标赛才能选择出战名单。" />
+		<string id="xRkr497KP" text="以团队身份参赛" />
+		<string id="AOthHead01" text="举办" />
+		<string id="AOthEnabl1" text="启用举办锦标赛" />
+		<string id="AOthEnabl2" text="在竞技场菜单中添加一个选项，可在当前没有锦标赛的城镇举办一场锦标赛。需要花费金币和影响力，数额随城镇繁荣度以及玩家的家族等级和声望而变化。默认：启用。" />
+		<string id="AOthGold01" text="基础金币花费" />
+		<string id="AOthGold02" text="举办一场锦标赛所需的基础金币数量（调整前）。默认 = 2000。" />
+		<string id="AOthInfl01" text="基础影响力花费" />
+		<string id="AOthInfl02" text="举办一场锦标赛所需的基础影响力数量（按家族等级调整前）。默认 = 20。" />
+		<string id="AOthCool01" text="冷却时间（天）" />
+		<string id="AOthCool02" text="玩家在同一城镇再次举办锦标赛前必须间隔的天数。默认 = 7。" />
+		<string id="AOthAffi01" text="要求与城镇有从属关系" />
+		<string id="AOthAffi02" text="启用后，玩家只能在自己家族、所属王国或盟友势力所拥有的城镇举办锦标赛。默认：启用。" />
+		<string id="AOthMenu01" text="举办锦标赛" />
+		<string id="AOthNoWar1" text="这座城镇眼下没有条件举办庆典。" />
+		<string id="AOthNoAff1" text="你与这座城镇没有从属关系。" />
+		<string id="AOthCoold1" text="镇民们还没从你上一场锦标赛中缓过劲来。请在 {DAYS} {?DAYS.PLURAL_FORM}天{?}天{\?}后再试。" />
+		<string id="AOthPoor01" text="在这里举办锦标赛需要花费 {GOLD}{GOLD_ICON}{?HAS_INFLUENCE}和 {INFLUENCE} 点影响力{?}{\?}。你负担不起。" />
+		<string id="AOthCost01" text="在这里举办锦标赛需要花费 {GOLD}{GOLD_ICON}{?HAS_INFLUENCE}和 {INFLUENCE} 点影响力{?}{\?}。奖金总额随城镇繁荣度而增长。" />
+		<string id="AOthDone01" text="你花费了 {GOLD}{GOLD_ICON}{?HAS_INFLUENCE}和 {INFLUENCE} 点影响力{?}{\?}，在{TOWN}举办了一场锦标赛。" />
+		<string id="AOthConf01" text="要花费 {GOLD}{GOLD_ICON}{?HAS_INFLUENCE}和 {INFLUENCE} 点影响力{?}{\?}在{TOWN}举办一场锦标赛吗？" />
+		<string id="AOthConf02" text="举办锦标赛" />
+		<string id="AOtiHead01" text="伤势" />
+		<string id="AOtiEnabl1" text="启用锦标赛受伤" />
+		<string id="AOtiEnabl2" text="启用此选项后，每位在锦标赛比赛中被击倒的英雄——无论玩家、同伴还是领主——都会损失生命值，并带着伤势回到战役地图上。原版：禁用。默认：启用。" />
+		<string id="AOtiLoss01" text="每次被击倒损失的生命值" />
+		<string id="AOtiLoss02" text="英雄在锦标赛比赛中被击倒时损失的最大生命值百分比。生命值不会降到 1 以下。默认 = 30%。" />
+		<string id="AOtiMsg001" text="你被击倒了，损失了 {HP_LOSS} 点生命值。" />
+		<string id="Ndc21b2NO" text="练习武器配置阶段数" />
+		<string id="9SY3aAtv1" text="在 ObjectManager 中搜索的练习武器配置阶段数量。除非你安装了更改竞技场练习阶段并添加相应角色模型的模组，否则请勿更改此设置。原版 = 3。默认 = 3。" />
+		<string id="DXiVYMIUL" text="切换到其他英雄" />
+		<string id="morP28atv" text="在竞技场的团队练习赛中，切换到你选择的另一名在场英雄。" />
+		<string id="NcXn6Ow7O" text="1. 家族首领" />
+		<string id="NowOsng0A" text="2. 家庭成员" />
+		<string id="vTyduFjuF" text="3. 同伴" />
+		<string id="fFlUJjUl0" text="AO 英雄练习设置" />
+		<string id="fL485YX24" text="允许选择武器配置" />
+		<string id="QLQYQTctQ" text="启用此选项后，相应的英雄可以为竞技场练习赛挑选武器，你需要为此支付通常的费用。否则，他们将和其他人一样使用随机武器。默认值在模组全局设置中设定。" />
+		<string id="kbL2QnpuF" text="启用自动选择武器配置" />
+		<string id="vGIOM104P" text="启用此选项后，从菜单进入任何竞技场练习模式时，将根据此处设置的其他偏好自动为玩家选择武器配置。默认值在模组全局设置中设定。" />
+		<string id="zC7CG8kwF" text="仅限优先武器配置" />
+		<string id="ieRmdET16" text="启用此选项后，只有在设置了武器偏好且竞技场中至少有一套符合条件的武器配置时，相应的英雄才会挑选练习武器。否则，他们将和其他人一样使用随机武器。默认值在模组全局设置中设定。" />
+		<string id="JidAUNLNo" text="启用此选项后，只有在设置了武器偏好且竞技场中至少有一套符合条件的武器配置时，才会为玩家自动选择武器配置。否则，玩家将照常使用随机武器。默认值在模组全局设置中设定。" />
+		<string id="cWdhDpsOS" text="优先选择昂贵装备" />
+		<string id="YwbIZExy1" text="启用此选项后，相应的英雄在为竞技场练习赛挑选武器时，会优先选择更好、更昂贵的装备。否则，将选择符合给定偏好的最便宜的一套武器。默认值在模组全局设置中设定。" />
+		<string id="Wse8QGJyQ" text="启用此选项后，为玩家自动选择武器配置时会优先选择更好、更昂贵的装备。否则，将选择符合给定偏好的最便宜的一套武器。默认值在模组全局设置中设定。" />
+		<string id="G2IdbqB8p" text="第一优先" />
+		<string id="ZWh07gP41" text="指定相应英雄最优先训练的武器技能。只要有可用的，该英雄总会选择包含基于该技能的武器的武器配置。默认：[无]。" />
+		<string id="DOGp7LBDe" text="指定玩家角色最优先训练的武器技能。只要有可用的，总会选择包含基于该技能的武器的武器配置。默认：[无]。" />
+		<string id="bcgL8E4Ol" text="第二优先" />
+		<string id="Yideeiww5" text="指定相应英雄第二优先训练的武器技能。如果有可用的且没有更高优先级的选择，该英雄会选择包含基于该技能的武器的武器配置。默认：[无]。" />
+		<string id="bhSUfmKir" text="指定玩家角色第二优先训练的武器技能。如果有可用的且没有更高优先级的选择，将选择包含基于该技能的武器的武器配置。默认：[无]。" />
+		<string id="t45rwWZc5" text="第三优先" />
+		<string id="lHiP6Z2Qo" text="指定相应英雄第三优先训练的武器技能。如果有可用的且没有更高优先级的选择，该英雄会选择包含基于该技能的武器的武器配置。默认：[无]。" />
+		<string id="IP7JZx9bb" text="指定玩家角色第三优先训练的武器技能。如果有可用的且没有更高优先级的选择，将选择包含基于该技能的武器的武器配置。默认：[无]。" />
+		<string id="6SD77Zo1C" text="无" />
+		<string id="7OL4eTdan" text="单手武器" />
+		<string id="rvCVOGi0s" text="双手武器" />
+		<string id="bDnJRrfRH" text="长杆武器" />
+		<string id="KZt7cDhKn" text="弓" />
+		<string id="s0JLnYAxx" text="弩" />
+		<string id="CvVDmEhou" text="投掷武器" />
+		<string id="AOgtHead01" text="大锦标赛与王国锦标赛" />
+		<string id="AOgtSprg01" text="春季" />
+		<string id="AOgtSumr01" text="夏季" />
+		<string id="AOgtAutm01" text="秋季" />
+		<string id="AOgtWntr01" text="冬季" />
+		<string id="AOgtEnab01" text="启用一年一度的大锦标赛" />
+		<string id="AOgtEnab02" text="每年一次，卡拉迪亚各地竞技场排行榜上最强的领主都会受召参加一场 1 对 1 的大锦标赛，赛事在排行榜榜首领主所属王国的首都举行。无论领主身在地图何处，都会到场参赛。默认：启用。" />
+		<string id="AOgtKEna01" text="启用王国季度锦标赛" />
+		<string id="AOgtKEna02" text="每个季节，各王国都会在首都为本国宣誓效忠的领主举办一场 1 对 1 的锦标赛。所有王国在同一天举办；玩家只能参加自己所属王国的锦标赛。大锦标赛会取代其所在季节的王国锦标赛。默认：启用。" />
+		<string id="AOgtSeas01" text="大锦标赛的季节" />
+		<string id="AOgtSeas02" text="一年中举办大锦标赛的季节。默认：春季。" />
+		<string id="AOgtGDay01" text="大锦标赛在季节中的日期" />
+		<string id="AOgtGDay02" text="大锦标赛在季节中的第几天开幕。默认 = 11。" />
+		<string id="AOgtKDay01" text="王国锦标赛在季节中的日期" />
+		<string id="AOgtKDay02" text="王国锦标赛在季节中的第几天开幕。默认 = 11。" />
+		<string id="AOgtAnnD01" text="提前公告天数" />
+		<string id="AOgtAnnD02" text="锦标赛在开幕前多少天公告并出现在举办城镇中。开幕前无法参赛和观战。默认 = 7。" />
+		<string id="AOgtDura01" text="持续天数" />
+		<string id="AOgtDura02" text="锦标赛开幕后持续开放多少天。如果届时玩家仍未参赛，比赛将自动模拟完成。默认 = 2。" />
+		<string id="AOgtLege01" text="传奇品质奖品" />
+		<string id="AOgtLege02" text="奖品是一件属于获胜者文化的高等级武器或护甲，并带有该类型所能拥有的最佳品质词缀（武器为传奇）。绝不会提供坐骑。默认：启用。" />
+		<string id="AOgtGold01" text="大锦标赛金币奖励" />
+		<string id="AOgtGold02" text="在常规锦标赛奖励之外，额外授予大锦标赛获胜者的金币。默认 = 100000。" />
+		<string id="AOgtReno01" text="大锦标赛声望奖励" />
+		<string id="AOgtReno02" text="在常规锦标赛奖励之外，额外授予大锦标赛获胜者的声望。默认 = 50。" />
+		<string id="AOgtInfl01" text="大锦标赛影响力奖励" />
+		<string id="AOgtInfl02" text="大锦标赛获胜者若隶属于某个王国，将获得的影响力。默认 = 300。" />
+		<string id="AOgtGWgt01" text="大锦标赛排行榜权重" />
+		<string id="AOgtGWgt02" text="赢得一次大锦标赛在排行榜上计为多少场胜利。默认 = 3。" />
+		<string id="AOgtKWgt01" text="王国锦标赛排行榜权重" />
+		<string id="AOgtKWgt02" text="赢得一次王国锦标赛在排行榜上计为多少场胜利。默认 = 2。" />
+		<string id="AOgtKPct01" text="王国锦标赛奖励（占大锦标赛的百分比）" />
+		<string id="AOgtKPct02" text="王国锦标赛的金币、声望和影响力奖励占大锦标赛相应数值的百分比。默认 = 40。" />
+		<string id="AOgtMenuG1" text="来自卡拉迪亚各地的竞技场排行榜冠军们已齐聚{TOWN}，参加大锦标赛。获胜者将被授予“{TOURNAMENT_PRIZE}”，以及与这一盛事相称的金币、声望和影响力。" />
+		<string id="AOgtMenuK1" text="{KINGDOM}最出色的斗士已齐聚{TOWN}，参加王国的季度锦标赛。获胜者将被授予“{TOURNAMENT_PRIZE}”，以及与这一盛事相称的金币、声望和影响力。" />
+		<string id="AOgtAnn001" text="卡拉迪亚大锦标赛将在{TOWN}举行{?DAYS}，{DAYS} {?DAYS.PLURAL_FORM}天{?}天{\?}后开幕{?}{\?}。竞技场排行榜上最出色的斗士已受到召集。" />
+		<string id="AOgtAnn002" text="{KINGDOM}将在{TOWN}举办季度锦标赛{?DAYS}，{DAYS} {?DAYS.PLURAL_FORM}天{?}天{\?}后开幕{?}{\?}。" />
+		<string id="AOgtLock01" text="大锦标赛将在 {DAYS} {?DAYS.PLURAL_FORM}天{?}天{\?}后开幕。冠军们仍在陆续抵达。" />
+		<string id="AOgtLock02" text="王国锦标赛将在 {DAYS} {?DAYS.PLURAL_FORM}天{?}天{\?}后开幕。参赛者仍在陆续抵达。" />
+		<string id="AOgtLock03" text="只有宣誓效忠{KINGDOM}的领主才能参加这场锦标赛。" />
+		<string id="AOgtWin001" text="{WINNER}在{TOWN}赢得了{KINGDOM}的季度锦标赛。" />
+		<string id="AOgtWin002" text="{WINNER}在{TOWN}赢得了卡拉迪亚大锦标赛！" />
+		<string id="AOgtPopA01" text="公告时显示地图弹窗" />
+		<string id="AOgtPopA02" text="当大锦标赛或玩家可以参加的王国锦标赛发布公告时，显示地图通知。点击可查看详情并跳转到举办城镇。默认：启用。" />
+		<string id="AOgtPopR01" text="结果揭晓时显示地图弹窗" />
+		<string id="AOgtPopR02" text="当大锦标赛或玩家可以参加的王国锦标赛结束时，显示公布获胜者的地图通知。默认：启用。" />
+		<string id="AOgtKInt01" text="王国锦标赛间隔（季节数）" />
+		<string id="AOgtKInt02" text="两届王国锦标赛之间间隔多少个季节。不能整除 4 的数值会使比赛在各季节间轮换。当王国锦标赛恰逢大锦标赛所在的季节时，由大锦标赛取而代之。默认 = 3。" />
+		<string id="sotK7sewA" text="就在附近" />
+		<string id="J5jTiUvt8" text="离这里不算远" />
+		<string id="ULKHRKsSV" text="离这里有些远" />
+		<string id="2JXPNLOm3" text="离这里非常远" />
+		<string id="AOgtNtf004" text="王国锦标赛已结束" />
+		<string id="AOgtNtf003" text="大锦标赛已结束" />
+		<string id="AOgtNtf002" text="{KINGDOM}锦标赛" />
+		<string id="AOgtNtf001" text="卡拉迪亚大锦标赛" />
+		<string id="AOgtNtf013" text="{CLAN}家族的{WINNER}赢得了在{TOWN}举行的{KINGDOM}季度锦标赛，获得了“{PRIZE}”以及 {GOLD}{GOLD_ICON}、{RENOWN} 点声望和 {INFLUENCE} 点影响力。" />
+		<string id="AOgtNtf012" text="{CLAN}家族的{WINNER}力压卡拉迪亚最出色的斗士，赢得了在{TOWN}举行的大锦标赛，获得了“{PRIZE}”以及 {GOLD}{GOLD_ICON}、{RENOWN} 点声望和 {INFLUENCE} 点影响力。" />
+		<string id="AOgtNtf009" text="宣誓效忠{KINGDOM}的领主们已受召前往{TOWN}，参加王国的季度锦标赛。比赛将在 {DAYS} {?DAYS.PLURAL_FORM}天{?}天{\?}后开幕，并持续开放 {DURATION} {?DURATION.PLURAL_FORM}天{?}天{\?}。获胜者将被授予“{PRIZE}”。" />
+		<string id="AOgtNtf007" text="来自卡拉迪亚各地的竞技场排行榜冠军们已受召前往{TOWN}。大锦标赛将在 {DAYS} {?DAYS.PLURAL_FORM}天{?}天{\?}后开幕，并持续开放 {DURATION} {?DURATION.PLURAL_FORM}天{?}天{\?}。获胜者将被授予“{PRIZE}”。" />
+		<string id="AOgtNtf010" text="{KINGDOM}的季度锦标赛正在{TOWN}举行，还将持续开放 {DAYS} {?DAYS.PLURAL_FORM}天{?}天{\?}。获胜者将被授予“{PRIZE}”。" />
+		<string id="AOgtNtf008" text="大锦标赛正在{TOWN}举行，还将持续开放 {DAYS} {?DAYS.PLURAL_FORM}天{?}天{\?}。获胜者将被授予“{PRIZE}”。" />
+		<string id="AOgtNtf011" text="在{TOWN}举行的锦标赛已经结束。" />
+		<string id="AOgtNtf005" text="已在{TOWN}公告" />
+		<string id="AOgtNtf006" text="{WINNER}在{TOWN}夺魁" />
+		<string id="AOR_m3XpR8d" text="这名英雄尚未上场，在进入竞技场的队列中排第 {QUEUE_NUMBER} 位。" />
+		<string id="AOgtWon002" text="你在决赛中击败了{TOURNAMENT_FINAL_OPPONENT}，赢得了{KINGDOM}的季度锦标赛。" />
+		<string id="AOgtWon001" text="你在决赛中击败了{TOURNAMENT_FINAL_OPPONENT}，赢得了卡拉迪亚大锦标赛。" />
+		<string id="AOgtTitle002" text="{KINGDOM}季度锦标赛" />
+		<string id="AOgtTitle001" text="卡拉迪亚大锦标赛" />
+		<string id="AOgtNtf015" text="关闭" />
+		<string id="AOgtNtf014" text="在地图上显示" />
+		<string id="AOR_J5sWy1F" text="正在等待{HERO.NAME}进入竞技场。{?HERO.GENDER}她{?}他{\?}在队列中排第 {POSITION_IN_LINE} 位。" />
+		<string id="AOR_q7Hn2Lw" text="除错日志" />
+		<string id="AOR_Vz4kT9c" text="除错日志（仅限英文）。[ 预设：停用 ]" />
+	</strings>
+</base>

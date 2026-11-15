@@ -1,0 +1,472 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" type="string">
+	<tags>
+		<tag language="繁體中文" />
+	</tags>
+	<strings>
+		<string id="n3lrq7FfM" text="競技場大修 Redux" />
+		<string id="a3uuVmMKR" text="大型練習賽" />
+		<string id="QI6a1mxh9" text="格擋練習賽" />
+		<string id="wWZ82hgqV" text="團隊練習賽" />
+		<string id="aiDNBFQ4U" text="附近的錦標賽" />
+		<string id="uBC62Jdh1" text="下一頁..." />
+		<string id="De0boqLm0" text="上一頁..." />
+		<string id="fakGolQMf" text="返回競技場" />
+		<string id="ForHVzTkJ" text="另外，這裡時不時還會舉辦所謂的大型練習賽。說穿了還是那一套，只是打得更久，也激烈得多。我勸你帶上幾個手下一起來，對他們來說會是不錯的磨練。只是別忘了——場上不准結隊，否則你們會被取消資格。[ib:closed][if:convo_bared_teeth]" />
+		<string id="nZVbLJnVn" text="那這些大型練習賽呢，也有獎賞嗎？獎金有多少？" />
+		<string id="fpPMPCNp5" text="我的手下比我更需要訓練。我想我就留在這裡，改派別人上場。" />
+		<string id="7ONiAo9q0" text="好吧，哪個幸運兒要上場？[ib:closed][if:convo_bared_teeth]" />
+		<string id="cB4QnrtWM" text="還有別的事嗎？[ib:normal]" />
+		<string id="y9zNkuGg0" text="我想替我的同伴挑選裝備。" />
+		<string id="0uFoXskRW" text="沒有了，開場吧。" />
+		<string id="BbpYVQSc6" text="我改變主意了，我要親自上場。" />
+		<string id="VVjb1EG4d" text="等等，這事我得再想想。" />
+		<string id="MqTDJG0uG" text="我想自己挑選裝備。" />
+		<string id="iDGR9F0Gn" text="行{?WEAPON_CHOICE_HAS_PRICE}，不過這要收你 {WEAPON_CHOICE_PRICE}{GOLD_ICON}{?}{\?}！你要拿哪一套武器？[ib:closed][if:convo_bared_teeth]" />
+		<string id="DGsGeb4LA" text="我想要更好的裝備。" />
+		<string id="lIBwkFipY" text="算了，當我沒說。" />
+		<string id="7f21TSn5W" text="我想參加大型練習賽..." />
+		<string id="MnhLtl9Nn" text="好，那就召集你的人手上場吧！下場的路上別忘了拿把練習武器。[if:convo_approving]" />
+		<string id="jBqErWEjU" text="你能替我安排一場特別的比賽嗎？" />
+		<string id="EYXQnjEvK" text="那得看情況。你到底在打什麼主意？[ib:hip][if:convo_thinking]" />
+		<string id="h2Gv6NA8J" text="我想練習格擋。" />
+		<string id="RyUSbmDhf" text="這座競技場向來不使用適合格擋練習的武器配置。" />
+		<string id="9yIQ6Qd1E" text="這可是門要緊的功夫，練一練對其他人也有好處...我想這場比賽我安排得來{?PRACTICE_CHOICE_HAS_PRICE}，不過要收你 {PRACTICE_CHOICE_PRICE}{GOLD_ICON}{?}{\?}。噢，還有，別指望有什麼獎金，這種練習觀眾多半提不起興趣。要是你還想打，下場的路上別忘了拿把練習武器。[if:convo_calm_friendly][ib:confident]" />
+		<string id="iXwumAizJ" text="我想和我的同袍組隊並肩作戰。你有可能辦一場團隊練習賽嗎？" />
+		<string id="LTfWl2OPC" text="這下可熱鬧了！{?PRACTICE_CHOICE_HAS_PRICE}這主意我喜歡，不過要把這樣的比賽辦得像樣，我得費上不少工夫，所以要收你 {PRACTICE_CHOICE_PRICE}{GOLD_ICON}。往好處想，{?}{\?}我看觀眾一定會看得很過癮，獎金也會跟著水漲船高。要是你還想打，下場的路上別忘了拿把練習武器。[ib:nervous2][if:convo_excited]" />
+		<string id="wuuxg3Lkg" text="那麼...想再來一場嗎？[ib:normal]" />
+		<string id="6kW561DVB" text="我需要歇一會兒，我的手下也需要訓練。這回我就留在這裡，改派別人上場。" />
+		<string id="RKNcniRPk" text="這次我想派別人上場。" />
+		<string id="7NfBn2JvL" text="我想活動活動筋骨，這次我要親自上場。" />
+		<string id="8k8br8lfq" text="{?COMPANION_GENDER}她{?}他{\?}用標準裝備就行。" />
+		<string id="rPVHszLLs" text="當然。不過我想替{COMPANION_NAME}另外挑一套武器配置。" />
+		<string id="WRO1rFtQm" text="我用標準裝備就行。" />
+		<string id="uLNYivCXl" text="當然。不過我想換一套新的武器配置。" />
+		<string id="zvb5PZ5OA" text="目前有 {TOURNAMENTS} 座{?TOURNAMENTS.PLURAL_FORM}城鎮{?}城鎮{\?}正在舉辦錦標賽。{?SHOW_PAGES}第 {PAGE} 頁，共 {PAGES} 頁。{?}{\?}{NEW_LINE}{NEW_LINE}{TORNAMENT_LIST.START}{?TORNAMENT_LIST.IS_PLURAL}{NEW_LINE}{NEW_LINE}{?}{\?}{TORNAMENT_LIST.END}" />
+		<string id="UOpsoG57t" text="{NAME}{NEW_LINE}    [{TIER} 級{TYPE}，價值 {GOLD} {GOLD_ICON}]" />
+		<string id="AOtlEntry1" text="{INDEX}. {TOWN_LINK} [{DISTANCE_ESTIMATE}，{TAG}]{NEW_LINE}    {TOURNAMENT_AGE} {?TOURNAMENT_AGE.PLURAL_FORM}天{?}天{\?}前開始。{NEW_LINE}    獎品：{ITEM_PRIZE}{?GOLD_PRIZES_ENABLED}{NEW_LINE}    獎金：{GOLD_PRIZE}{GOLD_ICON}{?}{\?}" />
+		<string id="AOtlTag000" text="剛開始" />
+		<string id="AOtlTag001" text="還趕得上" />
+		<string id="AOtlTag002" text="要抓緊" />
+		<string id="AOtlTag003" text="趕得上" />
+		<string id="AOtlTag004" text="要抓緊" />
+		<string id="AOtlTag005" text="希望渺茫" />
+		<string id="EPjU6L6kg" text="你的第納爾不夠！{NEW_LINE}{NEW_LINE}{EXPENSES_BREAKDOWN}" />
+		<string id="9REfw5FN6" text="{EXPENSES_BREAKDOWN}{NEW_LINE}{NEW_LINE}以這個價格，你目前負擔得起 {AFFORDABLE_ROUNDS} {?AFFORDABLE_ROUNDS.PLURAL_FORM}場練習賽{?}場練習賽{\?}。" />
+		<string id="OXad58sEV" text="{?PRACTICE_CHOICE_HAS_PRICE}{NEW_LINE} - 特殊練習類型的費用：{PRACTICE_CHOICE_PRICE}{GOLD_ICON}。{?}{\?}" />
+		<string id="bO70zCDVt" text="{?WEAPON_CHOICE_HAS_PRICE}{NEW_LINE} - 使用自選武器組合的費用：{WEAPON_CHOICE_PRICE}{GOLD_ICON}。{?}{\?}" />
+		<string id="M8fIDW2lQ" text="{?COMPANION_WEAPON_CHOICES_HAVE_PRICE}{NEW_LINE} - 你的同伴使用自選武器組合的費用：全員合計 {COMPANION_WEAPON_CHOICES_PRICE}{GOLD_ICON}。{?}{\?}" />
+		<string id="Oz5qSUyk9" text="依照你要求的規則與偏好安排一場練習賽，總共要花費 {TOTAL_EXPENSES}{GOLD_ICON}。{NEW_LINE}{NEW_LINE}其中包括：{ARRANGEMENT_EXPENSES}{PLAYER_LOADOUT_EXPENSES}{COMPANION_LOADOUT_EXPENSES}" />
+		<string id="YxVkSN8sn" text="你被擊敗了，但你的隊伍仍在戰鬥，你可以切換到另一位英雄繼續。" />
+		<string id="xRdn4pEme" text="可用角色" />
+		<string id="jq2jXUcse" text="選擇要切換的隊友" />
+		<string id="XZcFEonSW" text="你的隊伍中沒有可切換的角色！" />
+		<string id="Iz2BWpesF" text="目前無法切換到其他角色！" />
+		<string id="UuAz2vxM3" text="你的隊伍仍在戰鬥。你要離開競技場嗎？" />
+		<string id="PumaUhrt2" text="預備格擋：{PREPARED_BLOCKS}" />
+		<string id="XiR0Srf50" text="完美格擋：{PERFECT_BLOCKS}" />
+		<string id="R0UCmq6Jn" text="反擊格擋：{CHAMBER_BLOCKS}" />
+		<string id="CSGg2vSS3" text="受擊次數：{HITS_TAKEN}" />
+		<string id="l1z9vuw8B" text="剩餘隊友：{ALLIES_REMAINING}" />
+		<string id="HxdMLgPrk" text="無效物品" />
+		<string id="ZMHaMWEhM" text="馬匹" />
+		<string id="8G7OMyMbp" text="單手武器" />
+		<string id="XuZG0Aoio" text="雙手武器" />
+		<string id="CqFjTkLpa" text="長桿武器" />
+		<string id="a0BgoRSGt" text="箭矢" />
+		<string id="cGVcwzcts" text="弩矢" />
+		<string id="1w2htuOn2" text="盾牌" />
+		<string id="KsH4vdaKZ" text="弓" />
+		<string id="wXthM7Mmt" text="弩" />
+		<string id="t3EkeJDz6" text="投擲武器" />
+		<string id="FjujPkPsk" text="貨物" />
+		<string id="6p4MDI4FN" text="頭部護甲" />
+		<string id="JH2tZrJmd" text="身體護甲" />
+		<string id="aMMn9E0nk" text="腿部護甲" />
+		<string id="3LtYT36O8" text="手部護甲" />
+		<string id="OBZsswRvq" text="手槍" />
+		<string id="mwmowr3Pl" text="火槍" />
+		<string id="RnZzjAmRe" text="子彈" />
+		<string id="5PmQkkEOf" text="動物" />
+		<string id="IA8SfaiLs" text="書籍" />
+		<string id="zWPK2mgHx" text="胸甲" />
+		<string id="z3x97kWhJ" text="披風" />
+		<string id="PxZJzp7zk" text="馬具" />
+		<string id="G5Tk9ZJwy" text="旗幟" />
+		<string id="hWj4T9N6e" text="物品" />
+		<string id="gaJDVkvHa" text="{VALOR_PRIZES_DESCRIPTION}{CHAMPION_PRIZE_DESCRIPTION}聽起來不錯吧？[if:convo_nonchalant]" />
+		<string id="hsDqRWEYr" text="要是你能在倒下之前打敗 {OPPONENT_COUNT_1} 名對手，就能拿到 {PRIZE_1}{GOLD_ICON}。" />
+		<string id="8qZeWlW2A" text="要是你能在倒下之前打敗 {OPPONENT_COUNT_1} 名對手，就能拿到 {PRIZE_1}{GOLD_ICON}。至少擊倒 {OPPONENT_COUNT_2} 名對手，則能拿到 {PRIZE_2}{GOLD_ICON}。" />
+		<string id="pBCjfH33W" text="要是你能在倒下之前打敗 {OPPONENT_COUNT_1} 名對手，就能拿到 {PRIZE_1}{GOLD_ICON}。至少擊倒 {OPPONENT_COUNT_2} 名對手能拿到 {PRIZE_2}{GOLD_ICON}，要是能打敗 {OPPONENT_COUNT_3} 名對手，就有 {PRIZE_3}{GOLD_ICON}。" />
+		<string id="S0uBAbZiF" text="要是你能在倒下之前打敗 {OPPONENT_COUNT_1} 名對手，就能拿到 {PRIZE_1}{GOLD_ICON}。至少擊倒 {OPPONENT_COUNT_2} 名對手能拿到 {PRIZE_2}{GOLD_ICON}，打敗 {OPPONENT_COUNT_3} 名對手有 {PRIZE_3}{GOLD_ICON}，要是你能撐到打敗 {OPPONENT_COUNT_4} 名對手，就有 {PRIZE_4}{GOLD_ICON}。" />
+		<string id="jhJZqz0OL" text="要是你能在倒下之前打敗 {OPPONENT_COUNT_1} 名對手，就能拿到 {PRIZE_1}{GOLD_ICON}。至少擊倒 {OPPONENT_COUNT_2} 名對手能拿到 {PRIZE_2}{GOLD_ICON}，打敗 {OPPONENT_COUNT_3} 名對手有 {PRIZE_3}{GOLD_ICON}，撐到打敗 {OPPONENT_COUNT_4} 名對手有 {PRIZE_4}{GOLD_ICON}，要是你竟然有本事打敗 {OPPONENT_COUNT_5} 名對手，就有 {PRIZE_5}{GOLD_ICON}——這可絕不是件容易的事。" />
+		<string id="nwnxJV2rZ" text="要是你能成為場上最後一個站著的鬥士，就能贏得這場比賽的大獎：{PRIZE_CHAMP}{GOLD_ICON}。" />
+		<string id="AAPfCIEuZ" text="要是你能成為場上最後一個站著的鬥士，還能另外贏得這場比賽的大獎：{PRIZE_CHAMP}{GOLD_ICON}。" />
+		<string id="3UtRes0Un" text="不過要是你能成為場上最後一個站著的鬥士，就能贏得這場比賽的大獎：{PRIZE_CHAMP}{GOLD_ICON}。要是你打得夠精彩，又親手打敗許多對手，說不定還能翻上好幾倍。" />
+		<string id="4uOu7an2u" text="嘿！你這位手下身上的瘀青可真不小。不過別擔心，誰都有被痛揍一頓的時候。重要的是從錯誤中記取教訓，然後繼續打下去。冠軍都是這麼來的。" />
+		<string id="s2B3i84HL" text="啊，經驗哪，那可是慘痛失誤換來的寶貝！既然你的隊伍多少該學到一些了，我建議你們全都回場上去，好好派上用場。冠軍都是這麼來的。" />
+		<string id="bWSPsaDyt" text="看來你的手下打倒了 {OPPONENT_COUNT} 名對手。不賴。不過這樣可拿不到半點獎金。換作是我，我會馬上叫{?COMPANION.GENDER}她{?}他{\?}再回場上去，或者更乾脆點，親自下場，讓大家瞧瞧我的本事..." />
+		<string id="0xwJY4TYS" text="看來你的隊伍打倒了 {OPPONENT_COUNT} 名對手。不賴。不過這樣可拿不到半點獎金。換作是我，我會把人手召集起來，訓上幾句話，然後馬上回場上去，讓大家瞧瞧我們的本事..." />
+		<string id="tU4Oa8XN1" text="{COMPANION.LINK}在場上打得相當不錯。有幾招很漂亮。失誤當然也有幾個，但{?COMPANION.GENDER}她{?}他{\?}絕對是塊好料。而且擊倒了 {OPPONENT_COUNT} 名對手，替你掙到了 {PRIZE}{GOLD_ICON} 的獎金。" />
+		<string id="IMAm6VMLR" text="你的隊伍在場上打得相當不錯。有幾招很漂亮。失誤當然也有幾個，但你們絕對是塊好料。而且你們擊倒了 {OPPONENT_COUNT} 名對手，掙到了 {PRIZE}{GOLD_ICON} 的獎金。" />
+		<string id="N5d76ElzV" text="不錯，{PLAYER.LINK}，真不錯。這位{COMPANION.LINK}{?COMPANION.GENDER}女士{?}先生{\?}足足打倒了 {OPPONENT_COUNT} 名對手。{?COMPANION.GENDER}她{?}他{\?}那股膽氣讓觀眾愛得不得了。當然，也替你掙到了 {PRIZE}{GOLD_ICON} 的獎金。" />
+		<string id="injn095f0" text="不錯，{PLAYER.LINK}，真不錯。你的隊伍足足打倒了 {OPPONENT_COUNT} 名對手。你們那股膽氣讓觀眾愛得不得了。當然，你們也掙到了 {PRIZE}{GOLD_ICON} 的獎金。" />
+		<string id="xe4cfXIBa" text="打得漂亮，{PLAYER.LINK}。{COMPANION.LINK}打倒了 {OPPONENT_COUNT} 名對手。有這樣的表現，{?COMPANION.GENDER}她{?}他{\?}當然該拿獎：{PRIZE}{GOLD_ICON}。不錯吧？" />
+		<string id="luDin5D4D" text="打得漂亮，{PLAYER.LINK}。你的隊伍打倒了 {OPPONENT_COUNT} 名對手。有這樣的表現，你們當然該拿獎：{PRIZE}{GOLD_ICON}。不錯吧？" />
+		<string id="ETDxIDLAf" text="大師級的表現，{COMPANION.LINK}。砰！啪！你打倒了他們 {OPPONENT_COUNT} 個人。觀眾愛死了。{PLAYER.LINK}，你這位前途無量的武藝高手剛替你掙到了 {PRIZE}{GOLD_ICON} 的獎金。" />
+		<string id="UUuKSdZ7b" text="大師級的表現，{PLAYER.LINK}。砰！啪！你的隊伍打倒了他們 {OPPONENT_COUNT} 個人。觀眾愛死了。你們也掙到了 {PRIZE}{GOLD_ICON} 的獎金。" />
+		<string id="GLYFl5ImO" text="來，讓我好好瞧瞧你這位奇才，{PLAYER.LINK}。這樣哪天我才能告訴我的孩子，真正的宗師長什麼樣子...{COMPANION.LINK}竟然一口氣打敗了 {OPPONENT_COUNT} 個人！不可思議！噢，當然，這表示我欠你 {PRIZE}{GOLD_ICON} 的獎金。" />
+		<string id="aDC8zdCmt" text="來，讓我好好瞧瞧你，{PLAYER.LINK}。這樣哪天我才能告訴我的孩子，真正的宗師長什麼樣子！你竟然一口氣打敗了 {OPPONENT_COUNT} 個人！不可思議！噢，當然，你也替自己掙到了 {PRIZE}{GOLD_ICON} 的獎金。" />
+		<string id="b42weJbT2" text="這才叫團隊合作！你的隊伍竟然一口氣打敗了 {OPPONENT_COUNT} 個人！不可思議！你們掙到了 {PRIZE}{GOLD_ICON} 的獎金，每一枚錢幣都是你們應得的。" />
+		<string id="YL3QBzHns" text="恭喜，{PLAYER.LINK}，{COMPANION.LINK}奪冠了！{?COMPANION.GENDER}她{?}他{\?}在場上那一戰真叫人難忘！身為最後一個站著的人，{COMPANION.LINK}贏得了頭獎：{PRIZE}{GOLD_ICON}。" />
+		<string id="DwOtDP6SQ" text="恭喜，{PLAYER.LINK}，你的隊伍奪冠了！身為最後站著的人，你們贏得了頭獎：{PRIZE}{GOLD_ICON}。" />
+		<string id="dKWMj58Bq" text="恭喜，{PLAYER.LINK}，{COMPANION.LINK}奪冠了！{?COMPANION.GENDER}她{?}他{\?}在場上那一戰真叫人難忘！身為最後一個站著的人，{COMPANION.LINK}當然贏得了頭獎：{PRIZE}{GOLD_ICON}，其中包括擊倒 {OPPONENT_COUNT} 名對手的 {VALOR_PRIZE}{GOLD_ICON}。" />
+		<string id="nZ1Ar0MOd" text="恭喜你，冠軍！你在場上那一戰真叫人難忘！身為最後一個站著的人，你當然贏得了頭獎：{PRIZE}{GOLD_ICON}，其中包括擊倒 {OPPONENT_COUNT} 名對手的 {VALOR_PRIZE}{GOLD_ICON}。" />
+		<string id="UISWBTRY2" text="恭喜，{PLAYER.LINK}，你的隊伍奪冠了！這一戰真叫人難忘！身為最後站著的人，你們當然贏得了頭獎：{PRIZE}{GOLD_ICON}，其中包括擊倒 {OPPONENT_COUNT} 名對手的 {VALOR_PRIZE}{GOLD_ICON}。" />
+		<string id="YZcU0ocKX" text="恭喜，{PLAYER.LINK}，{COMPANION.LINK}奪冠了！{?COMPANION.GENDER}她{?}他{\?}在場上那一戰肯定叫人忘不了！身為最後一個站著的人，{COMPANION.LINK}贏得了頭獎：{PRIZE}{GOLD_ICON}，其中包括擊倒 {OPPONENT_COUNT} 名對手的 {VALOR_PRIZE}{GOLD_ICON}。我得說，這場打得真精彩，觀眾愛得不得了，所以這裡的每一枚錢幣都是你這位英雄應得的，朋友。" />
+		<string id="oYDKCzkid" text="恭喜你，冠軍！你在場上那一戰真叫人難忘！身為最後一個站著的人，你當然贏得了頭獎：{PRIZE}{GOLD_ICON}，其中包括擊倒 {OPPONENT_COUNT} 名對手的 {VALOR_PRIZE}{GOLD_ICON}。我得說，這場打得真精彩，觀眾愛得不得了，所以這裡的每一枚錢幣都是你應得的，朋友。" />
+		<string id="TFRz8p0Z6" text="恭喜，{PLAYER.LINK}，你的隊伍奪冠了！這一戰肯定叫人忘不了！身為最後站著的人，你們贏得了頭獎：{PRIZE}{GOLD_ICON}，其中包括擊倒 {OPPONENT_COUNT} 名對手的 {VALOR_PRIZE}{GOLD_ICON}。我得說，這場打得真精彩，觀眾愛得不得了，所以這裡的每一枚錢幣都是你和你的手下應得的，朋友。" />
+		<string id="6bnQLhQQB" text="恭喜，{PLAYER.LINK}，{COMPANION.LINK}奪冠了！{?COMPANION.GENDER}她{?}他{\?}在場上那一戰真叫人難忘！{COMPANION.LINK}不只是最後一個站著的人，還打得像頭猛獸，因此贏得了標準頭獎的兩倍：{PRIZE}{GOLD_ICON}。" />
+		<string id="dKdBMUgOL" text="恭喜你，冠軍！你在場上那一戰真叫人難忘！你不只是最後一個站著的人，還打得像頭猛獸，因此贏得了標準頭獎的兩倍：{PRIZE}{GOLD_ICON}。" />
+		<string id="phgJ8tmZV" text="恭喜，{PLAYER.LINK}，你的隊伍奪冠了！這一戰真叫人難忘！你們不只是最後站著的人，還打得像一群猛獸，因此贏得了標準頭獎的兩倍：{PRIZE}{GOLD_ICON}。" />
+		<string id="41XqfyWOi" text="恭喜，{PLAYER.LINK}，{COMPANION.LINK}奪冠了！而且{?COMPANION.GENDER}她{?}他{\?}在場上那一戰真叫人難忘！{COMPANION.LINK}不只是最後一個站著的人，還打得像個真正的英雄，因此贏得了標準頭獎的三倍：{PRIZE}{GOLD_ICON}。" />
+		<string id="BtSwRTvu9" text="恭喜你，冠軍！你在場上那一戰真叫人難忘！你不只是最後一個站著的人，還打得像個真正的英雄，因此贏得了標準頭獎的三倍：{PRIZE}{GOLD_ICON}。" />
+		<string id="PgMuEBsXX" text="恭喜，{PLAYER.LINK}，你的隊伍奪冠了！這一戰真叫人難忘！你們不只是最後站著的人，還打得像真正的英雄，因此贏得了標準頭獎的三倍：{PRIZE}{GOLD_ICON}。" />
+		<string id="KPp4pG1Ky" text="恭喜，{PLAYER.LINK}，{COMPANION.LINK}奪冠了！我的天，{?COMPANION.GENDER}她{?}他{\?}在場上那一戰真叫人難忘！{COMPANION.LINK}{?COMPANION.GENDER}女士{?}先生{\?}親手解決了足足一半的參賽者，因此掙到了一般冠軍獎金的四倍！拿去吧，{PRIZE}{GOLD_ICON}。[if:convo_merry]" />
+		<string id="I2A8Heq2r" text="恭喜你，冠軍！你在場上那一戰真叫人難忘！你親手解決了足足一半的參賽者，因此掙到了一般冠軍獎金的四倍！拿去吧，{PRIZE}{GOLD_ICON}。[if:convo_merry]" />
+		<string id="gmzDTwOFX" text="恭喜，{PLAYER.LINK}，你的隊伍奪冠了！這一戰肯定叫人忘不了！你的手下解決了足足一半的參賽者，因此掙到了一般冠軍獎金的四倍！拿去吧，{PRIZE}{GOLD_ICON}。[if:convo_merry]" />
+		<string id="XdkGt7jFa" text="嘿，{PLAYER.LINK}，場上那可是真正宗師才有的身手！能請到{COMPANION.LINK}這樣的鬥士在這裡出賽，是我的榮幸。憑這番出色的表現，{?COMPANION.GENDER}她{?}他{\?}贏得了 {PRIZE}{GOLD_ICON} 的豐厚獎金。[if:convo_merry]" />
+		<string id="3yLYLKZYW" text="恭喜你，宗師！能請到你這樣的鬥士在這裡出賽，是我的榮幸。憑這番出色的表現，你贏得了 {PRIZE}{GOLD_ICON} 的豐厚獎金。[if:convo_merry]" />
+		<string id="uU3Ya5GfN" text="嘿，{PLAYER.LINK}，場上那一幕值得譜成歌謠！或者寫成傳說。能請到這樣的鬥士在我這座小小的競技場出賽，是我的榮幸。憑這番出色的表現，你們贏得了 {PRIZE}{GOLD_ICON} 的豐厚獎金。[if:convo_merry]" />
+		<string id="k0kOwkWzO" text="你跟我說你的手下需要練習格擋，可是照我在場上看到的，{COMPANION.LINK}好像更想把我的鬥士痛揍一頓。我勸你叫{?COMPANION.GENDER}她{?}他{\?}開始多用心在防守和反擊上，不然就別再拿這種胡鬧來浪費我的時間。[ib:closed][if:convo_confused_annoyed]" />
+		<string id="6vlrvSbAY" text="你跟我說你需要練習格擋，可是照我在場上看到的，你好像更想把我的鬥士痛揍一頓。我勸你開始多用心在防守和反擊上，不然就別再拿這種胡鬧來浪費我的時間。[ib:closed][if:convo_confused_annoyed]" />
+		<string id="VGOnRoQck" text="照我剛才看到的，{COMPANION.LINK}確實需要練練格擋。我建議我們繼續。[ib:weary][if:convo_confused_normal]" />
+		<string id="y508NVoOc" text="照我剛才看到的，你確實需要練練格擋。我建議你繼續練。[ib:weary][if:convo_confused_normal]" />
+		<string id="0taUkpCCP" text="嗯，{COMPANION.LINK}在場上差一點就成了，但{?COMPANION.GENDER}她{?}他{\?}得習慣更長時間保持專注才行。[if:convo_approving]" />
+		<string id="fdxZnnGSu" text="嗯，你在場上差一點就成了，但你得習慣更長時間保持專注才行。[if:convo_approving]" />
+		<string id="wDLRbc8Mh" text="{COMPANION.LINK}在場上表現得夠好了。但你要是想讓{?COMPANION.GENDER}她{?}他{\?}真正精通近身戰，{?COMPANION.GENDER}她{?}他{\?}就得學會格擋與反擊一氣呵成，並且更常使出這一招。這樣{?COMPANION.GENDER}她{?}他{\?}才會成為一個不容小覷的鬥士。[ib:warrior][if:convo_thinking]" />
+		<string id="N0ok57asq" text="你在場上表現得夠好了。但你要是想真正精通近身戰，就得學會格擋與反擊一氣呵成，並且更常使出這一招。這樣你才會成為一個不容小覷的鬥士。[ib:warrior][if:convo_thinking]" />
+		<string id="cvThaH27b" text="我得說，撐住的那段時間表現確實令人刮目相看，但要是在真正的戰鬥中，你這位徒弟終究難逃一死。{COMPANION.LINK}得鍛鍊{?COMPANION.GENDER}她自己{?}他自己{\?}，把專注維持得更久。[ib:weary][if:convo_approving]" />
+		<string id="rJa1PaPJs" text="我得說，撐住的那段時間表現確實令人刮目相看，但要是在真正的戰鬥中，你終究難逃一死。你得鍛鍊自己，把專注維持得更久。[ib:weary][if:convo_approving]" />
+		<string id="KvdHaGhag" text="{COMPANION.LINK}在場上表現得真不錯。不過，就像我先前說的，這場比賽沒有獎賞。[if:convo_approving]" />
+		<string id="rcLuSrtwD" text="你在場上表現得不錯。不過，就像我先前說的，這場比賽沒有獎賞。[if:convo_approving]" />
+		<string id="aGr4Lb6I2" text="你擊敗了幾位備受敬重的參賽者，因此獲得聲望：{RENOWN_TAKEDOWN_REWARD}" />
+		<string id="3ZgMoK2dU" text="你仍可獲得獲勝輪次的獎勵：{PER_ROUND_REWARD}" />
+		<string id="83tebCrzc" text="此外你還獲得獲勝輪次的獎勵：{PER_ROUND_REWARD}" />
+		<string id="aV0PTEzbW" text="你的獲勝輪次獎勵：{PER_ROUND_REWARD}" />
+		<string id="16t7gwMmW" text="你身為冠軍的獎金：{TOTAL_GOLD_REWARD}" />
+		<string id="gVZq43GDI" text="{LEADER_NAME}的隊伍 {TEAM_CALL_SIGN}" />
+		<string id="WA82hgPoO" text="阿爾法" />
+		<string id="bpGxcmlP6" text="貝塔" />
+		<string id="bmOsWMVsk" text="伽瑪" />
+		<string id="Tyl2ufxxy" text="德爾塔" />
+		<string id="OKSzdZMr8" text="艾普西隆" />
+		<string id="zsXVSOB4t" text="澤塔" />
+		<string id="fePbjEFQI" text="伊塔" />
+		<string id="9OZjTDg61" text="西塔" />
+		<string id="EmP3OR1tW" text="英雄的預設競技場練習設定" />
+		<string id="pJ3cqM8RV" text="競技場練習設定" />
+		<string id="bPkF9slVr" text="大型競技場練習設定" />
+		<string id="zbfho3vSj" text="格擋練習設定" />
+		<string id="igoj9leYB" text="團隊競技場練習設定" />
+		<string id="08ifYu37H" text="技術設定" />
+		<string id="RRmGS7t6x" text="錦標賽設定" />
+		<string id="C5nJgxepr" text="獎勵" />
+		<string id="oywDR1MSm" text="經驗" />
+		<string id="ZlvTL5D4T" text="物質獎勵" />
+		<string id="BCzO2WGq9" text="非物質獎勵" />
+		<string id="h6sPrqfax" text="團隊錦標賽" />
+		<string id="WnQ4qOI7d" text="相容性設定" />
+		<string id="Awg6G0iNM" text="以省錢為優先" />
+		<string id="56nUSQP2R" text="以訓練英雄為優先" />
+		<string id="gknaSzMr6" text="標準" />
+		<string id="aBVrVSioz" text="累加" />
+		<string id="TY9SqFLBs" text="倍乘" />
+		<string id="Hf3fpLNlh" text="永不" />
+		<string id="JHsRs730T" text="獎品等級可提升時" />
+		<string id="oVADnv9sb" text="獲得更好獎品的機率提高時" />
+		<string id="MwOn3n7yC" text="情況改變時" />
+		<string id="z6lpZ65aK" text="練習服" />
+		<string id="o5AcCZgOn" text="錦標賽護甲" />
+		<string id="sBnb12g7c" text="平民裝備" />
+		<string id="kKvvYWhMH" text="戰鬥裝備" />
+		<string id="RYcQyTDa5" text="僅限非獨特物品" />
+		<string id="y1RxvGxxl" text="總是，獨特坐騎除外" />
+		<string id="NsbCj2rzB" text="總是" />
+		<string id="MnVVPRkao" text="這是用來設定英雄武器配置選項的預設值。啟用後，對應的英雄可以為競技場練習賽挑選武器，而你必須為此支付一般的費用。否則，他們會和其他人一樣使用隨機武器。預設為啟用。" />
+		<string id="XQY35WleC" text="這是用來設定英雄武器配置選項的預設值。啟用後，對應的英雄只有在已設定武器偏好、且競技場內至少有一套相符的武器配置時，才會挑選練習武器。否則，他們會和其他人一樣使用隨機武器。預設為啟用。" />
+		<string id="UO3idcKCw" text="這是用來設定英雄武器配置選項的預設值。啟用後，對應的英雄為競技場練習賽挑選武器時，會優先選擇更好、更昂貴的裝備。否則，會選擇符合所設偏好的最便宜武器組合。預設為停用。" />
+		<string id="NvKLJBxsf" text="允許操控同伴英雄上場" />
+		<string id="wtKB2udZJ" text="參賽者總數" />
+		<string id="gaGpV2GcX" text="在場參賽者" />
+		<string id="0IOg4Ureb" text="在場參賽者下限" />
+		<string id="dAhEzcAlx" text="初始參賽者" />
+		<string id="vZgGTs8Nw" text="AI 隊伍" />
+		<string id="BVhryIKKF" text="允許挑選武器配置" />
+		<string id="L73kYZTnf" text="挑選武器的價格" />
+		<string id="3HviduB7g" text="練習用防具" />
+		<string id="v7NfMok7L" text="I 級英勇獎勵" />
+		<string id="AFzr1BhC4" text="II 級英勇獎勵" />
+		<string id="wjlHVn6cG" text="III 級英勇獎勵" />
+		<string id="1JAQ3hGAk" text="IV 級英勇獎勵" />
+		<string id="MHzw7JXgh" text="V 級英勇獎勵" />
+		<string id="rQHQBnmZL" text="冠軍獎金計算方式" />
+		<string id="oTOFfuU2c" text="冠軍獎金" />
+		<string id="zDfS2JtnA" text="允許觀戰者獲得經驗" />
+		<string id="9dP3VJpOG" text="經驗獲取率" />
+		<string id="wFPnd1BNA" text="啟用此選項後，你可以派一名同伴代替你參加競技場練習，並在競技場中操控該同伴。原版為停用。預設為啟用。" />
+		<string id="89f5zrS7i" text="競技場練習的參賽者總數。建議設為 3 的倍數。預設 = 30。" />
+		<string id="oqpocFdUs" text="競技場練習中同時在場的參賽者預估人數。建議設為 3 的倍數。預設 = 6。" />
+		<string id="iFjrzKw9e" text="競技場練習中同時在場的參賽者最低人數。建議設為 2 的倍數。預設 = 2。" />
+		<string id="UuSkcTQSd" text="競技場練習開始時在場的參賽者人數。任何大於 7 的數值都會讓多名鬥士在同一處一起出場。預設 = 6。" />
+		<string id="aVm0YWzg9" text="競技場練習賽中的 AI 隊伍數量。設為 0 表示與在場參賽者人數相同，可將遇到 AI 隊友聯手的機率降到最低。設為 1 表示所有人都會來打你。預設 = 0。" />
+		<string id="zGQrZqevv" text="啟用此選項後，你可以為競技場練習挑選武器。" />
+		<string id="rZH6qYOrT" text="為競技場練習挑選武器時，每一個武器階段（等級）須支付這筆金額。預設 = 10。" />
+		<string id="WW4PZP2LH" text="指定競技場練習參賽者應穿戴的護甲或服裝。除非其他模組另有更動，選擇 [錦標賽護甲] 的效果與 [戰鬥裝備] 相同。除非你有明確的目的，否則不建議更改此設定。穿上護甲雖然可能很有趣，卻會讓大多數遠程練習武器失去作用。原版為 [練習服]。預設為 [練習服]。" />
+		<string id="GrjIc6hKr" text="在競技場練習中擊敗至少 3 名鬥士的獎金。預設 = 5。" />
+		<string id="j86zigBV7" text="在競技場練習中擊敗至少 6 名鬥士的獎金。預設 = 10。" />
+		<string id="0q32VAkkg" text="在競技場練習中擊敗至少 10 名鬥士的獎金。預設 = 25。" />
+		<string id="VjGDrAK3N" text="在競技場練習中擊敗至少 20 名鬥士的獎金。預設 = 60。" />
+		<string id="ws4xpzph6" text="在競技場練習中擊敗至少 35 名鬥士的獎金。以標準參賽人數無法達成。預設 = 150。" />
+		<string id="8mGYZd0fL" text="指定競技場練習中最後站著的人該如何獎勵。標準 - 發給特別獎金。累加 - 發給特別獎金，外加已獲得的英勇獎勵。倍乘 - I 級以上每獲得一個英勇等級，就發給一份特別獎金。原版為 [標準]。預設為 [累加]。" />
+		<string id="2ovQejh10" text="在競技場練習中成為最後站著的人的基礎獎金。預設 = 250。" />
+		<string id="gGEXaGsKV" text="競技場練習賽中的經驗獲取率。原版 = 6%。預設 = 16.5%。" />
+		<string id="3xV72YIYo" text="啟用此選項後，你可以派一名同伴代替你參加大型競技場練習，並在競技場中操控該同伴。原版為停用。預設為啟用。" />
+		<string id="65Ny4vNEE" text="大型競技場練習的參賽者總數。建議設為 3 的倍數。預設 = 90。" />
+		<string id="sIQdRBwg9" text="大型競技場練習中同時在場的參賽者預估人數。建議設為 3 的倍數。預設 = 9。" />
+		<string id="ZaLfvG7eX" text="大型競技場練習中同時在場的參賽者最低人數。建議設為 2 的倍數。預設 = 4。" />
+		<string id="XwzmSDpAr" text="大型競技場練習開始時在場的參賽者人數。任何大於 7 的數值都會讓多名鬥士在同一處一起出場。預設 = 7。" />
+		<string id="VUnyu0h6n" text="大型競技場練習賽中的 AI 隊伍數量。設為 0 表示與在場參賽者人數相同，可將遇到 AI 隊友聯手的機率降到最低。設為 1 表示所有人都會來打你。預設 = 0。" />
+		<string id="9otxYlTUa" text="啟用此選項後，你可以為大型競技場練習挑選武器。" />
+		<string id="B9xXCFneS" text="為大型競技場練習挑選武器時，每一個武器階段（等級）須支付這筆金額。預設 = 10。" />
+		<string id="sLGwAxSzA" text="指定大型競技場練習參賽者應穿戴的護甲或服裝。除非其他模組另有更動，選擇 [錦標賽護甲] 的效果與 [戰鬥裝備] 相同。除非你有明確的目的，否則不建議更改此設定。穿上護甲雖然可能很有趣，卻會讓大多數遠程練習武器失去作用。預設為 [練習服]。" />
+		<string id="M7utBJV6O" text="在大型競技場練習中擊敗至少 3 名鬥士的獎金。預設 = 10。" />
+		<string id="5Zkk4IRnM" text="在大型競技場練習中擊敗至少 6 名鬥士的獎金。預設 = 20。" />
+		<string id="ivrbCerwG" text="在大型競技場練習中擊敗至少 10 名鬥士的獎金。預設 = 50。" />
+		<string id="41COOOrtk" text="在大型競技場練習中擊敗至少 20 名鬥士的獎金。預設 = 120。" />
+		<string id="aPjrww0Yz" text="在大型競技場練習中擊敗至少 35 名鬥士的獎金。預設 = 300。" />
+		<string id="aUEgf6bh5" text="指定大型競技場練習中最後站著的人該如何獎勵。標準 - 發給特別獎金。累加 - 發給特別獎金，外加已獲得的英勇獎勵。倍乘 - I 級以上每獲得一個英勇等級，就發給一份特別獎金。預設為 [累加]。" />
+		<string id="FP34ZZ1b0" text="在大型競技場練習中成為最後站著的人的基礎獎金。預設 = 500。" />
+		<string id="YyniNTgz5" text="只有英雄和 3 階以上的士兵才能參加大型競技場練習。啟用此選項後，階級較低的士兵會在同袍於競技場中成功命中和擊倒對手時獲得一些經驗。" />
+		<string id="hTHzr3Q9U" text="大型競技場練習賽中的經驗獲取率。原版 = 6%。預設 = 33.3%。" />
+		<string id="8wUeKx5yg" text="啟用格擋練習" />
+		<string id="a7I7iKCIg" text="啟用此選項後，競技場將開放格擋練習模式。原版為停用。預設為啟用。" />
+		<string id="W1eYm1Lse" text="格擋練習籌辦費用" />
+		<string id="Igd6YZwx4" text="競技場主管籌辦一場格擋練習賽所收取的費用。預設 = 200。" />
+		<string id="b1rJAny0j" text="啟用此選項後，你可以派一名同伴代替你練習格擋，並在競技場中操控該同伴。原版為停用。預設為啟用。" />
+		<string id="ZTusmPG2b" text="格擋練習的參賽者總數。預設 = 15。" />
+		<string id="vSxY7fMyJ" text="格擋練習中同時在場的參賽者預估人數。預設 = 1。" />
+		<string id="7O4BbgHHd" text="格擋練習中同時在場的參賽者最低人數。預設 = 1。" />
+		<string id="FLOs28WoN" text="格擋練習開始時在場的參賽者人數。預設 = 1。" />
+		<string id="LHppRdTLa" text="格擋練習賽中的 AI 隊伍數量。設為 1 表示所有人都會來打你。預設 = 1。" />
+		<string id="PBdkpnVB9" text="啟用此選項後，你可以為格擋練習挑選武器。" />
+		<string id="vFzDsKyOM" text="為格擋練習挑選武器時，每一個武器階段（等級）須支付這筆金額。預設 = 10。" />
+		<string id="yEovzkoTi" text="指定格擋練習參賽者應穿戴的護甲或服裝。除非其他模組另有更動，選擇 [錦標賽護甲] 的效果與 [戰鬥裝備] 相同。預設為 [戰鬥裝備]。" />
+		<string id="B0LJRZfnh" text="格擋練習賽中的經驗獲取率。原版 = 6%。預設 = 6%。" />
+		<string id="DxJKCdxsV" text="啟用團隊練習" />
+		<string id="LHCCk34mQ" text="啟用此選項後，競技場將開放團隊練習模式。原版為停用。預設為啟用。" />
+		<string id="6DKIRQm5C" text="團隊練習籌辦費用" />
+		<string id="qt2gEppSr" text="競技場主管籌辦一場團隊練習賽所收取的費用。預設 = 200。" />
+		<string id="S0i7VyEO8" text="啟用此選項後，你可以派一名同伴代替你參加團隊競技場練習，並在競技場中操控該同伴。原版為停用。預設為啟用。" />
+		<string id="L6plpq9tN" text="團隊競技場練習的參賽者總數。建議設為 3 與 AI 隊伍數量的公倍數。預設 = 300。" />
+		<string id="F5ltwpjLD" text="團隊競技場練習中同時在場的參賽者預估人數。建議設為 AI 隊伍數量的倍數。預設 = 20。" />
+		<string id="rLeEchCEv" text="團隊競技場練習中同時在場的參賽者最低人數。建議設為 2 與 AI 隊伍數量的公倍數。預設 = 12。" />
+		<string id="t7SvV15zK" text="團隊競技場練習開始時在場的參賽者人數。建議設為 AI 隊伍數量的倍數。預設 = 20。" />
+		<string id="34SB5z6kv" text="團隊競技場練習賽中的 AI 隊伍數量。設為 1 表示所有人都會來打你的隊伍。預設 = 4。" />
+		<string id="yafmF17l3" text="啟用此選項後，你可以為團隊競技場練習挑選武器。" />
+		<string id="HzpsY1I9V" text="為團隊競技場練習挑選武器時，每一個武器階段（等級）須支付這筆金額。預設 = 20。" />
+		<string id="cgjoawOu3" text="指定團隊競技場練習參賽者應穿戴的護甲或服裝。除非其他模組另有更動，選擇 [錦標賽護甲] 的效果與 [戰鬥裝備] 相同。除非你有明確的目的，否則不建議更改此設定。穿上護甲雖然可能很有趣，卻會讓大多數遠程練習武器失去作用。預設為 [練習服]。" />
+		<string id="8LHBbug9w" text="你的隊伍在團隊競技場練習中擊敗至少 30 名鬥士的獎金。預設 = 30。" />
+		<string id="EzSYzJjdR" text="你的隊伍在團隊競技場練習中擊敗至少 50 名鬥士的獎金。預設 = 60。" />
+		<string id="Z7cfjTozo" text="你的隊伍在團隊競技場練習中擊敗至少 75 名鬥士的獎金。預設 = 150。" />
+		<string id="rXdbJb3e8" text="你的隊伍在團隊競技場練習中擊敗至少 100 名鬥士的獎金。預設 = 350。" />
+		<string id="Nhslz7s3n" text="你的隊伍在團隊競技場練習中擊敗至少 135 名鬥士的獎金。預設 = 800。" />
+		<string id="Hmb8Ldjuq" text="指定團隊競技場練習中最後站著的隊伍該如何獎勵。標準 - 發給特別獎金。累加 - 發給特別獎金，外加已獲得的英勇獎勵。倍乘 - I 級以上每獲得一個英勇等級，就發給一份特別獎金。預設為 [累加]。" />
+		<string id="QItzcF4LK" text="在團隊競技場練習中成為最後站著的隊伍的基礎獎金。預設 = 1000。" />
+		<string id="Qcap6qw2T" text="只有英雄和 3 階以上的士兵才能參加團隊競技場練習。啟用此選項後，階級較低的士兵會在同袍於競技場中成功命中和擊倒對手時獲得一些經驗。" />
+		<string id="J0Okfl8Ey" text="團隊競技場練習賽中的經驗獲取率。原版 = 6%。預設 = 33.3%。" />
+		<string id="qLyrVIJoy" text="AI 隊伍 1 顏色索引" />
+		<string id="KSjkzF8uD" text="AI 隊伍 2 顏色索引" />
+		<string id="WB6siZI93" text="AI 隊伍 3 顏色索引" />
+		<string id="MftQIDNf1" text="AI 隊伍 4 顏色索引" />
+		<string id="OKS7TtFM4" text="AI 隊伍 5 顏色索引" />
+		<string id="DkLWDatCO" text="AI 隊伍 6 顏色索引" />
+		<string id="hS7XbrLGG" text="最高下注額" />
+		<string id="gQvJ8Vvsk" text="錦標賽每一輪通常允許下注的第納爾上限。原版 = 150。預設 = 500。" />
+		<string id="qPAga7DLd" text="啟用隨機化賠率" />
+		<string id="kGyR7NsKh" text="啟用此選項後，賠率會略帶隨機變化，但大體上仍以對玩家勝算的預測為依據。原版為停用。預設為啟用。" />
+		<string id="hARcKe6Jt" text="允許要人參賽" />
+		<string id="YqIOYTV0P" text="允許定居點的要人參加錦標賽。建議搭配錦標賽護甲模組使用。原版為停用。預設為啟用。" />
+		<string id="cCAOeRdmt" text="獎品重新抽選條件" />
+		<string id="CDGmDeYii" text="指定錦標賽獎品是否以及何時重新抽選。一般情況下，玩家加入錦標賽時，若參賽貴族人數自錦標賽建立以來有所變動（會影響獎品品質），獎品就會重新抽選。原版為 [情況改變時]。預設為 [永不]。" />
+		<string id="IfsaDqygk" text="啟用第納爾獎金" />
+		<string id="yVAG4f83d" text="啟用此選項後，錦標賽還會有第納爾獎金。這是在一般獎品和下注贏得的錢之外額外發放的。原版為停用。預設為啟用。" />
+		<string id="fH4Ev0UoC" text="啟用獎品隨聲望成長" />
+		<string id="1THMacQwa" text="啟用此選項後，錦標賽獎品會隨玩家的聲望提升。做法稍微不合常規，但有助於讓錦標賽在遊戲中後期仍有價值。原版為停用。預設為啟用。" />
+		<string id="lu9G6m85v" text="啟用高品質獎品" />
+		<string id="EQs8Z1eOO" text="啟用此選項後，高品質版本的物品（大師級、領主級等）可作為錦標賽獎品頒發。原版為停用。預設為啟用。" />
+		<string id="ZFv8WXbGE" text="精英獎品限定文化" />
+		<string id="ffwi4bAIs" text="指定精英錦標賽獎品是否以及何時要像基本獎品一樣，限定為符合舉辦定居點的文化。原版為 [永不]。預設為 [總是，獨特坐騎除外]。" />
+		<string id="DyNe9qH4v" text="每輪獲勝獎勵" />
+		<string id="aAquVsgYJ" text="參賽者每贏得一輪錦標賽所獲得的第納爾數量。原版 = 0。預設 = 0。" />
+		<string id="lkgaScPft" text="冠軍的聲望獎勵" />
+		<string id="GWmYOkfOs" text="錦標賽冠軍獲得的聲望數量。原版 = 3。預設 = 3。" />
+		<string id="1AR1Jq493" text="擊敗英雄的聲望獎勵" />
+		<string id="Fbt8Iewl4" text="每當錦標賽參賽者擊倒一名聲望相當或更高、或錦標賽總勝場紀錄更高的英雄時，就會獲得指定數量的聲望。整場錦標賽累計不得超過冠軍聲望獎勵的兩倍。原版 = 0。預設 = 1。" />
+		<string id="eLKi8Ptgm" text="冠軍的影響力獎勵" />
+		<string id="uYmFPwO8z" text="錦標賽冠軍若為任一王國的貴族領主，所獲得的影響力數量。原版 = 1。預設 = 10。" />
+		<string id="C5fcetmfG" text="錦標賽戰鬥中的經驗獲取率。原版 = 33%。預設 = 66.6%。" />
+		<string id="PSnYupZhT" text="啟用團隊錦標賽" />
+		<string id="qHyqXp9tK" text="新增以團隊身分報名並參加錦標賽的選項。" />
+		<string id="lDuOZkktY" text="隊伍人數下限" />
+		<string id="Nv4MJ3oXq" text="錦標賽隊伍的最少成員數。一支隊伍至少須有兩名參賽者。" />
+		<string id="Q6qQge312" text="隊伍人數上限" />
+		<string id="4q3hSTZPZ" text="錦標賽隊伍的最多成員數。一支隊伍至少須有兩名參賽者。數值互相衝突時，此設定優先於「隊伍人數下限」。" />
+		<string id="6o45aTuZi" text="隊伍數量上限" />
+		<string id="34r9jsdJq" text="一場錦標賽中的隊伍數量上限。一場錦標賽至少須有 8 支隊伍。" />
+		<string id="rzIC6zMIv" text="獲勝隊伍的積分" />
+		<string id="lA71kgTie" text="啟用後，獲勝隊伍中的每位英雄都會獲得錦標賽排行榜積分。停用時，只有隊長會獲得積分。" />
+		<string id="l2FTrzzXX" text="隊伍 1 顏色索引" />
+		<string id="jWYXBiEZp" text="隊伍 2 顏色索引" />
+		<string id="iRvUExaRI" text="隊伍 3 顏色索引" />
+		<string id="F6qBgeAOk" text="隊伍 4 顏色索引" />
+		<string id="3r3TStZPU" text="以索引值設定隊伍的旗幟顏色。可用顏色清單請參閱 https://bannerlord.party/banner-colors/ 。" />
+		<string id="Ams5ccKzh" text="只有團隊錦標賽才能選擇出賽名單。" />
+		<string id="xRkr497KP" text="以團隊身分參加" />
+		<string id="AOthHead01" text="主辦" />
+		<string id="AOthEnabl1" text="啟用錦標賽主辦" />
+		<string id="AOthEnabl2" text="在競技場選單中新增一個選項，可在目前沒有錦標賽的城鎮主辦一場錦標賽。需要花費第納爾和影響力，數額依城鎮繁榮度以及玩家的家族等級與聲望調整。預設為啟用。" />
+		<string id="AOthGold01" text="基礎第納爾花費" />
+		<string id="AOthGold02" text="主辦一場錦標賽所需的基礎第納爾數量（調整前）。預設 = 2000。" />
+		<string id="AOthInfl01" text="基礎影響力花費" />
+		<string id="AOthInfl02" text="主辦一場錦標賽所需的基礎影響力數量（依家族等級調整前）。預設 = 20。" />
+		<string id="AOthCool01" text="冷卻時間（天）" />
+		<string id="AOthCool02" text="玩家在同一座城鎮再次主辦錦標賽之前必須經過的天數。預設 = 7。" />
+		<string id="AOthAffi01" text="須與城鎮有隸屬關係" />
+		<string id="AOthAffi02" text="啟用後，玩家只能在自己的家族、所屬王國或同盟勢力擁有的城鎮主辦錦標賽。預設為啟用。" />
+		<string id="AOthMenu01" text="主辦錦標賽" />
+		<string id="AOthNoWar1" text="這座城鎮目前的狀況不適合舉辦慶典。" />
+		<string id="AOthNoAff1" text="你與這座城鎮沒有隸屬關係。" />
+		<string id="AOthCoold1" text="鎮民還沒從你上一場錦標賽中緩過來。請在 {DAYS} {?DAYS.PLURAL_FORM}天{?}天{\?}後再試。" />
+		<string id="AOthPoor01" text="在這裡主辦錦標賽需要 {GOLD}{GOLD_ICON}{?HAS_INFLUENCE} 和 {INFLUENCE} 點影響力{?}{\?}。你負擔不起。" />
+		<string id="AOthCost01" text="在這裡主辦錦標賽需要 {GOLD}{GOLD_ICON}{?HAS_INFLUENCE} 和 {INFLUENCE} 點影響力{?}{\?}。獎金總額會隨城鎮的繁榮度提高。" />
+		<string id="AOthDone01" text="你花費了 {GOLD}{GOLD_ICON}{?HAS_INFLUENCE} 和 {INFLUENCE} 點影響力{?}{\?}，在{TOWN}主辦了一場錦標賽。" />
+		<string id="AOthConf01" text="要花費 {GOLD}{GOLD_ICON}{?HAS_INFLUENCE} 和 {INFLUENCE} 點影響力{?}{\?}，在{TOWN}主辦一場錦標賽嗎？" />
+		<string id="AOthConf02" text="主辦錦標賽" />
+		<string id="AOtiHead01" text="傷勢" />
+		<string id="AOtiEnabl1" text="啟用錦標賽受傷" />
+		<string id="AOtiEnabl2" text="啟用此選項後，每位在錦標賽比賽中被擊倒出局的英雄——無論是玩家、同伴還是領主——都會損失生命值，並帶著傷勢回到戰役地圖。原版為停用。預設為啟用。" />
+		<string id="AOtiLoss01" text="每次被擊倒損失的生命值" />
+		<string id="AOtiLoss02" text="英雄在錦標賽比賽中被擊倒出局時損失的最大生命值百分比。生命值不會低於 1。預設 = 30%。" />
+		<string id="AOtiMsg001" text="你被擊倒了，損失了 {HP_LOSS} 點生命值。" />
+		<string id="Ndc21b2NO" text="練習武器配置階段數" />
+		<string id="9SY3aAtv1" text="在 ObjectManager 中搜尋的練習武器配置階段數量。除非你安裝了會更改競技場練習階段並新增對應角色模型的模組，否則請勿更改此設定。原版 = 3。預設 = 3。" />
+		<string id="DXiVYMIUL" text="切換到其他英雄" />
+		<string id="morP28atv" text="在競技場的團隊練習賽中，切換到你所選的另一位在場英雄。" />
+		<string id="NcXn6Ow7O" text="1. 家族首領" />
+		<string id="NowOsng0A" text="2. 家人" />
+		<string id="vTyduFjuF" text="3. 同伴" />
+		<string id="fFlUJjUl0" text="AO 英雄練習設定" />
+		<string id="fL485YX24" text="允許挑選武器配置" />
+		<string id="QLQYQTctQ" text="啟用此選項後，對應的英雄可以為競技場練習賽挑選武器，而你必須為此支付一般的費用。否則，他們會和其他人一樣使用隨機武器。預設值於模組的全域設定中設定。" />
+		<string id="kbL2QnpuF" text="啟用自動挑選武器配置" />
+		<string id="vGIOM104P" text="啟用此選項後，從選單進入任何競技場練習模式時，會依照此處設定的其他偏好自動為玩家選擇武器配置。預設值於模組的全域設定中設定。" />
+		<string id="zC7CG8kwF" text="僅限優先武器配置" />
+		<string id="ieRmdET16" text="啟用此選項後，對應的英雄只有在已設定武器偏好、且競技場內至少有一套相符的武器配置時，才會挑選練習武器。否則，他們會和其他人一樣使用隨機武器。預設值於模組的全域設定中設定。" />
+		<string id="JidAUNLNo" text="啟用此選項後，只有在已設定武器偏好、且競技場內至少有一套相符的武器配置時，才會為玩家自動選擇武器配置。否則，玩家會照常使用隨機武器。預設值於模組的全域設定中設定。" />
+		<string id="cWdhDpsOS" text="優先選擇昂貴裝備" />
+		<string id="YwbIZExy1" text="啟用此選項後，對應的英雄為競技場練習賽挑選武器時，會優先選擇更好、更昂貴的裝備。否則，會選擇符合所設偏好的最便宜武器組合。預設值於模組的全域設定中設定。" />
+		<string id="Wse8QGJyQ" text="啟用此選項後，為玩家自動選擇武器配置時，會優先選擇更好、更昂貴的裝備。否則，會選擇符合所設偏好的最便宜武器組合。預設值於模組的全域設定中設定。" />
+		<string id="G2IdbqB8p" text="第一優先" />
+		<string id="ZWh07gP41" text="指定對應英雄最優先訓練的武器技能。只要有的話，這位英雄一定會選擇含有該技能所用武器的武器配置。預設為 [無]。" />
+		<string id="DOGp7LBDe" text="指定玩家角色最優先訓練的武器技能。只要有的話，一定會選擇含有該技能所用武器的武器配置。預設為 [無]。" />
+		<string id="bcgL8E4Ol" text="第二優先" />
+		<string id="Yideeiww5" text="指定對應英雄第二優先訓練的武器技能。如果有含該技能所用武器的武器配置，且沒有優先順序更高的選擇，這位英雄就會選擇它。預設為 [無]。" />
+		<string id="bhSUfmKir" text="指定玩家角色第二優先訓練的武器技能。如果有含該技能所用武器的武器配置，且沒有優先順序更高的選擇，就會選擇它。預設為 [無]。" />
+		<string id="t45rwWZc5" text="第三優先" />
+		<string id="lHiP6Z2Qo" text="指定對應英雄第三優先訓練的武器技能。如果有含該技能所用武器的武器配置，且沒有優先順序更高的選擇，這位英雄就會選擇它。預設為 [無]。" />
+		<string id="IP7JZx9bb" text="指定玩家角色第三優先訓練的武器技能。如果有含該技能所用武器的武器配置，且沒有優先順序更高的選擇，就會選擇它。預設為 [無]。" />
+		<string id="6SD77Zo1C" text="無" />
+		<string id="7OL4eTdan" text="單手武器" />
+		<string id="rvCVOGi0s" text="雙手武器" />
+		<string id="bDnJRrfRH" text="長桿武器" />
+		<string id="KZt7cDhKn" text="弓" />
+		<string id="s0JLnYAxx" text="弩" />
+		<string id="CvVDmEhou" text="投擲武器" />
+		<string id="AOgtHead01" text="大錦標賽與王國錦標賽" />
+		<string id="AOgtSprg01" text="春季" />
+		<string id="AOgtSumr01" text="夏季" />
+		<string id="AOgtAutm01" text="秋季" />
+		<string id="AOgtWntr01" text="冬季" />
+		<string id="AOgtEnab01" text="啟用一年一度的大錦標賽" />
+		<string id="AOgtEnab02" text="每年一次，來自卡拉迪亞各地、名列競技場排行榜前茅的最強領主會受召參加一場一對一的大錦標賽，地點在排行榜榜首領主所屬王國的首都。領主無論身在地圖何處都會出席。預設為啟用。" />
+		<string id="AOgtKEna01" text="啟用季節性王國錦標賽" />
+		<string id="AOgtKEna02" text="每個季節，各王國都會在首都為自己的封臣領主舉辦一場一對一錦標賽。所有王國都在同一天舉辦；玩家只能參加自己所屬王國的錦標賽。大錦標賽會取代其所在季節的王國錦標賽。預設為啟用。" />
+		<string id="AOgtSeas01" text="大錦標賽季節" />
+		<string id="AOgtSeas02" text="一年之中舉辦大錦標賽的季節。預設為春季。" />
+		<string id="AOgtGDay01" text="大錦標賽在季節中的日期" />
+		<string id="AOgtGDay02" text="大錦標賽在該季節的第幾天開幕。預設 = 11。" />
+		<string id="AOgtKDay01" text="王國錦標賽在季節中的日期" />
+		<string id="AOgtKDay02" text="王國錦標賽在該季節的第幾天開幕。預設 = 11。" />
+		<string id="AOgtAnnD01" text="提前公告天數" />
+		<string id="AOgtAnnD02" text="錦標賽在開幕前幾天公告並出現在主辦城鎮。開幕之前無法參加或觀賽。預設 = 7。" />
+		<string id="AOgtDura01" text="持續天數" />
+		<string id="AOgtDura02" text="錦標賽開始後持續開放的天數。若玩家屆時仍未參加，則會以模擬方式決出結果。預設 = 2。" />
+		<string id="AOgtLege01" text="傳奇品質獎品" />
+		<string id="AOgtLege02" text="獎品為優勝者所屬文化的高階武器或護甲，並帶有該類型所能擁有的最佳品質（武器為傳奇）。絕不會提供坐騎。預設為啟用。" />
+		<string id="AOgtGold01" text="大錦標賽第納爾獎金" />
+		<string id="AOgtGold02" text="在一般錦標賽獎勵之外，額外頒給大錦標賽優勝者的第納爾。預設 = 100000。" />
+		<string id="AOgtReno01" text="大錦標賽聲望獎勵" />
+		<string id="AOgtReno02" text="在一般錦標賽獎勵之外，額外頒給大錦標賽優勝者的聲望。預設 = 50。" />
+		<string id="AOgtInfl01" text="大錦標賽影響力獎勵" />
+		<string id="AOgtInfl02" text="大錦標賽優勝者若隸屬於某個王國，所獲頒的影響力。預設 = 300。" />
+		<string id="AOgtGWgt01" text="大錦標賽排行榜權重" />
+		<string id="AOgtGWgt02" text="贏得一場大錦標賽在排行榜上算作幾場勝利。預設 = 3。" />
+		<string id="AOgtKWgt01" text="王國錦標賽排行榜權重" />
+		<string id="AOgtKWgt02" text="贏得一場王國錦標賽在排行榜上算作幾場勝利。預設 = 2。" />
+		<string id="AOgtKPct01" text="王國錦標賽獎勵（大錦標賽的 %）" />
+		<string id="AOgtKPct02" text="王國錦標賽的第納爾、聲望與影響力獎勵，以大錦標賽數值的百分比計算。預設 = 40。" />
+		<string id="AOgtMenuG1" text="來自卡拉迪亞各地的競技場排行榜冠軍已齊聚{TOWN}，參加大錦標賽。優勝者將獲頒「{TOURNAMENT_PRIZE}」，以及與這場盛事相稱的第納爾、聲望與影響力。" />
+		<string id="AOgtMenuK1" text="{KINGDOM}最出色的鬥士已齊聚{TOWN}，參加王國的季節錦標賽。優勝者將獲頒「{TOURNAMENT_PRIZE}」，以及與這場盛事相稱的第納爾、聲望與影響力。" />
+		<string id="AOgtAnn001" text="卡拉迪亞大錦標賽將在{TOWN}舉行{?DAYS}，{DAYS} {?DAYS.PLURAL_FORM}天{?}天{\?}後開幕{?}{\?}。競技場排行榜上最出色的鬥士已受到召集。" />
+		<string id="AOgtAnn002" text="{KINGDOM}將在{TOWN}舉辦季節錦標賽{?DAYS}，{DAYS} {?DAYS.PLURAL_FORM}天{?}天{\?}後開幕{?}{\?}。" />
+		<string id="AOgtLock01" text="大錦標賽將在 {DAYS} {?DAYS.PLURAL_FORM}天{?}天{\?}後開始。各路冠軍仍在陸續抵達。" />
+		<string id="AOgtLock02" text="王國錦標賽將在 {DAYS} {?DAYS.PLURAL_FORM}天{?}天{\?}後開始。參賽者仍在陸續抵達。" />
+		<string id="AOgtLock03" text="只有{KINGDOM}的封臣領主才能參加這場錦標賽。" />
+		<string id="AOgtWin001" text="{WINNER}在{TOWN}贏得了{KINGDOM}的季節錦標賽。" />
+		<string id="AOgtWin002" text="{WINNER}在{TOWN}贏得了卡拉迪亞大錦標賽！" />
+		<string id="AOgtPopA01" text="公告時顯示地圖通知" />
+		<string id="AOgtPopA02" text="當大錦標賽或玩家可參加的王國錦標賽公告時，顯示地圖通知。點擊可查看詳情並跳轉至主辦城鎮。預設為啟用。" />
+		<string id="AOgtPopR01" text="結果揭曉時顯示地圖通知" />
+		<string id="AOgtPopR02" text="當大錦標賽或玩家可參加的王國錦標賽結束時，顯示公布優勝者的地圖通知。預設為啟用。" />
+		<string id="AOgtKInt01" text="王國錦標賽間隔（季）" />
+		<string id="AOgtKInt02" text="王國錦標賽之間相隔幾個季節。無法整除 4 的數值會讓錦標賽在各季節間輪替。當王國錦標賽恰逢大錦標賽的季節時，由大錦標賽取代。預設 = 3。" />
+		<string id="sotK7sewA" text="就在附近" />
+		<string id="J5jTiUvt8" text="離這裡不算遠" />
+		<string id="ULKHRKsSV" text="離這裡有點遠" />
+		<string id="2JXPNLOm3" text="離這裡非常遠" />
+		<string id="AOgtNtf004" text="王國錦標賽落幕" />
+		<string id="AOgtNtf003" text="大錦標賽落幕" />
+		<string id="AOgtNtf002" text="{KINGDOM}錦標賽" />
+		<string id="AOgtNtf001" text="卡拉迪亞大錦標賽" />
+		<string id="AOgtNtf013" text="{CLAN}家族的{WINNER}贏得了在{TOWN}舉行的{KINGDOM}季節錦標賽，獲得「{PRIZE}」以及 {GOLD}{GOLD_ICON}、{RENOWN} 點聲望和 {INFLUENCE} 點影響力。" />
+		<string id="AOgtNtf012" text="{CLAN}家族的{WINNER}力壓卡拉迪亞最出色的鬥士，贏得了在{TOWN}舉行的大錦標賽，獲得「{PRIZE}」以及 {GOLD}{GOLD_ICON}、{RENOWN} 點聲望和 {INFLUENCE} 點影響力。" />
+		<string id="AOgtNtf009" text="{KINGDOM}的封臣領主已受召前往{TOWN}，參加王國的季節錦標賽。錦標賽將在 {DAYS} {?DAYS.PLURAL_FORM}天{?}天{\?}後開幕，並持續開放 {DURATION} {?DURATION.PLURAL_FORM}天{?}天{\?}。優勝者將獲頒「{PRIZE}」。" />
+		<string id="AOgtNtf007" text="來自卡拉迪亞各地的競技場排行榜冠軍已受召前往{TOWN}。大錦標賽將在 {DAYS} {?DAYS.PLURAL_FORM}天{?}天{\?}後開幕，並持續開放 {DURATION} {?DURATION.PLURAL_FORM}天{?}天{\?}。優勝者將獲頒「{PRIZE}」。" />
+		<string id="AOgtNtf010" text="{KINGDOM}的季節錦標賽正在{TOWN}舉行，還會開放 {DAYS} {?DAYS.PLURAL_FORM}天{?}天{\?}。優勝者將獲頒「{PRIZE}」。" />
+		<string id="AOgtNtf008" text="大錦標賽正在{TOWN}舉行，還會開放 {DAYS} {?DAYS.PLURAL_FORM}天{?}天{\?}。優勝者將獲頒「{PRIZE}」。" />
+		<string id="AOgtNtf011" text="在{TOWN}舉行的錦標賽已經落幕。" />
+		<string id="AOgtNtf005" text="於{TOWN}公告" />
+		<string id="AOgtNtf006" text="{WINNER}在{TOWN}奪冠" />
+		<string id="AOR_m3XpR8d" text="這位英雄尚未上場，排在第 {QUEUE_NUMBER} 位等候進入競技場。" />
+		<string id="AOgtWon002" text="你在決賽中擊敗{TOURNAMENT_FINAL_OPPONENT}，贏得了{KINGDOM}的季節錦標賽。" />
+		<string id="AOgtWon001" text="你在決賽中擊敗{TOURNAMENT_FINAL_OPPONENT}，贏得了卡拉迪亞大錦標賽。" />
+		<string id="AOgtTitle002" text="{KINGDOM}季節錦標賽" />
+		<string id="AOgtTitle001" text="卡拉迪亞大錦標賽" />
+		<string id="AOgtNtf015" text="關閉" />
+		<string id="AOgtNtf014" text="在地圖上顯示" />
+		<string id="AOR_J5sWy1F" text="正在等候{HERO.NAME}進入競技場。{?HERO.GENDER}她{?}他{\?}排在第 {POSITION_IN_LINE} 位。" />
+		<string id="AOR_q7Hn2Lw" text="除錯日誌" />
+		<string id="AOR_Vz4kT9c" text="除錯日誌（僅限英文）。[ 預設：停用 ]" />
+	</strings>
+</base>

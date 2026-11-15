@@ -1,0 +1,225 @@
+[center][size=4][color=#93c47d]New arena practice modes[/color], [color=#93c47d]team tournaments[/color], the [color=#93c47d]Grand Tournament of Calradia[/color], better tournament rewards and many adjustable arena settings.[/size]
+[i][color=#93c47d]The idea and original code are by [/color][color=#ffff00]artifixer[/color][color=#93c47d], with contributions by [/color][color=#ffff00]Aragas[/color][color=#93c47d] and [/color][color=#ffff00]eg3r[/color][color=#93c47d] - I keep it working on the latest game versions and add new features.[/color][/i]
+Original [url=https://www.nexusmods.com/mountandblade2bannerlord/mods/3477]Arena Overhaul[/url] mod page.
+
+[color=#93c47d][size=3]Supported game versions: 1.5.7, 1.4.8, 1.4.7.[/size][/color]
+
+[img]https://i.ibb.co/Pvr7Lp8B/AOMain-Logo.png[/img]
+
+[img]https://i.ibb.co/fd1B0KP5/Nexus-Desc.jpg[/img][/center]
+
+[color=#ffff00][size=4]Features[/size][/color]
+[color=#ffd966]Expansive Practice - longer and more intense fights, better rewards and an optional way to train your party troops.[/color]
+[color=#93c47d]Team Practice - even more intense fights where you fight together with your clan heroes as a team.[/color] ([color=#6aa84f]on[/color]/[color=#e06666]off[/color])
+[color=#ffd966]Parry Practice - helps you practice parrying and chamber blocking.[/color] ([color=#6aa84f]on[/color]/[color=#e06666]off[/color])
+[color=#93c47d]Fight as a companion in any Arena Practice mode.[/color] ([color=#6aa84f]on[/color]/[color=#e06666]off[/color])
+[color=#ffd966]Weapon preferences for companions and other clan heroes in Arena Practice, so they train the combat skills you want them to train.[/color]
+[color=#93c47d]Many adjustable arena practice settings: match length and intensity, number of AI teams, type of defensive equipment.[/color]
+[color=#ffd966]Choose your weapon loadout for arena practice fights (idea and some parts of implementation taken from mewhi's Arena Expansion mod).[/color] ([color=#6aa84f]on[/color]/[color=#e06666]off[/color])
+[color=#93c47d]List of ongoing tournaments in the arena menu (idea and some parts of implementation taken from Operation40's Arena Helper mod).[/color]
+[color=#ffd966]Many adjustable tournament reward settings. The defaults keep tournaments rewarding through the whole game while staying balanced.[/color]
+[color=#93c47d]High quality items (fine, masterwork, lordly, etc) as tournament prizes.[/color] ([color=#6aa84f]on[/color]/[color=#e06666]off[/color])
+[color=#ffd966]Everyone receives all the tournament rewards, player or not. In vanilla, AI got no renown or influence rewards.[/color]
+[color=#93c47d]Team tournaments (idea and implementation by eg3r - thank you for the contribution!).[/color] ([color=#6aa84f]on[/color]/[color=#e06666]off[/color])
+[color=#ffd966]Adjustable XP gain for arena practice and tournaments.[/color]
+[color=#93c47d]Tournament injuries - every hero knocked out of a tournament match (player, companions and lords alike) loses hit points and carries that injury back onto the campaign map.[/color] ([color=#6aa84f]on[/color]/[color=#e06666]off[/color])
+[color=#ffd966]Tournament hosting - host your own tournament in a town that currently has none. Costs gold and influence scaled by town prosperity and your clan standing, with adjustable cooldown and affiliation requirements.[/color] ([color=#6aa84f]on[/color]/[color=#e06666]off[/color])
+[color=#93c47d]Yearly Grand Tournament of Calradia and seasonal Kingdom Tournaments - 1v1 bracket events held in the capital, where the strongest lords of the arena leaderboard are summoned from all over the map. Legendary quality prizes, big gold, renown and influence rewards.[/color] ([color=#6aa84f]on[/color]/[color=#e06666]off[/color])
+[color=#ffd966]Map popup notifications for Grand and Kingdom Tournament announcements and results. Click the popup for details and to jump to the host town.[/color] ([color=#6aa84f]on[/color]/[color=#e06666]off[/color])
+[color=#93c47d]Works with or without Mod Configuration Menu.[/color]
+[color=#ffd966]Translations for 12 languages.[/color]
+
+[center][color=#6fa8dc][size=4]Additional languages included (using copilot ai translation)[/size][/color]
+Português (BR), 简体中文, 繁體中文, Deutsch, Français, Italiano, 日本語, 한국어, Polski, Русский, Español (LA), Türkçe[/center]
+
+[color=#ffff00][size=4]Settings[/size][/color]
+[color=#6fa8dc]Default Arena Practice settings for heroes[/color]
+[color=#ffd966]Enable loadout choice[/color] - default [color=#6aa84f]on[/color]
+[color=#ffd966]Only priority loadouts[/color] - default [color=#6aa84f]on[/color]
+[color=#ffd966]Prioritize expensive equipment[/color] - default [color=#e06666]off[/color]
+[color=#6fa8dc]Arena Practice settings[/color]
+[color=#ffd966]Enable playing as a companion hero[/color] - default [color=#6aa84f]on[/color]
+[color=#ffd966]Total participants[/color] - 10 to 150, default [color=#93c47d]30[/color]
+[color=#ffd966]Active participants[/color] - 1 to 21, default [color=#93c47d]6[/color]
+[color=#ffd966]Active participants minimum[/color] - 1 to 10, default [color=#93c47d]2[/color]
+[color=#ffd966]Initial participants[/color] - 1 to 15, default [color=#93c47d]6[/color]
+[color=#ffd966]AI teams[/color] - 0 to 21, default [color=#93c47d]0[/color]
+[color=#ffd966]Enable loadout choice[/color] - default [color=#6aa84f]on[/color]
+[color=#ffd966]Price for picking weapons[/color] - 0 to 100, default [color=#93c47d]10[/color]
+[color=#ffd966]Defensive practice equipment[/color] - Practice clothes / Tournament armor / Civilian equipment / Battle equipment, default [color=#93c47d]Practice clothes[/color]
+[color=#6fa8dc]Arena Practice settings / Rewards[/color]
+[color=#ffd966]Valor reward class I[/color] - 0 to 50, default [color=#93c47d]5[/color]
+[color=#ffd966]Valor reward class II[/color] - 0 to 100, default [color=#93c47d]10[/color]
+[color=#ffd966]Valor reward class III[/color] - 0 to 250, default [color=#93c47d]25[/color]
+[color=#ffd966]Valor reward class IV[/color] - 0 to 600, default [color=#93c47d]60[/color]
+[color=#ffd966]Valor reward class V[/color] - 0 to 1500, default [color=#93c47d]150[/color]
+[color=#ffd966]Champion prize calculation[/color] - Standard / Additive / Multiplicative, default [color=#93c47d]Additive[/color]
+[color=#ffd966]Champion prize[/color] - 0 to 2500, default [color=#93c47d]250[/color]
+[color=#6fa8dc]Arena Practice settings / Experience[/color]
+[color=#ffd966]Experience gain rate[/color] - 0% to 100%, default [color=#93c47d]16.5%[/color]
+[color=#6fa8dc]Expansive Arena Practice settings[/color]
+[color=#ffd966]Enable playing as a companion hero[/color] - default [color=#6aa84f]on[/color]
+[color=#ffd966]Total participants[/color] - 10 to 300, default [color=#93c47d]90[/color]
+[color=#ffd966]Active participants[/color] - 1 to 30, default [color=#93c47d]9[/color]
+[color=#ffd966]Active participants minimum[/color] - 1 to 20, default [color=#93c47d]4[/color]
+[color=#ffd966]Initial participants[/color] - 1 to 15, default [color=#93c47d]7[/color]
+[color=#ffd966]AI teams[/color] - 0 to 30, default [color=#93c47d]0[/color]
+[color=#ffd966]Enable loadout choice[/color] - default [color=#6aa84f]on[/color]
+[color=#ffd966]Price for picking weapons[/color] - 0 to 100, default [color=#93c47d]10[/color]
+[color=#ffd966]Defensive practice equipment[/color] - Practice clothes / Tournament armor / Civilian equipment / Battle equipment, default [color=#93c47d]Practice clothes[/color]
+[color=#6fa8dc]Expansive Arena Practice settings / Rewards[/color]
+[color=#ffd966]Valor reward class I[/color] - 0 to 50, default [color=#93c47d]10[/color]
+[color=#ffd966]Valor reward class II[/color] - 0 to 100, default [color=#93c47d]20[/color]
+[color=#ffd966]Valor reward class III[/color] - 0 to 250, default [color=#93c47d]50[/color]
+[color=#ffd966]Valor reward class IV[/color] - 0 to 600, default [color=#93c47d]120[/color]
+[color=#ffd966]Valor reward class V[/color] - 0 to 1500, default [color=#93c47d]300[/color]
+[color=#ffd966]Champion prize calculation[/color] - Standard / Additive / Multiplicative, default [color=#93c47d]Additive[/color]
+[color=#ffd966]Champion prize[/color] - 0 to 2500, default [color=#93c47d]500[/color]
+[color=#6fa8dc]Expansive Arena Practice settings / Experience[/color]
+[color=#ffd966]Enable experience gain for viewers[/color] - default [color=#6aa84f]on[/color]
+[color=#ffd966]Experience gain rate[/color] - 0% to 100%, default [color=#93c47d]33.3%[/color]
+[color=#6fa8dc]Parry Practice settings[/color]
+[color=#ffd966]Enable parry practice[/color] - default [color=#6aa84f]on[/color]
+[color=#ffd966]Parry practice setup cost[/color] - 0 to 1000, default [color=#93c47d]200[/color]
+[color=#ffd966]Enable playing as a companion hero[/color] - default [color=#6aa84f]on[/color]
+[color=#ffd966]Total participants[/color] - 3 to 30, default [color=#93c47d]15[/color]
+[color=#ffd966]Active participants[/color] - 1 to 5, default [color=#93c47d]1[/color]
+[color=#ffd966]Active participants minimum[/color] - 1 to 5, default [color=#93c47d]1[/color]
+[color=#ffd966]Initial participants[/color] - 1 to 5, default [color=#93c47d]1[/color]
+[color=#ffd966]AI teams[/color] - 1 to 5, default [color=#93c47d]1[/color]
+[color=#ffd966]Enable loadout choice[/color] - default [color=#6aa84f]on[/color]
+[color=#ffd966]Price for picking weapons[/color] - 0 to 100, default [color=#93c47d]10[/color]
+[color=#ffd966]Defensive practice equipment[/color] - Practice clothes / Tournament armor / Civilian equipment / Battle equipment, default [color=#93c47d]Battle equipment[/color]
+[color=#6fa8dc]Parry Practice settings / Experience[/color]
+[color=#ffd966]Experience gain rate[/color] - 0% to 100%, default [color=#93c47d]6%[/color]
+[color=#6fa8dc]Team Arena Practice settings[/color]
+[color=#ffd966]Enable team practice[/color] - default [color=#6aa84f]on[/color]
+[color=#ffd966]Team practice setup cost[/color] - 0 to 1000, default [color=#93c47d]200[/color]
+[color=#ffd966]Enable playing as a companion hero[/color] - default [color=#6aa84f]on[/color]
+[color=#ffd966]Total participants[/color] - 50 to 600, default [color=#93c47d]300[/color]
+[color=#ffd966]Active participants[/color] - 10 to 120, default [color=#93c47d]20[/color]
+[color=#ffd966]Active participants minimum[/color] - 5 to 90, default [color=#93c47d]12[/color]
+[color=#ffd966]Initial participants[/color] - 5 to 90, default [color=#93c47d]20[/color]
+[color=#ffd966]AI teams[/color] - 1 to 6, default [color=#93c47d]4[/color]
+[color=#ffd966]Enable loadout choice[/color] - default [color=#6aa84f]on[/color]
+[color=#ffd966]Price for picking weapons[/color] - 0 to 100, default [color=#93c47d]20[/color]
+[color=#ffd966]Defensive practice equipment[/color] - Practice clothes / Tournament armor / Civilian equipment / Battle equipment, default [color=#93c47d]Practice clothes[/color]
+[color=#6fa8dc]Team Arena Practice settings / Rewards[/color]
+[color=#ffd966]Valor reward class I[/color] - 0 to 50, default [color=#93c47d]30[/color]
+[color=#ffd966]Valor reward class II[/color] - 0 to 100, default [color=#93c47d]60[/color]
+[color=#ffd966]Valor reward class III[/color] - 0 to 250, default [color=#93c47d]150[/color]
+[color=#ffd966]Valor reward class IV[/color] - 0 to 600, default [color=#93c47d]350[/color]
+[color=#ffd966]Valor reward class V[/color] - 0 to 1500, default [color=#93c47d]800[/color]
+[color=#ffd966]Champion prize calculation[/color] - Standard / Additive / Multiplicative, default [color=#93c47d]Additive[/color]
+[color=#ffd966]Champion prize[/color] - 0 to 2500, default [color=#93c47d]1000[/color]
+[color=#6fa8dc]Team Arena Practice settings / Experience[/color]
+[color=#ffd966]Enable experience gain for viewers[/color] - default [color=#6aa84f]on[/color]
+[color=#ffd966]Experience gain rate[/color] - 0% to 100%, default [color=#93c47d]33.3%[/color]
+[color=#6fa8dc]Team Arena Practice settings / Technical settings[/color]
+[color=#ffd966]AI Team 1 Color Index[/color] - 0 to 157, default [color=#93c47d]83[/color]
+[color=#ffd966]AI Team 2 Color Index[/color] - 0 to 157, default [color=#93c47d]119[/color]
+[color=#ffd966]AI Team 3 Color Index[/color] - 0 to 157, default [color=#93c47d]88[/color]
+[color=#ffd966]AI Team 4 Color Index[/color] - 0 to 157, default [color=#93c47d]84[/color]
+[color=#ffd966]AI Team 5 Color Index[/color] - 0 to 157, default [color=#93c47d]82[/color]
+[color=#ffd966]AI Team 6 Color Index[/color] - 0 to 157, default [color=#93c47d]35[/color]
+[color=#6fa8dc]Tournament settings[/color]
+[color=#ffd966]Maximum bet[/color] - 100 to 1500, default [color=#93c47d]500[/color]
+[color=#ffd966]Enable randomized betting odds[/color] - default [color=#6aa84f]on[/color]
+[color=#ffd966]Allow notables participation[/color] - default [color=#6aa84f]on[/color]
+[color=#ffd966]Prize reroll condition[/color] - Never / When prize tier can be improved / When chances for better prize are improved / When situation changed, default [color=#93c47d]Never[/color]
+[color=#6fa8dc]Tournament settings / Material rewards[/color]
+[color=#ffd966]Enable gold prizes[/color] - default [color=#6aa84f]on[/color]
+[color=#ffd966]Enable prize scaling[/color] - default [color=#6aa84f]on[/color]
+[color=#ffd966]Enable high quality prizes[/color] - default [color=#6aa84f]on[/color]
+[color=#ffd966]Culture restricted elite prizes[/color] - Never / Non-unique items only / Always, except for unique mounts / Always, default [color=#93c47d]Always, except for unique mounts[/color]
+[color=#ffd966]Reward for the won round[/color] - 0 to 1000, default [color=#93c47d]0[/color]
+[color=#6fa8dc]Tournament settings / Intangible rewards[/color]
+[color=#ffd966]Renown reward for the champion[/color] - 0 to 10, default [color=#93c47d]3[/color]
+[color=#ffd966]Renown reward for defeated heroes[/color] - 0 to 5, default [color=#93c47d]1[/color]
+[color=#ffd966]Influence reward for the champion[/color] - 0 to 100, default [color=#93c47d]10[/color]
+[color=#6fa8dc]Tournament settings / Experience[/color]
+[color=#ffd966]Experience gain rate[/color] - 0% to 100%, default [color=#93c47d]66.6%[/color]
+[color=#6fa8dc]Tournament settings / Injuries[/color]
+[color=#ffd966]Enable tournament injuries[/color] - default [color=#6aa84f]on[/color]
+[color=#ffd966]Hit points lost per knockout[/color] - 5 to 100, default [color=#93c47d]30[/color]
+[color=#6fa8dc]Tournament settings / Hosting[/color]
+[color=#ffd966]Enable tournament hosting[/color] - default [color=#6aa84f]on[/color]
+[color=#ffd966]Base gold cost[/color] - 500 to 10000, default [color=#93c47d]2000[/color]
+[color=#ffd966]Base influence cost[/color] - 0 to 200, default [color=#93c47d]20[/color]
+[color=#ffd966]Cooldown in days[/color] - 0 to 60, default [color=#93c47d]7[/color]
+[color=#ffd966]Require affiliation with the town[/color] - default [color=#6aa84f]on[/color]
+[color=#6fa8dc]Tournament settings / Grand and Kingdom Tournaments[/color]
+[color=#ffd966]Enable the yearly Grand Tournament[/color] - default [color=#6aa84f]on[/color]
+[color=#ffd966]Enable seasonal kingdom tournaments[/color] - default [color=#6aa84f]on[/color]
+[color=#ffd966]Grand Tournament season[/color] - Spring / Summer / Autumn / Winter, default [color=#93c47d]Spring[/color]
+[color=#ffd966]Grand Tournament day of the season[/color] - 1 to 21, default [color=#93c47d]11[/color]
+[color=#ffd966]Kingdom tournaments day of the season[/color] - 1 to 21, default [color=#93c47d]11[/color]
+[color=#ffd966]Announcement lead time in days[/color] - 0 to 20, default [color=#93c47d]7[/color]
+[color=#ffd966]Duration in days[/color] - 1 to 7, default [color=#93c47d]2[/color]
+[color=#ffd966]Legendary quality prize item[/color] - default [color=#6aa84f]on[/color]
+[color=#ffd966]Grand Tournament gold prize[/color] - 0 to 200000, default [color=#93c47d]100000[/color]
+[color=#ffd966]Grand Tournament renown reward[/color] - 0 to 1000, default [color=#93c47d]50[/color]
+[color=#ffd966]Grand Tournament influence reward[/color] - 0 to 1000, default [color=#93c47d]300[/color]
+[color=#ffd966]Grand Tournament leaderboard weight[/color] - 1 to 10, default [color=#93c47d]3[/color]
+[color=#ffd966]Kingdom tournament leaderboard weight[/color] - 1 to 10, default [color=#93c47d]2[/color]
+[color=#ffd966]Kingdom tournament rewards, % of Grand[/color] - 0 to 100, default [color=#93c47d]40[/color]
+[color=#ffd966]Map popup on announcement[/color] - default [color=#6aa84f]on[/color]
+[color=#ffd966]Map popup on results[/color] - default [color=#6aa84f]on[/color]
+[color=#ffd966]Kingdom tournament interval in seasons[/color] - 1 to 8, default [color=#93c47d]3[/color]
+[color=#6fa8dc]Tournament settings / Team Tournaments[/color]
+[color=#ffd966]Enable Team Tournaments[/color] - default [color=#6aa84f]on[/color]
+[color=#ffd966]Minimum team size[/color] - 2 to 16, default [color=#93c47d]2[/color]
+[color=#ffd966]Maximum team size[/color] - 2 to 16, default [color=#93c47d]8[/color]
+[color=#ffd966]Maximum number of teams[/color] - 8 / 16 / 32, default [color=#93c47d]16[/color]
+[color=#ffd966]Scores for the winning team[/color] - default [color=#6aa84f]on[/color]
+[color=#ffd966]Team 1 Color Index[/color] - 0 to 157, default [color=#93c47d]83[/color]
+[color=#ffd966]Team 2 Color Index[/color] - 0 to 157, default [color=#93c47d]119[/color]
+[color=#ffd966]Team 3 Color Index[/color] - 0 to 157, default [color=#93c47d]88[/color]
+[color=#ffd966]Team 4 Color Index[/color] - 0 to 157, default [color=#93c47d]84[/color]
+[color=#6fa8dc]Compatibility settings[/color]
+[color=#ffd966]Practice loadout stages[/color] - 1 to 10, default [color=#93c47d]3[/color]
+[color=#6fa8dc]Technical settings[/color]
+[color=#ffd966]Logging for debugging[/color] - default [color=#e06666]off[/color]
+[color=#6fa8dc]Per hero (Mod Configuration Menu only):[/color] loadout options and three weapon priorities for the clan leader, every family member and every companion, saved with the campaign. Without Mod Configuration Menu every clan hero uses the [color=#ffd966]Default Arena Practice settings for heroes[/color] and no weapon priorities.
+[color=#6fa8dc]With Mod Configuration Menu:[/color] change them in game under [color=#ffd966]Options > Mod Options[/color]. Changes apply at once.
+[color=#6fa8dc]Without Mod Configuration Menu:[/color] open [color=#ffd966]Modules[/color]\[color=#f1c232]ArenaOverhaulRedux[/color]\[color=#ffd966]ModConfiguration.xml[/color] in any text editor. The file is read every time a campaign is started or loaded. If it is deleted or broken, the mod creates a new one with the default values.
+
+[color=#ffff00][size=4]Game versions[/size][/color]
+[color=#93c47d]1.5.7[/color], [color=#93c47d]1.4.8[/color], [color=#93c47d]1.4.7[/color] in the same download. The mod picks the right files for your game by itself.
+
+[color=#ffff00][size=4]Compatibility[/size][/color]
+Can be added [color=#93c47d]anytime[/color]. Grand and Kingdom Tournaments [color=#e06666]add data[/color] to save game files, so if you want to remove the mod, wait until there is no ongoing Grand or Kingdom Tournament and dismiss their map popups first.
+Uses Harmony patches on the arena practice and tournament code. Mods that change the same parts of the game may conflict.
+[color=#e06666]Important[/color]: If using together with [url=https://www.nexusmods.com/mountandblade2bannerlord/mods/791]Realistic Battle Mod[/url] then [color=#e06666]disable[/color] [color=#ffd966]RBM Tournament Module[/color] in RBM Configuration settings.
+Works with [color=#ffd966]Tournaments XPanded[/color] - its prize re-roll and prize selection options are hidden for Grand and Kingdom Tournaments, since their prizes are fixed.
+
+[color=#ffff00][size=4]Requirements[/size][/color]
+[url=https://www.nexusmods.com/mountandblade2bannerlord/mods/2006]Harmony[/url] - [color=#e06666]required[/color].
+[url=https://www.nexusmods.com/mountandblade2bannerlord/mods/2018]ButterLib[/url] - [color=#e06666]required[/color].
+[url=https://www.nexusmods.com/mountandblade2bannerlord/mods/2102]UIExtenderEx[/url] - [color=#e06666]required[/color].
+[url=https://www.nexusmods.com/mountandblade2bannerlord/mods/612]Mod Configuration Menu[/url] - [color=#6aa84f]optional[/color], for changing the settings in game and for the per hero settings.
+
+[color=#ffff00][size=4]Installation[/size][/color]
+Updating? [color=#e06666]Delete the old mod folder first[/color], never overwrite it.
+Advisable to use [color=#ffd966]7zip[/color] to extract archive.
+Put it in [color=#ffd966]Mount & Blade II Bannerlord[/color]\[color=#f1c232]Modules[/color] folder.
+Enable the mod in the launcher. [url=https://www.nexusmods.com/mountandblade2bannerlord/mods/2006]Harmony[/url], [url=https://www.nexusmods.com/mountandblade2bannerlord/mods/2018]ButterLib[/url], [url=https://www.nexusmods.com/mountandblade2bannerlord/mods/2102]UIExtenderEx[/url] and [url=https://www.nexusmods.com/mountandblade2bannerlord/mods/612]Mod Configuration Menu[/url] (if you use it) must be above it.
+[color=#93c47d]Original author note[/color]: Should be placed somewhere mid to low in the list, below any Tournament Armor mods.
+
+[color=#ffff00][size=4]Found a problem?[/size][/color]
+Generate a crash report link using [url=https://www.nexusmods.com/mountandblade2bannerlord/mods/2018]ButterLib[/url] mod. How to do that the mini guide is here: [url=http://bannerlordmodding.lt/guides/how_to_report_a_crash/]How To Report A Crash[/url]
+Turn on [color=#ffd966]Logging for debugging[/color] in [color=#ffd966]MCM[/color] settings or [color=#ffd966]ModConfiguration.xml[/color] in mod folder, [color=#f6b26b]repeat the problem[/color], then attach the file from [color=#ffd966]Modules[/color]\[color=#f1c232]ArenaOverhaulRedux[/color]\[color=#ffd966]logs[/color] to your [url=https://www.nexusmods.com/mountandblade2bannerlord/mods/2018]ButterLib[/url] crash report.
+
+[color=#a4c2f4]General Credits:[/color]
+[url=https://www.nexusmods.com/profile/artifixer]artifixer[/url] - main creator of the original mod.
+[url=https://www.nexusmods.com/profile/Aragas]Aragas[/url] - helped artifixer to make the mod.
+eg3r - team tournaments and the port to version 1.3.15.
+[url=https://next.nexusmods.com/profile/LesserScholar]Lesser Scholar[/url] who made extensive [url=https://www.youtube.com/watch?v=tOziMRXJ7tM&list=PLzebdAxJeltRwfJ8jzsNolgHkRvLjoCRC]Artisan Workshop Mod Tutorial[/url].
+[url=https://next.nexusmods.com/profile/LitauenLitauen]LitauenLitauen[/url] for his priceless modding documentation at [url=http://bannerlordmodding.lt/]BannerlordModding.lt[/url].
+Mount & Blade Modding community [url=https://discord.gg/TGpNRpXGQq]Discord Channel[/url].
+
+[color=#a4c2f4]Source On GitHub:[/color] [url=https://github.com/tadastalalas/ArenaOverhaulRedux]https://github.com/tadastalalas/ArenaOverhaulRedux[/url]
+[color=#a4c2f4]Issues, Suggestions & Other Miscellaneous:[/color] [url=https://discord.gg/NwS7yQgxvu]https://discord.gg/NwS7yQgxvu[/url]
+[color=#a4c2f4]Comprehensive Bannerlord Modding Guide:[/color] [url=https://www.nexusmods.com/mountandblade2bannerlord/mods/11354]Vanilla Plus Proper Modding Notes[/url]
+[color=#a4c2f4]Other Mods:[/color] [url=https://www.nexusmods.com/profile/TadasTheLithuanian/mods]TadasTheLithuanian Nexus Profile[/url]
+[color=#a4c2f4]Support Me On:[/color] [url=https://ko-fi.com/tadasthelithuanian]https://ko-fi.com/tadasthelithuanian[/url] [color=#a4c2f4]or[/color] [url=https://paypal.me/tadastalalas]https://paypal.me/tadastalalas[/url]

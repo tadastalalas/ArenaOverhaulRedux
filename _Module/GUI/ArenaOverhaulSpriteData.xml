@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<SpriteData>
+  <SpriteCategories>
+    <SpriteCategory>
+      <Name>ui_arena_overhaul</Name>
+      <AlwaysLoad />
+      <SpriteSheetCount>1</SpriteSheetCount>
+      <SpriteSheetSize ID="1" Width="256" Height="128" />
+    </SpriteCategory>
+  </SpriteCategories>
+  <SpriteParts>
+    <SpritePart>
+      <SheetID>1</SheetID>
+      <Name>custom_arena_overhaul_grand_tournament_map_notification_sprite</Name>
+      <Width>75</Width>
+      <Height>75</Height>
+      <SheetX>4</SheetX>
+      <SheetY>4</SheetY>
+      <CategoryName>ui_arena_overhaul</CategoryName>
+    </SpritePart>
+    <SpritePart>
+      <SheetID>1</SheetID>
+      <Name>custom_arena_overhaul_kingdom_tournament_map_notification_sprite</Name>
+      <Width>75</Width>
+      <Height>75</Height>
+      <SheetX>87</SheetX>
+      <SheetY>4</SheetY>
+      <CategoryName>ui_arena_overhaul</CategoryName>
+    </SpritePart>
+  </SpriteParts>
+  <Sprites>
+    <GenericSprite>
+      <Name>custom_arena_overhaul_grand_tournament_map_notification_sprite</Name>
+      <SpritePartName>custom_arena_overhaul_grand_tournament_map_notification_sprite</SpritePartName>
+    </GenericSprite>
+    <GenericSprite>
+      <Name>custom_arena_overhaul_kingdom_tournament_map_notification_sprite</Name>
+      <SpritePartName>custom_arena_overhaul_kingdom_tournament_map_notification_sprite</SpritePartName>
+    </GenericSprite>
+  </Sprites>
+</SpriteData>

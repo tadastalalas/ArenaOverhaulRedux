@@ -1,0 +1,472 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" type="string">
+	<tags>
+		<tag language="Türkçe" />
+	</tags>
+	<strings>
+		<string id="n3lrq7FfM" text="Arena Revizyonu Redux" />
+		<string id="a3uuVmMKR" text="Geniş çaplı antrenman dövüşü" />
+		<string id="QI6a1mxh9" text="Savuşturma antrenmanı dövüşü" />
+		<string id="wWZ82hgqV" text="Takım antrenman dövüşü" />
+		<string id="aiDNBFQ4U" text="Yakındaki Turnuvalar" />
+		<string id="uBC62Jdh1" text="Sonraki sayfa..." />
+		<string id="De0boqLm0" text="Önceki sayfa..." />
+		<string id="fakGolQMf" text="Arenaya dön" />
+		<string id="ForHVzTkJ" text="Ayrıca ara sıra geniş çaplı antrenman dövüşleri dediğimiz dövüşler de düzenlenir. Aslında aynı şey, yalnızca daha uzun ve çok daha çetin. Adamlarından birkaçını yanında getirmeni öneririm, onlar için iyi bir talim olabilir. Yalnız unutma: orada takım kurmak yok, yoksa diskalifiye edilirsin.[ib:closed][if:convo_bared_teeth]" />
+		<string id="nZVbLJnVn" text="Peki ya şu geniş çaplı antrenman dövüşleri, onların da ödülü var mı? Ödüller ne kadar?" />
+		<string id="fpPMPCNp5" text="Adamlarımın talime benden daha çok ihtiyacı var. Sanırım ben burada kalıp yerime birini göndereceğim." />
+		<string id="7ONiAo9q0" text="Pekâlâ, şanslı kişi kim olacak?[ib:closed][if:convo_bared_teeth]" />
+		<string id="cB4QnrtWM" text="Başka bir şey var mı?[ib:normal]" />
+		<string id="y9zNkuGg0" text="Yoldaşımın teçhizatını ben seçmek istiyorum." />
+		<string id="0uFoXskRW" text="Hayır, gösteri başlasın." />
+		<string id="BbpYVQSc6" text="Fikrimi değiştirdim, kendim dövüşeceğim." />
+		<string id="VVjb1EG4d" text="Dur bir dakika, bu işten artık pek emin değilim." />
+		<string id="MqTDJG0uG" text="Teçhizatımı kendim seçmek istiyorum." />
+		<string id="iDGR9F0Gn" text="Pekâlâ{?WEAPON_CHOICE_HAS_PRICE}, ama bu sana {WEAPON_CHOICE_PRICE}{GOLD_ICON} tutar{?}{\?}! Hangi silah setini alıyorsun?[ib:closed][if:convo_bared_teeth]" />
+		<string id="DGsGeb4LA" text="Daha iyi bir teçhizat almak istiyorum." />
+		<string id="lIBwkFipY" text="Aslında boş ver." />
+		<string id="7f21TSn5W" text="Geniş çaplı bir antrenman dövüşüne katılmak istiyorum..." />
+		<string id="MnhLtl9Nn" text="Öyleyse adamlarını topla ve işe koyul! Aşağı inerken bir antrenman silahı kapmayı unutma.[if:convo_approving]" />
+		<string id="jBqErWEjU" text="Benim için özel bir karşılaşma ayarlayabilir misin?" />
+		<string id="EYXQnjEvK" text="Duruma göre değişir. Aklında tam olarak ne var?[ib:hip][if:convo_thinking]" />
+		<string id="h2Gv6NA8J" text="Savuşturma çalışmak istiyorum." />
+		<string id="RyUSbmDhf" text="Bu arenada, savuşturma antrenmanına uygun silah setlerini kullanmak âdet değildir." />
+		<string id="9yIQ6Qd1E" text="Bu gerçekten önemli bir beceri, üstelik çalışılması başkalarının da işine yarar... Sanırım bu karşılaşmayı ayarlayabilirim{?PRACTICE_CHOICE_HAS_PRICE}, ama bu sana {PRACTICE_CHOICE_PRICE}{GOLD_ICON} tutar{?}{\?}. Ha, kazanç falan da bekleme; bu tür bir talimin kalabalığın ilgisini çekmesi pek olası değil. Hâlâ varsan, aşağı inerken bir antrenman silahı kapmayı unutma.[if:convo_calm_friendly][ib:confident]" />
+		<string id="iXwumAizJ" text="Silah arkadaşlarımla birlikte takım hâlinde dövüşmek istiyorum. Bir takım antrenmanı düzenleme ihtimalin var mı?" />
+		<string id="LTfWl2OPC" text="Bu, ortalığı kesinlikle hareketlendirir! {?PRACTICE_CHOICE_HAS_PRICE}Fikir hoşuma gitti; ancak böyle bir müsabakayı düzgünce düzenlemek için epey uğraşmam gerekecek, bu yüzden sana {PRACTICE_CHOICE_PRICE}{GOLD_ICON} tutar. Ama işin iyi yanı da var: {?}{\?}Bence kalabalık için harika bir eğlence olur, bu da ödüllere olumlu yansır. Hâlâ varsan, aşağı inerken bir antrenman silahı kapmayı unutma.[ib:nervous2][if:convo_excited]" />
+		<string id="wuuxg3Lkg" text="Ee... Bir kez daha denemek ister misin?[ib:normal]" />
+		<string id="6kW561DVB" text="Biraz dinlenmem gerek, adamlarımın da talime ihtiyacı var. Sanırım bu sefer burada kalıp yerime birini göndereceğim." />
+		<string id="RKNcniRPk" text="Bu sefer başka birini göndermek istiyorum." />
+		<string id="7NfBn2JvL" text="Biraz ısınmak istiyorum, bu sefer dövüşe bizzat katılacağım." />
+		<string id="8k8br8lfq" text="{?COMPANION_GENDER}O{?}O{\?}, bunu standart teçhizatla yapacak." />
+		<string id="rPVHszLLs" text="Elbette. Yalnız {COMPANION_NAME} için yeni bir silah seti seçmek istiyorum." />
+		<string id="WRO1rFtQm" text="Bunu standart teçhizatla yapacağım." />
+		<string id="uLNYivCXl" text="Elbette. Yalnız yeni bir silah seti almak istiyorum." />
+		<string id="zvb5PZ5OA" text="Şu anda {TOURNAMENTS} {?TOURNAMENTS.PLURAL_FORM}şehirde{?}şehirde{\?} turnuva düzenleniyor.{?SHOW_PAGES} Sayfa {PAGE} / {PAGES}.{?}{\?}{NEW_LINE}{NEW_LINE}{TORNAMENT_LIST.START}{?TORNAMENT_LIST.IS_PLURAL}{NEW_LINE}{NEW_LINE}{?}{\?}{TORNAMENT_LIST.END}" />
+		<string id="UOpsoG57t" text="{NAME}{NEW_LINE}    [{TIER}. kademe {TYPE}, değeri {GOLD} {GOLD_ICON}]" />
+		<string id="AOtlEntry1" text="{INDEX}. {TOWN_LINK} [{DISTANCE_ESTIMATE}, {TAG}]{NEW_LINE}    {TOURNAMENT_AGE} {?TOURNAMENT_AGE.PLURAL_FORM}gün{?}gün{\?} önce başladı.{NEW_LINE}    Ödül: {ITEM_PRIZE}{?GOLD_PRIZES_ENABLED}{NEW_LINE}    Altın: {GOLD_PRIZE}{GOLD_ICON}{?}{\?}" />
+		<string id="AOtlTag000" text="yeni başladı" />
+		<string id="AOtlTag001" text="hâlâ yetişilebilir" />
+		<string id="AOtlTag002" text="acele et" />
+		<string id="AOtlTag003" text="yetişilebilir" />
+		<string id="AOtlTag004" text="acele et" />
+		<string id="AOtlTag005" text="zayıf ihtimal" />
+		<string id="EPjU6L6kg" text="Yeterli altının yok!{NEW_LINE}{NEW_LINE}{EXPENSES_BREAKDOWN}" />
+		<string id="9REfw5FN6" text="{EXPENSES_BREAKDOWN}{NEW_LINE}{NEW_LINE}Şu anda paran bu fiyattan {AFFORDABLE_ROUNDS} {?AFFORDABLE_ROUNDS.PLURAL_FORM}antrenman turuna{?}antrenman turuna{\?} yetiyor." />
+		<string id="OXad58sEV" text="{?PRACTICE_CHOICE_HAS_PRICE}{NEW_LINE} - Özel antrenman türü ücreti: {PRACTICE_CHOICE_PRICE}{GOLD_ICON}.{?}{\?}" />
+		<string id="bO70zCDVt" text="{?WEAPON_CHOICE_HAS_PRICE}{NEW_LINE} - Özel silah seti kullanma ücreti: {WEAPON_CHOICE_PRICE}{GOLD_ICON}.{?}{\?}" />
+		<string id="M8fIDW2lQ" text="{?COMPANION_WEAPON_CHOICES_HAVE_PRICE}{NEW_LINE} - Yoldaşlarının özel silah seti kullanma ücreti (hepsi için toplam): {COMPANION_WEAPON_CHOICES_PRICE}{GOLD_ICON}.{?}{\?}" />
+		<string id="Oz5qSUyk9" text="İstenen kurallara ve tercihlere göre bir antrenman turu ayarlamak sana toplam {TOTAL_EXPENSES}{GOLD_ICON} tutacak.{NEW_LINE}{NEW_LINE}Bu tutarın dökümü:{ARRANGEMENT_EXPENSES}{PLAYER_LOADOUT_EXPENSES}{COMPANION_LOADOUT_EXPENSES}" />
+		<string id="YxVkSN8sn" text="Yenildin, ama takımın hâlâ dövüşüyor; istersen başka bir kahramana geçebilirsin." />
+		<string id="xRdn4pEme" text="Kullanılabilir karakterler" />
+		<string id="jq2jXUcse" text="Geçmek istediğin takım arkadaşını seç" />
+		<string id="XZcFEonSW" text="Takımında geçebileceğin uygun bir karakter yok!" />
+		<string id="Iz2BWpesF" text="Şu anda başka bir karaktere geçemezsin!" />
+		<string id="UuAz2vxM3" text="Takımın hâlâ dövüşüyor. Arenadan ayrılmak istiyor musun?" />
+		<string id="PumaUhrt2" text="Hazırlıklı bloklar: {PREPARED_BLOCKS}" />
+		<string id="XiR0Srf50" text="Kusursuz bloklar: {PERFECT_BLOCKS}" />
+		<string id="R0UCmq6Jn" text="Karşı vuruş blokları: {CHAMBER_BLOCKS}" />
+		<string id="CSGg2vSS3" text="Alınan darbeler: {HITS_TAKEN}" />
+		<string id="l1z9vuw8B" text="Kalan müttefikler: {ALLIES_REMAINING}" />
+		<string id="HxdMLgPrk" text="geçersiz eşya" />
+		<string id="ZMHaMWEhM" text="at" />
+		<string id="8G7OMyMbp" text="tek elli silah" />
+		<string id="XuZG0Aoio" text="çift elli silah" />
+		<string id="CqFjTkLpa" text="sırıklı silah" />
+		<string id="a0BgoRSGt" text="ok" />
+		<string id="cGVcwzcts" text="arbalet oku" />
+		<string id="1w2htuOn2" text="kalkan" />
+		<string id="KsH4vdaKZ" text="yay" />
+		<string id="wXthM7Mmt" text="arbalet" />
+		<string id="t3EkeJDz6" text="fırlatma silahı" />
+		<string id="FjujPkPsk" text="ticari mal" />
+		<string id="6p4MDI4FN" text="baş zırhı" />
+		<string id="JH2tZrJmd" text="gövde zırhı" />
+		<string id="aMMn9E0nk" text="bacak zırhı" />
+		<string id="3LtYT36O8" text="el zırhı" />
+		<string id="OBZsswRvq" text="tabanca" />
+		<string id="mwmowr3Pl" text="misket tüfeği" />
+		<string id="RnZzjAmRe" text="kurşun" />
+		<string id="5PmQkkEOf" text="hayvan" />
+		<string id="IA8SfaiLs" text="kitap" />
+		<string id="zWPK2mgHx" text="göğüs zırhı" />
+		<string id="z3x97kWhJ" text="pelerin" />
+		<string id="PxZJzp7zk" text="at koşumu" />
+		<string id="G5Tk9ZJwy" text="sancak" />
+		<string id="hWj4T9N6e" text="eşya" />
+		<string id="gaJDVkvHa" text="{VALOR_PRIZES_DESCRIPTION}{CHAMPION_PRIZE_DESCRIPTION} Kulağa hoş geliyor, ha?[if:convo_nonchalant]" />
+		<string id="hsDqRWEYr" text="Yere serilmeden önce {OPPONENT_COUNT_1} rakibi yenebilirsen {PRIZE_1}{GOLD_ICON} kazanırsın. " />
+		<string id="8qZeWlW2A" text="Yere serilmeden önce {OPPONENT_COUNT_1} rakibi yenebilirsen {PRIZE_1}{GOLD_ICON} kazanırsın. En az {OPPONENT_COUNT_2} rakibi devirirsen de {PRIZE_2}{GOLD_ICON} alırsın. " />
+		<string id="pBCjfH33W" text="Yere serilmeden önce {OPPONENT_COUNT_1} rakibi yenebilirsen {PRIZE_1}{GOLD_ICON} kazanırsın. En az {OPPONENT_COUNT_2} rakibi devirirsen {PRIZE_2}{GOLD_ICON}, {OPPONENT_COUNT_3} rakibi alt edebilirsen de {PRIZE_3}{GOLD_ICON} alırsın. " />
+		<string id="S0uBAbZiF" text="Yere serilmeden önce {OPPONENT_COUNT_1} rakibi yenebilirsen {PRIZE_1}{GOLD_ICON} kazanırsın. En az {OPPONENT_COUNT_2} rakibi devirirsen {PRIZE_2}{GOLD_ICON}, {OPPONENT_COUNT_3} rakibi alt edebilirsen {PRIZE_3}{GOLD_ICON}, {OPPONENT_COUNT_4} rakibi yenecek kadar uzun süre ayakta kalabilirsen de {PRIZE_4}{GOLD_ICON} alırsın. " />
+		<string id="jhJZqz0OL" text="Yere serilmeden önce {OPPONENT_COUNT_1} rakibi yenebilirsen {PRIZE_1}{GOLD_ICON} kazanırsın. En az {OPPONENT_COUNT_2} rakibi devirirsen {PRIZE_2}{GOLD_ICON}, {OPPONENT_COUNT_3} rakibi alt edebilirsen {PRIZE_3}{GOLD_ICON}, {OPPONENT_COUNT_4} rakibi yenecek kadar uzun süre ayakta kalabilirsen {PRIZE_4}{GOLD_ICON}, bir yolunu bulup {OPPONENT_COUNT_5} rakibi yenmeyi başarırsan da {PRIZE_5}{GOLD_ICON} alırsın; bu hiç de azımsanacak bir iş değil. " />
+		<string id="nwnxJV2rZ" text="Ayakta kalan son dövüşçü olmayı başarırsan dövüşlerin büyük ödülünü, yani {PRIZE_CHAMP}{GOLD_ICON} kazanırsın. " />
+		<string id="AAPfCIEuZ" text="Ayakta kalan son dövüşçü olmayı başarırsan bunların üstüne bir de dövüşlerin büyük ödülünü, yani {PRIZE_CHAMP}{GOLD_ICON} kazanırsın. " />
+		<string id="3UtRes0Un" text="Ama ayakta kalan son dövüşçü olmayı başarırsan dövüşlerin büyük ödülünü, yani {PRIZE_CHAMP}{GOLD_ICON} kazanırsın. Gerçekten iyi bir dövüş çıkarır ve pek çok rakibi bizzat yenersen belki bunun birkaç katını bile alırsın. " />
+		<string id="4uOu7an2u" text="Heh! Şu adamındaki morluk da amma büyükmüş. Ama dert etme; herkes arada bir fena dayak yer. Önemli olan, insanın hatalarından ders alıp dövüşmeye devam etmesidir. Şampiyonlar böyle yapar." />
+		<string id="s2B3i84HL" text="Ah, tecrübe; acı hataların hayırlı evladı! Umarım takımın artık biraz tecrübe edinmiştir; hepinizin oraya dönüp bunu iyi değerlendirmenizi öneririm. Şampiyonlar böyle yapar." />
+		<string id="bWSPsaDyt" text="Görünüşe göre adamın {OPPONENT_COUNT} rakibi devirmeyi başarmış. Fena değil. Ama bu sana ödül parası kazandırmaz. Senin yerinde olsam {?COMPANION.GENDER}onu{?}onu{\?} hemen oraya geri gönderirdim ya da daha iyisi, oraya kendim iner ve herkese neler yapabildiğimi gösterirdim..." />
+		<string id="0xwJY4TYS" text="Görünüşe göre takımın {OPPONENT_COUNT} rakibi devirmeyi başarmış. Fena değil. Ama bu sana ödül parası kazandırmaz. Senin yerinde olsam adamlarımı toplar, onlara kısa bir nutuk çeker, hemen oraya geri döner ve herkese neler yapabildiğimizi gösterirdim..." />
+		<string id="tU4Oa8XN1" text="{COMPANION.LINK} orada epey iyi bir dövüş çıkardı. Bazı hamleleri çok iyiydi. Birkaç hatası oldu elbette, ama {?COMPANION.GENDER}o{?}o{\?} kesinlikle gelecek vadediyor. {OPPONENT_COUNT} rakibi yere serdiği için de sana {PRIZE}{GOLD_ICON} ödül kazandırdı." />
+		<string id="IMAm6VMLR" text="Takımın orada epey iyi bir dövüş çıkardı. Bazı hamleleriniz çok iyiydi. Birkaç hatanız oldu elbette, ama kesinlikle gelecek vadediyorsunuz. {OPPONENT_COUNT} rakibi yere serdiğiniz için de {PRIZE}{GOLD_ICON} ödül kazandınız." />
+		<string id="N5d76ElzV" text="Güzel, {PLAYER.LINK}, güzel. {COMPANION.LINK} {?COMPANION.GENDER}Hanım{?}Bey{\?} tam tamına {OPPONENT_COUNT} rakibi devirmeyi başardı. {?COMPANION.GENDER}O{?}O{\?}, {?COMPANION.GENDER}gösterdiği{?}gösterdiği{\?} yüreklilikle kalabalığın gözdesi oldu. Tabii sana da {PRIZE}{GOLD_ICON} ödül parası kazandırdı." />
+		<string id="injn095f0" text="Güzel, {PLAYER.LINK}, güzel. Takımın tam tamına {OPPONENT_COUNT} rakibi devirmeyi başardı. Gösterdiğiniz yüreklilikle kalabalığın gözdesi oldunuz. Tabii {PRIZE}{GOLD_ICON} ödül parası da kazandınız." />
+		<string id="xe4cfXIBa" text="İyi dövüştü, {PLAYER.LINK}. {COMPANION.LINK} {OPPONENT_COUNT} rakibi devirdi. Bu performansla {?COMPANION.GENDER}o{?}o{\?} elbette bir ödülü hak ediyor: {PRIZE}{GOLD_ICON}. Fena değil, ha?" />
+		<string id="luDin5D4D" text="İyi dövüştünüz, {PLAYER.LINK}. Takımın {OPPONENT_COUNT} rakibi devirdi. Bu performansla elbette bir ödülü hak ediyorsunuz: {PRIZE}{GOLD_ICON}. Fena değil, ha?" />
+		<string id="ETDxIDLAf" text="Ustalara yaraşır bir performans, {COMPANION.LINK}. Küt! Çat! Onlardan {OPPONENT_COUNT} tanesini devirdin. Kalabalık buna bayıldı. {PLAYER.LINK}, şu hevesli dövüş ustan sana az önce {PRIZE}{GOLD_ICON} ödül kazandırdı." />
+		<string id="UUuKSdZ7b" text="Ustalara yaraşır bir performans, {PLAYER.LINK}. Küt! Çat! Takımın onlardan {OPPONENT_COUNT} tanesini devirdi. Kalabalık buna bayıldı. Sen de {PRIZE}{GOLD_ICON} ödül kazandın." />
+		<string id="GLYFl5ImO" text="Dur da şu dâhine daha yakından bir bakayım, {PLAYER.LINK}. Böylece bir gün çocuklarıma gerçek bir büyük ustanın neye benzediğini anlatabilirim... {COMPANION.LINK} tek seferde {OPPONENT_COUNT} rakibi yenmeyi başardı! İnanılmaz! Ha, bu da elbette sana {PRIZE}{GOLD_ICON} ödül borçlu olduğum anlamına geliyor." />
+		<string id="aDC8zdCmt" text="Dur da sana daha yakından bir bakayım, {PLAYER.LINK}. Böylece bir gün çocuklarıma gerçek bir büyük ustanın neye benzediğini anlatabilirim! Tek seferde {OPPONENT_COUNT} rakibi yenmeyi başardın! İnanılmaz! Ha, elbette kendine {PRIZE}{GOLD_ICON} ödül de kazandın." />
+		<string id="b42weJbT2" text="İşte takım oyunu diye ben buna derim! Takımın tek seferde {OPPONENT_COUNT} rakibi yenmeyi başardı! İnanılmaz! {PRIZE}{GOLD_ICON} ödül kazandınız, hem de son kuruşuna kadar hak ederek." />
+		<string id="YL3QBzHns" text="Tebrikler, {PLAYER.LINK}, şampiyon {COMPANION.LINK}! {?COMPANION.GENDER}Onun{?}Onun{\?} oradaki dövüşü unutulacak gibi değildi! Ayakta kalan son kişi olarak {COMPANION.LINK} büyük ödülü kazanıyor: {PRIZE}{GOLD_ICON}." />
+		<string id="DwOtDP6SQ" text="Tebrikler {PLAYER.LINK}, takımın şampiyon oldu! Ayakta kalan son kişiler olarak büyük ödülü kazanıyorsunuz: {PRIZE}{GOLD_ICON}." />
+		<string id="dKWMj58Bq" text="Tebrikler, {PLAYER.LINK}, şampiyon {COMPANION.LINK}! {?COMPANION.GENDER}Onun{?}Onun{\?} oradaki dövüşü unutulacak gibi değildi! Ayakta kalan son kişi olarak {COMPANION.LINK} elbette büyük ödülü kazanıyor: {PRIZE}{GOLD_ICON}; buna {OPPONENT_COUNT} rakibi yere sermenin karşılığı olan {VALOR_PRIZE}{GOLD_ICON} de dâhil." />
+		<string id="nZ1Ar0MOd" text="Tebrikler, şampiyon! Oradaki dövüşün unutulacak gibi değildi! Ayakta kalan son kişi olarak elbette büyük ödülü kazanıyorsun: {PRIZE}{GOLD_ICON}; buna {OPPONENT_COUNT} rakibi yere sermenin karşılığı olan {VALOR_PRIZE}{GOLD_ICON} de dâhil." />
+		<string id="UISWBTRY2" text="Tebrikler {PLAYER.LINK}, takımın şampiyon oldu! Bu dövüş unutulacak gibi değildi! Ayakta kalan son kişiler olarak elbette büyük ödülü kazanıyorsunuz: {PRIZE}{GOLD_ICON}; buna {OPPONENT_COUNT} rakibi yere sermenin karşılığı olan {VALOR_PRIZE}{GOLD_ICON} de dâhil." />
+		<string id="YZcU0ocKX" text="Tebrikler, {PLAYER.LINK}, şampiyon {COMPANION.LINK}! {?COMPANION.GENDER}Onun{?}Onun{\?} oradaki dövüşü kesinlikle unutulacak gibi değildi! Ayakta kalan son kişi olarak {COMPANION.LINK} büyük ödülü kazanıyor: {PRIZE}{GOLD_ICON}; buna {OPPONENT_COUNT} rakibi yere sermenin karşılığı olan {VALOR_PRIZE}{GOLD_ICON} de dâhil. Şunu söylemeliyim ki harika bir dövüştü ve kalabalık buna gerçekten bayıldı; yani kahramanın bu paranın her kuruşunu hak etti, dostum." />
+		<string id="oYDKCzkid" text="Tebrikler, şampiyon! Oradaki dövüşün unutulacak gibi değildi! Ayakta kalan son kişi olarak elbette büyük ödülü kazanıyorsun: {PRIZE}{GOLD_ICON}; buna {OPPONENT_COUNT} rakibi yere sermenin karşılığı olan {VALOR_PRIZE}{GOLD_ICON} de dâhil. Şunu söylemeliyim ki harika bir dövüştü ve kalabalık buna gerçekten bayıldı; yani bu paranın her kuruşunu hak ettin, dostum." />
+		<string id="TFRz8p0Z6" text="Tebrikler {PLAYER.LINK}, takımın şampiyon oldu! Bu dövüş kesinlikle unutulacak gibi değildi! Ayakta kalan son kişiler olarak büyük ödülü kazanıyorsunuz: {PRIZE}{GOLD_ICON}; buna {OPPONENT_COUNT} rakibi yere sermenin karşılığı olan {VALOR_PRIZE}{GOLD_ICON} de dâhil. Şunu söylemeliyim ki harika bir dövüştü ve kalabalık buna gerçekten bayıldı; yani sen ve adamların bu paranın her kuruşunu hak ettiniz, dostum." />
+		<string id="6bnQLhQQB" text="Tebrikler, {PLAYER.LINK}, şampiyon {COMPANION.LINK}! {?COMPANION.GENDER}Onun{?}Onun{\?} oradaki dövüşü unutulacak gibi değildi! {COMPANION.LINK} yalnızca ayakta kalan son kişi olmakla kalmadı, bir canavar gibi dövüştü ve böylece standart büyük ödülün iki katını kazandı: {PRIZE}{GOLD_ICON}." />
+		<string id="dKdBMUgOL" text="Tebrikler, şampiyon! Oradaki dövüşün unutulacak gibi değildi! Yalnızca ayakta kalan son kişi olmakla kalmadın, bir canavar gibi dövüştün ve böylece standart büyük ödülün iki katını kazandın: {PRIZE}{GOLD_ICON}." />
+		<string id="phgJ8tmZV" text="Tebrikler {PLAYER.LINK}, takımın şampiyon oldu! Bu dövüş unutulacak gibi değildi! Yalnızca ayakta kalan son kişiler olmakla kalmadınız, canavarlar gibi dövüştünüz ve böylece standart büyük ödülün iki katını kazandınız: {PRIZE}{GOLD_ICON}." />
+		<string id="41XqfyWOi" text="Tebrikler, {PLAYER.LINK}, şampiyon {COMPANION.LINK}! Üstelik {?COMPANION.GENDER}onun{?}onun{\?} oradaki dövüşü unutulacak gibi değildi! {COMPANION.LINK} yalnızca ayakta kalan son kişi olmakla kalmadı, gerçek bir kahraman gibi dövüştü ve böylece standart büyük ödülün üç katını kazandı: {PRIZE}{GOLD_ICON}." />
+		<string id="BtSwRTvu9" text="Tebrikler, şampiyon! Oradaki dövüşün unutulacak gibi değildi! Yalnızca ayakta kalan son kişi olmakla kalmadın, gerçek bir kahraman gibi dövüştün ve böylece standart büyük ödülün üç katını kazandın: {PRIZE}{GOLD_ICON}." />
+		<string id="PgMuEBsXX" text="Tebrikler {PLAYER.LINK}, takımın şampiyon oldu! Bu dövüş unutulacak gibi değildi! Yalnızca ayakta kalan son kişiler olmakla kalmadınız, gerçek kahramanlar gibi dövüştünüz ve böylece standart büyük ödülün üç katını kazandınız: {PRIZE}{GOLD_ICON}." />
+		<string id="KPp4pG1Ky" text="Tebrikler, {PLAYER.LINK}, şampiyon {COMPANION.LINK}! Hem de vay canına, {?COMPANION.GENDER}onun{?}onun{\?} oradaki dövüşü unutulacak gibi değildi! {COMPANION.LINK} {?COMPANION.GENDER}Hanım{?}Bey{\?} katılımcıların neredeyse yarısının hakkından bizzat geldi ve böylece olağan şampiyonluk ödülünün dört katını kazandı! Buyur, {PRIZE}{GOLD_ICON}.[if:convo_merry]" />
+		<string id="I2A8Heq2r" text="Tebrikler, şampiyon! Oradaki dövüşün unutulacak gibi değildi! Katılımcıların neredeyse yarısının hakkından bizzat geldin ve böylece olağan şampiyonluk ödülünün dört katını kazandın! Buyur, {PRIZE}{GOLD_ICON}.[if:convo_merry]" />
+		<string id="gmzDTwOFX" text="Tebrikler {PLAYER.LINK}, takımın şampiyon oldu! Bu dövüş kesinlikle unutulacak gibi değildi! Adamların katılımcıların neredeyse yarısının hakkından geldi ve böylece olağan şampiyonluk ödülünün dört katını kazandı! Buyur, {PRIZE}{GOLD_ICON}.[if:convo_merry]" />
+		<string id="XdkGt7jFa" text="Vay be, {PLAYER.LINK}, aşağıda olanlar gerçek bir büyük ustanın işiydi! {COMPANION.LINK} gibi bir dövüşçüyü burada ağırlamak benim için bir onur. Bu olağanüstü performansıyla {?COMPANION.GENDER}o{?}o{\?}, {PRIZE}{GOLD_ICON} tutarında görkemli bir ödül kazandı.[if:convo_merry]" />
+		<string id="3yLYLKZYW" text="Tebrikler, büyük usta! Senin gibi bir dövüşçüyü burada ağırlamak benim için bir onur. Bu olağanüstü performansınla {PRIZE}{GOLD_ICON} tutarında görkemli bir ödül kazandın.[if:convo_merry]" />
+		<string id="uU3Ya5GfN" text="Vay be, {PLAYER.LINK}, aşağıda olanlar türkülere konu olacak bir işti! Ya da destanlara. Böyle dövüşçüleri mütevazı arenamda ağırlamak benim için bir onur. Bu olağanüstü performansınızla {PRIZE}{GOLD_ICON} tutarında görkemli bir ödül kazandınız.[if:convo_merry]" />
+		<string id="k0kOwkWzO" text="Bana adamlarının savuşturma becerilerini çalıştırması gerektiğini söylemiştin, ama aşağıda gördüğüm kadarıyla {COMPANION.LINK} daha çok dövüşçülerimi eşek sudan gelinceye kadar dövmekle ilgileniyor gibiydi. Bence {?COMPANION.GENDER}ona{?}ona{\?} savunmaya ve karşı saldırılara daha çok dikkat etmesini söyle, ya da bu saçmalıkla vaktimi harcamayı bırak.[ib:closed][if:convo_confused_annoyed]" />
+		<string id="6vlrvSbAY" text="Bana savuşturma becerilerini çalıştırman gerektiğini söylemiştin, ama aşağıda gördüğüm kadarıyla daha çok dövüşçülerimi eşek sudan gelinceye kadar dövmekle ilgileniyor gibiydin. Bence savunmaya ve karşı saldırılara daha çok dikkat etmeye başla, ya da bu saçmalıkla vaktimi harcamayı bırak.[ib:closed][if:convo_confused_annoyed]" />
+		<string id="VGOnRoQck" text="Az önce gördüklerime bakılırsa {COMPANION.LINK} gerçekten de biraz savuşturma çalışmalı. Bence devam edelim.[ib:weary][if:convo_confused_normal]" />
+		<string id="y508NVoOc" text="Az önce gördüklerime bakılırsa gerçekten de biraz savuşturma çalışman gerekiyor. Bence devam et.[ib:weary][if:convo_confused_normal]" />
+		<string id="0taUkpCCP" text="Eh, {COMPANION.LINK} aşağıda az kalsın başarıyordu, ama {?COMPANION.GENDER}onun{?}onun{\?} dikkatini daha uzun süre korumaya alışması gerek.[if:convo_approving]" />
+		<string id="fdxZnnGSu" text="Eh, aşağıda az kalsın başarıyordun, ama dikkatini daha uzun süre korumaya alışman gerek.[if:convo_approving]" />
+		<string id="wDLRbc8Mh" text="{COMPANION.LINK} aşağıda yeterince iyi iş çıkardı. Ama {?COMPANION.GENDER}onun{?}onun{\?} yakın dövüşte gerçekten ustalaşmasını istiyorsan, {?COMPANION.GENDER}o{?}o{\?} tek bir hamlede savuşturup karşı saldırıya geçmeyi öğrenmeli ve bu tekniği daha sık kullanmalı. Bu, {?COMPANION.GENDER}onu{?}onu{\?} hafife alınmayacak bir dövüşçü yapar.[ib:warrior][if:convo_thinking]" />
+		<string id="N0ok57asq" text="Aşağıda yeterince iyi iş çıkardın. Ama yakın dövüşte gerçekten ustalaşmak istiyorsan, tek bir hamlede savuşturup karşı saldırıya geçmeyi öğrenmeli ve bu tekniği daha sık kullanmalısın. Bu, seni hafife alınmayacak bir dövüşçü yapar.[ib:warrior][if:convo_thinking]" />
+		<string id="cvThaH27b" text="Sürdüğü müddetçe çok etkileyici bir performanstı, bunu söylemeliyim; ama gerçek bir dövüşte talebenin sonu yine de ölüm olurdu. {COMPANION.LINK} dikkatini daha uzun süre koruyabilmek için {?COMPANION.GENDER}kendini{?}kendini{\?} eğitmeli.[ib:weary][if:convo_approving]" />
+		<string id="rJa1PaPJs" text="Sürdüğü müddetçe çok etkileyici bir performanstı, bunu söylemeliyim; ama gerçek bir dövüşte sonun yine de ölüm olurdu. Dikkatini daha uzun süre koruyabilmek için kendini eğitmelisin.[ib:weary][if:convo_approving]" />
+		<string id="KvdHaGhag" text="{COMPANION.LINK} aşağıda gerçekten iyi iş çıkardı. Ama daha önce de söylediğim gibi, bu dövüş için ödül olmayacak.[if:convo_approving]" />
+		<string id="rcLuSrtwD" text="Aşağıda iyi iş çıkardın. Ama daha önce de söylediğim gibi, bu dövüş için ödül olmayacak.[if:convo_approving]" />
+		<string id="aGr4Lb6I2" text="Saygın rakipleri yenerek nam kazandın: {RENOWN_TAKEDOWN_REWARD}" />
+		<string id="3ZgMoK2dU" text="Yine de kazandığın turlar için ödül alıyorsun: {PER_ROUND_REWARD}" />
+		<string id="83tebCrzc" text="Ayrıca kazandığın turlar için ödül alıyorsun: {PER_ROUND_REWARD}" />
+		<string id="aV0PTEzbW" text="Kazandığın turlar için ödülün: {PER_ROUND_REWARD}" />
+		<string id="16t7gwMmW" text="Şampiyon olarak para ödülün: {TOTAL_GOLD_REWARD}" />
+		<string id="gVZq43GDI" text="{LEADER_NAME} takımı {TEAM_CALL_SIGN}" />
+		<string id="WA82hgPoO" text="Alfa" />
+		<string id="bpGxcmlP6" text="Beta" />
+		<string id="bmOsWMVsk" text="Gama" />
+		<string id="Tyl2ufxxy" text="Delta" />
+		<string id="OKSzdZMr8" text="Epsilon" />
+		<string id="zsXVSOB4t" text="Zeta" />
+		<string id="fePbjEFQI" text="Eta" />
+		<string id="9OZjTDg61" text="Teta" />
+		<string id="EmP3OR1tW" text="Kahramanlar için varsayılan Arena Antrenmanı ayarları" />
+		<string id="pJ3cqM8RV" text="Arena Antrenmanı ayarları" />
+		<string id="bPkF9slVr" text="Geniş Çaplı Arena Antrenmanı ayarları" />
+		<string id="zbfho3vSj" text="Savuşturma Antrenmanı ayarları" />
+		<string id="igoj9leYB" text="Takım Arena Antrenmanı ayarları" />
+		<string id="08ifYu37H" text="Teknik ayarlar" />
+		<string id="RRmGS7t6x" text="Turnuva ayarları" />
+		<string id="C5nJgxepr" text="Ödüller" />
+		<string id="oywDR1MSm" text="Tecrübe" />
+		<string id="ZlvTL5D4T" text="Maddi ödüller" />
+		<string id="BCzO2WGq9" text="Manevi ödüller" />
+		<string id="h6sPrqfax" text="Takım Turnuvaları" />
+		<string id="WnQ4qOI7d" text="Uyumluluk ayarları" />
+		<string id="Awg6G0iNM" text="Para tasarrufuna göre ayarlı" />
+		<string id="56nUSQP2R" text="Kahraman eğitimine göre ayarlı" />
+		<string id="gknaSzMr6" text="Standart" />
+		<string id="aBVrVSioz" text="Eklemeli" />
+		<string id="TY9SqFLBs" text="Çarpımsal" />
+		<string id="Hf3fpLNlh" text="Asla" />
+		<string id="JHsRs730T" text="Ödül kademesi yükseltilebildiğinde" />
+		<string id="oVADnv9sb" text="Daha iyi ödül şansı arttığında" />
+		<string id="MwOn3n7yC" text="Durum değiştiğinde" />
+		<string id="z6lpZ65aK" text="Antrenman kıyafetleri" />
+		<string id="o5AcCZgOn" text="Turnuva zırhı" />
+		<string id="sBnb12g7c" text="Sivil teçhizat" />
+		<string id="kKvvYWhMH" text="Savaş teçhizatı" />
+		<string id="RYcQyTDa5" text="Yalnızca eşsiz olmayan eşyalar" />
+		<string id="y1RxvGxxl" text="Her zaman, eşsiz binekler hariç" />
+		<string id="NsbCj2rzB" text="Her zaman" />
+		<string id="MnVVPRkao" text="Bu, kahramanların silah seti seçeneklerini yapılandırmak için kullanılacak varsayılan değerdir. Etkinleştirildiğinde ilgili kahramanın arena antrenman karşılaşmaları için silah seçmesine izin verilir ve bunun için olağan ücreti ödemen gerekir. Aksi hâlde herkes gibi rastgele silahlar kullanır. Varsayılan: etkin." />
+		<string id="XQY35WleC" text="Bu, kahramanların silah seti seçeneklerini yapılandırmak için kullanılacak varsayılan değerdir. Etkinleştirildiğinde ilgili kahraman, yalnızca bir silah tercihi belirlenmişse ve arenada buna uyan en az bir silah seti varsa antrenman silahı seçer. Aksi hâlde herkes gibi rastgele silahlar kullanır. Varsayılan: etkin." />
+		<string id="UO3idcKCw" text="Bu, kahramanların silah seti seçeneklerini yapılandırmak için kullanılacak varsayılan değerdir. Etkinleştirildiğinde ilgili kahraman, arena antrenman karşılaşmaları için silah seçerken daha iyi ve daha pahalı teçhizata öncelik verir. Aksi hâlde verilen tercihleri karşılayan en ucuz silah seti seçilir. Varsayılan: devre dışı." />
+		<string id="NvKLJBxsf" text="Yoldaş kahraman olarak oynamayı etkinleştir" />
+		<string id="wtKB2udZJ" text="Toplam katılımcı" />
+		<string id="gaGpV2GcX" text="Aktif katılımcı" />
+		<string id="0IOg4Ureb" text="Asgari aktif katılımcı" />
+		<string id="dAhEzcAlx" text="Başlangıçtaki katılımcı" />
+		<string id="vZgGTs8Nw" text="Yapay zekâ takımları" />
+		<string id="BVhryIKKF" text="Silah seti seçimini etkinleştir" />
+		<string id="L73kYZTnf" text="Silah seçme ücreti" />
+		<string id="3HviduB7g" text="Antrenman savunma teçhizatı" />
+		<string id="v7NfMok7L" text="I. sınıf yiğitlik ödülü" />
+		<string id="AFzr1BhC4" text="II. sınıf yiğitlik ödülü" />
+		<string id="wjlHVn6cG" text="III. sınıf yiğitlik ödülü" />
+		<string id="1JAQ3hGAk" text="IV. sınıf yiğitlik ödülü" />
+		<string id="MHzw7JXgh" text="V. sınıf yiğitlik ödülü" />
+		<string id="rQHQBnmZL" text="Şampiyonluk ödülü hesaplaması" />
+		<string id="oTOFfuU2c" text="Şampiyonluk ödülü" />
+		<string id="zDfS2JtnA" text="İzleyiciler için tecrübe kazanımını etkinleştir" />
+		<string id="9dP3VJpOG" text="Tecrübe kazanım oranı" />
+		<string id="wFPnd1BNA" text="Bu seçenek etkinleştirildiğinde, Arena Antrenmanı'na kendi yerine bir yoldaşını gönderebilir ve arenada o yoldaşı kontrol edebilirsin. Orijinal oyun: devre dışı. Varsayılan: etkin." />
+		<string id="89f5zrS7i" text="Arena Antrenmanı'ndaki toplam katılımcı sayısı. 3'ün katı olması önerilir. Varsayılan = 30." />
+		<string id="oqpocFdUs" text="Arena Antrenmanı'ndaki tahmini aktif katılımcı sayısı. 3'ün katı olması önerilir. Varsayılan = 6." />
+		<string id="iFjrzKw9e" text="Arena Antrenmanı'ndaki asgari aktif katılımcı sayısı. 2'nin katı olması önerilir. Varsayılan = 2." />
+		<string id="UuSkcTQSd" text="Arena Antrenmanı'nın başlangıcındaki aktif katılımcı sayısı. 7'den büyük her değer, birden fazla dövüşçünün aynı anda ortaya çıkmasına yol açar. Varsayılan = 6." />
+		<string id="aVm0YWzg9" text="Arena Antrenmanı karşılaşmasındaki yapay zekâ takımı sayısı. Sıfır, bu sayının aktif katılımcı sayısına eşit olacağı anlamına gelir; bu da birlikte hareket eden yapay zekâ takım arkadaşlarıyla karşılaşma ihtimalini en aza indirir. 1 olarak ayarlanırsa herkes sana karşı dövüşür. Varsayılan = 0." />
+		<string id="zGQrZqevv" text="Bu seçenek etkinleştirildiğinde Arena Antrenmanı için silah seçebilirsin." />
+		<string id="rZH6qYOrT" text="Arena Antrenmanı için silah seçerken silah aşaması (kademesi) başına bu tutarı ödemen gerekir. Varsayılan = 10." />
+		<string id="WW4PZP2LH" text="Arena Antrenmanı katılımcılarının hangi zırhı veya kıyafeti giyeceğini belirler. Başka modlar tarafından değiştirilmedikçe [Turnuva zırhı] seçeneği [Savaş teçhizatı] ile aynı sonucu verir. Aklında belirli bir amaç yoksa bu ayarı değiştirmen önerilmez. Eğlenceli olsa da zırh giymek, menzilli antrenman silahlarının çoğunu etkisiz kılar. Orijinal oyun: [Antrenman kıyafetleri]. Varsayılan: [Antrenman kıyafetleri]." />
+		<string id="GrjIc6hKr" text="Arena Antrenmanı'nda en az 3 dövüşçüyü yenmenin ödülü. Varsayılan = 5." />
+		<string id="j86zigBV7" text="Arena Antrenmanı'nda en az 6 dövüşçüyü yenmenin ödülü. Varsayılan = 10." />
+		<string id="0q32VAkkg" text="Arena Antrenmanı'nda en az 10 dövüşçüyü yenmenin ödülü. Varsayılan = 25." />
+		<string id="VjGDrAK3N" text="Arena Antrenmanı'nda en az 20 dövüşçüyü yenmenin ödülü. Varsayılan = 60." />
+		<string id="ws4xpzph6" text="Arena Antrenmanı'nda en az 35 dövüşçüyü yenmenin ödülü. Standart katılımcı sayısıyla elde edilemez. Varsayılan = 150." />
+		<string id="8mGYZd0fL" text="Arena Antrenmanı'nda ayakta kalan son kişinin nasıl ödüllendirileceğini belirler. Standart - özel bir ödülle. Eklemeli - özel bir ödülle ve kazanılan yiğitlik ödülüyle birlikte. Çarpımsal - I. sınıfın üzerinde kazanılan her yiğitlik sınıfı için bir özel ödülle. Orijinal oyun: [Standart]. Varsayılan: [Eklemeli]." />
+		<string id="2ovQejh10" text="Arena Antrenmanı'nda ayakta kalan son kişi olmanın temel ödülü. Varsayılan = 250." />
+		<string id="gGEXaGsKV" text="Arena Antrenmanı dövüşlerindeki tecrübe kazanım oranı. Orijinal oyun = 6%. Varsayılan = 16.5%." />
+		<string id="3xV72YIYo" text="Bu seçenek etkinleştirildiğinde, Geniş Çaplı Arena Antrenmanı'na kendi yerine bir yoldaşını gönderebilir ve arenada o yoldaşı kontrol edebilirsin. Orijinal oyun: devre dışı. Varsayılan: etkin." />
+		<string id="65Ny4vNEE" text="Geniş Çaplı Arena Antrenmanı'ndaki toplam katılımcı sayısı. 3'ün katı olması önerilir. Varsayılan = 90." />
+		<string id="sIQdRBwg9" text="Geniş Çaplı Arena Antrenmanı'ndaki tahmini aktif katılımcı sayısı. 3'ün katı olması önerilir. Varsayılan = 9." />
+		<string id="ZaLfvG7eX" text="Geniş Çaplı Arena Antrenmanı'ndaki asgari aktif katılımcı sayısı. 2'nin katı olması önerilir. Varsayılan = 4." />
+		<string id="XwzmSDpAr" text="Geniş Çaplı Arena Antrenmanı'nın başlangıcındaki aktif katılımcı sayısı. 7'den büyük her değer, birden fazla dövüşçünün aynı anda ortaya çıkmasına yol açar. Varsayılan = 7." />
+		<string id="VUnyu0h6n" text="Geniş Çaplı Arena Antrenmanı karşılaşmasındaki yapay zekâ takımı sayısı. Sıfır, bu sayının aktif katılımcı sayısına eşit olacağı anlamına gelir; bu da birlikte hareket eden yapay zekâ takım arkadaşlarıyla karşılaşma ihtimalini en aza indirir. 1 olarak ayarlanırsa herkes sana karşı dövüşür. Varsayılan = 0." />
+		<string id="9otxYlTUa" text="Bu seçenek etkinleştirildiğinde Geniş Çaplı Arena Antrenmanı için silah seçebilirsin." />
+		<string id="B9xXCFneS" text="Geniş Çaplı Arena Antrenmanı için silah seçerken silah aşaması (kademesi) başına bu tutarı ödemen gerekir. Varsayılan = 10." />
+		<string id="sLGwAxSzA" text="Geniş Çaplı Arena Antrenmanı katılımcılarının hangi zırhı veya kıyafeti giyeceğini belirler. Başka modlar tarafından değiştirilmedikçe [Turnuva zırhı] seçeneği [Savaş teçhizatı] ile aynı sonucu verir. Aklında belirli bir amaç yoksa bu ayarı değiştirmen önerilmez. Eğlenceli olsa da zırh giymek, menzilli antrenman silahlarının çoğunu etkisiz kılar. Varsayılan: [Antrenman kıyafetleri]." />
+		<string id="M7utBJV6O" text="Geniş Çaplı Arena Antrenmanı'nda en az 3 dövüşçüyü yenmenin ödülü. Varsayılan = 10." />
+		<string id="5Zkk4IRnM" text="Geniş Çaplı Arena Antrenmanı'nda en az 6 dövüşçüyü yenmenin ödülü. Varsayılan = 20." />
+		<string id="ivrbCerwG" text="Geniş Çaplı Arena Antrenmanı'nda en az 10 dövüşçüyü yenmenin ödülü. Varsayılan = 50." />
+		<string id="41COOOrtk" text="Geniş Çaplı Arena Antrenmanı'nda en az 20 dövüşçüyü yenmenin ödülü. Varsayılan = 120." />
+		<string id="aPjrww0Yz" text="Geniş Çaplı Arena Antrenmanı'nda en az 35 dövüşçüyü yenmenin ödülü. Varsayılan = 300." />
+		<string id="aUEgf6bh5" text="Geniş Çaplı Arena Antrenmanı'nda ayakta kalan son kişinin nasıl ödüllendirileceğini belirler. Standart - özel bir ödülle. Eklemeli - özel bir ödülle ve kazanılan yiğitlik ödülüyle birlikte. Çarpımsal - I. sınıfın üzerinde kazanılan her yiğitlik sınıfı için bir özel ödülle. Varsayılan: [Eklemeli]." />
+		<string id="FP34ZZ1b0" text="Geniş Çaplı Arena Antrenmanı'nda ayakta kalan son kişi olmanın temel ödülü. Varsayılan = 500." />
+		<string id="YyniNTgz5" text="Geniş Çaplı Arena Antrenmanı'na yalnızca kahramanlar ile 3. kademe ve üzeri askerler girebilir. Bu seçenek etkinleştirildiğinde, daha düşük kademeli askerler, silah arkadaşları arenada isabetli darbeler indirdikçe ve rakiplerini devirdikçe bir miktar tecrübe kazanır." />
+		<string id="hTHzr3Q9U" text="Geniş Çaplı Arena Antrenmanı dövüşlerindeki tecrübe kazanım oranı. Orijinal oyun = 6%. Varsayılan = 33.3%." />
+		<string id="8wUeKx5yg" text="Savuşturma antrenmanını etkinleştir" />
+		<string id="a7I7iKCIg" text="Bu seçenek etkinleştirildiğinde Arenada Savuşturma Antrenmanı modu açılır. Orijinal oyun: devre dışı. Varsayılan: etkin." />
+		<string id="W1eYm1Lse" text="Savuşturma antrenmanı düzenleme ücreti" />
+		<string id="Igd6YZwx4" text="Arena Ustası'nın bir Savuşturma Antrenmanı karşılaşması düzenlemek için aldığı ücret. Varsayılan = 200." />
+		<string id="b1rJAny0j" text="Bu seçenek etkinleştirildiğinde, savuşturma çalışması için kendi yerine bir yoldaşını gönderebilir ve arenada o yoldaşı kontrol edebilirsin. Orijinal oyun: devre dışı. Varsayılan: etkin." />
+		<string id="ZTusmPG2b" text="Savuşturma Antrenmanı'ndaki toplam katılımcı sayısı. Varsayılan = 15." />
+		<string id="vSxY7fMyJ" text="Savuşturma Antrenmanı'ndaki tahmini aktif katılımcı sayısı. Varsayılan = 1." />
+		<string id="7O4BbgHHd" text="Savuşturma Antrenmanı'ndaki asgari aktif katılımcı sayısı. Varsayılan = 1." />
+		<string id="FLOs28WoN" text="Savuşturma Antrenmanı'nın başlangıcındaki aktif katılımcı sayısı. Varsayılan = 1." />
+		<string id="LHppRdTLa" text="Savuşturma Antrenmanı karşılaşmasındaki yapay zekâ takımı sayısı. 1 olarak ayarlanırsa herkes sana karşı dövüşür. Varsayılan = 1." />
+		<string id="PBdkpnVB9" text="Bu seçenek etkinleştirildiğinde Savuşturma Antrenmanı için silah seçebilirsin." />
+		<string id="vFzDsKyOM" text="Savuşturma Antrenmanı için silah seçerken silah aşaması (kademesi) başına bu tutarı ödemen gerekir. Varsayılan = 10." />
+		<string id="yEovzkoTi" text="Savuşturma Antrenmanı katılımcılarının hangi zırhı veya kıyafeti giyeceğini belirler. Başka modlar tarafından değiştirilmedikçe [Turnuva zırhı] seçeneği [Savaş teçhizatı] ile aynı sonucu verir. Varsayılan: [Savaş teçhizatı]." />
+		<string id="B0LJRZfnh" text="Savuşturma Antrenmanı dövüşlerindeki tecrübe kazanım oranı. Orijinal oyun = 6%. Varsayılan = 6%." />
+		<string id="DxJKCdxsV" text="Takım antrenmanını etkinleştir" />
+		<string id="LHCCk34mQ" text="Bu seçenek etkinleştirildiğinde Arenada Takım Antrenmanı modu açılır. Orijinal oyun: devre dışı. Varsayılan: etkin." />
+		<string id="6DKIRQm5C" text="Takım antrenmanı düzenleme ücreti" />
+		<string id="qt2gEppSr" text="Arena Ustası'nın bir Takım Antrenmanı karşılaşması düzenlemek için aldığı ücret. Varsayılan = 200." />
+		<string id="S0i7VyEO8" text="Bu seçenek etkinleştirildiğinde, Takım Arena Antrenmanı'na kendi yerine bir yoldaşını gönderebilir ve arenada o yoldaşı kontrol edebilirsin. Orijinal oyun: devre dışı. Varsayılan: etkin." />
+		<string id="L6plpq9tN" text="Takım Arena Antrenmanı'ndaki toplam katılımcı sayısı. 3'ün ve yapay zekâ takımı sayısının katı olması önerilir. Varsayılan = 300." />
+		<string id="F5ltwpjLD" text="Takım Arena Antrenmanı'ndaki tahmini aktif katılımcı sayısı. Yapay zekâ takımı sayısının katı olması önerilir. Varsayılan = 20." />
+		<string id="rLeEchCEv" text="Takım Arena Antrenmanı'ndaki asgari aktif katılımcı sayısı. 2'nin ve yapay zekâ takımı sayısının katı olması önerilir. Varsayılan = 12." />
+		<string id="t7SvV15zK" text="Takım Arena Antrenmanı'nın başlangıcındaki aktif katılımcı sayısı. Yapay zekâ takımı sayısının katı olması önerilir. Varsayılan = 20." />
+		<string id="34SB5z6kv" text="Takım Arena Antrenmanı karşılaşmasındaki yapay zekâ takımı sayısı. 1 olarak ayarlanırsa herkes senin takımına karşı dövüşür. Varsayılan = 4." />
+		<string id="yafmF17l3" text="Bu seçenek etkinleştirildiğinde Takım Arena Antrenmanı için silah seçebilirsin." />
+		<string id="HzpsY1I9V" text="Takım Arena Antrenmanı için silah seçerken silah aşaması (kademesi) başına bu tutarı ödemen gerekir. Varsayılan = 20." />
+		<string id="cgjoawOu3" text="Takım Arena Antrenmanı katılımcılarının hangi zırhı veya kıyafeti giyeceğini belirler. Başka modlar tarafından değiştirilmedikçe [Turnuva zırhı] seçeneği [Savaş teçhizatı] ile aynı sonucu verir. Aklında belirli bir amaç yoksa bu ayarı değiştirmen önerilmez. Eğlenceli olsa da zırh giymek, menzilli antrenman silahlarının çoğunu etkisiz kılar. Varsayılan: [Antrenman kıyafetleri]." />
+		<string id="8LHBbug9w" text="Takım Arena Antrenmanı'nda takımının en az 30 dövüşçüyü yenmesinin ödülü. Varsayılan = 30." />
+		<string id="EzSYzJjdR" text="Takım Arena Antrenmanı'nda takımının en az 50 dövüşçüyü yenmesinin ödülü. Varsayılan = 60." />
+		<string id="Z7cfjTozo" text="Takım Arena Antrenmanı'nda takımının en az 75 dövüşçüyü yenmesinin ödülü. Varsayılan = 150." />
+		<string id="rXdbJb3e8" text="Takım Arena Antrenmanı'nda takımının en az 100 dövüşçüyü yenmesinin ödülü. Varsayılan = 350." />
+		<string id="Nhslz7s3n" text="Takım Arena Antrenmanı'nda takımının en az 135 dövüşçüyü yenmesinin ödülü. Varsayılan = 800." />
+		<string id="Hmb8Ldjuq" text="Takım Arena Antrenmanı'nda ayakta kalan son takımın nasıl ödüllendirileceğini belirler. Standart - özel bir ödülle. Eklemeli - özel bir ödülle ve kazanılan yiğitlik ödülüyle birlikte. Çarpımsal - I. sınıfın üzerinde kazanılan her yiğitlik sınıfı için bir özel ödülle. Varsayılan: [Eklemeli]." />
+		<string id="QItzcF4LK" text="Takım Arena Antrenmanı'nda ayakta kalan son takım olmanın temel ödülü. Varsayılan = 1000." />
+		<string id="Qcap6qw2T" text="Takım Arena Antrenmanı'na yalnızca kahramanlar ile 3. kademe ve üzeri askerler girebilir. Bu seçenek etkinleştirildiğinde, daha düşük kademeli askerler, silah arkadaşları arenada isabetli darbeler indirdikçe ve rakiplerini devirdikçe bir miktar tecrübe kazanır." />
+		<string id="J0Okfl8Ey" text="Takım Arena Antrenmanı dövüşlerindeki tecrübe kazanım oranı. Orijinal oyun = 6%. Varsayılan = 33.3%." />
+		<string id="qLyrVIJoy" text="Yapay zekâ takımı 1 renk dizini" />
+		<string id="KSjkzF8uD" text="Yapay zekâ takımı 2 renk dizini" />
+		<string id="WB6siZI93" text="Yapay zekâ takımı 3 renk dizini" />
+		<string id="MftQIDNf1" text="Yapay zekâ takımı 4 renk dizini" />
+		<string id="OKS7TtFM4" text="Yapay zekâ takımı 5 renk dizini" />
+		<string id="DkLWDatCO" text="Yapay zekâ takımı 6 renk dizini" />
+		<string id="hS7XbrLGG" text="Azami bahis" />
+		<string id="gQvJ8Vvsk" text="Bir turnuvanın her turunda genellikle bahse yatırılmasına izin verilen azami altın miktarı. Orijinal oyun = 150. Varsayılan = 500." />
+		<string id="qPAga7DLd" text="Rastgele bahis oranlarını etkinleştir" />
+		<string id="kGyR7NsKh" text="Bu seçenek etkinleştirildiğinde bahis oranları bir miktar rastgele belirlenir, ancak yine de büyük ölçüde oyuncunun başarı tahminine dayanır. Orijinal oyun: devre dışı. Varsayılan: etkin." />
+		<string id="hARcKe6Jt" text="İleri gelenlerin katılımına izin ver" />
+		<string id="YqIOYTV0P" text="Yerleşimlerin ileri gelenlerinin turnuvalara katılmasına izin verir. Turnuva zırhı modlarıyla birlikte kullanılması önerilir. Orijinal oyun: devre dışı. Varsayılan: etkin." />
+		<string id="cCAOeRdmt" text="Ödülü yeniden belirleme koşulu" />
+		<string id="CDGmDeYii" text="Turnuva ödüllerinin yeniden belirlenip belirlenmeyeceğini ve ne zaman belirleneceğini ayarlar. Normalde ödüller, oyuncu turnuvaya katıldığında, turnuva oluşturulduğundan beri katılan soylu sayısı değişmişse yeniden belirlenir (ödül kalitesini etkiler). Orijinal oyun: [Durum değiştiğinde]. Varsayılan: [Asla]." />
+		<string id="IfsaDqygk" text="Altın ödüllerini etkinleştir" />
+		<string id="yVAG4f83d" text="Bu seçenek etkinleştirildiğinde turnuvalarda altın ödülleri de verilir. Bu ödüller, olağan ödül eşyalarına ve bahis kazançlarına ek olarak verilir. Orijinal oyun: devre dışı. Varsayılan: etkin." />
+		<string id="fH4Ev0UoC" text="Ödül ölçeklendirmesini etkinleştir" />
+		<string id="1THMacQwa" text="Bu seçenek etkinleştirildiğinde turnuva ödülleri oyuncunun namına göre ölçeklenir. Biraz alışılmadık bir yöntem, ama turnuvaların oyunun ortasında ve sonlarında da işe yarar kalmasını sağlar. Orijinal oyun: devre dışı. Varsayılan: etkin." />
+		<string id="lu9G6m85v" text="Yüksek kaliteli ödülleri etkinleştir" />
+		<string id="EQs8Z1eOO" text="Bu seçenek etkinleştirildiğinde eşyaların yüksek kaliteli sürümleri (usta işi, lordlara layık vb.) turnuva ödülü olarak verilebilir. Orijinal oyun: devre dışı. Varsayılan: etkin." />
+		<string id="ZFv8WXbGE" text="Kültüre göre kısıtlı seçkin ödüller" />
+		<string id="ffwi4bAIs" text="Seçkin turnuva ödüllerinin, temel ödüllerde olduğu gibi, ev sahibi yerleşimin kültürüne uyacak şekilde sınırlandırılıp sınırlandırılmayacağını ve ne zaman sınırlandırılacağını belirler. Orijinal oyun: [Asla]. Varsayılan: [Her zaman, eşsiz binekler hariç]." />
+		<string id="DyNe9qH4v" text="Kazanılan tur ödülü" />
+		<string id="aAquVsgYJ" text="Katılımcıların turnuvada kazandıkları her tur için aldıkları altın miktarı. Orijinal oyun = 0. Varsayılan = 0." />
+		<string id="lkgaScPft" text="Şampiyonun nam ödülü" />
+		<string id="GWmYOkfOs" text="Turnuva şampiyonunun kazandığı nam miktarı. Orijinal oyun = 3. Varsayılan = 3." />
+		<string id="1AR1Jq493" text="Yenilen kahramanlar için nam ödülü" />
+		<string id="Fbt8Iewl4" text="Bir turnuva katılımcısı, namı kendisininkine yakın veya daha yüksek olan ya da toplam turnuva galibiyeti daha fazla olan bir kahramanı devirdiğinde belirtilen miktarda nam kazanır. Turnuva boyunca şampiyonun nam ödülünün iki katını aşamaz. Orijinal oyun = 0. Varsayılan = 1." />
+		<string id="eLKi8Ptgm" text="Şampiyonun nüfuz ödülü" />
+		<string id="uYmFPwO8z" text="Turnuva şampiyonunun, herhangi bir krallığın soylu lordu olması hâlinde kazandığı nüfuz miktarı. Orijinal oyun = 1. Varsayılan = 10." />
+		<string id="C5fcetmfG" text="Turnuva dövüşlerindeki tecrübe kazanım oranı. Orijinal oyun = 33%. Varsayılan = 66.6%." />
+		<string id="PSnYupZhT" text="Takım Turnuvalarını etkinleştir" />
+		<string id="qHyqXp9tK" text="Turnuvalara takım olarak katılma seçeneği ekler." />
+		<string id="lDuOZkktY" text="Asgari takım büyüklüğü" />
+		<string id="Nv4MJ3oXq" text="Turnuva takımındaki asgari üye sayısı. Bir takım en az iki katılımcıdan oluşmalıdır." />
+		<string id="Q6qQge312" text="Azami takım büyüklüğü" />
+		<string id="4q3hSTZPZ" text="Turnuva takımındaki azami üye sayısı. Bir takım en az iki katılımcıdan oluşmalıdır. Değerler çakışırsa bu ayar, Asgari takım büyüklüğü ayarına üstün gelir." />
+		<string id="6o45aTuZi" text="Azami takım sayısı" />
+		<string id="34r9jsdJq" text="Bir turnuvadaki azami takım sayısı. Bir turnuvada en az 8 takım bulunmalıdır." />
+		<string id="rzIC6zMIv" text="Kazanan takıma puan" />
+		<string id="lA71kgTie" text="Etkinleştirildiğinde kazanan takımdaki her kahraman Turnuva Lider Tablosu'nda puan alır. Devre dışı bırakıldığında yalnızca takım lideri puan alır." />
+		<string id="l2FTrzzXX" text="Takım 1 renk dizini" />
+		<string id="jWYXBiEZp" text="Takım 2 renk dizini" />
+		<string id="iRvUExaRI" text="Takım 3 renk dizini" />
+		<string id="F6qBgeAOk" text="Takım 4 renk dizini" />
+		<string id="3r3TStZPU" text="Takımın sancak rengini dizin değerine göre ayarlar. Kullanılabilir renklerin listesi için https://bannerlord.party/banner-colors/ adresine bak." />
+		<string id="Ams5ccKzh" text="Kadro yalnızca takım turnuvaları için seçilebilir." />
+		<string id="xRkr497KP" text="Takım olarak katıl" />
+		<string id="AOthHead01" text="Turnuva düzenleme" />
+		<string id="AOthEnabl1" text="Turnuva düzenlemeyi etkinleştir" />
+		<string id="AOthEnabl2" text="Arena menüsüne, o sırada turnuvası olmayan bir şehirde turnuva düzenleme seçeneği ekler. Hem altına hem nüfuza mal olur; maliyet şehrin refahına ve oyuncunun klan kademesi ile namına göre ölçeklenir. Varsayılan: etkin." />
+		<string id="AOthGold01" text="Temel altın maliyeti" />
+		<string id="AOthGold02" text="Ölçeklendirmeden önce, bir turnuva düzenlemek için gereken temel altın miktarı. Varsayılan = 2000." />
+		<string id="AOthInfl01" text="Temel nüfuz maliyeti" />
+		<string id="AOthInfl02" text="Klan kademesine göre ölçeklendirmeden önce, bir turnuva düzenlemek için gereken temel nüfuz miktarı. Varsayılan = 20." />
+		<string id="AOthCool01" text="Bekleme süresi (gün)" />
+		<string id="AOthCool02" text="Oyuncunun aynı şehirde yeni bir turnuva düzenleyebilmesi için geçmesi gereken gün sayısı. Varsayılan = 7." />
+		<string id="AOthAffi01" text="Şehirle bağ şartı" />
+		<string id="AOthAffi02" text="Etkinleştirildiğinde oyuncu yalnızca kendi klanına, krallığına veya müttefik bir tarafa ait şehirlerde turnuva düzenleyebilir. Varsayılan: etkin." />
+		<string id="AOthMenu01" text="Turnuva düzenle" />
+		<string id="AOthNoWar1" text="Şehir, şenlik düzenleyecek durumda değil." />
+		<string id="AOthNoAff1" text="Bu şehirle bir bağın yok." />
+		<string id="AOthCoold1" text="Şehir halkı son turnuvanın yorgunluğunu hâlâ üzerinden atamadı. {DAYS} {?DAYS.PLURAL_FORM}gün{?}gün{\?} sonra tekrar dene." />
+		<string id="AOthPoor01" text="Burada turnuva düzenlemenin bedeli {GOLD}{GOLD_ICON}{?HAS_INFLUENCE} ve {INFLUENCE} nüfuz{?}{\?}. Bunu karşılayamazsın." />
+		<string id="AOthCost01" text="Burada turnuva düzenlemenin bedeli {GOLD}{GOLD_ICON}{?HAS_INFLUENCE} ve {INFLUENCE} nüfuz{?}{\?}. Ödül fonu şehrin refahıyla birlikte büyür." />
+		<string id="AOthDone01" text="{TOWN} şehrinde turnuva düzenlemek için {GOLD}{GOLD_ICON}{?HAS_INFLUENCE} ve {INFLUENCE} nüfuz{?}{\?} harcadın." />
+		<string id="AOthConf01" text="{TOWN} şehrinde {GOLD}{GOLD_ICON}{?HAS_INFLUENCE} ve {INFLUENCE} nüfuz{?}{\?} karşılığında turnuva düzenlensin mi?" />
+		<string id="AOthConf02" text="Turnuva düzenle" />
+		<string id="AOtiHead01" text="Yaralanmalar" />
+		<string id="AOtiEnabl1" text="Turnuva yaralanmalarını etkinleştir" />
+		<string id="AOtiEnabl2" text="Bu seçenek etkinleştirildiğinde, bir turnuva karşılaşmasında bayıltılan her kahraman (oyuncu, yoldaşlar ve lordlar dâhil) can puanı kaybeder ve bu yarayı sefer haritasına taşır. Orijinal oyun: devre dışı. Varsayılan: etkin." />
+		<string id="AOtiLoss01" text="Bayılma başına kaybedilen can puanı" />
+		<string id="AOtiLoss02" text="Bir kahramanın turnuva karşılaşmasında bayıltıldığında kaybettiği azami can puanı yüzdesi. Can puanı asla 1'in altına düşmez. Varsayılan = 30%." />
+		<string id="AOtiMsg001" text="Bayıltıldın ve {HP_LOSS} can puanı kaybettin." />
+		<string id="Ndc21b2NO" text="Antrenman silah seti aşamaları" />
+		<string id="9SY3aAtv1" text="ObjectManager içinde aranan antrenman silah seti aşamalarının sayısı. Arena antrenmanının aşamalarını değiştiren ve ilgili karakter modellerini ekleyen modların yoksa bu ayarı değiştirme. Orijinal oyun = 3. Varsayılan = 3." />
+		<string id="DXiVYMIUL" text="Başka kahramana geç" />
+		<string id="morP28atv" text="Arenadaki bir Takım Antrenmanı karşılaşmasında seçtiğin başka bir aktif kahramana geçer." />
+		<string id="NcXn6Ow7O" text="1. Klan Lideri" />
+		<string id="NowOsng0A" text="2. Aile Üyeleri" />
+		<string id="vTyduFjuF" text="3. Yoldaşlar" />
+		<string id="fFlUJjUl0" text="AO Kahraman Antrenman Ayarları" />
+		<string id="fL485YX24" text="Silah seti seçimini etkinleştir" />
+		<string id="QLQYQTctQ" text="Bu seçenek etkinleştirildiğinde ilgili kahramanın arena antrenman karşılaşmaları için silah seçmesine izin verilir ve bunun için olağan ücreti ödemen gerekir. Aksi hâlde herkes gibi rastgele silahlar kullanır. Varsayılan değer genel mod ayarlarında belirlenir." />
+		<string id="kbL2QnpuF" text="Otomatik silah seti seçimini etkinleştir" />
+		<string id="vGIOM104P" text="Bu seçenek etkinleştirildiğinde, menüden herhangi bir arena antrenmanı moduna girilirken silah seti, burada belirlenen diğer tercihlere göre oyuncu için otomatik olarak seçilir. Varsayılan değer genel mod ayarlarında belirlenir." />
+		<string id="zC7CG8kwF" text="Yalnızca öncelikli silah setleri" />
+		<string id="ieRmdET16" text="Bu seçenek etkinleştirildiğinde ilgili kahraman, yalnızca bir silah tercihi belirlenmişse ve arenada buna uyan en az bir silah seti varsa antrenman silahı seçer. Aksi hâlde herkes gibi rastgele silahlar kullanır. Varsayılan değer genel mod ayarlarında belirlenir." />
+		<string id="JidAUNLNo" text="Bu seçenek etkinleştirildiğinde, oyuncu için otomatik silah seti seçimi yalnızca bir silah tercihi belirlenmişse ve arenada buna uyan en az bir silah seti varsa yapılır. Aksi hâlde her zamanki gibi rastgele silahlar kullanılır. Varsayılan değer genel mod ayarlarında belirlenir." />
+		<string id="cWdhDpsOS" text="Pahalı teçhizata öncelik ver" />
+		<string id="YwbIZExy1" text="Bu seçenek etkinleştirildiğinde ilgili kahraman, arena antrenman karşılaşmaları için silah seçerken daha iyi ve daha pahalı teçhizata öncelik verir. Aksi hâlde verilen tercihleri karşılayan en ucuz silah seti seçilir. Varsayılan değer genel mod ayarlarında belirlenir." />
+		<string id="Wse8QGJyQ" text="Bu seçenek etkinleştirildiğinde, oyuncu için otomatik silah seti seçiminde daha iyi ve daha pahalı teçhizat tercih edilir. Aksi hâlde verilen tercihleri karşılayan en ucuz silah seti seçilir. Varsayılan değer genel mod ayarlarında belirlenir." />
+		<string id="G2IdbqB8p" text="Birinci öncelik" />
+		<string id="ZWh07gP41" text="İlgili kahramanın geliştirmesi için en yüksek önceliğe sahip silah becerisini belirler. Bu kahraman, varsa her zaman o beceriye dayalı bir silah içeren silah setini seçer. Varsayılan: [Yok]." />
+		<string id="DOGp7LBDe" text="Oyuncu karakterinin geliştirmesi için en yüksek önceliğe sahip silah becerisini belirler. Varsa her zaman o beceriye dayalı bir silah içeren silah seti seçilir. Varsayılan: [Yok]." />
+		<string id="bcgL8E4Ol" text="İkinci öncelik" />
+		<string id="Yideeiww5" text="İlgili kahramanın geliştirmesi için ikinci en yüksek önceliğe sahip silah becerisini belirler. Bu kahraman, mevcutsa ve daha yüksek öncelikli bir seçenek yoksa bu beceriye dayalı bir silah içeren silah setini seçer. Varsayılan: [Yok]." />
+		<string id="bhSUfmKir" text="Oyuncu karakterinin geliştirmesi için ikinci en yüksek önceliğe sahip silah becerisini belirler. Mevcutsa ve daha yüksek öncelikli bir seçenek yoksa bu beceriye dayalı bir silah içeren silah seti seçilir. Varsayılan: [Yok]." />
+		<string id="t45rwWZc5" text="Üçüncü öncelik" />
+		<string id="lHiP6Z2Qo" text="İlgili kahramanın geliştirmesi için üçüncü en yüksek önceliğe sahip silah becerisini belirler. Bu kahraman, mevcutsa ve daha yüksek öncelikli bir seçenek yoksa bu beceriye dayalı bir silah içeren silah setini seçer. Varsayılan: [Yok]." />
+		<string id="IP7JZx9bb" text="Oyuncu karakterinin geliştirmesi için üçüncü en yüksek önceliğe sahip silah becerisini belirler. Mevcutsa ve daha yüksek öncelikli bir seçenek yoksa bu beceriye dayalı bir silah içeren silah seti seçilir. Varsayılan: [Yok]." />
+		<string id="6SD77Zo1C" text="Yok" />
+		<string id="7OL4eTdan" text="Tek elli silahlar" />
+		<string id="rvCVOGi0s" text="Çift elli silahlar" />
+		<string id="bDnJRrfRH" text="Sırıklı silahlar" />
+		<string id="KZt7cDhKn" text="Yaylar" />
+		<string id="s0JLnYAxx" text="Arbaletler" />
+		<string id="CvVDmEhou" text="Fırlatma silahları" />
+		<string id="AOgtHead01" text="Büyük Turnuva ve Krallık Turnuvaları" />
+		<string id="AOgtSprg01" text="İlkbahar" />
+		<string id="AOgtSumr01" text="Yaz" />
+		<string id="AOgtAutm01" text="Sonbahar" />
+		<string id="AOgtWntr01" text="Kış" />
+		<string id="AOgtEnab01" text="Yıllık Büyük Turnuva'yı etkinleştir" />
+		<string id="AOgtEnab02" text="Yılda bir kez, Calradia'nın dört bir yanından arena lider tablosunun en güçlü lordları, tablonun zirvesindeki lordun krallığının başkentinde düzenlenen 1'e 1 Büyük Turnuva'ya çağrılır. Lordlar haritada nerede olurlarsa olsunlar katılır. Varsayılan: etkin." />
+		<string id="AOgtKEna01" text="Mevsimlik krallık turnuvalarını etkinleştir" />
+		<string id="AOgtKEna02" text="Her mevsim her krallık, kendi yeminli lordları için başkentinde 1'e 1 bir turnuva düzenler. Bütün krallıklar turnuvalarını aynı gün düzenler; oyuncu yalnızca kendi krallığının turnuvasında yarışabilir. Büyük Turnuva, düzenlendiği mevsimin krallık turnuvalarının yerini alır. Varsayılan: etkin." />
+		<string id="AOgtSeas01" text="Büyük Turnuva mevsimi" />
+		<string id="AOgtSeas02" text="Büyük Turnuva'nın düzenlendiği mevsim. Varsayılan: İlkbahar." />
+		<string id="AOgtGDay01" text="Büyük Turnuva'nın mevsim içindeki günü" />
+		<string id="AOgtGDay02" text="Büyük Turnuva'nın açıldığı mevsim günü. Varsayılan = 11." />
+		<string id="AOgtKDay01" text="Krallık turnuvalarının mevsim içindeki günü" />
+		<string id="AOgtKDay02" text="Krallık turnuvalarının açıldığı mevsim günü. Varsayılan = 11." />
+		<string id="AOgtAnnD01" text="Ön duyuru süresi (gün)" />
+		<string id="AOgtAnnD02" text="Turnuvanın açılıştan kaç gün önce duyurulacağını ve ev sahibi şehirde görüneceğini belirler. Açılana kadar turnuvaya katılmak ve onu izlemek mümkün değildir. Varsayılan = 7." />
+		<string id="AOgtDura01" text="Süre (gün)" />
+		<string id="AOgtDura02" text="Turnuvanın başladıktan sonra kaç gün açık kalacağını belirler. Oyuncu o zamana kadar katılmamışsa turnuva simüle edilir. Varsayılan = 2." />
+		<string id="AOgtLege01" text="Efsanevi kalitede ödül eşyası" />
+		<string id="AOgtLege02" text="Ödül, kazananın kültürüne ait, türünün izin verdiği en iyi niteliğe sahip (silahlar için Efsanevi) yüksek kademeli bir silah veya zırhtır. Binek asla verilmez. Varsayılan: etkin." />
+		<string id="AOgtGold01" text="Büyük Turnuva altın ödülü" />
+		<string id="AOgtGold02" text="Büyük Turnuva'yı kazanana olağan turnuva ödüllerine ek olarak verilen altın. Varsayılan = 100000." />
+		<string id="AOgtReno01" text="Büyük Turnuva nam ödülü" />
+		<string id="AOgtReno02" text="Büyük Turnuva'yı kazanana olağan turnuva ödüllerine ek olarak verilen nam. Varsayılan = 50." />
+		<string id="AOgtInfl01" text="Büyük Turnuva nüfuz ödülü" />
+		<string id="AOgtInfl02" text="Büyük Turnuva'yı kazanana, bir krallığa bağlıysa verilen nüfuz. Varsayılan = 300." />
+		<string id="AOgtGWgt01" text="Büyük Turnuva'nın lider tablosu ağırlığı" />
+		<string id="AOgtGWgt02" text="Bir Büyük Turnuva galibiyetinin lider tablosunda kaç galibiyet sayılacağını belirler. Varsayılan = 3." />
+		<string id="AOgtKWgt01" text="Krallık turnuvasının lider tablosu ağırlığı" />
+		<string id="AOgtKWgt02" text="Bir krallık turnuvası galibiyetinin lider tablosunda kaç galibiyet sayılacağını belirler. Varsayılan = 2." />
+		<string id="AOgtKPct01" text="Krallık turnuvası ödülleri, Büyük Turnuva'nın %'si" />
+		<string id="AOgtKPct02" text="Bir krallık turnuvasının altın, nam ve nüfuz ödüllerinin Büyük Turnuva değerlerine göre yüzdesi. Varsayılan = 40." />
+		<string id="AOgtMenuG1" text="Calradia'nın dört bir yanından arena lider tablosunun şampiyonları Büyük Turnuva için {TOWN} şehrinde toplandı. Galibe &quot;{TOURNAMENT_PRIZE}&quot; ile birlikte bu büyük güne yaraşır altın, nam ve nüfuz verilecek." />
+		<string id="AOgtMenuK1" text="En seçkin {KINGDOM} dövüşçüleri, krallığın mevsimlik turnuvası için {TOWN} şehrinde toplandı. Galibe &quot;{TOURNAMENT_PRIZE}&quot; ile birlikte bu büyük güne yaraşır altın, nam ve nüfuz verilecek." />
+		<string id="AOgtAnn001" text="Calradia Büyük Turnuvası{?DAYS} {DAYS} {?DAYS.PLURAL_FORM}gün{?}gün{\?} sonra başlamak üzere{?}{\?} {TOWN} şehrinde düzenlenecek. Arena lider tablosunun en iyi dövüşçüleri çağrıldı." />
+		<string id="AOgtAnn002" text="{KINGDOM}, mevsimlik turnuvasını{?DAYS} {DAYS} {?DAYS.PLURAL_FORM}gün{?}gün{\?} sonra başlamak üzere{?}{\?} {TOWN} şehrinde düzenleyecek." />
+		<string id="AOgtLock01" text="Büyük Turnuva {DAYS} {?DAYS.PLURAL_FORM}gün{?}gün{\?} sonra başlıyor. Şampiyonlar hâlâ gelmekte." />
+		<string id="AOgtLock02" text="Krallık turnuvası {DAYS} {?DAYS.PLURAL_FORM}gün{?}gün{\?} sonra başlıyor. Yarışmacılar hâlâ gelmekte." />
+		<string id="AOgtLock03" text="Bu turnuvada yalnızca {KINGDOM} yeminli lordları yarışabilir." />
+		<string id="AOgtWin001" text="{WINNER}, {TOWN} şehrindeki {KINGDOM} mevsimlik turnuvasını kazandı." />
+		<string id="AOgtWin002" text="{WINNER}, {TOWN} şehrindeki Calradia Büyük Turnuvası'nı kazandı!" />
+		<string id="AOgtPopA01" text="Duyuruda harita bildirimi" />
+		<string id="AOgtPopA02" text="Büyük Turnuva veya oyuncunun yarışabileceği bir krallık turnuvası duyurulduğunda haritada bildirim gösterir. Ayrıntıları görmek ve ev sahibi şehre gitmek için bildirime tıkla. Varsayılan: etkin." />
+		<string id="AOgtPopR01" text="Sonuçlarda harita bildirimi" />
+		<string id="AOgtPopR02" text="Büyük Turnuva veya oyuncunun yarışabileceği bir krallık turnuvası sona erdiğinde kazananı bildiren bir harita bildirimi gösterir. Varsayılan: etkin." />
+		<string id="AOgtKInt01" text="Krallık turnuvası aralığı (mevsim)" />
+		<string id="AOgtKInt02" text="Krallık turnuvaları arasında kaç mevsim geçeceğini belirler. 4'ü tam bölmeyen değerlerde turnuva mevsimler arasında sırayla döner. Bir krallık turnuvası Büyük Turnuva'nın mevsimine denk gelirse Büyük Turnuva onun yerini alır. Varsayılan = 3." />
+		<string id="sotK7sewA" text="yakında" />
+		<string id="J5jTiUvt8" text="buraya epey yakın" />
+		<string id="ULKHRKsSV" text="buradan epey uzak" />
+		<string id="2JXPNLOm3" text="buradan çok uzak" />
+		<string id="AOgtNtf004" text="Krallık Turnuvası Sona Erdi" />
+		<string id="AOgtNtf003" text="Büyük Turnuva Sona Erdi" />
+		<string id="AOgtNtf002" text="{KINGDOM} Turnuvası" />
+		<string id="AOgtNtf001" text="Calradia Büyük Turnuvası" />
+		<string id="AOgtNtf013" text="{CLAN} klanından {WINNER}, {TOWN} şehrinde düzenlenen {KINGDOM} mevsimlik turnuvasını kazandı ve &quot;{PRIZE}&quot; ile birlikte {GOLD}{GOLD_ICON}, {RENOWN} nam ve {INFLUENCE} nüfuz elde etti." />
+		<string id="AOgtNtf012" text="{CLAN} klanından {WINNER}, Calradia'nın en iyi dövüşçülerini alt ederek {TOWN} şehrinde düzenlenen Büyük Turnuva'yı kazandı ve &quot;{PRIZE}&quot; ile birlikte {GOLD}{GOLD_ICON}, {RENOWN} nam ve {INFLUENCE} nüfuz elde etti." />
+		<string id="AOgtNtf009" text="{KINGDOM} yeminli lordları, krallığın mevsimlik turnuvası için {TOWN} şehrine çağrıldı. Turnuva {DAYS} {?DAYS.PLURAL_FORM}gün{?}gün{\?} sonra açılacak ve {DURATION} {?DURATION.PLURAL_FORM}gün{?}gün{\?} boyunca açık kalacak. Galibe &quot;{PRIZE}&quot; verilecek." />
+		<string id="AOgtNtf007" text="Calradia'nın dört bir yanından arena lider tablosunun şampiyonları {TOWN} şehrine çağrıldı. Büyük Turnuva {DAYS} {?DAYS.PLURAL_FORM}gün{?}gün{\?} sonra açılacak ve {DURATION} {?DURATION.PLURAL_FORM}gün{?}gün{\?} boyunca açık kalacak. Galibe &quot;{PRIZE}&quot; verilecek." />
+		<string id="AOgtNtf010" text="{KINGDOM} mevsimlik turnuvası {TOWN} şehrinde sürüyor ve {DAYS} {?DAYS.PLURAL_FORM}gün{?}gün{\?} daha açık kalacak. Galibe &quot;{PRIZE}&quot; verilecek." />
+		<string id="AOgtNtf008" text="Büyük Turnuva {TOWN} şehrinde sürüyor ve {DAYS} {?DAYS.PLURAL_FORM}gün{?}gün{\?} daha açık kalacak. Galibe &quot;{PRIZE}&quot; verilecek." />
+		<string id="AOgtNtf011" text="{TOWN} şehrinde düzenlenen turnuva sona erdi." />
+		<string id="AOgtNtf005" text="{TOWN} şehrinde duyuruldu" />
+		<string id="AOgtNtf006" text="{WINNER}, {TOWN} şehrinde zafer kazandı" />
+		<string id="AOR_m3XpR8d" text="Bu kahraman henüz dövüşe girmedi; arenaya girmek için {QUEUE_NUMBER}. sırada bekliyor." />
+		<string id="AOgtWon002" text="Final turunda {TOURNAMENT_FINAL_OPPONENT} adlı rakibini yenerek {KINGDOM} mevsimlik turnuvasını kazandın." />
+		<string id="AOgtWon001" text="Final turunda {TOURNAMENT_FINAL_OPPONENT} adlı rakibini yenerek Calradia Büyük Turnuvası'nı kazandın." />
+		<string id="AOgtTitle002" text="{KINGDOM} Mevsimlik Turnuvası" />
+		<string id="AOgtTitle001" text="Calradia Büyük Turnuvası" />
+		<string id="AOgtNtf015" text="Kapat" />
+		<string id="AOgtNtf014" text="Haritada göster" />
+		<string id="AOR_J5sWy1F" text="{HERO.NAME} adlı kahramanın arenaya girmesi bekleniyor. {?HERO.GENDER}O{?}O{\?}, sırada {POSITION_IN_LINE}. kişi." />
+		<string id="AOR_q7Hn2Lw" text="Hata ayıklama için günlük kaydı" />
+		<string id="AOR_Vz4kT9c" text="Hata ayıklama için günlük kaydı (yalnızca İngilizce). [Varsayılan: devre dışı]" />
+	</strings>
+</base>

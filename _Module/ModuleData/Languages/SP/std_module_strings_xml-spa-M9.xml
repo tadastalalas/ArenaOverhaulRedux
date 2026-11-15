@@ -1,0 +1,472 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" type="string">
+	<tags>
+		<tag language="Español (LA)" />
+	</tags>
+	<strings>
+		<string id="n3lrq7FfM" text="Renovación de la Arena Redux" />
+		<string id="a3uuVmMKR" text="Combate de práctica ampliado" />
+		<string id="QI6a1mxh9" text="Combate de práctica de paradas" />
+		<string id="wWZ82hgqV" text="Combate de práctica por equipos" />
+		<string id="aiDNBFQ4U" text="Torneos cercanos" />
+		<string id="uBC62Jdh1" text="Página siguiente..." />
+		<string id="De0boqLm0" text="Página anterior..." />
+		<string id="fakGolQMf" text="Volver a la arena" />
+		<string id="ForHVzTkJ" text="Además, de vez en cuando se celebran los llamados combates de práctica ampliados. En esencia es lo mismo, pero más largo y mucho más intenso. Te aconsejaría traer a algunos de tus hombres; puede ser un buen entrenamiento para ellos. Solo no lo olvides: ahí dentro no hay equipos; de lo contrario, te descalificarán.[ib:closed][if:convo_bared_teeth]" />
+		<string id="nZVbLJnVn" text="¿Y qué hay de esos combates de práctica ampliados? ¿También tienen recompensa? ¿De cuánto son los premios?" />
+		<string id="fpPMPCNp5" text="Mis hombres necesitan entrenar más que yo. Creo que me quedaré aquí y enviaré a alguien en mi lugar." />
+		<string id="7ONiAo9q0" text="Muy bien, ¿quién será el afortunado?[ib:closed][if:convo_bared_teeth]" />
+		<string id="cB4QnrtWM" text="¿Algo más?[ib:normal]" />
+		<string id="y9zNkuGg0" text="Quisiera elegir el equipamiento de mi compañero." />
+		<string id="0uFoXskRW" text="No, que empiece el espectáculo." />
+		<string id="BbpYVQSc6" text="Cambié de opinión: voy a pelear yo." />
+		<string id="VVjb1EG4d" text="Espera, lo estoy pensando mejor." />
+		<string id="MqTDJG0uG" text="Quisiera elegir mi equipamiento." />
+		<string id="iDGR9F0Gn" text="¡Muy bien{?WEAPON_CHOICE_HAS_PRICE}, pero te costará {WEAPON_CHOICE_PRICE}{GOLD_ICON}{?}{\?}! ¿Qué conjunto de armas te llevas?[ib:closed][if:convo_bared_teeth]" />
+		<string id="DGsGeb4LA" text="Quisiera un equipamiento mejor." />
+		<string id="lIBwkFipY" text="En realidad, olvídalo." />
+		<string id="7f21TSn5W" text="Quisiera participar en un combate de práctica ampliado..." />
+		<string id="MnhLtl9Nn" text="¡Pues reúne a tus hombres y adelante! No olvides tomar un arma de práctica al bajar.[if:convo_approving]" />
+		<string id="jBqErWEjU" text="¿Puedes organizarme un combate especial?" />
+		<string id="EYXQnjEvK" text="Depende. ¿En qué estás pensando exactamente?[ib:hip][if:convo_thinking]" />
+		<string id="h2Gv6NA8J" text="Quisiera practicar las paradas." />
+		<string id="RyUSbmDhf" text="En esta arena no se acostumbra usar conjuntos de armas adecuados para la práctica de paradas." />
+		<string id="9yIQ6Qd1E" text="Es una habilidad muy importante, y practicarla también les servirá a los demás... Creo que puedo arreglar ese combate{?PRACTICE_CHOICE_HAS_PRICE}, pero te costará {PRACTICE_CHOICE_PRICE}{GOLD_ICON}{?}{\?}. Ah, y no esperes ganancias, porque es difícil que este tipo de ejercicio le interese al público. Si aún te animas, no olvides tomar un arma de práctica al bajar.[if:convo_calm_friendly][ib:confident]" />
+		<string id="iXwumAizJ" text="Quiero pelear junto a mis camaradas, como equipo. ¿Hay alguna posibilidad de que organices una práctica por equipos?" />
+		<string id="LTfWl2OPC" text="¡Eso sin duda animará las cosas! {?PRACTICE_CHOICE_HAS_PRICE}Me gusta la idea, pero para organizar bien una competencia así tendré que armar bastante alboroto, así que te costará {PRACTICE_CHOICE_PRICE}{GOLD_ICON}. Pero mira el lado bueno. {?}{\?}Creo que será un gran espectáculo para el público, y eso se notará en los premios. Si aún te animas, no olvides tomar un arma de práctica al bajar.[ib:nervous2][if:convo_excited]" />
+		<string id="wuuxg3Lkg" text="Entonces... ¿Quieres intentarlo otra vez?[ib:normal]" />
+		<string id="6kW561DVB" text="Necesito descansar un poco y mis hombres necesitan entrenar. Creo que esta vez me quedaré aquí y enviaré a alguien en mi lugar." />
+		<string id="RKNcniRPk" text="Esta vez quiero enviar a otra persona." />
+		<string id="7NfBn2JvL" text="Quisiera entrar en calor; esta vez participaré yo en el combate." />
+		<string id="8k8br8lfq" text="{?COMPANION_GENDER}Ella{?}Él{\?} lo hará con el equipamiento estándar." />
+		<string id="rPVHszLLs" text="Claro. Aunque quisiera elegir un nuevo conjunto de armas para {COMPANION_NAME}." />
+		<string id="WRO1rFtQm" text="Lo haré con el equipamiento estándar." />
+		<string id="uLNYivCXl" text="Claro. Aunque quisiera llevar un nuevo conjunto de armas." />
+		<string id="zvb5PZ5OA" text="Actualmente se celebran torneos en {TOURNAMENTS} {?TOURNAMENTS.PLURAL_FORM}ciudades{?}ciudad{\?}.{?SHOW_PAGES} Página {PAGE} de {PAGES}.{?}{\?}{NEW_LINE}{NEW_LINE}{TORNAMENT_LIST.START}{?TORNAMENT_LIST.IS_PLURAL}{NEW_LINE}{NEW_LINE}{?}{\?}{TORNAMENT_LIST.END}" />
+		<string id="UOpsoG57t" text="{NAME}{NEW_LINE}    [{TYPE} de nivel {TIER}, con valor de {GOLD} {GOLD_ICON}]" />
+		<string id="AOtlEntry1" text="{INDEX}. {TOWN_LINK} [{DISTANCE_ESTIMATE}, {TAG}]{NEW_LINE}    Comenzó hace {TOURNAMENT_AGE} {?TOURNAMENT_AGE.PLURAL_FORM}días{?}día{\?}.{NEW_LINE}    Premio: {ITEM_PRIZE}{?GOLD_PRIZES_ENABLED}{NEW_LINE}    Oro: {GOLD_PRIZE}{GOLD_ICON}{?}{\?}" />
+		<string id="AOtlTag000" text="reciente" />
+		<string id="AOtlTag001" text="aún alcanzable" />
+		<string id="AOtlTag002" text="apúrate" />
+		<string id="AOtlTag003" text="alcanzable" />
+		<string id="AOtlTag004" text="apúrate" />
+		<string id="AOtlTag005" text="pocas probabilidades" />
+		<string id="EPjU6L6kg" text="¡No tienes suficiente oro!{NEW_LINE}{NEW_LINE}{EXPENSES_BREAKDOWN}" />
+		<string id="9REfw5FN6" text="{EXPENSES_BREAKDOWN}{NEW_LINE}{NEW_LINE}Actualmente puedes costear {AFFORDABLE_ROUNDS} {?AFFORDABLE_ROUNDS.PLURAL_FORM}rondas de práctica{?}ronda de práctica{\?} a este precio." />
+		<string id="OXad58sEV" text="{?PRACTICE_CHOICE_HAS_PRICE}{NEW_LINE} - Tarifa por un tipo especial de práctica: {PRACTICE_CHOICE_PRICE}{GOLD_ICON}.{?}{\?}" />
+		<string id="bO70zCDVt" text="{?WEAPON_CHOICE_HAS_PRICE}{NEW_LINE} - Tarifa por usar un conjunto de armas a elección: {WEAPON_CHOICE_PRICE}{GOLD_ICON}.{?}{\?}" />
+		<string id="M8fIDW2lQ" text="{?COMPANION_WEAPON_CHOICES_HAVE_PRICE}{NEW_LINE} - Tarifa por los conjuntos de armas a elección de tus compañeros: {COMPANION_WEAPON_CHOICES_PRICE}{GOLD_ICON} por todos ellos.{?}{\?}" />
+		<string id="Oz5qSUyk9" text="Organizar una ronda de práctica con las reglas y preferencias solicitadas te costará un total de {TOTAL_EXPENSES}{GOLD_ICON}.{NEW_LINE}{NEW_LINE}Esto incluye:{ARRANGEMENT_EXPENSES}{PLAYER_LOADOUT_EXPENSES}{COMPANION_LOADOUT_EXPENSES}" />
+		<string id="YxVkSN8sn" text="Te derrotaron, pero tu equipo sigue luchando y, si quieres, puedes cambiar a otro héroe." />
+		<string id="xRdn4pEme" text="Personajes disponibles" />
+		<string id="jq2jXUcse" text="Elige a un compañero de equipo al que cambiar" />
+		<string id="XZcFEonSW" text="¡No hay personajes disponibles en tu equipo a los que cambiar!" />
+		<string id="Iz2BWpesF" text="¡Ahora no puedes cambiar a otro personaje!" />
+		<string id="UuAz2vxM3" text="Tu equipo sigue luchando. ¿Quieres abandonar la arena?" />
+		<string id="PumaUhrt2" text="Bloqueos preparados: {PREPARED_BLOCKS}" />
+		<string id="XiR0Srf50" text="Bloqueos perfectos: {PERFECT_BLOCKS}" />
+		<string id="R0UCmq6Jn" text="Bloqueos por contraataque: {CHAMBER_BLOCKS}" />
+		<string id="CSGg2vSS3" text="Golpes recibidos: {HITS_TAKEN}" />
+		<string id="l1z9vuw8B" text="Aliados restantes: {ALLIES_REMAINING}" />
+		<string id="HxdMLgPrk" text="objeto no válido" />
+		<string id="ZMHaMWEhM" text="caballo" />
+		<string id="8G7OMyMbp" text="arma de una mano" />
+		<string id="XuZG0Aoio" text="arma de dos manos" />
+		<string id="CqFjTkLpa" text="arma de asta" />
+		<string id="a0BgoRSGt" text="flechas" />
+		<string id="cGVcwzcts" text="virotes" />
+		<string id="1w2htuOn2" text="escudo" />
+		<string id="KsH4vdaKZ" text="arco" />
+		<string id="wXthM7Mmt" text="ballesta" />
+		<string id="t3EkeJDz6" text="arma arrojadiza" />
+		<string id="FjujPkPsk" text="mercancías" />
+		<string id="6p4MDI4FN" text="armadura de cabeza" />
+		<string id="JH2tZrJmd" text="armadura de cuerpo" />
+		<string id="aMMn9E0nk" text="armadura de piernas" />
+		<string id="3LtYT36O8" text="armadura de manos" />
+		<string id="OBZsswRvq" text="pistola" />
+		<string id="mwmowr3Pl" text="mosquete" />
+		<string id="RnZzjAmRe" text="balas" />
+		<string id="5PmQkkEOf" text="animal" />
+		<string id="IA8SfaiLs" text="libro" />
+		<string id="zWPK2mgHx" text="armadura de pecho" />
+		<string id="z3x97kWhJ" text="capa" />
+		<string id="PxZJzp7zk" text="arnés de caballo" />
+		<string id="G5Tk9ZJwy" text="estandarte" />
+		<string id="hWj4T9N6e" text="objeto" />
+		<string id="gaJDVkvHa" text="{VALOR_PRIZES_DESCRIPTION}{CHAMPION_PRIZE_DESCRIPTION} Suena bien, ¿eh?[if:convo_nonchalant]" />
+		<string id="hsDqRWEYr" text="Si logras vencer a {OPPONENT_COUNT_1} oponentes antes de caer, ganarás {PRIZE_1}{GOLD_ICON}. " />
+		<string id="8qZeWlW2A" text="Si logras vencer a {OPPONENT_COUNT_1} oponentes antes de caer, ganarás {PRIZE_1}{GOLD_ICON}. Y recibirás {PRIZE_2}{GOLD_ICON} por derribar al menos a {OPPONENT_COUNT_2} oponentes. " />
+		<string id="pBCjfH33W" text="Si logras vencer a {OPPONENT_COUNT_1} oponentes antes de caer, ganarás {PRIZE_1}{GOLD_ICON}. Recibirás {PRIZE_2}{GOLD_ICON} por derribar al menos a {OPPONENT_COUNT_2} oponentes y {PRIZE_3}{GOLD_ICON} si logras derrotar a {OPPONENT_COUNT_3} oponentes. " />
+		<string id="S0uBAbZiF" text="Si logras vencer a {OPPONENT_COUNT_1} oponentes antes de caer, ganarás {PRIZE_1}{GOLD_ICON}. Recibirás {PRIZE_2}{GOLD_ICON} por derribar al menos a {OPPONENT_COUNT_2} oponentes, {PRIZE_3}{GOLD_ICON} si logras derrotar a {OPPONENT_COUNT_3} oponentes y {PRIZE_4}{GOLD_ICON} si aguantas lo suficiente para vencer a {OPPONENT_COUNT_4} oponentes. " />
+		<string id="jhJZqz0OL" text="Si logras vencer a {OPPONENT_COUNT_1} oponentes antes de caer, ganarás {PRIZE_1}{GOLD_ICON}. Recibirás {PRIZE_2}{GOLD_ICON} por derribar al menos a {OPPONENT_COUNT_2} oponentes, {PRIZE_3}{GOLD_ICON} si logras derrotar a {OPPONENT_COUNT_3} oponentes, {PRIZE_4}{GOLD_ICON} si aguantas lo suficiente para vencer a {OPPONENT_COUNT_4} oponentes y {PRIZE_5}{GOLD_ICON} si de algún modo consigues derrotar a {OPPONENT_COUNT_5} oponentes, lo que sin duda no es poca hazaña. " />
+		<string id="nwnxJV2rZ" text="Si logras ser quien quede en pie al final, ganarás el gran premio de los combates: {PRIZE_CHAMP}{GOLD_ICON}. " />
+		<string id="AAPfCIEuZ" text="Si logras ser quien quede en pie al final, además ganarás el gran premio de los combates: {PRIZE_CHAMP}{GOLD_ICON}. " />
+		<string id="3UtRes0Un" text="Pero si logras ser quien quede en pie al final, ganarás el gran premio de los combates: {PRIZE_CHAMP}{GOLD_ICON}. Quizá incluso varias veces más si das una pelea realmente buena y derrotas en persona a muchos oponentes. " />
+		<string id="4uOu7an2u" text="¡Je! Menudo moretón luce tu secuaz. Pero no te preocupes; a todos nos dan una paliza de vez en cuando. Lo importante es aprender de los errores y seguir luchando. Eso es lo que hacen los campeones." />
+		<string id="s2B3i84HL" text="¡Ah, la experiencia, hija bienvenida de los errores difíciles! Ahora que tu equipo, con suerte, ganó algo de ella, les sugiero que vuelvan ahí y le den buen uso. Eso es lo que hacen los campeones." />
+		<string id="bWSPsaDyt" text="Parece que tu secuaz logró derribar a {OPPONENT_COUNT} oponentes. Nada mal. Pero eso no te dará ningún premio. Yo que tú, {?COMPANION.GENDER}la{?}lo{\?} mandaría de vuelta ahí ahora mismo o, mejor aún, iría en persona a mostrarles a todos de qué soy capaz..." />
+		<string id="0xwJY4TYS" text="Parece que tu equipo logró derribar a {OPPONENT_COUNT} oponentes. Nada mal. Pero eso no les dará ningún premio. Yo que tú, reuniría a mis hombres, les soltaría un pequeño discurso, volvería ahí ahora mismo y les mostraría a todos de qué somos capaces..." />
+		<string id="tU4Oa8XN1" text="{COMPANION.LINK} dio una pelea bastante buena ahí. Algunos movimientos muy buenos. Unos cuantos errores, claro, pero {?COMPANION.GENDER}ella{?}él{\?} sin duda promete. Y te ganó un premio de {PRIZE}{GOLD_ICON} por derribar a {OPPONENT_COUNT} oponentes." />
+		<string id="IMAm6VMLR" text="Tu equipo dio una pelea bastante buena ahí. Algunos movimientos muy buenos. Unos cuantos errores, claro, pero sin duda prometen. Y se ganaron un premio de {PRIZE}{GOLD_ICON} por derribar a {OPPONENT_COUNT} oponentes." />
+		<string id="N5d76ElzV" text="Bien, {PLAYER.LINK}, bien. {?COMPANION.GENDER}Doña{?}Don{\?} {COMPANION.LINK} logró derribar nada menos que a {OPPONENT_COUNT} oponentes. {?COMPANION.GENDER}Ella{?}Él{\?} se ganó al público con {?COMPANION.GENDER}su{?}su{\?} arrojo. Y, por supuesto, te consiguió un premio de {PRIZE}{GOLD_ICON}." />
+		<string id="injn095f0" text="Bien, {PLAYER.LINK}, bien. Tu equipo logró derribar nada menos que a {OPPONENT_COUNT} oponentes. Conquistaron al público con su arrojo. Y, por supuesto, se ganaron un premio de {PRIZE}{GOLD_ICON}." />
+		<string id="xe4cfXIBa" text="Esa sí fue una buena pelea, {PLAYER.LINK}. {COMPANION.LINK} derribó a {OPPONENT_COUNT} oponentes. Por supuesto, {?COMPANION.GENDER}ella{?}él{\?} merece un premio por esa actuación: {PRIZE}{GOLD_ICON}. Nada mal, ¿eh?" />
+		<string id="luDin5D4D" text="Esa sí fue una buena pelea, {PLAYER.LINK}. Tu equipo derribó a {OPPONENT_COUNT} oponentes. Por supuesto, merecen un premio por esa actuación: {PRIZE}{GOLD_ICON}. Nada mal, ¿eh?" />
+		<string id="ETDxIDLAf" text="Una actuación magistral, {COMPANION.LINK}. ¡Zas! ¡Crac! Derribaste a {OPPONENT_COUNT} de ellos. Al público le encantó. {PLAYER.LINK}, tu aspirante a artista marcial acaba de ganarte un premio de {PRIZE}{GOLD_ICON}." />
+		<string id="UUuKSdZ7b" text="Una actuación magistral, {PLAYER.LINK}. ¡Zas! ¡Crac! Tu equipo derribó a {OPPONENT_COUNT} de ellos. Al público le encantó. Y se ganaron un premio de {PRIZE}{GOLD_ICON}." />
+		<string id="GLYFl5ImO" text="Ahora déjame ver más de cerca a tu prodigio, {PLAYER.LINK}. Así algún día podré contarles a mis hijos cómo es un verdadero gran maestro... ¡{COMPANION.LINK} logró vencer a {OPPONENT_COUNT} de una sentada! ¡Increíble! Ah, y por supuesto eso significa que te debo un premio de {PRIZE}{GOLD_ICON}." />
+		<string id="aDC8zdCmt" text="Ahora déjame verte más de cerca, {PLAYER.LINK}. ¡Así algún día podré contarles a mis hijos cómo es un verdadero gran maestro! ¡Lograste vencer a {OPPONENT_COUNT} de una sentada! ¡Increíble! Ah, y por supuesto te ganaste un premio de {PRIZE}{GOLD_ICON}." />
+		<string id="b42weJbT2" text="¡Eso sí es lo que yo llamo juego en equipo! ¡Tu equipo logró vencer a {OPPONENT_COUNT} de una sentada! ¡Increíble! Se ganaron un premio de {PRIZE}{GOLD_ICON}, y se merecen hasta la última moneda." />
+		<string id="YL3QBzHns" text="¡Felicidades, {PLAYER.LINK}, {COMPANION.LINK} es {?COMPANION.GENDER}la campeona{?}el campeón{\?}! ¡Su combate fue digno de recordar! Por ser quien quedó en pie al final, {COMPANION.LINK} gana el premio mayor: {PRIZE}{GOLD_ICON}." />
+		<string id="DwOtDP6SQ" text="¡Felicidades, {PLAYER.LINK}, tu equipo es el campeón! Por ser quienes quedaron en pie al final, se llevan el premio mayor: {PRIZE}{GOLD_ICON}." />
+		<string id="dKWMj58Bq" text="¡Felicidades, {PLAYER.LINK}, {COMPANION.LINK} es {?COMPANION.GENDER}la campeona{?}el campeón{\?}! ¡Su combate fue digno de recordar! Por ser quien quedó en pie al final, {COMPANION.LINK} por supuesto gana el premio mayor: {PRIZE}{GOLD_ICON}, incluidos {VALOR_PRIZE}{GOLD_ICON} por derribar a {OPPONENT_COUNT} oponentes." />
+		<string id="nZ1Ar0MOd" text="¡Felicidades, el campeonato es tuyo! ¡Tu combate fue digno de recordar! Por ser quien quedó en pie al final, por supuesto te llevas el premio mayor: {PRIZE}{GOLD_ICON}, incluidos {VALOR_PRIZE}{GOLD_ICON} por derribar a {OPPONENT_COUNT} oponentes." />
+		<string id="UISWBTRY2" text="¡Felicidades, {PLAYER.LINK}, tu equipo es el campeón! ¡Este combate fue digno de recordar! Por ser quienes quedaron en pie al final, por supuesto se llevan el premio mayor: {PRIZE}{GOLD_ICON}, incluidos {VALOR_PRIZE}{GOLD_ICON} por derribar a {OPPONENT_COUNT} oponentes." />
+		<string id="YZcU0ocKX" text="¡Felicidades, {PLAYER.LINK}, {COMPANION.LINK} es {?COMPANION.GENDER}la campeona{?}el campeón{\?}! ¡Sin duda su combate fue digno de recordar! Por ser quien quedó en pie al final, {COMPANION.LINK} gana el premio mayor: {PRIZE}{GOLD_ICON}, incluidos {VALOR_PRIZE}{GOLD_ICON} por derribar a {OPPONENT_COUNT} oponentes. Debo decir que fue un gran combate y al público le encantó, así que se ganó a pulso cada moneda, camarada." />
+		<string id="oYDKCzkid" text="¡Felicidades, el campeonato es tuyo! ¡Tu combate fue digno de recordar! Por ser quien quedó en pie al final, por supuesto te llevas el premio mayor: {PRIZE}{GOLD_ICON}, incluidos {VALOR_PRIZE}{GOLD_ICON} por derribar a {OPPONENT_COUNT} oponentes. Debo decir que fue un gran combate y al público le encantó, así que te ganaste a pulso cada moneda, camarada." />
+		<string id="TFRz8p0Z6" text="¡Felicidades, {PLAYER.LINK}, tu equipo es el campeón! ¡Sin duda este combate fue digno de recordar! Por ser quienes quedaron en pie al final, se llevan el premio mayor: {PRIZE}{GOLD_ICON}, incluidos {VALOR_PRIZE}{GOLD_ICON} por derribar a {OPPONENT_COUNT} oponentes. Debo decir que fue un gran combate y al público le encantó, así que tú y tus hombres se ganaron a pulso cada moneda, camarada." />
+		<string id="6bnQLhQQB" text="¡Felicidades, {PLAYER.LINK}, {COMPANION.LINK} es {?COMPANION.GENDER}la campeona{?}el campeón{\?}! ¡Su combate fue digno de recordar! {COMPANION.LINK} no solo quedó en pie hasta el final, sino que además luchó como una fiera y por eso ganó el doble del premio mayor habitual: {PRIZE}{GOLD_ICON}." />
+		<string id="dKdBMUgOL" text="¡Felicidades, el campeonato es tuyo! ¡Tu combate fue digno de recordar! No solo quedaste en pie hasta el final, sino que además luchaste como una fiera y por eso ganaste el doble del premio mayor habitual: {PRIZE}{GOLD_ICON}." />
+		<string id="phgJ8tmZV" text="¡Felicidades, {PLAYER.LINK}, tu equipo es el campeón! ¡Este combate fue digno de recordar! No solo quedaron en pie hasta el final, sino que además lucharon como fieras y por eso ganaron el doble del premio mayor habitual: {PRIZE}{GOLD_ICON}." />
+		<string id="41XqfyWOi" text="¡Felicidades, {PLAYER.LINK}, {COMPANION.LINK} es {?COMPANION.GENDER}la campeona{?}el campeón{\?}! ¡Y su combate fue digno de recordar! {COMPANION.LINK} no solo quedó en pie hasta el final, sino que además luchó como {?COMPANION.GENDER}una verdadera heroína{?}un verdadero héroe{\?} y por eso ganó el triple del premio mayor habitual: {PRIZE}{GOLD_ICON}." />
+		<string id="BtSwRTvu9" text="¡Felicidades, el campeonato es tuyo! ¡Tu combate fue digno de recordar! No solo quedaste en pie hasta el final, sino que además luchaste con verdadero heroísmo y por eso ganaste el triple del premio mayor habitual: {PRIZE}{GOLD_ICON}." />
+		<string id="PgMuEBsXX" text="¡Felicidades, {PLAYER.LINK}, tu equipo es el campeón! ¡Este combate fue digno de recordar! No solo quedaron en pie hasta el final, sino que además lucharon como verdaderos héroes y por eso ganaron el triple del premio mayor habitual: {PRIZE}{GOLD_ICON}." />
+		<string id="KPp4pG1Ky" text="¡Felicidades, {PLAYER.LINK}, {COMPANION.LINK} es {?COMPANION.GENDER}la campeona{?}el campeón{\?}! ¡Y vaya, su combate fue digno de recordar! ¡{?COMPANION.GENDER}Doña{?}Don{\?} {COMPANION.LINK} se encargó en persona de una buena mitad de los participantes y por eso ganó cuatro veces el premio de campeón habitual! Aquí tienes: {PRIZE}{GOLD_ICON}.[if:convo_merry]" />
+		<string id="I2A8Heq2r" text="¡Felicidades, el campeonato es tuyo! ¡Tu combate fue digno de recordar! ¡Te encargaste en persona de una buena mitad de los participantes y por eso ganaste cuatro veces el premio de campeón habitual! Aquí tienes: {PRIZE}{GOLD_ICON}.[if:convo_merry]" />
+		<string id="gmzDTwOFX" text="¡Felicidades, {PLAYER.LINK}, tu equipo es el campeón! ¡Sin duda este combate fue digno de recordar! ¡Tus hombres se encargaron de una buena mitad de los participantes y por eso ganaron cuatro veces el premio de campeón habitual! Aquí tienes: {PRIZE}{GOLD_ICON}.[if:convo_merry]" />
+		<string id="XdkGt7jFa" text="Vaya, {PLAYER.LINK}, ¡lo de allá abajo fue una hazaña digna de un verdadero gran maestro! Es un honor recibir aquí a alguien que pelea como {COMPANION.LINK}. Por esta actuación sobresaliente, {?COMPANION.GENDER}ella{?}él{\?} se ganó un premio majestuoso de {PRIZE}{GOLD_ICON}.[if:convo_merry]" />
+		<string id="3yLYLKZYW" text="¡Felicidades, lo tuyo es auténtica maestría! Es un honor recibir aquí a alguien que pelea como tú. Por esta actuación sobresaliente te ganaste un premio majestuoso de {PRIZE}{GOLD_ICON}.[if:convo_merry]" />
+		<string id="uU3Ya5GfN" text="Vaya, {PLAYER.LINK}, ¡lo de allá abajo fue una hazaña digna de una canción! O de una leyenda. Es un honor recibir a luchadores así en mi humilde arena. Por esta actuación sobresaliente se ganaron un premio majestuoso de {PRIZE}{GOLD_ICON}.[if:convo_merry]" />
+		<string id="k0kOwkWzO" text="Me dijiste que tus hombres necesitaban practicar sus paradas, pero por lo que vi allá abajo, parecía que a {COMPANION.LINK} le interesaba más moler a palos a mis luchadores. Te sugiero que le digas {?COMPANION.GENDER}a ella{?}a él{\?} que empiece a prestar más atención a la defensa y a los contraataques, o que simplemente deje de hacerme perder el tiempo con estas tonterías.[ib:closed][if:convo_confused_annoyed]" />
+		<string id="6vlrvSbAY" text="Me dijiste que necesitabas practicar tus paradas, pero por lo que vi allá abajo, parecía que te interesaba más moler a palos a mis luchadores. Te sugiero que empieces a prestar más atención a la defensa y a los contraataques, o que simplemente dejes de hacerme perder el tiempo con estas tonterías.[ib:closed][if:convo_confused_annoyed]" />
+		<string id="VGOnRoQck" text="Por lo que acabo de ver, a {COMPANION.LINK} de verdad le hace falta practicar las paradas. Sugiero que sigamos.[ib:weary][if:convo_confused_normal]" />
+		<string id="y508NVoOc" text="Por lo que acabo de ver, de verdad te hace falta practicar las paradas. Te sugiero que sigas.[ib:weary][if:convo_confused_normal]" />
+		<string id="0taUkpCCP" text="Bueno, {COMPANION.LINK} casi lo logra allá abajo, pero {?COMPANION.GENDER}ella{?}él{\?} tiene que acostumbrarse a mantener la concentración durante más tiempo.[if:convo_approving]" />
+		<string id="fdxZnnGSu" text="Bueno, casi lo logras allá abajo, pero tienes que acostumbrarte a mantener la concentración durante más tiempo.[if:convo_approving]" />
+		<string id="wDLRbc8Mh" text="{COMPANION.LINK} lo hizo bastante bien allá abajo. Pero si quieres que {?COMPANION.GENDER}ella{?}él{\?} domine de verdad el combate cuerpo a cuerpo, tiene que aprender a parar y contraatacar en un solo movimiento y usar esa técnica más a menudo. Eso {?COMPANION.GENDER}la{?}lo{\?} convertirá en {?COMPANION.GENDER}una luchadora{?}un luchador{\?} de temer.[ib:warrior][if:convo_thinking]" />
+		<string id="N0ok57asq" text="Lo hiciste bastante bien allá abajo. Pero si quieres dominar de verdad el combate cuerpo a cuerpo, tienes que aprender a parar y contraatacar en un solo movimiento y usar esa técnica más a menudo. Eso hará de ti alguien de temer en combate.[ib:warrior][if:convo_thinking]" />
+		<string id="cvThaH27b" text="Debo decir que fue una actuación muy impresionante mientras duró, pero en una pelea de verdad tu aprendiz igual no habría salido con vida. {COMPANION.LINK} tiene que acostumbrarse {?COMPANION.GENDER}ella misma{?}él mismo{\?} a mantener la concentración durante más tiempo.[ib:weary][if:convo_approving]" />
+		<string id="rJa1PaPJs" text="Debo decir que fue una actuación muy impresionante mientras duró, pero en una pelea de verdad igual no habrías salido con vida. Tienes que acostumbrarte a mantener la concentración durante más tiempo.[ib:weary][if:convo_approving]" />
+		<string id="KvdHaGhag" text="{COMPANION.LINK} lo hizo muy bien allá abajo. Pero, como dije antes, no habrá recompensas por este combate.[if:convo_approving]" />
+		<string id="rcLuSrtwD" text="Lo hiciste bien allá abajo. Pero, como dije antes, no habrá recompensas por este combate.[if:convo_approving]" />
+		<string id="aGr4Lb6I2" text="Derrotaste a algunos contendientes de prestigio y por ello ganaste renombre: {RENOWN_TAKEDOWN_REWARD}" />
+		<string id="3ZgMoK2dU" text="Aun así recibes una recompensa por las rondas ganadas: {PER_ROUND_REWARD}" />
+		<string id="83tebCrzc" text="Y recibes una recompensa por las rondas ganadas: {PER_ROUND_REWARD}" />
+		<string id="aV0PTEzbW" text="Tu recompensa por las rondas ganadas: {PER_ROUND_REWARD}" />
+		<string id="16t7gwMmW" text="Tu recompensa en oro por el campeonato: {TOTAL_GOLD_REWARD}" />
+		<string id="gVZq43GDI" text="Equipo {TEAM_CALL_SIGN} de {LEADER_NAME}" />
+		<string id="WA82hgPoO" text="Alfa" />
+		<string id="bpGxcmlP6" text="Beta" />
+		<string id="bmOsWMVsk" text="Gamma" />
+		<string id="Tyl2ufxxy" text="Delta" />
+		<string id="OKSzdZMr8" text="Épsilon" />
+		<string id="zsXVSOB4t" text="Zeta" />
+		<string id="fePbjEFQI" text="Eta" />
+		<string id="9OZjTDg61" text="Theta" />
+		<string id="EmP3OR1tW" text="Configuración predeterminada de práctica de arena para héroes" />
+		<string id="pJ3cqM8RV" text="Configuración de la práctica de arena" />
+		<string id="bPkF9slVr" text="Configuración de la práctica de arena ampliada" />
+		<string id="zbfho3vSj" text="Configuración de la práctica de paradas" />
+		<string id="igoj9leYB" text="Configuración de la práctica de arena por equipos" />
+		<string id="08ifYu37H" text="Configuraciones técnicas" />
+		<string id="RRmGS7t6x" text="Configuración de torneos" />
+		<string id="C5nJgxepr" text="Recompensas" />
+		<string id="oywDR1MSm" text="Experiencia" />
+		<string id="ZlvTL5D4T" text="Recompensas materiales" />
+		<string id="BCzO2WGq9" text="Recompensas intangibles" />
+		<string id="h6sPrqfax" text="Torneos por equipos" />
+		<string id="WnQ4qOI7d" text="Configuración de compatibilidad" />
+		<string id="Awg6G0iNM" text="Optimizado para ahorrar dinero" />
+		<string id="56nUSQP2R" text="Optimizado para entrenar héroes" />
+		<string id="gknaSzMr6" text="Estándar" />
+		<string id="aBVrVSioz" text="Aditivo" />
+		<string id="TY9SqFLBs" text="Multiplicativo" />
+		<string id="Hf3fpLNlh" text="Nunca" />
+		<string id="JHsRs730T" text="Cuando se puede mejorar el nivel del premio" />
+		<string id="oVADnv9sb" text="Cuando mejoran las probabilidades de un mejor premio" />
+		<string id="MwOn3n7yC" text="Cuando cambia la situación" />
+		<string id="z6lpZ65aK" text="Ropa de práctica" />
+		<string id="o5AcCZgOn" text="Armadura de torneo" />
+		<string id="sBnb12g7c" text="Equipamiento civil" />
+		<string id="kKvvYWhMH" text="Equipamiento de batalla" />
+		<string id="RYcQyTDa5" text="Solo objetos no únicos" />
+		<string id="y1RxvGxxl" text="Siempre, excepto monturas únicas" />
+		<string id="NsbCj2rzB" text="Siempre" />
+		<string id="MnVVPRkao" text="Este es el valor predeterminado que se usará para configurar las opciones de armamento de los héroes. Cuando está activado, el héroe correspondiente puede elegir armas para los combates de práctica de arena, y tendrás que pagar la tarifa habitual por ello. De lo contrario, usará armas al azar como todos los demás. Predeterminado: activado." />
+		<string id="XQY35WleC" text="Este es el valor predeterminado que se usará para configurar las opciones de armamento de los héroes. Cuando está activado, el héroe correspondiente solo elegirá armas de práctica si hay alguna preferencia de armas definida y en la arena hay disponible al menos un conjunto de armas que coincida. De lo contrario, usará armas al azar como todos los demás. Predeterminado: activado." />
+		<string id="UO3idcKCw" text="Este es el valor predeterminado que se usará para configurar las opciones de armamento de los héroes. Cuando está activado, el héroe correspondiente elegirá armas para los combates de práctica de arena dando prioridad al equipamiento mejor y más caro. De lo contrario, se elegirá el conjunto de armas más barato que cumpla con las preferencias indicadas. Predeterminado: desactivado." />
+		<string id="NvKLJBxsf" text="Habilitar jugar como un héroe compañero" />
+		<string id="wtKB2udZJ" text="Participantes totales" />
+		<string id="gaGpV2GcX" text="Participantes activos" />
+		<string id="0IOg4Ureb" text="Mínimo de participantes activos" />
+		<string id="dAhEzcAlx" text="Participantes iniciales" />
+		<string id="vZgGTs8Nw" text="Equipos de la IA" />
+		<string id="BVhryIKKF" text="Habilitar elección de conjunto de armas" />
+		<string id="L73kYZTnf" text="Precio por elegir armas" />
+		<string id="3HviduB7g" text="Equipamiento defensivo de práctica" />
+		<string id="v7NfMok7L" text="Recompensa al valor de clase I" />
+		<string id="AFzr1BhC4" text="Recompensa al valor de clase II" />
+		<string id="wjlHVn6cG" text="Recompensa al valor de clase III" />
+		<string id="1JAQ3hGAk" text="Recompensa al valor de clase IV" />
+		<string id="MHzw7JXgh" text="Recompensa al valor de clase V" />
+		<string id="rQHQBnmZL" text="Cálculo del premio de campeón" />
+		<string id="oTOFfuU2c" text="Premio de campeón" />
+		<string id="zDfS2JtnA" text="Habilitar ganancia de experiencia para espectadores" />
+		<string id="9dP3VJpOG" text="Tasa de ganancia de experiencia" />
+		<string id="wFPnd1BNA" text="Cuando esta opción está activada, podrás enviar a un compañero a participar en la práctica de arena en tu lugar y controlarlo en la arena. Juego base: desactivado. Predeterminado: activado." />
+		<string id="89f5zrS7i" text="Número total de participantes en la práctica de arena. Se recomienda que sea múltiplo de 3. Predeterminado = 30." />
+		<string id="oqpocFdUs" text="Número estimado de participantes activos en la práctica de arena. Se recomienda que sea múltiplo de 3. Predeterminado = 6." />
+		<string id="iFjrzKw9e" text="Número mínimo de participantes activos en la práctica de arena. Se recomienda que sea múltiplo de 2. Predeterminado = 2." />
+		<string id="UuSkcTQSd" text="Número inicial de participantes activos en la práctica de arena. Con cualquier número mayor que 7, varios luchadores aparecerán juntos. Predeterminado = 6." />
+		<string id="aVm0YWzg9" text="Número de equipos de la IA en el combate de práctica de arena. Cero significa que será igual al número de participantes activos, lo que reduce al mínimo la probabilidad de encontrar compañeros de equipo de la IA que cooperen entre sí. Con 1, todos lucharán contra ti. Predeterminado = 0." />
+		<string id="zGQrZqevv" text="Cuando esta opción está activada, puedes elegir armas para la práctica de arena." />
+		<string id="rZH6qYOrT" text="Tendrás que pagar esta suma por cada etapa (nivel) de arma al elegir un arma para la práctica de arena. Predeterminado = 10." />
+		<string id="WW4PZP2LH" text="Indica qué armadura o ropa deben llevar los participantes de la práctica de arena. Elegir [Armadura de torneo] dará el mismo resultado que [Equipamiento de batalla], a menos que otros mods lo cambien. No se recomienda cambiar este ajuste a menos que tengas un objetivo concreto. Aunque puede ser divertido, llevar armadura vuelve ineficaces la mayoría de las armas de práctica a distancia. Juego base: [Ropa de práctica]. Predeterminado: [Ropa de práctica]." />
+		<string id="GrjIc6hKr" text="Premio por derrotar al menos a 3 luchadores en la práctica de arena. Predeterminado = 5." />
+		<string id="j86zigBV7" text="Premio por derrotar al menos a 6 luchadores en la práctica de arena. Predeterminado = 10." />
+		<string id="0q32VAkkg" text="Premio por derrotar al menos a 10 luchadores en la práctica de arena. Predeterminado = 25." />
+		<string id="VjGDrAK3N" text="Premio por derrotar al menos a 20 luchadores en la práctica de arena. Predeterminado = 60." />
+		<string id="ws4xpzph6" text="Premio por derrotar al menos a 35 luchadores en la práctica de arena. No se puede lograr con el número estándar de participantes. Predeterminado = 150." />
+		<string id="8mGYZd0fL" text="Indica cómo se debe recompensar al último luchador en pie de la práctica de arena. Estándar: con un premio especial. Aditivo: con un premio especial más cualquier recompensa al valor obtenida. Multiplicativo: con un premio especial por cada clase de valor obtenida por encima de la clase I. Juego base: [Estándar]. Predeterminado: [Aditivo]." />
+		<string id="2ovQejh10" text="Premio base por ser el último luchador en pie en la práctica de arena. Predeterminado = 250." />
+		<string id="gGEXaGsKV" text="Tasa de ganancia de experiencia en los combates de la práctica de arena. Juego base = 6%. Predeterminado = 16.5%." />
+		<string id="3xV72YIYo" text="Cuando esta opción está activada, podrás enviar a un compañero a participar en la práctica de arena ampliada en tu lugar y controlarlo en la arena. Juego base: desactivado. Predeterminado: activado." />
+		<string id="65Ny4vNEE" text="Número total de participantes en la práctica de arena ampliada. Se recomienda que sea múltiplo de 3. Predeterminado = 90." />
+		<string id="sIQdRBwg9" text="Número estimado de participantes activos en la práctica de arena ampliada. Se recomienda que sea múltiplo de 3. Predeterminado = 9." />
+		<string id="ZaLfvG7eX" text="Número mínimo de participantes activos en la práctica de arena ampliada. Se recomienda que sea múltiplo de 2. Predeterminado = 4." />
+		<string id="XwzmSDpAr" text="Número inicial de participantes activos en la práctica de arena ampliada. Con cualquier número mayor que 7, varios luchadores aparecerán juntos. Predeterminado = 7." />
+		<string id="VUnyu0h6n" text="Número de equipos de la IA en el combate de práctica de arena ampliada. Cero significa que será igual al número de participantes activos, lo que reduce al mínimo la probabilidad de encontrar compañeros de equipo de la IA que cooperen entre sí. Con 1, todos lucharán contra ti. Predeterminado = 0." />
+		<string id="9otxYlTUa" text="Cuando esta opción está activada, puedes elegir armas para la práctica de arena ampliada." />
+		<string id="B9xXCFneS" text="Tendrás que pagar esta suma por cada etapa (nivel) de arma al elegir un arma para la práctica de arena ampliada. Predeterminado = 10." />
+		<string id="sLGwAxSzA" text="Indica qué armadura o ropa deben llevar los participantes de la práctica de arena ampliada. Elegir [Armadura de torneo] dará el mismo resultado que [Equipamiento de batalla], a menos que otros mods lo cambien. No se recomienda cambiar este ajuste a menos que tengas un objetivo concreto. Aunque puede ser divertido, llevar armadura vuelve ineficaces la mayoría de las armas de práctica a distancia. Predeterminado: [Ropa de práctica]." />
+		<string id="M7utBJV6O" text="Premio por derrotar al menos a 3 luchadores en la práctica de arena ampliada. Predeterminado = 10." />
+		<string id="5Zkk4IRnM" text="Premio por derrotar al menos a 6 luchadores en la práctica de arena ampliada. Predeterminado = 20." />
+		<string id="ivrbCerwG" text="Premio por derrotar al menos a 10 luchadores en la práctica de arena ampliada. Predeterminado = 50." />
+		<string id="41COOOrtk" text="Premio por derrotar al menos a 20 luchadores en la práctica de arena ampliada. Predeterminado = 120." />
+		<string id="aPjrww0Yz" text="Premio por derrotar al menos a 35 luchadores en la práctica de arena ampliada. Predeterminado = 300." />
+		<string id="aUEgf6bh5" text="Indica cómo se debe recompensar al último luchador en pie de la práctica de arena ampliada. Estándar: con un premio especial. Aditivo: con un premio especial más cualquier recompensa al valor obtenida. Multiplicativo: con un premio especial por cada clase de valor obtenida por encima de la clase I. Predeterminado: [Aditivo]." />
+		<string id="FP34ZZ1b0" text="Premio base por ser el último luchador en pie en la práctica de arena ampliada. Predeterminado = 500." />
+		<string id="YyniNTgz5" text="Solo los héroes y las tropas de rango 3 o superior pueden entrar a la práctica de arena ampliada. Cuando esta opción está activada, las tropas de menor rango ganarán algo de experiencia cuando sus camaradas acierten golpes y logren derribos en la arena." />
+		<string id="hTHzr3Q9U" text="Tasa de ganancia de experiencia en los combates de la práctica de arena ampliada. Juego base = 6%. Predeterminado = 33.3%." />
+		<string id="8wUeKx5yg" text="Habilitar práctica de paradas" />
+		<string id="a7I7iKCIg" text="Cuando esta opción está activada, el modo de práctica de paradas está disponible en la arena. Juego base: desactivado. Predeterminado: activado." />
+		<string id="W1eYm1Lse" text="Costo de organización de la práctica de paradas" />
+		<string id="Igd6YZwx4" text="El costo que cobra el maestro de la arena por organizar un combate de práctica de paradas. Predeterminado = 200." />
+		<string id="b1rJAny0j" text="Cuando esta opción está activada, podrás enviar a un compañero a practicar paradas en tu lugar y controlarlo en la arena. Juego base: desactivado. Predeterminado: activado." />
+		<string id="ZTusmPG2b" text="Número total de participantes en la práctica de paradas. Predeterminado = 15." />
+		<string id="vSxY7fMyJ" text="Número estimado de participantes activos en la práctica de paradas. Predeterminado = 1." />
+		<string id="7O4BbgHHd" text="Número mínimo de participantes activos en la práctica de paradas. Predeterminado = 1." />
+		<string id="FLOs28WoN" text="Número inicial de participantes activos en la práctica de paradas. Predeterminado = 1." />
+		<string id="LHppRdTLa" text="Número de equipos de la IA en el combate de práctica de paradas. Con 1, todos lucharán contra ti. Predeterminado = 1." />
+		<string id="PBdkpnVB9" text="Cuando esta opción está activada, puedes elegir armas para la práctica de paradas." />
+		<string id="vFzDsKyOM" text="Tendrás que pagar esta suma por cada etapa (nivel) de arma al elegir un arma para la práctica de paradas. Predeterminado = 10." />
+		<string id="yEovzkoTi" text="Indica qué armadura o ropa deben llevar los participantes de la práctica de paradas. Elegir [Armadura de torneo] dará el mismo resultado que [Equipamiento de batalla], a menos que otros mods lo cambien. Predeterminado: [Equipamiento de batalla]." />
+		<string id="B0LJRZfnh" text="Tasa de ganancia de experiencia en los combates de la práctica de paradas. Juego base = 6%. Predeterminado = 6%." />
+		<string id="DxJKCdxsV" text="Habilitar práctica por equipos" />
+		<string id="LHCCk34mQ" text="Cuando esta opción está activada, el modo de práctica por equipos está disponible en la arena. Juego base: desactivado. Predeterminado: activado." />
+		<string id="6DKIRQm5C" text="Costo de organización de la práctica por equipos" />
+		<string id="qt2gEppSr" text="El costo que cobra el maestro de la arena por organizar un combate de práctica por equipos. Predeterminado = 200." />
+		<string id="S0i7VyEO8" text="Cuando esta opción está activada, podrás enviar a un compañero a participar en la práctica de arena por equipos en tu lugar y controlarlo en la arena. Juego base: desactivado. Predeterminado: activado." />
+		<string id="L6plpq9tN" text="Número total de participantes en la práctica de arena por equipos. Se recomienda que sea múltiplo de 3 y del número de equipos de la IA. Predeterminado = 300." />
+		<string id="F5ltwpjLD" text="Número estimado de participantes activos en la práctica de arena por equipos. Se recomienda que sea múltiplo del número de equipos de la IA. Predeterminado = 20." />
+		<string id="rLeEchCEv" text="Número mínimo de participantes activos en la práctica de arena por equipos. Se recomienda que sea múltiplo de 2 y del número de equipos de la IA. Predeterminado = 12." />
+		<string id="t7SvV15zK" text="Número inicial de participantes activos en la práctica de arena por equipos. Se recomienda que sea múltiplo del número de equipos de la IA. Predeterminado = 20." />
+		<string id="34SB5z6kv" text="Número de equipos de la IA en el combate de práctica de arena por equipos. Con 1, todos lucharán contra tu equipo. Predeterminado = 4." />
+		<string id="yafmF17l3" text="Cuando esta opción está activada, puedes elegir armas para la práctica de arena por equipos." />
+		<string id="HzpsY1I9V" text="Tendrás que pagar esta suma por cada etapa (nivel) de arma al elegir un arma para la práctica de arena por equipos. Predeterminado = 20." />
+		<string id="cgjoawOu3" text="Indica qué armadura o ropa deben llevar los participantes de la práctica de arena por equipos. Elegir [Armadura de torneo] dará el mismo resultado que [Equipamiento de batalla], a menos que otros mods lo cambien. No se recomienda cambiar este ajuste a menos que tengas un objetivo concreto. Aunque puede ser divertido, llevar armadura vuelve ineficaces la mayoría de las armas de práctica a distancia. Predeterminado: [Ropa de práctica]." />
+		<string id="8LHBbug9w" text="Premio si tu equipo derrota al menos a 30 luchadores en la práctica de arena por equipos. Predeterminado = 30." />
+		<string id="EzSYzJjdR" text="Premio si tu equipo derrota al menos a 50 luchadores en la práctica de arena por equipos. Predeterminado = 60." />
+		<string id="Z7cfjTozo" text="Premio si tu equipo derrota al menos a 75 luchadores en la práctica de arena por equipos. Predeterminado = 150." />
+		<string id="rXdbJb3e8" text="Premio si tu equipo derrota al menos a 100 luchadores en la práctica de arena por equipos. Predeterminado = 350." />
+		<string id="Nhslz7s3n" text="Premio si tu equipo derrota al menos a 135 luchadores en la práctica de arena por equipos. Predeterminado = 800." />
+		<string id="Hmb8Ldjuq" text="Indica cómo se debe recompensar al último equipo en pie de la práctica de arena por equipos. Estándar: con un premio especial. Aditivo: con un premio especial más cualquier recompensa al valor obtenida. Multiplicativo: con un premio especial por cada clase de valor obtenida por encima de la clase I. Predeterminado: [Aditivo]." />
+		<string id="QItzcF4LK" text="Premio base por ser el último equipo en pie en la práctica de arena por equipos. Predeterminado = 1000." />
+		<string id="Qcap6qw2T" text="Solo los héroes y las tropas de rango 3 o superior pueden entrar a la práctica de arena por equipos. Cuando esta opción está activada, las tropas de menor rango ganarán algo de experiencia cuando sus camaradas acierten golpes y logren derribos en la arena." />
+		<string id="J0Okfl8Ey" text="Tasa de ganancia de experiencia en los combates de la práctica de arena por equipos. Juego base = 6%. Predeterminado = 33.3%." />
+		<string id="qLyrVIJoy" text="Índice de color del equipo 1 de la IA" />
+		<string id="KSjkzF8uD" text="Índice de color del equipo 2 de la IA" />
+		<string id="WB6siZI93" text="Índice de color del equipo 3 de la IA" />
+		<string id="MftQIDNf1" text="Índice de color del equipo 4 de la IA" />
+		<string id="OKS7TtFM4" text="Índice de color del equipo 5 de la IA" />
+		<string id="DkLWDatCO" text="Índice de color del equipo 6 de la IA" />
+		<string id="hS7XbrLGG" text="Apuesta máxima" />
+		<string id="gQvJ8Vvsk" text="Cantidad máxima de oro que normalmente se permite apostar en cada ronda de un torneo. Juego base = 150. Predeterminado = 500." />
+		<string id="qPAga7DLd" text="Habilitar cuotas de apuesta aleatorias" />
+		<string id="kGyR7NsKh" text="Cuando esta opción está activada, las cuotas de apuesta varían ligeramente al azar, pero siguen basándose sobre todo en el pronóstico de éxito del jugador. Juego base: desactivado. Predeterminado: activado." />
+		<string id="hARcKe6Jt" text="Permitir la participación de notables" />
+		<string id="YqIOYTV0P" text="Permite que los notables de los asentamientos participen en los torneos. Recomendado con mods de armaduras de torneo. Juego base: desactivado. Predeterminado: activado." />
+		<string id="cCAOeRdmt" text="Condición para volver a sortear el premio" />
+		<string id="CDGmDeYii" text="Indica si los premios de los torneos deben volver a sortearse y cuándo. Normalmente los premios se vuelven a sortear cuando el jugador se une al torneo, si el número de nobles participantes cambió desde que se creó el torneo (afecta la calidad del premio). Juego base: [Cuando cambia la situación]. Predeterminado: [Nunca]." />
+		<string id="IfsaDqygk" text="Habilitar premios en oro" />
+		<string id="yVAG4f83d" text="Cuando esta opción está activada, en los torneos también hay premios en oro. Esto se suma a los objetos de premio habituales y a las ganancias de las apuestas. Juego base: desactivado. Predeterminado: activado." />
+		<string id="fH4Ev0UoC" text="Habilitar escalado de premios" />
+		<string id="1THMacQwa" text="Cuando esta opción está activada, los premios de los torneos escalan con el renombre del jugador. Es algo poco convencional, pero ayuda a que los torneos sigan siendo útiles a mitad y al final de la partida. Juego base: desactivado. Predeterminado: activado." />
+		<string id="lu9G6m85v" text="Habilitar premios de alta calidad" />
+		<string id="EQs8Z1eOO" text="Cuando esta opción está activada, se pueden otorgar versiones de alta calidad de los objetos (obra maestra, señorial, etc.) como premios de torneo. Juego base: desactivado. Predeterminado: activado." />
+		<string id="ZFv8WXbGE" text="Premios de élite restringidos por cultura" />
+		<string id="ffwi4bAIs" text="Indica si los premios de élite de los torneos deben limitarse a la cultura del asentamiento anfitrión, igual que los premios básicos, y cuándo. Juego base: [Nunca]. Predeterminado: [Siempre, excepto monturas únicas]." />
+		<string id="DyNe9qH4v" text="Recompensa por ronda ganada" />
+		<string id="aAquVsgYJ" text="Cantidad de oro que reciben los participantes por cada ronda del torneo que ganan. Juego base = 0. Predeterminado = 0." />
+		<string id="lkgaScPft" text="Recompensa de renombre para el campeón" />
+		<string id="GWmYOkfOs" text="Cantidad de renombre que recibe el campeón del torneo. Juego base = 3. Predeterminado = 3." />
+		<string id="1AR1Jq493" text="Recompensa de renombre por héroes derrotados" />
+		<string id="Fbt8Iewl4" text="Cada vez que un participante del torneo derriba a un héroe con un renombre comparable o mayor, o con un mejor historial de victorias en torneos, recibe la cantidad de renombre indicada. A lo largo del torneo no puede superar el doble de la recompensa de renombre del campeón. Juego base = 0. Predeterminado = 1." />
+		<string id="eLKi8Ptgm" text="Recompensa de influencia para el campeón" />
+		<string id="uYmFPwO8z" text="Cantidad de influencia que recibe el campeón del torneo si es un señor noble de algún reino. Juego base = 1. Predeterminado = 10." />
+		<string id="C5fcetmfG" text="Tasa de ganancia de experiencia en los combates de torneo. Juego base = 33%. Predeterminado = 66.6%." />
+		<string id="PSnYupZhT" text="Habilitar torneos por equipos" />
+		<string id="qHyqXp9tK" text="Agrega una opción para unirse a los torneos y participar en ellos como equipo." />
+		<string id="lDuOZkktY" text="Tamaño mínimo del equipo" />
+		<string id="Nv4MJ3oXq" text="Número mínimo de miembros de un equipo de torneo. Un equipo debe tener al menos dos participantes." />
+		<string id="Q6qQge312" text="Tamaño máximo del equipo" />
+		<string id="4q3hSTZPZ" text="Número máximo de miembros de un equipo de torneo. Un equipo debe tener al menos dos participantes. Si los valores entran en conflicto, este ajuste tiene prioridad sobre el tamaño mínimo del equipo." />
+		<string id="6o45aTuZi" text="Número máximo de equipos" />
+		<string id="34r9jsdJq" text="Número máximo de equipos en un torneo. Un torneo debe tener al menos 8 equipos." />
+		<string id="rzIC6zMIv" text="Puntos para el equipo ganador" />
+		<string id="lA71kgTie" text="Cuando está activado, cada héroe del equipo ganador recibirá puntos en la tabla de clasificación de torneos. Cuando está desactivado, solo el líder del equipo los recibirá." />
+		<string id="l2FTrzzXX" text="Índice de color del equipo 1" />
+		<string id="jWYXBiEZp" text="Índice de color del equipo 2" />
+		<string id="iRvUExaRI" text="Índice de color del equipo 3" />
+		<string id="F6qBgeAOk" text="Índice de color del equipo 4" />
+		<string id="3r3TStZPU" text="Define el color del estandarte del equipo mediante un valor de índice. Consulta https://bannerlord.party/banner-colors/ para ver la lista de colores disponibles." />
+		<string id="Ams5ccKzh" text="Solo se puede elegir a los integrantes en los torneos por equipos." />
+		<string id="xRkr497KP" text="Unirse como equipo" />
+		<string id="AOthHead01" text="Organización de torneos" />
+		<string id="AOthEnabl1" text="Habilitar la organización de torneos" />
+		<string id="AOthEnabl2" text="Agrega al menú de la arena una opción para organizar un torneo en una ciudad que no tenga ninguno en ese momento. Cuesta oro e influencia, según la prosperidad de la ciudad y el nivel y el renombre del clan del jugador. Predeterminado: activado." />
+		<string id="AOthGold01" text="Costo base en oro" />
+		<string id="AOthGold02" text="Cantidad base de oro necesaria para organizar un torneo, antes del escalado. Predeterminado = 2000." />
+		<string id="AOthInfl01" text="Costo base en influencia" />
+		<string id="AOthInfl02" text="Cantidad base de influencia necesaria para organizar un torneo, antes del escalado por nivel del clan. Predeterminado = 20." />
+		<string id="AOthCool01" text="Tiempo de espera en días" />
+		<string id="AOthCool02" text="Días que deben pasar antes de que el jugador pueda organizar otro torneo en la misma ciudad. Predeterminado = 7." />
+		<string id="AOthAffi01" text="Requerir afiliación con la ciudad" />
+		<string id="AOthAffi02" text="Cuando está activado, el jugador solo puede organizar torneos en ciudades que pertenezcan a su clan, a su reino o a una facción aliada. Predeterminado: activado." />
+		<string id="AOthMenu01" text="Organizar un torneo" />
+		<string id="AOthNoWar1" text="La ciudad no está en condiciones de celebrar festejos." />
+		<string id="AOthNoAff1" text="No tienes afiliación con esta ciudad." />
+		<string id="AOthCoold1" text="La gente de la ciudad aún se está recuperando de tu último torneo. Vuelve a intentarlo en {DAYS} {?DAYS.PLURAL_FORM}días{?}día{\?}." />
+		<string id="AOthPoor01" text="Organizar un torneo aquí cuesta {GOLD}{GOLD_ICON}{?HAS_INFLUENCE} y {INFLUENCE} de influencia{?}{\?}. No puedes costearlo." />
+		<string id="AOthCost01" text="Organizar un torneo aquí cuesta {GOLD}{GOLD_ICON}{?HAS_INFLUENCE} y {INFLUENCE} de influencia{?}{\?}. El fondo de premios crece con la prosperidad de la ciudad." />
+		<string id="AOthDone01" text="Gastaste {GOLD}{GOLD_ICON}{?HAS_INFLUENCE} y {INFLUENCE} de influencia{?}{\?} para organizar un torneo en {TOWN}." />
+		<string id="AOthConf01" text="¿Organizar un torneo en {TOWN} por {GOLD}{GOLD_ICON}{?HAS_INFLUENCE} y {INFLUENCE} de influencia{?}{\?}?" />
+		<string id="AOthConf02" text="Organizar un torneo" />
+		<string id="AOtiHead01" text="Heridas" />
+		<string id="AOtiEnabl1" text="Habilitar heridas de torneo" />
+		<string id="AOtiEnabl2" text="Cuando esta opción está activada, todo héroe que caiga en un combate de torneo (el jugador, los compañeros y los señores por igual) pierde puntos de vida y se lleva esa herida al mapa de campaña. Juego base: desactivado. Predeterminado: activado." />
+		<string id="AOtiLoss01" text="Puntos de vida perdidos al caer en un torneo" />
+		<string id="AOtiLoss02" text="Porcentaje de los puntos de vida máximos que pierde un héroe al caer en un combate de torneo. Los puntos de vida nunca bajan de 1. Predeterminado = 30%." />
+		<string id="AOtiMsg001" text="Caíste en combate y perdiste {HP_LOSS} puntos de vida." />
+		<string id="Ndc21b2NO" text="Etapas de armamento de práctica" />
+		<string id="9SY3aAtv1" text="Cantidad de etapas de armamento de práctica que se buscan en ObjectManager. No modifiques este ajuste a menos que tengas mods que cambien las etapas de la práctica de arena y agreguen los modelos de personaje correspondientes. Juego base = 3. Predeterminado = 3." />
+		<string id="DXiVYMIUL" text="Cambiar a otro héroe" />
+		<string id="morP28atv" text="Cambia a otro héroe activo de tu elección en un combate de práctica por equipos en la arena." />
+		<string id="NcXn6Ow7O" text="1. Líder del clan" />
+		<string id="NowOsng0A" text="2. Miembros de la familia" />
+		<string id="vTyduFjuF" text="3. Compañeros" />
+		<string id="fFlUJjUl0" text="AO: Configuración de práctica de héroes" />
+		<string id="fL485YX24" text="Habilitar elección de conjunto de armas" />
+		<string id="QLQYQTctQ" text="Cuando esta opción está activada, el héroe correspondiente puede elegir armas para los combates de práctica de arena, y tendrás que pagar la tarifa habitual por ello. De lo contrario, usará armas al azar como todos los demás. El valor predeterminado se define en la configuración global del mod." />
+		<string id="kbL2QnpuF" text="Habilitar elección automática de conjunto de armas" />
+		<string id="vGIOM104P" text="Cuando esta opción está activada, el conjunto de armas del jugador se elegirá automáticamente según las demás preferencias definidas aquí al entrar desde el menú a cualquier modo de práctica de arena. El valor predeterminado se define en la configuración global del mod." />
+		<string id="zC7CG8kwF" text="Solo conjuntos de armas prioritarios" />
+		<string id="ieRmdET16" text="Cuando esta opción está activada, el héroe correspondiente solo elegirá armas de práctica si hay alguna preferencia de armas definida y en la arena hay disponible al menos un conjunto de armas que coincida. De lo contrario, usará armas al azar como todos los demás. El valor predeterminado se define en la configuración global del mod." />
+		<string id="JidAUNLNo" text="Cuando esta opción está activada, la elección automática de conjunto de armas solo se aplicará al jugador si hay alguna preferencia de armas definida y en la arena hay disponible al menos un conjunto de armas que coincida. De lo contrario, usará armas al azar como de costumbre. El valor predeterminado se define en la configuración global del mod." />
+		<string id="cWdhDpsOS" text="Priorizar equipamiento caro" />
+		<string id="YwbIZExy1" text="Cuando esta opción está activada, el héroe correspondiente elegirá armas para los combates de práctica de arena dando prioridad al equipamiento mejor y más caro. De lo contrario, se elegirá el conjunto de armas más barato que cumpla con las preferencias indicadas. El valor predeterminado se define en la configuración global del mod." />
+		<string id="Wse8QGJyQ" text="Cuando esta opción está activada, en la elección automática de conjunto de armas del jugador se preferirá el equipamiento mejor y más caro. De lo contrario, se elegirá el conjunto de armas más barato que cumpla con las preferencias indicadas. El valor predeterminado se define en la configuración global del mod." />
+		<string id="G2IdbqB8p" text="Primera prioridad" />
+		<string id="ZWh07gP41" text="Indica la habilidad con armas que el héroe correspondiente debe entrenar con la máxima prioridad. Este héroe siempre elegirá un conjunto de armas que incluya un arma basada en esa habilidad, si hay alguno disponible. Predeterminado: [Ninguna]." />
+		<string id="DOGp7LBDe" text="Indica la habilidad con armas que el personaje del jugador debe entrenar con la máxima prioridad. Siempre se elegirá un conjunto de armas que incluya un arma basada en esa habilidad, si hay alguno disponible. Predeterminado: [Ninguna]." />
+		<string id="bcgL8E4Ol" text="Segunda prioridad" />
+		<string id="Yideeiww5" text="Indica la habilidad con armas que el héroe correspondiente debe entrenar con la segunda prioridad más alta. Este héroe elegirá un conjunto de armas que incluya un arma basada en esta habilidad si hay alguno disponible y no hay alternativas de mayor prioridad. Predeterminado: [Ninguna]." />
+		<string id="bhSUfmKir" text="Indica la habilidad con armas que el personaje del jugador debe entrenar con la segunda prioridad más alta. Se elegirá un conjunto de armas que incluya un arma basada en esta habilidad si hay alguno disponible y no hay alternativas de mayor prioridad. Predeterminado: [Ninguna]." />
+		<string id="t45rwWZc5" text="Tercera prioridad" />
+		<string id="lHiP6Z2Qo" text="Indica la habilidad con armas que el héroe correspondiente debe entrenar con la tercera prioridad más alta. Este héroe elegirá un conjunto de armas que incluya un arma basada en esta habilidad si hay alguno disponible y no hay alternativas de mayor prioridad. Predeterminado: [Ninguna]." />
+		<string id="IP7JZx9bb" text="Indica la habilidad con armas que el personaje del jugador debe entrenar con la tercera prioridad más alta. Se elegirá un conjunto de armas que incluya un arma basada en esta habilidad si hay alguno disponible y no hay alternativas de mayor prioridad. Predeterminado: [Ninguna]." />
+		<string id="6SD77Zo1C" text="Ninguna" />
+		<string id="7OL4eTdan" text="Armas de una mano" />
+		<string id="rvCVOGi0s" text="Armas de dos manos" />
+		<string id="bDnJRrfRH" text="Armas de asta" />
+		<string id="KZt7cDhKn" text="Arcos" />
+		<string id="s0JLnYAxx" text="Ballestas" />
+		<string id="CvVDmEhou" text="Armas arrojadizas" />
+		<string id="AOgtHead01" text="Gran Torneo y torneos de reino" />
+		<string id="AOgtSprg01" text="Primavera" />
+		<string id="AOgtSumr01" text="Verano" />
+		<string id="AOgtAutm01" text="Otoño" />
+		<string id="AOgtWntr01" text="Invierno" />
+		<string id="AOgtEnab01" text="Habilitar el Gran Torneo anual" />
+		<string id="AOgtEnab02" text="Una vez al año, los señores más fuertes de la tabla de clasificación de la arena de toda Calradia son convocados a un Gran Torneo de 1 contra 1, que se celebra en la capital del reino del señor que encabeza la clasificación. Los señores asisten sin importar dónde estén en el mapa. Predeterminado: activado." />
+		<string id="AOgtKEna01" text="Habilitar torneos estacionales de reino" />
+		<string id="AOgtKEna02" text="Cada estación, cada reino celebra en su capital un torneo de 1 contra 1 para sus propios señores vasallos. Todos los reinos los celebran el mismo día; el jugador solo puede competir en el de su propio reino. El Gran Torneo reemplaza a los torneos de reino de su estación. Predeterminado: activado." />
+		<string id="AOgtSeas01" text="Estación del Gran Torneo" />
+		<string id="AOgtSeas02" text="Estación del año en la que se celebra el Gran Torneo. Predeterminado: Primavera." />
+		<string id="AOgtGDay01" text="Día de la estación del Gran Torneo" />
+		<string id="AOgtGDay02" text="Día de la estación en el que se inaugura el Gran Torneo. Predeterminado = 11." />
+		<string id="AOgtKDay01" text="Día de la estación de los torneos de reino" />
+		<string id="AOgtKDay02" text="Día de la estación en el que se inauguran los torneos de reino. Predeterminado = 11." />
+		<string id="AOgtAnnD01" text="Antelación del anuncio en días" />
+		<string id="AOgtAnnD02" text="Con cuántos días de antelación a la inauguración se anuncia el torneo y aparece en su ciudad anfitriona. No es posible unirse ni mirar hasta que se inaugure. Predeterminado = 7." />
+		<string id="AOgtDura01" text="Duración en días" />
+		<string id="AOgtDura02" text="Cuántos días permanece abierto el torneo después de comenzar. Si para entonces el jugador no se unió, el torneo se simula. Predeterminado = 2." />
+		<string id="AOgtLege01" text="Objeto de premio de calidad legendaria" />
+		<string id="AOgtLege02" text="El premio es un arma o una armadura de alto nivel de la cultura del ganador, con el mejor modificador que permita su tipo (Legendario para las armas). Nunca se ofrecen monturas. Predeterminado: activado." />
+		<string id="AOgtGold01" text="Premio en oro del Gran Torneo" />
+		<string id="AOgtGold02" text="Oro que se otorga al ganador del Gran Torneo además de las recompensas habituales de torneo. Predeterminado = 100000." />
+		<string id="AOgtReno01" text="Recompensa de renombre del Gran Torneo" />
+		<string id="AOgtReno02" text="Renombre que se otorga al ganador del Gran Torneo además de las recompensas habituales de torneo. Predeterminado = 50." />
+		<string id="AOgtInfl01" text="Recompensa de influencia del Gran Torneo" />
+		<string id="AOgtInfl02" text="Influencia que se otorga al ganador del Gran Torneo si pertenece a un reino. Predeterminado = 300." />
+		<string id="AOgtGWgt01" text="Peso del Gran Torneo en la clasificación" />
+		<string id="AOgtGWgt02" text="Por cuántas victorias cuenta en la tabla de clasificación ganar un Gran Torneo. Predeterminado = 3." />
+		<string id="AOgtKWgt01" text="Peso del torneo de reino en la clasificación" />
+		<string id="AOgtKWgt02" text="Por cuántas victorias cuenta en la tabla de clasificación ganar un torneo de reino. Predeterminado = 2." />
+		<string id="AOgtKPct01" text="Recompensas del torneo de reino, % del Gran Torneo" />
+		<string id="AOgtKPct02" text="Oro, renombre e influencia de un torneo de reino como porcentaje de los valores del Gran Torneo. Predeterminado = 40." />
+		<string id="AOgtMenuG1" text="Los campeones de la tabla de clasificación de la arena de toda Calradia se reunieron en {TOWN} para el Gran Torneo. El vencedor recibirá como premio &quot;{TOURNAMENT_PRIZE}&quot;, además de oro, renombre e influencia a la altura de la ocasión." />
+		<string id="AOgtMenuK1" text="Los mejores luchadores de {KINGDOM} se reunieron en {TOWN} para el torneo estacional del reino. El vencedor recibirá como premio &quot;{TOURNAMENT_PRIZE}&quot;, además de oro, renombre e influencia a la altura de la ocasión." />
+		<string id="AOgtAnn001" text="El Gran Torneo de Calradia se celebrará en {TOWN}{?DAYS} y comenzará en {DAYS} {?DAYS.PLURAL_FORM}días{?}día{\?}{?}{\?}. Se convocó a los mejores luchadores de la tabla de clasificación de la arena." />
+		<string id="AOgtAnn002" text="{KINGDOM} celebrará su torneo estacional en {TOWN}{?DAYS}; el torneo comenzará en {DAYS} {?DAYS.PLURAL_FORM}días{?}día{\?}{?}{\?}." />
+		<string id="AOgtLock01" text="El Gran Torneo comienza en {DAYS} {?DAYS.PLURAL_FORM}días{?}día{\?}. Los campeones aún están llegando." />
+		<string id="AOgtLock02" text="El torneo de reino comienza en {DAYS} {?DAYS.PLURAL_FORM}días{?}día{\?}. Los contendientes aún están llegando." />
+		<string id="AOgtLock03" text="Solo los señores vasallos de {KINGDOM} pueden competir en este torneo." />
+		<string id="AOgtWin001" text="{WINNER} ganó el torneo estacional de {KINGDOM} en {TOWN}." />
+		<string id="AOgtWin002" text="¡{WINNER} ganó el Gran Torneo de Calradia en {TOWN}!" />
+		<string id="AOgtPopA01" text="Aviso en el mapa al anunciarse" />
+		<string id="AOgtPopA02" text="Muestra una notificación en el mapa cuando se anuncia el Gran Torneo o un torneo de reino en el que el jugador puede competir. Haz clic en ella para ver los detalles y saltar a la ciudad anfitriona. Predeterminado: activado." />
+		<string id="AOgtPopR01" text="Aviso en el mapa con los resultados" />
+		<string id="AOgtPopR02" text="Muestra una notificación en el mapa con el nombre del ganador cuando concluye el Gran Torneo o un torneo de reino en el que el jugador puede competir. Predeterminado: activado." />
+		<string id="AOgtKInt01" text="Intervalo de los torneos de reino en estaciones" />
+		<string id="AOgtKInt02" text="Cuántas estaciones pasan entre un torneo de reino y el siguiente. Los valores que no son divisores de 4 hacen que los torneos vayan rotando por las estaciones. Cuando un torneo de reino cae en la estación del Gran Torneo, el Gran Torneo lo reemplaza. Predeterminado = 3." />
+		<string id="sotK7sewA" text="cerca" />
+		<string id="J5jTiUvt8" text="bastante cerca de aquí" />
+		<string id="ULKHRKsSV" text="bastante lejos de aquí" />
+		<string id="2JXPNLOm3" text="muy lejos de aquí" />
+		<string id="AOgtNtf004" text="Torneo de reino concluido" />
+		<string id="AOgtNtf003" text="Gran Torneo concluido" />
+		<string id="AOgtNtf002" text="Torneo de {KINGDOM}" />
+		<string id="AOgtNtf001" text="El Gran Torneo de Calradia" />
+		<string id="AOgtNtf013" text="{WINNER}, del clan {CLAN}, ganó el torneo estacional de {KINGDOM} celebrado en {TOWN} y se llevó &quot;{PRIZE}&quot;, además de {GOLD}{GOLD_ICON}, {RENOWN} de renombre y {INFLUENCE} de influencia." />
+		<string id="AOgtNtf012" text="{WINNER}, del clan {CLAN}, triunfó sobre los mejores luchadores de Calradia y ganó el Gran Torneo celebrado en {TOWN}; se llevó &quot;{PRIZE}&quot;, además de {GOLD}{GOLD_ICON}, {RENOWN} de renombre y {INFLUENCE} de influencia." />
+		<string id="AOgtNtf009" text="Los señores vasallos de {KINGDOM} fueron convocados a {TOWN} para el torneo estacional del reino. Se inaugura en {DAYS} {?DAYS.PLURAL_FORM}días{?}día{\?} y permanecerá abierto durante {DURATION} {?DURATION.PLURAL_FORM}días{?}día{\?}. El vencedor recibirá como premio &quot;{PRIZE}&quot;." />
+		<string id="AOgtNtf007" text="Los campeones de la tabla de clasificación de la arena de toda Calradia fueron convocados a {TOWN}. El Gran Torneo se inaugura en {DAYS} {?DAYS.PLURAL_FORM}días{?}día{\?} y permanecerá abierto durante {DURATION} {?DURATION.PLURAL_FORM}días{?}día{\?}. El vencedor recibirá como premio &quot;{PRIZE}&quot;." />
+		<string id="AOgtNtf010" text="El torneo estacional de {KINGDOM} está en curso en {TOWN} y permanecerá abierto durante {DAYS} {?DAYS.PLURAL_FORM}días{?}día{\?} más. El vencedor recibirá como premio &quot;{PRIZE}&quot;." />
+		<string id="AOgtNtf008" text="El Gran Torneo está en curso en {TOWN} y permanecerá abierto durante {DAYS} {?DAYS.PLURAL_FORM}días{?}día{\?} más. El vencedor recibirá como premio &quot;{PRIZE}&quot;." />
+		<string id="AOgtNtf011" text="El torneo celebrado en {TOWN} concluyó." />
+		<string id="AOgtNtf005" text="Anunciado en {TOWN}" />
+		<string id="AOgtNtf006" text="{WINNER} triunfó en {TOWN}" />
+		<string id="AOR_m3XpR8d" text="Este héroe aún no entró al combate y ocupa el puesto {QUEUE_NUMBER} en la fila para entrar a la arena." />
+		<string id="AOgtWon002" text="Ganas el torneo estacional de {KINGDOM} al vencer a {TOURNAMENT_FINAL_OPPONENT} en la ronda final." />
+		<string id="AOgtWon001" text="Ganas el Gran Torneo de Calradia al vencer a {TOURNAMENT_FINAL_OPPONENT} en la ronda final." />
+		<string id="AOgtTitle002" text="Torneo estacional de {KINGDOM}" />
+		<string id="AOgtTitle001" text="Gran Torneo de Calradia" />
+		<string id="AOgtNtf015" text="Cerrar" />
+		<string id="AOgtNtf014" text="Mostrar en el mapa" />
+		<string id="AOR_J5sWy1F" text="Esperando a que {HERO.NAME} entre a la arena. {?HERO.GENDER}Ella{?}Él{\?} ocupa el puesto {POSITION_IN_LINE} en la fila." />
+		<string id="AOR_q7Hn2Lw" text="Registro para depuración" />
+		<string id="AOR_Vz4kT9c" text="Registro para depuración (solo en inglés). [Predeterminado: desactivado]" />
+	</strings>
+</base>

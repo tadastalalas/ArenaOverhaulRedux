@@ -1,0 +1,472 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" type="string">
+	<tags>
+		<tag language="한국어" />
+	</tags>
+	<strings>
+		<string id="n3lrq7FfM" text="투기장 대개편 Redux" />
+		<string id="a3uuVmMKR" text="대규모 연습 시합" />
+		<string id="QI6a1mxh9" text="막기 연습 시합" />
+		<string id="wWZ82hgqV" text="팀 연습 시합" />
+		<string id="aiDNBFQ4U" text="근처의 토너먼트" />
+		<string id="uBC62Jdh1" text="다음 페이지..." />
+		<string id="De0boqLm0" text="이전 페이지..." />
+		<string id="fakGolQMf" text="투기장으로 돌아가기" />
+		<string id="ForHVzTkJ" text="그리고 이따금 이른바 대규모 연습 시합이라는 것도 열린다네. 기본적으로는 같은 것이지만, 더 길고 훨씬 격렬하지. 부하 몇 명을 데려오는 게 좋을 걸세. 녀석들에게 좋은 훈련이 될 테니. 다만 잊지 말게. 거기서는 편을 먹어선 안 되네. 그랬다간 실격일세.[ib:closed][if:convo_bared_teeth]" />
+		<string id="nZVbLJnVn" text="그 대규모 연습 시합이라는 것에도 보상이 있소? 상금은 얼마나 되오?" />
+		<string id="fpPMPCNp5" text="나보다는 내 부하들에게 훈련이 더 필요하오. 나는 여기 남고 대신 다른 사람을 내보내겠소." />
+		<string id="7ONiAo9q0" text="좋아, 그 행운아는 누구인가?[ib:closed][if:convo_bared_teeth]" />
+		<string id="cB4QnrtWM" text="더 필요한 게 있나?[ib:normal]" />
+		<string id="y9zNkuGg0" text="내 동료가 쓸 장비를 골라 주고 싶소." />
+		<string id="0uFoXskRW" text="없소. 이제 시합을 시작합시다." />
+		<string id="BbpYVQSc6" text="마음이 바뀌었소. 내가 직접 싸우겠소." />
+		<string id="VVjb1EG4d" text="잠깐, 이 일은 다시 생각해 봐야겠소." />
+		<string id="MqTDJG0uG" text="내 장비를 직접 고르고 싶소." />
+		<string id="iDGR9F0Gn" text="좋네{?WEAPON_CHOICE_HAS_PRICE}, 다만 {WEAPON_CHOICE_PRICE}{GOLD_ICON}의 비용이 들 걸세{?}{\?}! 어떤 무기 세트로 하겠나?[ib:closed][if:convo_bared_teeth]" />
+		<string id="DGsGeb4LA" text="더 좋은 장비를 쓰고 싶소." />
+		<string id="lIBwkFipY" text="아니, 됐소. 신경 쓰지 마시오." />
+		<string id="7f21TSn5W" text="대규모 연습 시합에 참가하고 싶소..." />
+		<string id="MnhLtl9Nn" text="그럼 부하들을 모아서 가 보게! 내려가는 길에 연습용 무기 챙기는 걸 잊지 말고.[if:convo_approving]" />
+		<string id="jBqErWEjU" text="나를 위해 특별한 시합을 마련해 줄 수 있소?" />
+		<string id="EYXQnjEvK" text="경우에 따라 다르지. 정확히 어떤 걸 생각하고 있나?[ib:hip][if:convo_thinking]" />
+		<string id="h2Gv6NA8J" text="막기 연습을 하고 싶소." />
+		<string id="RyUSbmDhf" text="이 투기장에서는 막기 연습에 알맞은 무기 세트를 관례상 사용하지 않습니다." />
+		<string id="9yIQ6Qd1E" text="그건 정말 중요한 기술이고, 그걸 연습하면 다른 이들에게도 도움이 되지... 그런 시합이라면 마련해 줄 수 있을 것 같네{?PRACTICE_CHOICE_HAS_PRICE}. 다만 {PRACTICE_CHOICE_PRICE}{GOLD_ICON}의 비용이 들 걸세{?}{\?}. 아, 그리고 상금은 기대하지 말게. 이런 훈련은 관중의 흥미를 끌기 어려우니까. 그래도 하겠다면, 내려가는 길에 연습용 무기 챙기는 걸 잊지 말게.[if:convo_calm_friendly][ib:confident]" />
+		<string id="iXwumAizJ" text="동료들과 한 팀으로 싸우고 싶소. 팀 연습 시합을 열어 줄 수 있겠소?" />
+		<string id="LTfWl2OPC" text="그거 확실히 판을 뒤흔들겠군! {?PRACTICE_CHOICE_HAS_PRICE}생각은 마음에 드네만, 그런 시합을 제대로 열려면 내가 꽤나 수선을 떨어야 하니 {PRACTICE_CHOICE_PRICE}{GOLD_ICON}의 비용이 들 걸세. 대신 좋은 점도 있네. {?}{\?}관중에게는 훌륭한 구경거리가 될 테고, 그만큼 상금도 두둑해질 걸세. 그래도 하겠다면, 내려가는 길에 연습용 무기 챙기는 걸 잊지 말게.[ib:nervous2][if:convo_excited]" />
+		<string id="wuuxg3Lkg" text="그래서... 한 번 더 해 보겠나?[ib:normal]" />
+		<string id="6kW561DVB" text="나는 좀 쉬어야 하고, 내 부하들에게는 훈련이 필요하오. 이번에는 내가 여기 남고 대신 다른 사람을 내보내겠소." />
+		<string id="RKNcniRPk" text="이번에는 다른 사람을 내보내고 싶소." />
+		<string id="7NfBn2JvL" text="몸을 좀 풀고 싶소. 이번에는 내가 직접 시합에 나서겠소." />
+		<string id="8k8br8lfq" text="{?COMPANION_GENDER}그녀{?}그{\?}는 표준 장비로 싸울 것이오." />
+		<string id="rPVHszLLs" text="물론이오. 다만 {COMPANION_NAME}이(가) 쓸 무기 세트를 새로 고르고 싶소." />
+		<string id="WRO1rFtQm" text="표준 장비로 하겠소." />
+		<string id="uLNYivCXl" text="물론이오. 다만 무기 세트를 새로 고르고 싶소." />
+		<string id="zvb5PZ5OA" text="현재 {TOURNAMENTS}곳의 {?TOURNAMENTS.PLURAL_FORM}도시{?}도시{\?}에서 토너먼트가 열리고 있습니다.{?SHOW_PAGES} 페이지 {PAGE}/{PAGES}.{?}{\?}{NEW_LINE}{NEW_LINE}{TORNAMENT_LIST.START}{?TORNAMENT_LIST.IS_PLURAL}{NEW_LINE}{NEW_LINE}{?}{\?}{TORNAMENT_LIST.END}" />
+		<string id="UOpsoG57t" text="{NAME}{NEW_LINE}    [{TIER}등급 {TYPE}, 가치 {GOLD} {GOLD_ICON}]" />
+		<string id="AOtlEntry1" text="{INDEX}. {TOWN_LINK} [{DISTANCE_ESTIMATE}, {TAG}]{NEW_LINE}    {TOURNAMENT_AGE}{?TOURNAMENT_AGE.PLURAL_FORM}일{?}일{\?} 전에 시작됨.{NEW_LINE}    상품: {ITEM_PRIZE}{?GOLD_PRIZES_ENABLED}{NEW_LINE}    상금: {GOLD_PRIZE}{GOLD_ICON}{?}{\?}" />
+		<string id="AOtlTag000" text="갓 시작됨" />
+		<string id="AOtlTag001" text="아직 늦지 않음" />
+		<string id="AOtlTag002" text="서둘러야 함" />
+		<string id="AOtlTag003" text="제때 도착 가능" />
+		<string id="AOtlTag004" text="서둘러야 함" />
+		<string id="AOtlTag005" text="가망 희박" />
+		<string id="EPjU6L6kg" text="데나르가 부족합니다!{NEW_LINE}{NEW_LINE}{EXPENSES_BREAKDOWN}" />
+		<string id="9REfw5FN6" text="{EXPENSES_BREAKDOWN}{NEW_LINE}{NEW_LINE}현재 이 가격으로 {AFFORDABLE_ROUNDS}회의 {?AFFORDABLE_ROUNDS.PLURAL_FORM}연습 라운드{?}연습 라운드{\?}를 치를 수 있습니다." />
+		<string id="OXad58sEV" text="{?PRACTICE_CHOICE_HAS_PRICE}{NEW_LINE} - 특별 연습 방식 수수료: {PRACTICE_CHOICE_PRICE}{GOLD_ICON}.{?}{\?}" />
+		<string id="bO70zCDVt" text="{?WEAPON_CHOICE_HAS_PRICE}{NEW_LINE} - 맞춤 무기 세트 사용료: {WEAPON_CHOICE_PRICE}{GOLD_ICON}.{?}{\?}" />
+		<string id="M8fIDW2lQ" text="{?COMPANION_WEAPON_CHOICES_HAVE_PRICE}{NEW_LINE} - 동료들의 맞춤 무기 세트 사용료: 전원 합계 {COMPANION_WEAPON_CHOICES_PRICE}{GOLD_ICON}.{?}{\?}" />
+		<string id="Oz5qSUyk9" text="요청한 규칙과 설정에 맞춰 연습 라운드를 마련하는 데 드는 총비용은 {TOTAL_EXPENSES}{GOLD_ICON}입니다.{NEW_LINE}{NEW_LINE}내역:{ARRANGEMENT_EXPENSES}{PLAYER_LOADOUT_EXPENSES}{COMPANION_LOADOUT_EXPENSES}" />
+		<string id="YxVkSN8sn" text="당신은 쓰러졌지만 팀은 아직 싸우고 있습니다. 원한다면 다른 영웅으로 전환할 수 있습니다." />
+		<string id="xRdn4pEme" text="선택 가능한 캐릭터" />
+		<string id="jq2jXUcse" text="전환할 팀원을 선택하십시오" />
+		<string id="XZcFEonSW" text="팀에 전환할 수 있는 캐릭터가 없습니다!" />
+		<string id="Iz2BWpesF" text="지금은 다른 캐릭터로 전환할 수 없습니다!" />
+		<string id="UuAz2vxM3" text="팀이 아직 싸우고 있습니다. 투기장을 떠나시겠습니까?" />
+		<string id="PumaUhrt2" text="준비된 막기: {PREPARED_BLOCKS}" />
+		<string id="XiR0Srf50" text="완벽한 막기: {PERFECT_BLOCKS}" />
+		<string id="R0UCmq6Jn" text="챔버 막기: {CHAMBER_BLOCKS}" />
+		<string id="CSGg2vSS3" text="피격 횟수: {HITS_TAKEN}" />
+		<string id="l1z9vuw8B" text="남은 아군: {ALLIES_REMAINING}" />
+		<string id="HxdMLgPrk" text="잘못된 아이템" />
+		<string id="ZMHaMWEhM" text="말" />
+		<string id="8G7OMyMbp" text="한손 무기" />
+		<string id="XuZG0Aoio" text="양손 무기" />
+		<string id="CqFjTkLpa" text="장병기" />
+		<string id="a0BgoRSGt" text="화살" />
+		<string id="cGVcwzcts" text="볼트" />
+		<string id="1w2htuOn2" text="방패" />
+		<string id="KsH4vdaKZ" text="활" />
+		<string id="wXthM7Mmt" text="석궁" />
+		<string id="t3EkeJDz6" text="투척 무기" />
+		<string id="FjujPkPsk" text="물품" />
+		<string id="6p4MDI4FN" text="머리 방어구" />
+		<string id="JH2tZrJmd" text="몸통 방어구" />
+		<string id="aMMn9E0nk" text="다리 방어구" />
+		<string id="3LtYT36O8" text="손 방어구" />
+		<string id="OBZsswRvq" text="권총" />
+		<string id="mwmowr3Pl" text="머스킷" />
+		<string id="RnZzjAmRe" text="탄환" />
+		<string id="5PmQkkEOf" text="동물" />
+		<string id="IA8SfaiLs" text="책" />
+		<string id="zWPK2mgHx" text="가슴 방어구" />
+		<string id="z3x97kWhJ" text="망토" />
+		<string id="PxZJzp7zk" text="마구" />
+		<string id="G5Tk9ZJwy" text="깃발" />
+		<string id="hWj4T9N6e" text="아이템" />
+		<string id="gaJDVkvHa" text="{VALOR_PRIZES_DESCRIPTION}{CHAMPION_PRIZE_DESCRIPTION} 괜찮은 조건이지, 안 그런가?[if:convo_nonchalant]" />
+		<string id="hsDqRWEYr" text="쓰러지기 전에 상대 {OPPONENT_COUNT_1}명을 꺾으면 {PRIZE_1}{GOLD_ICON}의 상금을 받게 되네. " />
+		<string id="8qZeWlW2A" text="쓰러지기 전에 상대 {OPPONENT_COUNT_1}명을 꺾으면 {PRIZE_1}{GOLD_ICON}의 상금을 받게 되네. 그리고 적어도 {OPPONENT_COUNT_2}명을 쓰러뜨리면 {PRIZE_2}{GOLD_ICON}일세. " />
+		<string id="pBCjfH33W" text="쓰러지기 전에 상대 {OPPONENT_COUNT_1}명을 꺾으면 {PRIZE_1}{GOLD_ICON}의 상금을 받게 되네. 적어도 {OPPONENT_COUNT_2}명을 쓰러뜨리면 {PRIZE_2}{GOLD_ICON}, {OPPONENT_COUNT_3}명을 꺾으면 {PRIZE_3}{GOLD_ICON}일세. " />
+		<string id="S0uBAbZiF" text="쓰러지기 전에 상대 {OPPONENT_COUNT_1}명을 꺾으면 {PRIZE_1}{GOLD_ICON}의 상금을 받게 되네. 적어도 {OPPONENT_COUNT_2}명을 쓰러뜨리면 {PRIZE_2}{GOLD_ICON}, {OPPONENT_COUNT_3}명을 꺾으면 {PRIZE_3}{GOLD_ICON}, 그리고 끝까지 버텨서 {OPPONENT_COUNT_4}명을 꺾으면 {PRIZE_4}{GOLD_ICON}일세. " />
+		<string id="jhJZqz0OL" text="쓰러지기 전에 상대 {OPPONENT_COUNT_1}명을 꺾으면 {PRIZE_1}{GOLD_ICON}의 상금을 받게 되네. 적어도 {OPPONENT_COUNT_2}명을 쓰러뜨리면 {PRIZE_2}{GOLD_ICON}, {OPPONENT_COUNT_3}명을 꺾으면 {PRIZE_3}{GOLD_ICON}, 끝까지 버텨서 {OPPONENT_COUNT_4}명을 꺾으면 {PRIZE_4}{GOLD_ICON}, 그리고 어떻게든 {OPPONENT_COUNT_5}명을 꺾어 낸다면 {PRIZE_5}{GOLD_ICON}일세. 물론 결코 쉬운 일은 아니지. " />
+		<string id="nwnxJV2rZ" text="마지막까지 서 있는 투사가 된다면 이 시합의 최고 상금인 {PRIZE_CHAMP}{GOLD_ICON}의 주인이 되네. " />
+		<string id="AAPfCIEuZ" text="마지막까지 서 있는 투사가 된다면 거기에 더해 이 시합의 최고 상금인 {PRIZE_CHAMP}{GOLD_ICON}까지 거머쥐게 되네. " />
+		<string id="3UtRes0Un" text="하지만 마지막까지 서 있는 투사가 된다면 이 시합의 최고 상금인 {PRIZE_CHAMP}{GOLD_ICON}의 주인이 되네. 정말 멋진 싸움을 보여 주고 직접 많은 상대를 꺾는다면 그 몇 배를 받을 수도 있지. " />
+		<string id="4uOu7an2u" text="허! 자네 부하가 아주 제대로 멍이 들었군. 하지만 걱정 말게. 누구나 가끔은 호되게 얻어맞는 법이지. 중요한 건 실수에서 배우고 계속 싸우는 걸세. 챔피언이란 그런 법이지." />
+		<string id="s2B3i84HL" text="아, 경험이란 쓰라린 실수가 낳아 준 반가운 자식이지! 자네 팀도 이제 경험을 좀 쌓았을 테니, 다들 다시 내려가서 그걸 잘 써먹어 보게. 챔피언이란 그런 법이지." />
+		<string id="bWSPsaDyt" text="자네 부하가 상대 {OPPONENT_COUNT}명을 쓰러뜨린 모양이군. 나쁘지 않아. 하지만 그걸로는 상금을 한 푼도 못 받네. 내가 자네라면 {?COMPANION.GENDER}그녀{?}그{\?}를 당장 다시 내보내거나, 아니면 차라리 직접 내려가서 내 실력을 모두에게 보여 주겠네만..." />
+		<string id="0xwJY4TYS" text="자네 팀이 상대 {OPPONENT_COUNT}명을 쓰러뜨린 모양이군. 나쁘지 않아. 하지만 그걸로는 상금을 한 푼도 못 받네. 내가 자네라면 부하들을 모아 놓고 한마디 해 준 다음, 당장 다시 내려가서 우리 실력을 모두에게 보여 주겠네만..." />
+		<string id="tU4Oa8XN1" text="{COMPANION.LINK}이(가) 꽤 잘 싸웠네. 아주 좋은 움직임도 있었고. 물론 실수도 몇 번 있었지만, {?COMPANION.GENDER}그녀{?}그{\?}는 분명 싹수가 보여. 게다가 상대 {OPPONENT_COUNT}명을 쓰러뜨려서 자네에게 {PRIZE}{GOLD_ICON}의 상금까지 벌어다 주었네." />
+		<string id="IMAm6VMLR" text="자네 팀은 꽤 잘 싸웠네. 아주 좋은 움직임도 있었고. 물론 실수도 몇 번 있었지만, 자네들은 분명 싹수가 보여. 그리고 상대 {OPPONENT_COUNT}명을 쓰러뜨렸으니 {PRIZE}{GOLD_ICON}의 상금을 받게 되었네." />
+		<string id="N5d76ElzV" text="좋아, {PLAYER.LINK}, 아주 좋아. 여기 {COMPANION.LINK} {?COMPANION.GENDER}양{?}군{\?}이 무려 {OPPONENT_COUNT}명이나 되는 상대를 쓰러뜨렸네. {?COMPANION.GENDER}그녀{?}그{\?}는 그 배짱 덕분에 관중의 사랑을 독차지했지. 물론 자네에게 {PRIZE}{GOLD_ICON}의 상금도 벌어다 주었고." />
+		<string id="injn095f0" text="좋아, {PLAYER.LINK}, 아주 좋아. 자네 팀이 무려 {OPPONENT_COUNT}명이나 되는 상대를 쓰러뜨렸네. 자네들은 그 배짱 덕분에 관중의 사랑을 독차지했지. 물론 {PRIZE}{GOLD_ICON}의 상금도 벌었고." />
+		<string id="xe4cfXIBa" text="훌륭한 싸움이었네, {PLAYER.LINK}. {COMPANION.LINK}이(가) 상대 {OPPONENT_COUNT}명을 쓰러뜨렸지. 그런 활약이라면 {?COMPANION.GENDER}그녀{?}그{\?}는 당연히 상금을 받을 자격이 있네. {PRIZE}{GOLD_ICON}일세. 괜찮지, 안 그런가?" />
+		<string id="luDin5D4D" text="훌륭한 싸움이었네, {PLAYER.LINK}. 자네 팀이 상대 {OPPONENT_COUNT}명을 쓰러뜨렸지. 그런 활약이라면 당연히 상금을 받을 자격이 있네. {PRIZE}{GOLD_ICON}일세. 괜찮지, 안 그런가?" />
+		<string id="ETDxIDLAf" text="거장다운 솜씨였네, {COMPANION.LINK}. 퍽! 쩍! 자네가 {OPPONENT_COUNT}명이나 쓰러뜨렸어. 관중이 아주 열광했지. {PLAYER.LINK}, 여기 이 전도유망한 무예가가 방금 자네에게 {PRIZE}{GOLD_ICON}의 상금을 벌어다 주었네." />
+		<string id="UUuKSdZ7b" text="거장다운 솜씨였네, {PLAYER.LINK}. 퍽! 쩍! 자네 팀이 {OPPONENT_COUNT}명이나 쓰러뜨렸어. 관중이 아주 열광했지. 그리고 {PRIZE}{GOLD_ICON}의 상금도 벌었네." />
+		<string id="GLYFl5ImO" text="어디, 자네의 그 신동을 좀 더 자세히 보세, {PLAYER.LINK}. 그래야 언젠가 내 자식들에게 진짜 대가가 어떻게 생겼는지 말해 줄 수 있을 테니... {COMPANION.LINK}이(가) 한 판에 {OPPONENT_COUNT}명이나 꺾다니! 믿을 수가 없군! 아, 물론 그러니 내가 자네에게 {PRIZE}{GOLD_ICON}의 상금을 줘야겠지." />
+		<string id="aDC8zdCmt" text="어디, 자네를 좀 더 자세히 보세, {PLAYER.LINK}. 그래야 언젠가 내 자식들에게 진짜 대가가 어떻게 생겼는지 말해 줄 수 있을 테니! 한 판에 {OPPONENT_COUNT}명이나 꺾다니! 믿을 수가 없군! 아, 물론 자네는 {PRIZE}{GOLD_ICON}의 상금도 벌었네." />
+		<string id="b42weJbT2" text="이런 게 바로 진짜 팀플레이라는 걸세! 자네 팀이 한 판에 {OPPONENT_COUNT}명이나 꺾다니! 믿을 수가 없군! {PRIZE}{GOLD_ICON}의 상금을 벌었네. 동전 한 닢까지 다 받을 자격이 있어." />
+		<string id="YL3QBzHns" text="축하하네, {PLAYER.LINK}. {COMPANION.LINK}이(가) 챔피언일세! {?COMPANION.GENDER}그녀{?}그{\?}의 싸움은 두고두고 기억될 만했어! 마지막까지 서 있었으니 {COMPANION.LINK}이(가) 최고 상금을 차지하네. {PRIZE}{GOLD_ICON}일세." />
+		<string id="DwOtDP6SQ" text="축하하네, {PLAYER.LINK}. 자네 팀이 챔피언일세! 마지막까지 서 있었으니 최고 상금은 자네들 차지네. {PRIZE}{GOLD_ICON}일세." />
+		<string id="dKWMj58Bq" text="축하하네, {PLAYER.LINK}. {COMPANION.LINK}이(가) 챔피언일세! {?COMPANION.GENDER}그녀{?}그{\?}의 싸움은 두고두고 기억될 만했어! 마지막까지 서 있었으니 당연히 {COMPANION.LINK}이(가) 최고 상금을 차지하네. 상대 {OPPONENT_COUNT}명을 쓰러뜨린 몫 {VALOR_PRIZE}{GOLD_ICON}까지 합쳐서 {PRIZE}{GOLD_ICON}일세." />
+		<string id="nZ1Ar0MOd" text="축하하네, 챔피언! 자네의 싸움은 두고두고 기억될 만했어! 마지막까지 서 있었으니 당연히 최고 상금은 자네 차지네. 상대 {OPPONENT_COUNT}명을 쓰러뜨린 몫 {VALOR_PRIZE}{GOLD_ICON}까지 합쳐서 {PRIZE}{GOLD_ICON}일세." />
+		<string id="UISWBTRY2" text="축하하네, {PLAYER.LINK}. 자네 팀이 챔피언일세! 이번 싸움은 두고두고 기억될 만했어! 마지막까지 서 있었으니 당연히 최고 상금은 자네들 차지네. 상대 {OPPONENT_COUNT}명을 쓰러뜨린 몫 {VALOR_PRIZE}{GOLD_ICON}까지 합쳐서 {PRIZE}{GOLD_ICON}일세." />
+		<string id="YZcU0ocKX" text="축하하네, {PLAYER.LINK}. {COMPANION.LINK}이(가) 챔피언일세! {?COMPANION.GENDER}그녀{?}그{\?}의 싸움은 틀림없이 두고두고 기억될 걸세! 마지막까지 서 있었으니 {COMPANION.LINK}이(가) 최고 상금을 차지하네. 상대 {OPPONENT_COUNT}명을 쓰러뜨린 몫 {VALOR_PRIZE}{GOLD_ICON}까지 합쳐서 {PRIZE}{GOLD_ICON}일세. 정말이지 대단한 싸움이었고 관중도 무척 좋아했네. 그러니 자네의 영웅은 이 돈을 동전 한 닢까지 다 받을 자격이 있어, 친구." />
+		<string id="oYDKCzkid" text="축하하네, 챔피언! 자네의 싸움은 두고두고 기억될 만했어! 마지막까지 서 있었으니 당연히 최고 상금은 자네 차지네. 상대 {OPPONENT_COUNT}명을 쓰러뜨린 몫 {VALOR_PRIZE}{GOLD_ICON}까지 합쳐서 {PRIZE}{GOLD_ICON}일세. 정말이지 대단한 싸움이었고 관중도 무척 좋아했네. 그러니 자네는 이 돈을 동전 한 닢까지 다 받을 자격이 있어, 친구." />
+		<string id="TFRz8p0Z6" text="축하하네, {PLAYER.LINK}. 자네 팀이 챔피언일세! 이번 싸움은 틀림없이 두고두고 기억될 걸세! 마지막까지 서 있었으니 최고 상금은 자네들 차지네. 상대 {OPPONENT_COUNT}명을 쓰러뜨린 몫 {VALOR_PRIZE}{GOLD_ICON}까지 합쳐서 {PRIZE}{GOLD_ICON}일세. 정말이지 대단한 싸움이었고 관중도 무척 좋아했네. 그러니 자네와 자네 부하들은 이 돈을 동전 한 닢까지 다 받을 자격이 있어, 친구." />
+		<string id="6bnQLhQQB" text="축하하네, {PLAYER.LINK}. {COMPANION.LINK}이(가) 챔피언일세! {?COMPANION.GENDER}그녀{?}그{\?}의 싸움은 두고두고 기억될 만했어! {COMPANION.LINK}은(는) 마지막까지 서 있었을 뿐 아니라 맹수처럼 싸웠으니, 통상적인 최고 상금의 두 배를 받게 되네. {PRIZE}{GOLD_ICON}일세." />
+		<string id="dKdBMUgOL" text="축하하네, 챔피언! 자네의 싸움은 두고두고 기억될 만했어! 자네는 마지막까지 서 있었을 뿐 아니라 맹수처럼 싸웠으니, 통상적인 최고 상금의 두 배를 받게 되네. {PRIZE}{GOLD_ICON}일세." />
+		<string id="phgJ8tmZV" text="축하하네, {PLAYER.LINK}. 자네 팀이 챔피언일세! 이번 싸움은 두고두고 기억될 만했어! 자네들은 마지막까지 서 있었을 뿐 아니라 맹수처럼 싸웠으니, 통상적인 최고 상금의 두 배를 받게 되네. {PRIZE}{GOLD_ICON}일세." />
+		<string id="41XqfyWOi" text="축하하네, {PLAYER.LINK}. {COMPANION.LINK}이(가) 챔피언일세! 게다가 {?COMPANION.GENDER}그녀{?}그{\?}의 싸움은 두고두고 기억될 만했어! {COMPANION.LINK}은(는) 마지막까지 서 있었을 뿐 아니라 진정한 영웅처럼 싸웠으니, 통상적인 최고 상금의 세 배를 받게 되네. {PRIZE}{GOLD_ICON}일세." />
+		<string id="BtSwRTvu9" text="축하하네, 챔피언! 자네의 싸움은 두고두고 기억될 만했어! 자네는 마지막까지 서 있었을 뿐 아니라 진정한 영웅처럼 싸웠으니, 통상적인 최고 상금의 세 배를 받게 되네. {PRIZE}{GOLD_ICON}일세." />
+		<string id="PgMuEBsXX" text="축하하네, {PLAYER.LINK}. 자네 팀이 챔피언일세! 이번 싸움은 두고두고 기억될 만했어! 자네들은 마지막까지 서 있었을 뿐 아니라 진정한 영웅들처럼 싸웠으니, 통상적인 최고 상금의 세 배를 받게 되네. {PRIZE}{GOLD_ICON}일세." />
+		<string id="KPp4pG1Ky" text="축하하네, {PLAYER.LINK}. {COMPANION.LINK}이(가) 챔피언일세! 그리고 세상에, {?COMPANION.GENDER}그녀{?}그{\?}의 싸움은 두고두고 기억될 만했어! {COMPANION.LINK} {?COMPANION.GENDER}양{?}군{\?}이 참가자의 절반은 족히 혼자서 해치웠으니, 통상적인 우승 상금의 네 배를 벌었네! 자, 받게. {PRIZE}{GOLD_ICON}일세.[if:convo_merry]" />
+		<string id="I2A8Heq2r" text="축하하네, 챔피언! 자네의 싸움은 두고두고 기억될 만했어! 자네가 참가자의 절반은 족히 혼자서 해치웠으니, 통상적인 우승 상금의 네 배를 벌었네! 자, 받게. {PRIZE}{GOLD_ICON}일세.[if:convo_merry]" />
+		<string id="gmzDTwOFX" text="축하하네, {PLAYER.LINK}. 자네 팀이 챔피언일세! 이번 싸움은 틀림없이 두고두고 기억될 걸세! 자네 부하들이 참가자의 절반은 족히 해치웠으니, 통상적인 우승 상금의 네 배를 벌었네! 자, 받게. {PRIZE}{GOLD_ICON}일세.[if:convo_merry]" />
+		<string id="XdkGt7jFa" text="허허, {PLAYER.LINK}, 저 아래에서 벌어진 일은 진정한 대가의 솜씨였네! {COMPANION.LINK} 같은 투사를 이곳에 맞이하게 되어 영광일세. 이 눈부신 활약으로 {?COMPANION.GENDER}그녀{?}그{\?}는 {PRIZE}{GOLD_ICON}의 어마어마한 상금을 벌었네.[if:convo_merry]" />
+		<string id="3yLYLKZYW" text="축하하네, 대가여! 자네 같은 투사를 이곳에 맞이하게 되어 영광일세. 이 눈부신 활약으로 자네는 {PRIZE}{GOLD_ICON}의 어마어마한 상금을 벌었네.[if:convo_merry]" />
+		<string id="uU3Ya5GfN" text="허허, {PLAYER.LINK}, 저 아래에서 벌어진 일은 노래로 불릴 만한 위업이었네! 아니, 전설로 남을 만하지. 그런 투사들을 내 보잘것없는 투기장에 맞이하게 되어 영광일세. 이 눈부신 활약으로 자네들은 {PRIZE}{GOLD_ICON}의 어마어마한 상금을 벌었네.[if:convo_merry]" />
+		<string id="k0kOwkWzO" text="자네는 부하들에게 막기 연습이 필요하다고 했지만, 저 아래에서 본 바로는 {COMPANION.LINK}은(는) 내 투사들을 흠씬 두들겨 패는 데 더 관심이 있는 것 같더군. {?COMPANION.GENDER}그녀{?}그{\?}에게 방어와 반격에 더 신경 쓰라고 이르든가, 아니면 이런 헛짓거리로 내 시간을 그만 낭비하게.[ib:closed][if:convo_confused_annoyed]" />
+		<string id="6vlrvSbAY" text="자네는 막기 연습이 필요하다고 했지만, 저 아래에서 본 바로는 내 투사들을 흠씬 두들겨 패는 데 더 관심이 있는 것 같더군. 방어와 반격에 더 신경을 쓰든가, 아니면 이런 헛짓거리로 내 시간을 그만 낭비하게.[ib:closed][if:convo_confused_annoyed]" />
+		<string id="VGOnRoQck" text="방금 본 바로는 {COMPANION.LINK}에게는 정말로 막기 연습이 필요하겠군. 계속하는 게 좋겠네.[ib:weary][if:convo_confused_normal]" />
+		<string id="y508NVoOc" text="방금 본 바로는 자네에게는 정말로 막기 연습이 필요하겠군. 계속하는 게 좋겠네.[ib:weary][if:convo_confused_normal]" />
+		<string id="0taUkpCCP" text="흠, {COMPANION.LINK}은(는) 저 아래에서 거의 해낼 뻔했네. 하지만 {?COMPANION.GENDER}그녀{?}그{\?}는 더 오랫동안 집중력을 유지하는 데 익숙해져야 하네.[if:convo_approving]" />
+		<string id="fdxZnnGSu" text="흠, 자네는 저 아래에서 거의 해낼 뻔했네. 하지만 더 오랫동안 집중력을 유지하는 데 익숙해져야 하네.[if:convo_approving]" />
+		<string id="wDLRbc8Mh" text="{COMPANION.LINK}은(는) 저 아래에서 제법 잘해 주었네. 하지만 {?COMPANION.GENDER}그녀{?}그{\?}가 근접전을 제대로 익히길 바란다면, {?COMPANION.GENDER}그녀{?}그{\?}는 막기와 반격을 한 동작으로 해내는 법을 배우고 그 기술을 더 자주 써야 하네. 그래야 {?COMPANION.GENDER}그녀{?}그{\?}도 누구나 만만히 볼 수 없는 투사가 될 걸세.[ib:warrior][if:convo_thinking]" />
+		<string id="N0ok57asq" text="자네는 저 아래에서 제법 잘해 주었네. 하지만 근접전을 제대로 익히고 싶다면, 막기와 반격을 한 동작으로 해내는 법을 배우고 그 기술을 더 자주 써야 하네. 그래야 누구나 만만히 볼 수 없는 투사가 될 걸세.[ib:warrior][if:convo_thinking]" />
+		<string id="cvThaH27b" text="이어지는 동안에는 아주 인상적인 솜씨였다고 해야겠군. 하지만 실전이었다면 자네 수련생은 결국 죽었을 걸세. {COMPANION.LINK}은(는) 더 오랫동안 집중력을 유지하도록 {?COMPANION.GENDER}그녀{?}그{\?} 자신을 단련해야 하네.[ib:weary][if:convo_approving]" />
+		<string id="rJa1PaPJs" text="이어지는 동안에는 아주 인상적인 솜씨였다고 해야겠군. 하지만 실전이었다면 자네는 결국 죽었을 걸세. 더 오랫동안 집중력을 유지하도록 스스로를 단련해야 하네.[ib:weary][if:convo_approving]" />
+		<string id="KvdHaGhag" text="{COMPANION.LINK}은(는) 저 아래에서 정말 잘해 주었네. 하지만 앞서 말했듯이, 이번 시합에는 보상이 없네.[if:convo_approving]" />
+		<string id="rcLuSrtwD" text="자네는 저 아래에서 잘해 주었네. 하지만 앞서 말했듯이, 이번 시합에는 보상이 없네.[if:convo_approving]" />
+		<string id="aGr4Lb6I2" text="이름난 경쟁자들을 쓰러뜨려 명성을 얻었습니다: {RENOWN_TAKEDOWN_REWARD}" />
+		<string id="3ZgMoK2dU" text="그래도 승리한 라운드에 대한 보상을 받습니다: {PER_ROUND_REWARD}" />
+		<string id="83tebCrzc" text="또한 승리한 라운드에 대한 보상을 받습니다: {PER_ROUND_REWARD}" />
+		<string id="aV0PTEzbW" text="승리한 라운드에 대한 보상: {PER_ROUND_REWARD}" />
+		<string id="16t7gwMmW" text="우승자로서 받는 상금: {TOTAL_GOLD_REWARD}" />
+		<string id="gVZq43GDI" text="{LEADER_NAME}의 팀 {TEAM_CALL_SIGN}" />
+		<string id="WA82hgPoO" text="알파" />
+		<string id="bpGxcmlP6" text="베타" />
+		<string id="bmOsWMVsk" text="감마" />
+		<string id="Tyl2ufxxy" text="델타" />
+		<string id="OKSzdZMr8" text="엡실론" />
+		<string id="zsXVSOB4t" text="제타" />
+		<string id="fePbjEFQI" text="에타" />
+		<string id="9OZjTDg61" text="세타" />
+		<string id="EmP3OR1tW" text="영웅의 투기장 연습 기본 설정" />
+		<string id="pJ3cqM8RV" text="투기장 연습 설정" />
+		<string id="bPkF9slVr" text="대규모 투기장 연습 설정" />
+		<string id="zbfho3vSj" text="막기 연습 설정" />
+		<string id="igoj9leYB" text="팀 투기장 연습 설정" />
+		<string id="08ifYu37H" text="기술 설정" />
+		<string id="RRmGS7t6x" text="토너먼트 설정" />
+		<string id="C5nJgxepr" text="보상" />
+		<string id="oywDR1MSm" text="경험치" />
+		<string id="ZlvTL5D4T" text="물질적 보상" />
+		<string id="BCzO2WGq9" text="비물질적 보상" />
+		<string id="h6sPrqfax" text="팀 토너먼트" />
+		<string id="WnQ4qOI7d" text="호환성 설정" />
+		<string id="Awg6G0iNM" text="비용 절약에 최적화" />
+		<string id="56nUSQP2R" text="영웅 훈련에 최적화" />
+		<string id="gknaSzMr6" text="표준" />
+		<string id="aBVrVSioz" text="합산" />
+		<string id="TY9SqFLBs" text="배수" />
+		<string id="Hf3fpLNlh" text="안 함" />
+		<string id="JHsRs730T" text="상품 등급을 높일 수 있을 때" />
+		<string id="oVADnv9sb" text="더 좋은 상품을 얻을 확률이 높아질 때" />
+		<string id="MwOn3n7yC" text="상황이 바뀌었을 때" />
+		<string id="z6lpZ65aK" text="연습복" />
+		<string id="o5AcCZgOn" text="토너먼트 갑옷" />
+		<string id="sBnb12g7c" text="평상시 장비" />
+		<string id="kKvvYWhMH" text="전투 장비" />
+		<string id="RYcQyTDa5" text="고유하지 않은 아이템만" />
+		<string id="y1RxvGxxl" text="항상 (고유 탈것 제외)" />
+		<string id="NsbCj2rzB" text="항상" />
+		<string id="MnVVPRkao" text="영웅의 무기 세트 옵션을 구성할 때 사용되는 기본값입니다. 활성화하면 해당 영웅이 투기장 연습 시합에서 쓸 무기를 고를 수 있으며, 이에 대한 통상적인 수수료를 내야 합니다. 비활성화하면 다른 참가자들처럼 무작위 무기를 사용합니다. 기본값: 활성화." />
+		<string id="XQY35WleC" text="영웅의 무기 세트 옵션을 구성할 때 사용되는 기본값입니다. 활성화하면 해당 영웅은 무기 선호도가 하나라도 설정되어 있고 그에 맞는 무기 세트가 투기장에 하나 이상 있을 때에만 연습용 무기를 고릅니다. 그렇지 않으면 다른 참가자들처럼 무작위 무기를 사용합니다. 기본값: 활성화." />
+		<string id="UO3idcKCw" text="영웅의 무기 세트 옵션을 구성할 때 사용되는 기본값입니다. 활성화하면 해당 영웅은 투기장 연습 시합용 무기를 고를 때 더 좋고 비싼 장비를 우선합니다. 비활성화하면 주어진 선호도를 충족하는 가장 저렴한 무기 세트가 선택됩니다. 기본값: 비활성화." />
+		<string id="NvKLJBxsf" text="동료 영웅으로 플레이하기 활성화" />
+		<string id="wtKB2udZJ" text="전체 참가자 수" />
+		<string id="gaGpV2GcX" text="활성 참가자 수" />
+		<string id="0IOg4Ureb" text="최소 활성 참가자 수" />
+		<string id="dAhEzcAlx" text="초기 참가자 수" />
+		<string id="vZgGTs8Nw" text="AI 팀 수" />
+		<string id="BVhryIKKF" text="무기 세트 선택 활성화" />
+		<string id="L73kYZTnf" text="무기 선택 비용" />
+		<string id="3HviduB7g" text="연습용 방어 장비" />
+		<string id="v7NfMok7L" text="용맹 보상 I등급" />
+		<string id="AFzr1BhC4" text="용맹 보상 II등급" />
+		<string id="wjlHVn6cG" text="용맹 보상 III등급" />
+		<string id="1JAQ3hGAk" text="용맹 보상 IV등급" />
+		<string id="MHzw7JXgh" text="용맹 보상 V등급" />
+		<string id="rQHQBnmZL" text="우승 상금 계산 방식" />
+		<string id="oTOFfuU2c" text="우승 상금" />
+		<string id="zDfS2JtnA" text="관전자 경험치 획득 활성화" />
+		<string id="9dP3VJpOG" text="경험치 획득률" />
+		<string id="wFPnd1BNA" text="이 옵션을 활성화하면 자신을 대신해 동료를 투기장 연습에 내보내고, 투기장에서 그 동료를 직접 조종할 수 있습니다. 바닐라: 비활성화. 기본값: 활성화." />
+		<string id="89f5zrS7i" text="투기장 연습의 전체 참가자 수입니다. 3의 배수를 권장합니다. 기본값 = 30." />
+		<string id="oqpocFdUs" text="투기장 연습에서 동시에 싸우는 활성 참가자의 예상 수입니다. 3의 배수를 권장합니다. 기본값 = 6." />
+		<string id="iFjrzKw9e" text="투기장 연습의 최소 활성 참가자 수입니다. 2의 배수를 권장합니다. 기본값 = 2." />
+		<string id="UuSkcTQSd" text="투기장 연습을 시작할 때의 활성 참가자 수입니다. 7보다 큰 값을 지정하면 여러 투사가 한자리에서 함께 등장합니다. 기본값 = 6." />
+		<string id="aVm0YWzg9" text="투기장 연습 시합의 AI 팀 수입니다. 0이면 활성 참가자 수와 같아져, 한편이 된 AI끼리 협력하는 상황을 최소화합니다. 1로 설정하면 모두가 당신과 싸웁니다. 기본값 = 0." />
+		<string id="zGQrZqevv" text="이 옵션을 활성화하면 투기장 연습에서 쓸 무기를 고를 수 있습니다." />
+		<string id="rZH6qYOrT" text="투기장 연습에서 쓸 무기를 고를 때 무기 단계(등급)당 이 금액을 내야 합니다. 기본값 = 10." />
+		<string id="WW4PZP2LH" text="투기장 연습 참가자가 착용할 갑옷이나 의복을 지정합니다. 다른 모드가 변경하지 않는 한 [토너먼트 갑옷]을 선택하면 [전투 장비]와 같은 결과가 됩니다. 특별한 목적이 없다면 이 설정을 바꾸지 않는 것이 좋습니다. 재미있을 수는 있지만, 갑옷을 입으면 대부분의 연습용 원거리 무기가 무용지물이 됩니다. 바닐라: [연습복]. 기본값: [연습복]." />
+		<string id="GrjIc6hKr" text="투기장 연습에서 투사를 3명 이상 쓰러뜨렸을 때의 상금입니다. 기본값 = 5." />
+		<string id="j86zigBV7" text="투기장 연습에서 투사를 6명 이상 쓰러뜨렸을 때의 상금입니다. 기본값 = 10." />
+		<string id="0q32VAkkg" text="투기장 연습에서 투사를 10명 이상 쓰러뜨렸을 때의 상금입니다. 기본값 = 25." />
+		<string id="VjGDrAK3N" text="투기장 연습에서 투사를 20명 이상 쓰러뜨렸을 때의 상금입니다. 기본값 = 60." />
+		<string id="ws4xpzph6" text="투기장 연습에서 투사를 35명 이상 쓰러뜨렸을 때의 상금입니다. 표준 참가자 수로는 달성할 수 없습니다. 기본값 = 150." />
+		<string id="8mGYZd0fL" text="투기장 연습에서 마지막까지 살아남은 참가자에게 주는 보상 방식을 지정합니다. 표준 - 특별 상금을 지급합니다. 합산 - 특별 상금에 더해 획득한 용맹 보상도 모두 지급합니다. 배수 - I등급보다 높은 용맹 등급을 획득할 때마다 특별 상금을 지급합니다. 바닐라: [표준]. 기본값: [합산]." />
+		<string id="2ovQejh10" text="투기장 연습에서 마지막까지 살아남았을 때의 기본 상금입니다. 기본값 = 250." />
+		<string id="gGEXaGsKV" text="투기장 연습 시합의 경험치 획득률입니다. 바닐라 = 6%. 기본값 = 16.5%." />
+		<string id="3xV72YIYo" text="이 옵션을 활성화하면 자신을 대신해 동료를 대규모 투기장 연습에 내보내고, 투기장에서 그 동료를 직접 조종할 수 있습니다. 바닐라: 비활성화. 기본값: 활성화." />
+		<string id="65Ny4vNEE" text="대규모 투기장 연습의 전체 참가자 수입니다. 3의 배수를 권장합니다. 기본값 = 90." />
+		<string id="sIQdRBwg9" text="대규모 투기장 연습에서 동시에 싸우는 활성 참가자의 예상 수입니다. 3의 배수를 권장합니다. 기본값 = 9." />
+		<string id="ZaLfvG7eX" text="대규모 투기장 연습의 최소 활성 참가자 수입니다. 2의 배수를 권장합니다. 기본값 = 4." />
+		<string id="XwzmSDpAr" text="대규모 투기장 연습을 시작할 때의 활성 참가자 수입니다. 7보다 큰 값을 지정하면 여러 투사가 한자리에서 함께 등장합니다. 기본값 = 7." />
+		<string id="VUnyu0h6n" text="대규모 투기장 연습 시합의 AI 팀 수입니다. 0이면 활성 참가자 수와 같아져, 한편이 된 AI끼리 협력하는 상황을 최소화합니다. 1로 설정하면 모두가 당신과 싸웁니다. 기본값 = 0." />
+		<string id="9otxYlTUa" text="이 옵션을 활성화하면 대규모 투기장 연습에서 쓸 무기를 고를 수 있습니다." />
+		<string id="B9xXCFneS" text="대규모 투기장 연습에서 쓸 무기를 고를 때 무기 단계(등급)당 이 금액을 내야 합니다. 기본값 = 10." />
+		<string id="sLGwAxSzA" text="대규모 투기장 연습 참가자가 착용할 갑옷이나 의복을 지정합니다. 다른 모드가 변경하지 않는 한 [토너먼트 갑옷]을 선택하면 [전투 장비]와 같은 결과가 됩니다. 특별한 목적이 없다면 이 설정을 바꾸지 않는 것이 좋습니다. 재미있을 수는 있지만, 갑옷을 입으면 대부분의 연습용 원거리 무기가 무용지물이 됩니다. 기본값: [연습복]." />
+		<string id="M7utBJV6O" text="대규모 투기장 연습에서 투사를 3명 이상 쓰러뜨렸을 때의 상금입니다. 기본값 = 10." />
+		<string id="5Zkk4IRnM" text="대규모 투기장 연습에서 투사를 6명 이상 쓰러뜨렸을 때의 상금입니다. 기본값 = 20." />
+		<string id="ivrbCerwG" text="대규모 투기장 연습에서 투사를 10명 이상 쓰러뜨렸을 때의 상금입니다. 기본값 = 50." />
+		<string id="41COOOrtk" text="대규모 투기장 연습에서 투사를 20명 이상 쓰러뜨렸을 때의 상금입니다. 기본값 = 120." />
+		<string id="aPjrww0Yz" text="대규모 투기장 연습에서 투사를 35명 이상 쓰러뜨렸을 때의 상금입니다. 기본값 = 300." />
+		<string id="aUEgf6bh5" text="대규모 투기장 연습에서 마지막까지 살아남은 참가자에게 주는 보상 방식을 지정합니다. 표준 - 특별 상금을 지급합니다. 합산 - 특별 상금에 더해 획득한 용맹 보상도 모두 지급합니다. 배수 - I등급보다 높은 용맹 등급을 획득할 때마다 특별 상금을 지급합니다. 기본값: [합산]." />
+		<string id="FP34ZZ1b0" text="대규모 투기장 연습에서 마지막까지 살아남았을 때의 기본 상금입니다. 기본값 = 500." />
+		<string id="YyniNTgz5" text="대규모 투기장 연습에는 영웅과 3등급 이상의 병사만 참가할 수 있습니다. 이 옵션을 활성화하면 그보다 등급이 낮은 병사들도 전우가 투기장에서 공격을 적중시키거나 상대를 쓰러뜨릴 때 경험치를 조금 얻습니다." />
+		<string id="hTHzr3Q9U" text="대규모 투기장 연습 시합의 경험치 획득률입니다. 바닐라 = 6%. 기본값 = 33.3%." />
+		<string id="8wUeKx5yg" text="막기 연습 활성화" />
+		<string id="a7I7iKCIg" text="이 옵션을 활성화하면 투기장에서 막기 연습 모드를 이용할 수 있습니다. 바닐라: 비활성화. 기본값: 활성화." />
+		<string id="W1eYm1Lse" text="막기 연습 준비 비용" />
+		<string id="Igd6YZwx4" text="투기장 관리인이 막기 연습 시합을 마련해 주는 대가로 받는 비용입니다. 기본값 = 200." />
+		<string id="b1rJAny0j" text="이 옵션을 활성화하면 자신을 대신해 동료를 막기 연습에 내보내고, 투기장에서 그 동료를 직접 조종할 수 있습니다. 바닐라: 비활성화. 기본값: 활성화." />
+		<string id="ZTusmPG2b" text="막기 연습의 전체 참가자 수입니다. 기본값 = 15." />
+		<string id="vSxY7fMyJ" text="막기 연습에서 동시에 싸우는 활성 참가자의 예상 수입니다. 기본값 = 1." />
+		<string id="7O4BbgHHd" text="막기 연습의 최소 활성 참가자 수입니다. 기본값 = 1." />
+		<string id="FLOs28WoN" text="막기 연습을 시작할 때의 활성 참가자 수입니다. 기본값 = 1." />
+		<string id="LHppRdTLa" text="막기 연습 시합의 AI 팀 수입니다. 1로 설정하면 모두가 당신과 싸웁니다. 기본값 = 1." />
+		<string id="PBdkpnVB9" text="이 옵션을 활성화하면 막기 연습에서 쓸 무기를 고를 수 있습니다." />
+		<string id="vFzDsKyOM" text="막기 연습에서 쓸 무기를 고를 때 무기 단계(등급)당 이 금액을 내야 합니다. 기본값 = 10." />
+		<string id="yEovzkoTi" text="막기 연습 참가자가 착용할 갑옷이나 의복을 지정합니다. 다른 모드가 변경하지 않는 한 [토너먼트 갑옷]을 선택하면 [전투 장비]와 같은 결과가 됩니다. 기본값: [전투 장비]." />
+		<string id="B0LJRZfnh" text="막기 연습 시합의 경험치 획득률입니다. 바닐라 = 6%. 기본값 = 6%." />
+		<string id="DxJKCdxsV" text="팀 연습 활성화" />
+		<string id="LHCCk34mQ" text="이 옵션을 활성화하면 투기장에서 팀 연습 모드를 이용할 수 있습니다. 바닐라: 비활성화. 기본값: 활성화." />
+		<string id="6DKIRQm5C" text="팀 연습 준비 비용" />
+		<string id="qt2gEppSr" text="투기장 관리인이 팀 연습 시합을 마련해 주는 대가로 받는 비용입니다. 기본값 = 200." />
+		<string id="S0i7VyEO8" text="이 옵션을 활성화하면 자신을 대신해 동료를 팀 투기장 연습에 내보내고, 투기장에서 그 동료를 직접 조종할 수 있습니다. 바닐라: 비활성화. 기본값: 활성화." />
+		<string id="L6plpq9tN" text="팀 투기장 연습의 전체 참가자 수입니다. 3의 배수이면서 AI 팀 수의 배수인 값을 권장합니다. 기본값 = 300." />
+		<string id="F5ltwpjLD" text="팀 투기장 연습에서 동시에 싸우는 활성 참가자의 예상 수입니다. AI 팀 수의 배수를 권장합니다. 기본값 = 20." />
+		<string id="rLeEchCEv" text="팀 투기장 연습의 최소 활성 참가자 수입니다. 2의 배수이면서 AI 팀 수의 배수인 값을 권장합니다. 기본값 = 12." />
+		<string id="t7SvV15zK" text="팀 투기장 연습을 시작할 때의 활성 참가자 수입니다. AI 팀 수의 배수를 권장합니다. 기본값 = 20." />
+		<string id="34SB5z6kv" text="팀 투기장 연습 시합의 AI 팀 수입니다. 1로 설정하면 모두가 당신의 팀과 싸웁니다. 기본값 = 4." />
+		<string id="yafmF17l3" text="이 옵션을 활성화하면 팀 투기장 연습에서 쓸 무기를 고를 수 있습니다." />
+		<string id="HzpsY1I9V" text="팀 투기장 연습에서 쓸 무기를 고를 때 무기 단계(등급)당 이 금액을 내야 합니다. 기본값 = 20." />
+		<string id="cgjoawOu3" text="팀 투기장 연습 참가자가 착용할 갑옷이나 의복을 지정합니다. 다른 모드가 변경하지 않는 한 [토너먼트 갑옷]을 선택하면 [전투 장비]와 같은 결과가 됩니다. 특별한 목적이 없다면 이 설정을 바꾸지 않는 것이 좋습니다. 재미있을 수는 있지만, 갑옷을 입으면 대부분의 연습용 원거리 무기가 무용지물이 됩니다. 기본값: [연습복]." />
+		<string id="8LHBbug9w" text="팀 투기장 연습에서 당신의 팀이 투사를 30명 이상 쓰러뜨렸을 때의 상금입니다. 기본값 = 30." />
+		<string id="EzSYzJjdR" text="팀 투기장 연습에서 당신의 팀이 투사를 50명 이상 쓰러뜨렸을 때의 상금입니다. 기본값 = 60." />
+		<string id="Z7cfjTozo" text="팀 투기장 연습에서 당신의 팀이 투사를 75명 이상 쓰러뜨렸을 때의 상금입니다. 기본값 = 150." />
+		<string id="rXdbJb3e8" text="팀 투기장 연습에서 당신의 팀이 투사를 100명 이상 쓰러뜨렸을 때의 상금입니다. 기본값 = 350." />
+		<string id="Nhslz7s3n" text="팀 투기장 연습에서 당신의 팀이 투사를 135명 이상 쓰러뜨렸을 때의 상금입니다. 기본값 = 800." />
+		<string id="Hmb8Ldjuq" text="팀 투기장 연습에서 마지막까지 살아남은 팀에게 주는 보상 방식을 지정합니다. 표준 - 특별 상금을 지급합니다. 합산 - 특별 상금에 더해 획득한 용맹 보상도 모두 지급합니다. 배수 - I등급보다 높은 용맹 등급을 획득할 때마다 특별 상금을 지급합니다. 기본값: [합산]." />
+		<string id="QItzcF4LK" text="팀 투기장 연습에서 마지막까지 살아남은 팀이 되었을 때의 기본 상금입니다. 기본값 = 1000." />
+		<string id="Qcap6qw2T" text="팀 투기장 연습에는 영웅과 3등급 이상의 병사만 참가할 수 있습니다. 이 옵션을 활성화하면 그보다 등급이 낮은 병사들도 전우가 투기장에서 공격을 적중시키거나 상대를 쓰러뜨릴 때 경험치를 조금 얻습니다." />
+		<string id="J0Okfl8Ey" text="팀 투기장 연습 시합의 경험치 획득률입니다. 바닐라 = 6%. 기본값 = 33.3%." />
+		<string id="qLyrVIJoy" text="AI 팀 1 색상 번호" />
+		<string id="KSjkzF8uD" text="AI 팀 2 색상 번호" />
+		<string id="WB6siZI93" text="AI 팀 3 색상 번호" />
+		<string id="MftQIDNf1" text="AI 팀 4 색상 번호" />
+		<string id="OKS7TtFM4" text="AI 팀 5 색상 번호" />
+		<string id="DkLWDatCO" text="AI 팀 6 색상 번호" />
+		<string id="hS7XbrLGG" text="최대 내기 금액" />
+		<string id="gQvJ8Vvsk" text="토너먼트의 각 라운드에서 통상적으로 걸 수 있는 최대 데나르입니다. 바닐라 = 150. 기본값 = 500." />
+		<string id="qPAga7DLd" text="무작위 배당률 활성화" />
+		<string id="kGyR7NsKh" text="이 옵션을 활성화하면 내기 배당률이 약간 무작위로 정해지지만, 여전히 플레이어의 승리 가능성 예측에 주로 기반합니다. 바닐라: 비활성화. 기본값: 활성화." />
+		<string id="hARcKe6Jt" text="유력자 참가 허용" />
+		<string id="YqIOYTV0P" text="정착지의 유력자가 토너먼트에 참가할 수 있게 합니다. 토너먼트 갑옷 모드와 함께 사용하는 것을 권장합니다. 바닐라: 비활성화. 기본값: 활성화." />
+		<string id="cCAOeRdmt" text="상품 재추첨 조건" />
+		<string id="CDGmDeYii" text="토너먼트 상품을 재추첨할지, 한다면 언제 할지를 지정합니다. 원래는 플레이어가 토너먼트에 참가할 때, 토너먼트가 생성된 이후 참가 귀족의 수가 바뀌었다면 상품이 재추첨됩니다(상품의 품질에 영향을 줍니다). 바닐라: [상황이 바뀌었을 때]. 기본값: [안 함]." />
+		<string id="IfsaDqygk" text="데나르 상금 활성화" />
+		<string id="yVAG4f83d" text="이 옵션을 활성화하면 토너먼트에 데나르 상금도 걸립니다. 기존의 상품 아이템과 내기 수익에 더해 지급됩니다. 바닐라: 비활성화. 기본값: 활성화." />
+		<string id="fH4Ev0UoC" text="상품 수준 조정 활성화" />
+		<string id="1THMacQwa" text="이 옵션을 활성화하면 토너먼트 상품의 수준이 플레이어의 명성에 맞춰 높아집니다. 다소 색다른 방식이지만, 게임 중후반에도 토너먼트가 쓸모 있도록 해 줍니다. 바닐라: 비활성화. 기본값: 활성화." />
+		<string id="lu9G6m85v" text="고품질 상품 활성화" />
+		<string id="EQs8Z1eOO" text="이 옵션을 활성화하면 고품질 아이템(걸작, 영주급 등)이 토너먼트 상품으로 주어질 수 있습니다. 바닐라: 비활성화. 기본값: 활성화." />
+		<string id="ZFv8WXbGE" text="최상급 상품의 문화 제한" />
+		<string id="ffwi4bAIs" text="최상급 토너먼트 상품을 기본 상품과 마찬가지로 개최 정착지의 문화에 맞는 것으로 제한할지, 한다면 언제 할지를 지정합니다. 바닐라: [안 함]. 기본값: [항상 (고유 탈것 제외)]." />
+		<string id="DyNe9qH4v" text="라운드 승리 보상" />
+		<string id="aAquVsgYJ" text="참가자가 토너먼트에서 승리한 라운드마다 받는 데나르입니다. 바닐라 = 0. 기본값 = 0." />
+		<string id="lkgaScPft" text="우승자 명성 보상" />
+		<string id="GWmYOkfOs" text="토너먼트 우승자가 받는 명성입니다. 바닐라 = 3. 기본값 = 3." />
+		<string id="1AR1Jq493" text="영웅 격파 명성 보상" />
+		<string id="Fbt8Iewl4" text="토너먼트 참가자가 자신과 비슷하거나 더 높은 명성을 지녔거나 토너먼트 통산 우승 기록이 더 많은 영웅을 쓰러뜨릴 때마다 지정된 만큼의 명성을 얻습니다. 한 토너먼트에서 이렇게 얻는 명성은 우승자 명성 보상의 두 배를 넘을 수 없습니다. 바닐라 = 0. 기본값 = 1." />
+		<string id="eLKi8Ptgm" text="우승자 영향력 보상" />
+		<string id="uYmFPwO8z" text="토너먼트 우승자가 어느 왕국에 속한 귀족 영주일 경우 받는 영향력입니다. 바닐라 = 1. 기본값 = 10." />
+		<string id="C5fcetmfG" text="토너먼트 시합의 경험치 획득률입니다. 바닐라 = 33%. 기본값 = 66.6%." />
+		<string id="PSnYupZhT" text="팀 토너먼트 활성화" />
+		<string id="qHyqXp9tK" text="팀을 이루어 토너먼트에 참가할 수 있는 선택지를 추가합니다." />
+		<string id="lDuOZkktY" text="최소 팀 인원" />
+		<string id="Nv4MJ3oXq" text="토너먼트 팀의 최소 인원입니다. 팀은 최소 2명의 참가자로 이루어져야 합니다." />
+		<string id="Q6qQge312" text="최대 팀 인원" />
+		<string id="4q3hSTZPZ" text="토너먼트 팀의 최대 인원입니다. 팀은 최소 2명의 참가자로 이루어져야 합니다. 값이 서로 충돌하면 이 설정이 최소 팀 인원보다 우선합니다." />
+		<string id="6o45aTuZi" text="최대 팀 수" />
+		<string id="34r9jsdJq" text="토너먼트의 최대 팀 수입니다. 토너먼트에는 최소 8개 팀이 있어야 합니다." />
+		<string id="rzIC6zMIv" text="우승 팀 점수" />
+		<string id="lA71kgTie" text="활성화하면 우승 팀의 모든 영웅이 토너먼트 순위표 점수를 얻습니다. 비활성화하면 팀장만 점수를 얻습니다." />
+		<string id="l2FTrzzXX" text="팀 1 색상 번호" />
+		<string id="jWYXBiEZp" text="팀 2 색상 번호" />
+		<string id="iRvUExaRI" text="팀 3 색상 번호" />
+		<string id="F6qBgeAOk" text="팀 4 색상 번호" />
+		<string id="3r3TStZPU" text="번호 값으로 팀의 깃발 색상을 지정합니다. 사용할 수 있는 색상 목록은 https://bannerlord.party/banner-colors/ 에서 확인하십시오." />
+		<string id="Ams5ccKzh" text="명단은 팀 토너먼트에서만 선택할 수 있습니다." />
+		<string id="xRkr497KP" text="팀으로 참가하기" />
+		<string id="AOthHead01" text="개최" />
+		<string id="AOthEnabl1" text="토너먼트 개최 활성화" />
+		<string id="AOthEnabl2" text="현재 토너먼트가 열리고 있지 않은 도시에서 토너먼트를 개최할 수 있는 선택지를 투기장 메뉴에 추가합니다. 데나르와 영향력이 모두 들며, 비용은 도시의 번영도와 플레이어의 가문 등급 및 명성에 따라 달라집니다. 기본값: 활성화." />
+		<string id="AOthGold01" text="기본 데나르 비용" />
+		<string id="AOthGold02" text="토너먼트 개최에 필요한 기본 데나르입니다(보정 적용 전). 기본값 = 2000." />
+		<string id="AOthInfl01" text="기본 영향력 비용" />
+		<string id="AOthInfl02" text="토너먼트 개최에 필요한 기본 영향력입니다(가문 등급에 따른 보정 적용 전). 기본값 = 20." />
+		<string id="AOthCool01" text="재개최 대기 일수" />
+		<string id="AOthCool02" text="플레이어가 같은 도시에서 토너먼트를 다시 개최하기까지 지나야 하는 일수입니다. 기본값 = 7." />
+		<string id="AOthAffi01" text="아군 세력의 도시에서만 개최" />
+		<string id="AOthAffi02" text="활성화하면 플레이어는 자신의 가문이나 왕국, 또는 동맹 세력이 소유한 도시에서만 토너먼트를 개최할 수 있습니다. 기본값: 활성화." />
+		<string id="AOthMenu01" text="토너먼트 개최하기" />
+		<string id="AOthNoWar1" text="이 도시는 지금 축제를 열 형편이 아닙니다." />
+		<string id="AOthNoAff1" text="이 도시는 아군 세력의 도시가 아닙니다." />
+		<string id="AOthCoold1" text="도시 주민들이 당신이 지난번에 연 토너먼트의 여파에서 아직 회복하지 못했습니다. {DAYS}{?DAYS.PLURAL_FORM}일{?}일{\?} 후에 다시 시도하십시오." />
+		<string id="AOthPoor01" text="이곳에서 토너먼트를 개최하는 데 드는 비용은 {GOLD}{GOLD_ICON}{?HAS_INFLUENCE} 및 영향력 {INFLUENCE}{?}{\?}입니다. 당신은 이 비용을 감당할 수 없습니다." />
+		<string id="AOthCost01" text="이곳에서 토너먼트를 개최하는 데 드는 비용은 {GOLD}{GOLD_ICON}{?HAS_INFLUENCE} 및 영향력 {INFLUENCE}{?}{\?}입니다. 상금 규모는 도시의 번영도에 따라 커집니다." />
+		<string id="AOthDone01" text="{TOWN}에서 토너먼트를 개최했습니다. 지출: {GOLD}{GOLD_ICON}{?HAS_INFLUENCE}, 영향력 {INFLUENCE}{?}{\?}." />
+		<string id="AOthConf01" text="{GOLD}{GOLD_ICON}{?HAS_INFLUENCE} 및 영향력 {INFLUENCE}{?}{\?}의 비용으로 {TOWN}에서 토너먼트를 개최하시겠습니까?" />
+		<string id="AOthConf02" text="토너먼트 개최" />
+		<string id="AOtiHead01" text="부상" />
+		<string id="AOtiEnabl1" text="토너먼트 부상 활성화" />
+		<string id="AOtiEnabl2" text="이 옵션을 활성화하면 토너먼트 시합에서 쓰러진 모든 영웅이 플레이어, 동료, 영주를 가리지 않고 체력을 잃으며, 그 부상을 캠페인 지도에서도 그대로 안고 갑니다. 바닐라: 비활성화. 기본값: 활성화." />
+		<string id="AOtiLoss01" text="쓰러질 때마다 잃는 체력" />
+		<string id="AOtiLoss02" text="영웅이 토너먼트 시합에서 쓰러졌을 때 잃는 체력을 최대 체력에 대한 백분율로 지정합니다. 체력은 1 아래로 떨어지지 않습니다. 기본값 = 30%." />
+		<string id="AOtiMsg001" text="쓰러져서 체력을 {HP_LOSS}만큼 잃었습니다." />
+		<string id="Ndc21b2NO" text="연습용 무기 세트 단계 수" />
+		<string id="9SY3aAtv1" text="ObjectManager에서 검색하는 연습용 무기 세트 단계의 수입니다. 투기장 연습 단계를 변경하고 그에 맞는 캐릭터 모델을 추가하는 모드를 쓰는 경우가 아니라면 이 설정을 바꾸지 마십시오. 바닐라 = 3. 기본값 = 3." />
+		<string id="DXiVYMIUL" text="다른 영웅으로 전환" />
+		<string id="morP28atv" text="투기장의 팀 연습 시합에서 원하는 다른 활성 영웅으로 전환합니다." />
+		<string id="NcXn6Ow7O" text="1. 가문 지도자" />
+		<string id="NowOsng0A" text="2. 가족" />
+		<string id="vTyduFjuF" text="3. 동료" />
+		<string id="fFlUJjUl0" text="AO 영웅 연습 설정" />
+		<string id="fL485YX24" text="무기 세트 선택 활성화" />
+		<string id="QLQYQTctQ" text="이 옵션을 활성화하면 해당 영웅이 투기장 연습 시합에서 쓸 무기를 고를 수 있으며, 이에 대한 통상적인 수수료를 내야 합니다. 비활성화하면 다른 참가자들처럼 무작위 무기를 사용합니다. 기본값은 모드 전역 설정에서 지정됩니다." />
+		<string id="kbL2QnpuF" text="무기 세트 자동 선택 활성화" />
+		<string id="vGIOM104P" text="이 옵션을 활성화하면 메뉴에서 투기장 연습 모드에 들어갈 때, 여기에 설정한 다른 선호도에 따라 플레이어의 무기 세트가 자동으로 선택됩니다. 기본값은 모드 전역 설정에서 지정됩니다." />
+		<string id="zC7CG8kwF" text="우선순위 무기 세트만" />
+		<string id="ieRmdET16" text="이 옵션을 활성화하면 해당 영웅은 무기 선호도가 하나라도 설정되어 있고 그에 맞는 무기 세트가 투기장에 하나 이상 있을 때에만 연습용 무기를 고릅니다. 그렇지 않으면 다른 참가자들처럼 무작위 무기를 사용합니다. 기본값은 모드 전역 설정에서 지정됩니다." />
+		<string id="JidAUNLNo" text="이 옵션을 활성화하면 무기 선호도가 하나라도 설정되어 있고 그에 맞는 무기 세트가 투기장에 하나 이상 있을 때에만 플레이어의 무기 세트가 자동으로 선택됩니다. 그렇지 않으면 평소처럼 무작위 무기를 사용합니다. 기본값은 모드 전역 설정에서 지정됩니다." />
+		<string id="cWdhDpsOS" text="비싼 장비 우선" />
+		<string id="YwbIZExy1" text="이 옵션을 활성화하면 해당 영웅은 투기장 연습 시합용 무기를 고를 때 더 좋고 비싼 장비를 우선합니다. 비활성화하면 주어진 선호도를 충족하는 가장 저렴한 무기 세트가 선택됩니다. 기본값은 모드 전역 설정에서 지정됩니다." />
+		<string id="Wse8QGJyQ" text="이 옵션을 활성화하면 플레이어의 무기 세트를 자동으로 선택할 때 더 좋고 비싼 장비를 우선합니다. 비활성화하면 주어진 선호도를 충족하는 가장 저렴한 무기 세트가 선택됩니다. 기본값은 모드 전역 설정에서 지정됩니다." />
+		<string id="G2IdbqB8p" text="1순위" />
+		<string id="ZWh07gP41" text="해당 영웅이 가장 우선하여 훈련할 무기 기술을 지정합니다. 이 영웅은 그 기술을 쓰는 무기가 포함된 무기 세트가 있으면 항상 그것을 고릅니다. 기본값: [없음]." />
+		<string id="DOGp7LBDe" text="플레이어 캐릭터가 가장 우선하여 훈련할 무기 기술을 지정합니다. 그 기술을 쓰는 무기가 포함된 무기 세트가 있으면 항상 그것이 선택됩니다. 기본값: [없음]." />
+		<string id="bcgL8E4Ol" text="2순위" />
+		<string id="Yideeiww5" text="해당 영웅이 두 번째로 우선하여 훈련할 무기 기술을 지정합니다. 이 영웅은 그 기술을 쓰는 무기가 포함된 무기 세트가 있고 우선순위가 더 높은 대안이 없을 때 그것을 고릅니다. 기본값: [없음]." />
+		<string id="bhSUfmKir" text="플레이어 캐릭터가 두 번째로 우선하여 훈련할 무기 기술을 지정합니다. 그 기술을 쓰는 무기가 포함된 무기 세트가 있고 우선순위가 더 높은 대안이 없을 때 그것이 선택됩니다. 기본값: [없음]." />
+		<string id="t45rwWZc5" text="3순위" />
+		<string id="lHiP6Z2Qo" text="해당 영웅이 세 번째로 우선하여 훈련할 무기 기술을 지정합니다. 이 영웅은 그 기술을 쓰는 무기가 포함된 무기 세트가 있고 우선순위가 더 높은 대안이 없을 때 그것을 고릅니다. 기본값: [없음]." />
+		<string id="IP7JZx9bb" text="플레이어 캐릭터가 세 번째로 우선하여 훈련할 무기 기술을 지정합니다. 그 기술을 쓰는 무기가 포함된 무기 세트가 있고 우선순위가 더 높은 대안이 없을 때 그것이 선택됩니다. 기본값: [없음]." />
+		<string id="6SD77Zo1C" text="없음" />
+		<string id="7OL4eTdan" text="한손 무기" />
+		<string id="rvCVOGi0s" text="양손 무기" />
+		<string id="bDnJRrfRH" text="장병기" />
+		<string id="KZt7cDhKn" text="활" />
+		<string id="s0JLnYAxx" text="석궁" />
+		<string id="CvVDmEhou" text="투척 무기" />
+		<string id="AOgtHead01" text="대토너먼트 및 왕국 토너먼트" />
+		<string id="AOgtSprg01" text="봄" />
+		<string id="AOgtSumr01" text="여름" />
+		<string id="AOgtAutm01" text="가을" />
+		<string id="AOgtWntr01" text="겨울" />
+		<string id="AOgtEnab01" text="연례 대토너먼트 활성화" />
+		<string id="AOgtEnab02" text="1년에 한 번, 칼라디아 전역에서 투기장 순위표의 가장 강한 영주들이 1대1 대토너먼트에 소집됩니다. 대토너먼트는 순위표 1위 영주가 속한 왕국의 수도에서 열립니다. 영주들은 지도상의 위치와 관계없이 참가합니다. 기본값: 활성화." />
+		<string id="AOgtKEna01" text="계절별 왕국 토너먼트 활성화" />
+		<string id="AOgtKEna02" text="계절마다 각 왕국이 자국의 봉신 영주들을 위한 1대1 토너먼트를 수도에서 엽니다. 모든 왕국이 같은 날에 개최하며, 플레이어는 자신이 속한 왕국의 토너먼트에만 출전할 수 있습니다. 대토너먼트가 열리는 계절에는 대토너먼트가 왕국 토너먼트를 대신합니다. 기본값: 활성화." />
+		<string id="AOgtSeas01" text="대토너먼트 계절" />
+		<string id="AOgtSeas02" text="대토너먼트가 열리는 계절입니다. 기본값: 봄." />
+		<string id="AOgtGDay01" text="대토너먼트 개막일(계절 기준)" />
+		<string id="AOgtGDay02" text="대토너먼트가 개막하는 날로, 계절의 몇 번째 날인지를 지정합니다. 기본값 = 11." />
+		<string id="AOgtKDay01" text="왕국 토너먼트 개막일(계절 기준)" />
+		<string id="AOgtKDay02" text="왕국 토너먼트가 개막하는 날로, 계절의 몇 번째 날인지를 지정합니다. 기본값 = 11." />
+		<string id="AOgtAnnD01" text="사전 공고 일수" />
+		<string id="AOgtAnnD02" text="개막 며칠 전에 토너먼트가 공고되어 개최 도시에 나타나는지를 지정합니다. 개막 전까지는 참가와 관전이 잠깁니다. 기본값 = 7." />
+		<string id="AOgtDura01" text="진행 일수" />
+		<string id="AOgtDura02" text="토너먼트가 시작된 뒤 며칠 동안 열려 있는지를 지정합니다. 그때까지 플레이어가 참가하지 않으면 토너먼트는 시뮬레이션으로 처리됩니다. 기본값 = 2." />
+		<string id="AOgtLege01" text="전설 품질 상품 아이템" />
+		<string id="AOgtLege02" text="상품은 우승자의 문화에 속한 높은 등급의 무기나 방어구이며, 해당 종류에서 가능한 최고의 수식어(무기는 전설)가 붙습니다. 탈것은 상품으로 나오지 않습니다. 기본값: 활성화." />
+		<string id="AOgtGold01" text="대토너먼트 데나르 상금" />
+		<string id="AOgtGold02" text="일반 토너먼트 보상에 더해 대토너먼트 우승자에게 주어지는 데나르입니다. 기본값 = 100000." />
+		<string id="AOgtReno01" text="대토너먼트 명성 보상" />
+		<string id="AOgtReno02" text="일반 토너먼트 보상에 더해 대토너먼트 우승자에게 주어지는 명성입니다. 기본값 = 50." />
+		<string id="AOgtInfl01" text="대토너먼트 영향력 보상" />
+		<string id="AOgtInfl02" text="대토너먼트 우승자가 왕국에 속해 있을 경우 주어지는 영향력입니다. 기본값 = 300." />
+		<string id="AOgtGWgt01" text="대토너먼트 순위표 가중치" />
+		<string id="AOgtGWgt02" text="대토너먼트 우승 한 번이 순위표에서 몇 번의 우승으로 집계되는지를 지정합니다. 기본값 = 3." />
+		<string id="AOgtKWgt01" text="왕국 토너먼트 순위표 가중치" />
+		<string id="AOgtKWgt02" text="왕국 토너먼트 우승 한 번이 순위표에서 몇 번의 우승으로 집계되는지를 지정합니다. 기본값 = 2." />
+		<string id="AOgtKPct01" text="왕국 토너먼트 보상 (대토너먼트 대비 %)" />
+		<string id="AOgtKPct02" text="왕국 토너먼트의 데나르, 명성, 영향력 보상을 대토너먼트 값에 대한 백분율로 지정합니다. 기본값 = 40." />
+		<string id="AOgtMenuG1" text="칼라디아 전역에서 투기장 순위표의 챔피언들이 대토너먼트를 위해 {TOWN}에 모였습니다. 우승자에게는 &quot;{TOURNAMENT_PRIZE}&quot;에 더해 이 행사에 걸맞은 데나르와 명성, 영향력이 주어집니다." />
+		<string id="AOgtMenuK1" text="{KINGDOM}의 가장 뛰어난 투사들이 왕국의 계절 토너먼트를 위해 {TOWN}에 모였습니다. 우승자에게는 &quot;{TOURNAMENT_PRIZE}&quot;에 더해 이 행사에 걸맞은 데나르와 명성, 영향력이 주어집니다." />
+		<string id="AOgtAnn001" text="칼라디아 대토너먼트가 {?DAYS}{DAYS}{?DAYS.PLURAL_FORM}일{?}일{\?} 후 {?}{\?}{TOWN}에서 열립니다. 투기장 순위표의 가장 뛰어난 투사들이 소집되었습니다." />
+		<string id="AOgtAnn002" text="{KINGDOM}의 계절 토너먼트가 {?DAYS}{DAYS}{?DAYS.PLURAL_FORM}일{?}일{\?} 후 {?}{\?}{TOWN}에서 열립니다." />
+		<string id="AOgtLock01" text="대토너먼트는 {DAYS}{?DAYS.PLURAL_FORM}일{?}일{\?} 후에 시작됩니다. 챔피언들이 아직 도착하는 중입니다." />
+		<string id="AOgtLock02" text="왕국 토너먼트는 {DAYS}{?DAYS.PLURAL_FORM}일{?}일{\?} 후에 시작됩니다. 참가자들이 아직 도착하는 중입니다." />
+		<string id="AOgtLock03" text="{KINGDOM}의 봉신 영주만 이 토너먼트에 출전할 수 있습니다." />
+		<string id="AOgtWin001" text="{WINNER}이(가) {TOWN}에서 열린 {KINGDOM}의 계절 토너먼트에서 우승했습니다." />
+		<string id="AOgtWin002" text="{WINNER}이(가) {TOWN}에서 열린 칼라디아 대토너먼트에서 우승했습니다!" />
+		<string id="AOgtPopA01" text="공고 시 지도 팝업" />
+		<string id="AOgtPopA02" text="대토너먼트 또는 플레이어가 출전할 수 있는 왕국 토너먼트가 공고되면 지도 알림을 표시합니다. 알림을 클릭하면 자세한 내용을 확인하고 개최 도시로 이동할 수 있습니다. 기본값: 활성화." />
+		<string id="AOgtPopR01" text="결과 발표 시 지도 팝업" />
+		<string id="AOgtPopR02" text="대토너먼트 또는 플레이어가 출전할 수 있는 왕국 토너먼트가 끝나면 우승자를 알리는 지도 알림을 표시합니다. 기본값: 활성화." />
+		<string id="AOgtKInt01" text="왕국 토너먼트 간격(계절 수)" />
+		<string id="AOgtKInt02" text="왕국 토너먼트 사이에 몇 계절이 지나는지를 지정합니다. 4의 약수가 아닌 값을 지정하면 개최 계절이 차례로 돌아가며 바뀝니다. 왕국 토너먼트가 대토너먼트의 계절과 겹치면 대토너먼트가 이를 대신합니다. 기본값 = 3." />
+		<string id="sotK7sewA" text="근처" />
+		<string id="J5jTiUvt8" text="여기서 비교적 가까움" />
+		<string id="ULKHRKsSV" text="여기서 꽤 멂" />
+		<string id="2JXPNLOm3" text="여기서 매우 멂" />
+		<string id="AOgtNtf004" text="왕국 토너먼트 종료" />
+		<string id="AOgtNtf003" text="대토너먼트 종료" />
+		<string id="AOgtNtf002" text="{KINGDOM} 토너먼트" />
+		<string id="AOgtNtf001" text="칼라디아 대토너먼트" />
+		<string id="AOgtNtf013" text="{CLAN}의 {WINNER}이(가) {TOWN}에서 열린 {KINGDOM}의 계절 토너먼트에서 우승하여 &quot;{PRIZE}&quot;에 더해 {GOLD}{GOLD_ICON}, 명성 {RENOWN}, 영향력 {INFLUENCE}의 보상을 차지했습니다." />
+		<string id="AOgtNtf012" text="{CLAN}의 {WINNER}이(가) 칼라디아 최고의 투사들을 꺾고 {TOWN}에서 열린 대토너먼트에서 우승하여 &quot;{PRIZE}&quot;에 더해 {GOLD}{GOLD_ICON}, 명성 {RENOWN}, 영향력 {INFLUENCE}의 보상을 차지했습니다." />
+		<string id="AOgtNtf009" text="{KINGDOM}의 봉신 영주들이 왕국의 계절 토너먼트를 위해 {TOWN}에 소집되었습니다. 토너먼트는 {DAYS}{?DAYS.PLURAL_FORM}일{?}일{\?} 후에 개막하여 {DURATION}{?DURATION.PLURAL_FORM}일{?}일{\?} 동안 진행됩니다. 우승 상품은 &quot;{PRIZE}&quot;입니다." />
+		<string id="AOgtNtf007" text="칼라디아 전역에서 투기장 순위표의 챔피언들이 {TOWN}에 소집되었습니다. 대토너먼트는 {DAYS}{?DAYS.PLURAL_FORM}일{?}일{\?} 후에 개막하여 {DURATION}{?DURATION.PLURAL_FORM}일{?}일{\?} 동안 진행됩니다. 우승 상품은 &quot;{PRIZE}&quot;입니다." />
+		<string id="AOgtNtf010" text="{KINGDOM}의 계절 토너먼트가 {TOWN}에서 진행 중이며, 앞으로 {DAYS}{?DAYS.PLURAL_FORM}일{?}일{\?} 동안 열려 있습니다. 우승 상품은 &quot;{PRIZE}&quot;입니다." />
+		<string id="AOgtNtf008" text="대토너먼트가 {TOWN}에서 진행 중이며, 앞으로 {DAYS}{?DAYS.PLURAL_FORM}일{?}일{\?} 동안 열려 있습니다. 우승 상품은 &quot;{PRIZE}&quot;입니다." />
+		<string id="AOgtNtf011" text="{TOWN}에서 열린 토너먼트가 끝났습니다." />
+		<string id="AOgtNtf005" text="{TOWN}에서 공고됨" />
+		<string id="AOgtNtf006" text="{WINNER}, {TOWN}에서 우승" />
+		<string id="AOR_m3XpR8d" text="이 영웅은 아직 시합에 나서지 않았으며, 투기장 입장 대기 순서는 {QUEUE_NUMBER}번째입니다." />
+		<string id="AOgtWon002" text="결승전에서 {TOURNAMENT_FINAL_OPPONENT}을(를) 꺾고 {KINGDOM}의 계절 토너먼트에서 우승했습니다." />
+		<string id="AOgtWon001" text="결승전에서 {TOURNAMENT_FINAL_OPPONENT}을(를) 꺾고 칼라디아 대토너먼트에서 우승했습니다." />
+		<string id="AOgtTitle002" text="{KINGDOM}의 계절 토너먼트" />
+		<string id="AOgtTitle001" text="칼라디아 대토너먼트" />
+		<string id="AOgtNtf015" text="닫기" />
+		<string id="AOgtNtf014" text="지도에서 보기" />
+		<string id="AOR_J5sWy1F" text="{HERO.NAME}이(가) 투기장에 입장하기를 기다리는 중입니다. {?HERO.GENDER}그녀{?}그{\?}의 대기 순서는 {POSITION_IN_LINE}번째입니다." />
+		<string id="AOR_q7Hn2Lw" text="디버깅을 위한 로깅" />
+		<string id="AOR_Vz4kT9c" text="디버깅을 위한 로깅(영어 전용). [기본값: 비활성화]" />
+	</strings>
+</base>

@@ -1,0 +1,472 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" type="string">
+	<tags>
+		<tag language="日本語" />
+	</tags>
+	<strings>
+		<string id="n3lrq7FfM" text="闘技場オーバーホール Redux" />
+		<string id="a3uuVmMKR" text="大規模練習試合" />
+		<string id="QI6a1mxh9" text="受け流し練習試合" />
+		<string id="wWZ82hgqV" text="チーム練習試合" />
+		<string id="aiDNBFQ4U" text="近隣のトーナメント" />
+		<string id="uBC62Jdh1" text="次のページ..." />
+		<string id="De0boqLm0" text="前のページ..." />
+		<string id="fakGolQMf" text="闘技場に戻る" />
+		<string id="ForHVzTkJ" text="それと、時々いわゆる大規模練習試合ってのも開かれる。基本は同じだが、もっと長くて、ずっと激しい。部下を何人か連れてくるといい。連中にはいい稽古になるだろう。ただし忘れるな――あそこで徒党を組むのは禁止だ。破れば失格にするぞ。[ib:closed][if:convo_bared_teeth]" />
+		<string id="nZVbLJnVn" text="その大規模練習試合というのにも賞金は出るのか？いくらもらえる？" />
+		<string id="fpPMPCNp5" text="私よりも部下のほうに鍛錬が必要だ。私はここに残って、代わりに誰かを送ろう。" />
+		<string id="7ONiAo9q0" text="いいだろう。で、その幸運な奴は誰だ？[ib:closed][if:convo_bared_teeth]" />
+		<string id="cB4QnrtWM" text="他に何かあるか？[ib:normal]" />
+		<string id="y9zNkuGg0" text="コンパニオンの装備を選びたい。" />
+		<string id="0uFoXskRW" text="いや、さっそく始めよう。" />
+		<string id="BbpYVQSc6" text="気が変わった。やはり自分で戦う。" />
+		<string id="VVjb1EG4d" text="待ってくれ、少し考え直したい。" />
+		<string id="MqTDJG0uG" text="自分の装備を選びたい。" />
+		<string id="iDGR9F0Gn" text="いいだろう{?WEAPON_CHOICE_HAS_PRICE}。ただし{WEAPON_CHOICE_PRICE}{GOLD_ICON}いただくぞ{?}{\?}！どの武器セットにする？[ib:closed][if:convo_bared_teeth]" />
+		<string id="DGsGeb4LA" text="もっと良い装備が欲しい。" />
+		<string id="lIBwkFipY" text="いや、やっぱりいい。" />
+		<string id="7f21TSn5W" text="大規模練習試合に参加したい..." />
+		<string id="MnhLtl9Nn" text="よし、部下を集めて行ってこい！下りる途中で練習用の武器を取るのを忘れるなよ。[if:convo_approving]" />
+		<string id="jBqErWEjU" text="特別な試合を組んでもらえないか？" />
+		<string id="EYXQnjEvK" text="内容によるな。具体的に何を考えている？[ib:hip][if:convo_thinking]" />
+		<string id="h2Gv6NA8J" text="受け流しの練習がしたい。" />
+		<string id="RyUSbmDhf" text="この闘技場では、受け流し練習に適した武器セットを使う習わしがありません。" />
+		<string id="9yIQ6Qd1E" text="そいつは実に大事な技だ。稽古すれば他の連中のためにもなる... その試合、組んでやれるだろう{?PRACTICE_CHOICE_HAS_PRICE}。ただし{PRACTICE_CHOICE_PRICE}{GOLD_ICON}かかるぞ{?}{\?}。ああ、それと賞金は期待するな。この手の稽古じゃ観客は沸かんからな。それでもやる気なら、下りる途中で練習用の武器を取るのを忘れるなよ。[if:convo_calm_friendly][ib:confident]" />
+		<string id="iXwumAizJ" text="仲間たちと一つのチームとして戦いたい。チーム練習試合を開いてもらえないだろうか？" />
+		<string id="LTfWl2OPC" text="そいつは間違いなく盛り上がるぞ！{?PRACTICE_CHOICE_HAS_PRICE}面白い考えだが、そんな試合をきちんと仕切るにはかなり手間がかかる。だから{PRACTICE_CHOICE_PRICE}{GOLD_ICON}もらうぞ。だが良い面もある。{?}{\?}観客にとっては最高の見世物になるだろうし、その分、賞金も弾める。それでもやる気なら、下りる途中で練習用の武器を取るのを忘れるなよ。[ib:nervous2][if:convo_excited]" />
+		<string id="wuuxg3Lkg" text="さて... もう一度やるか？[ib:normal]" />
+		<string id="6kW561DVB" text="私は少し休みたいし、部下には鍛錬が必要だ。今回はここに残って、代わりに誰かを送ろう。" />
+		<string id="RKNcniRPk" text="今回は別の者を送りたい。" />
+		<string id="7NfBn2JvL" text="体を温めたい。今回は自分で戦いに出よう。" />
+		<string id="8k8br8lfq" text="{?COMPANION_GENDER}彼女{?}彼{\?}には標準の装備で戦ってもらう。" />
+		<string id="rPVHszLLs" text="ああ。ただ、{COMPANION_NAME}に使わせる武器セットを新しく選びたい。" />
+		<string id="WRO1rFtQm" text="標準の装備で戦う。" />
+		<string id="uLNYivCXl" text="ああ。ただ、武器セットは新しく選びたい。" />
+		<string id="zvb5PZ5OA" text="現在、{TOURNAMENTS}{?TOURNAMENTS.PLURAL_FORM}か所{?}か所{\?}の街でトーナメントが開催されています。{?SHOW_PAGES} ページ {PAGE}/{PAGES}。{?}{\?}{NEW_LINE}{NEW_LINE}{TORNAMENT_LIST.START}{?TORNAMENT_LIST.IS_PLURAL}{NEW_LINE}{NEW_LINE}{?}{\?}{TORNAMENT_LIST.END}" />
+		<string id="UOpsoG57t" text="{NAME}{NEW_LINE}    [ティア{TIER}の{TYPE}、価値 {GOLD} {GOLD_ICON}]" />
+		<string id="AOtlEntry1" text="{INDEX}. {TOWN_LINK} [{DISTANCE_ESTIMATE}、{TAG}]{NEW_LINE}    {TOURNAMENT_AGE}{?TOURNAMENT_AGE.PLURAL_FORM}日{?}日{\?}前に開始。{NEW_LINE}    賞品: {ITEM_PRIZE}{?GOLD_PRIZES_ENABLED}{NEW_LINE}    賞金: {GOLD_PRIZE}{GOLD_ICON}{?}{\?}" />
+		<string id="AOtlTag000" text="始まったばかり" />
+		<string id="AOtlTag001" text="まだ間に合う" />
+		<string id="AOtlTag002" text="急げ" />
+		<string id="AOtlTag003" text="間に合う" />
+		<string id="AOtlTag004" text="急げ" />
+		<string id="AOtlTag005" text="望み薄" />
+		<string id="EPjU6L6kg" text="所持金が足りません！{NEW_LINE}{NEW_LINE}{EXPENSES_BREAKDOWN}" />
+		<string id="9REfw5FN6" text="{EXPENSES_BREAKDOWN}{NEW_LINE}{NEW_LINE}現在の所持金では、この料金で練習試合を{AFFORDABLE_ROUNDS}{?AFFORDABLE_ROUNDS.PLURAL_FORM}回{?}回{\?}行えます。" />
+		<string id="OXad58sEV" text="{?PRACTICE_CHOICE_HAS_PRICE}{NEW_LINE} - 特別な形式の練習の手配料: {PRACTICE_CHOICE_PRICE}{GOLD_ICON}。{?}{\?}" />
+		<string id="bO70zCDVt" text="{?WEAPON_CHOICE_HAS_PRICE}{NEW_LINE} - 自分で選んだ武器セットの使用料: {WEAPON_CHOICE_PRICE}{GOLD_ICON}。{?}{\?}" />
+		<string id="M8fIDW2lQ" text="{?COMPANION_WEAPON_CHOICES_HAVE_PRICE}{NEW_LINE} - コンパニオンが選んだ武器セットの使用料（全員分）: {COMPANION_WEAPON_CHOICES_PRICE}{GOLD_ICON}。{?}{\?}" />
+		<string id="Oz5qSUyk9" text="ご希望のルールと設定で練習試合を手配するには、合計{TOTAL_EXPENSES}{GOLD_ICON}かかります。{NEW_LINE}{NEW_LINE}内訳:{ARRANGEMENT_EXPENSES}{PLAYER_LOADOUT_EXPENSES}{COMPANION_LOADOUT_EXPENSES}" />
+		<string id="YxVkSN8sn" text="あなたは倒されましたが、チームはまだ戦っています。希望すれば別の英雄に切り替えられます。" />
+		<string id="xRdn4pEme" text="選択可能なキャラクター" />
+		<string id="jq2jXUcse" text="切り替えるチームメイトを選択" />
+		<string id="XZcFEonSW" text="チームに切り替え可能なキャラクターがいません！" />
+		<string id="Iz2BWpesF" text="現在は別のキャラクターに切り替えられません！" />
+		<string id="UuAz2vxM3" text="チームはまだ戦っています。闘技場を離れますか？" />
+		<string id="PumaUhrt2" text="構えての防御: {PREPARED_BLOCKS}" />
+		<string id="XiR0Srf50" text="完璧な防御: {PERFECT_BLOCKS}" />
+		<string id="R0UCmq6Jn" text="チャンバーブロック: {CHAMBER_BLOCKS}" />
+		<string id="CSGg2vSS3" text="受けた攻撃: {HITS_TAKEN}" />
+		<string id="l1z9vuw8B" text="残りの味方: {ALLIES_REMAINING}" />
+		<string id="HxdMLgPrk" text="無効なアイテム" />
+		<string id="ZMHaMWEhM" text="馬" />
+		<string id="8G7OMyMbp" text="片手武器" />
+		<string id="XuZG0Aoio" text="両手武器" />
+		<string id="CqFjTkLpa" text="長柄武器" />
+		<string id="a0BgoRSGt" text="矢" />
+		<string id="cGVcwzcts" text="ボルト" />
+		<string id="1w2htuOn2" text="盾" />
+		<string id="KsH4vdaKZ" text="弓" />
+		<string id="wXthM7Mmt" text="クロスボウ" />
+		<string id="t3EkeJDz6" text="投擲武器" />
+		<string id="FjujPkPsk" text="交易品" />
+		<string id="6p4MDI4FN" text="頭防具" />
+		<string id="JH2tZrJmd" text="胴防具" />
+		<string id="aMMn9E0nk" text="脚防具" />
+		<string id="3LtYT36O8" text="手防具" />
+		<string id="OBZsswRvq" text="ピストル" />
+		<string id="mwmowr3Pl" text="マスケット銃" />
+		<string id="RnZzjAmRe" text="弾丸" />
+		<string id="5PmQkkEOf" text="動物" />
+		<string id="IA8SfaiLs" text="本" />
+		<string id="zWPK2mgHx" text="胸防具" />
+		<string id="z3x97kWhJ" text="ケープ" />
+		<string id="PxZJzp7zk" text="馬具" />
+		<string id="G5Tk9ZJwy" text="旗" />
+		<string id="hWj4T9N6e" text="アイテム" />
+		<string id="gaJDVkvHa" text="{VALOR_PRIZES_DESCRIPTION}{CHAMPION_PRIZE_DESCRIPTION}悪くない話だろう？[if:convo_nonchalant]" />
+		<string id="hsDqRWEYr" text="倒される前に{OPPONENT_COUNT_1}人を倒せば、{PRIZE_1}{GOLD_ICON}の賞金だ。" />
+		<string id="8qZeWlW2A" text="倒される前に{OPPONENT_COUNT_1}人を倒せば、{PRIZE_1}{GOLD_ICON}の賞金だ。{OPPONENT_COUNT_2}人以上を打ち倒せば{PRIZE_2}{GOLD_ICON}になる。" />
+		<string id="pBCjfH33W" text="倒される前に{OPPONENT_COUNT_1}人を倒せば、{PRIZE_1}{GOLD_ICON}の賞金だ。{OPPONENT_COUNT_2}人以上を打ち倒せば{PRIZE_2}{GOLD_ICON}、{OPPONENT_COUNT_3}人を倒せば{PRIZE_3}{GOLD_ICON}になる。" />
+		<string id="S0uBAbZiF" text="倒される前に{OPPONENT_COUNT_1}人を倒せば、{PRIZE_1}{GOLD_ICON}の賞金だ。{OPPONENT_COUNT_2}人以上を打ち倒せば{PRIZE_2}{GOLD_ICON}、{OPPONENT_COUNT_3}人を倒せば{PRIZE_3}{GOLD_ICON}、そして{OPPONENT_COUNT_4}人を倒すまで生き残れたら{PRIZE_4}{GOLD_ICON}だ。" />
+		<string id="jhJZqz0OL" text="倒される前に{OPPONENT_COUNT_1}人を倒せば、{PRIZE_1}{GOLD_ICON}の賞金だ。{OPPONENT_COUNT_2}人以上を打ち倒せば{PRIZE_2}{GOLD_ICON}、{OPPONENT_COUNT_3}人を倒せば{PRIZE_3}{GOLD_ICON}、{OPPONENT_COUNT_4}人を倒すまで生き残れたら{PRIZE_4}{GOLD_ICON}、そして万が一{OPPONENT_COUNT_5}人も倒せたなら{PRIZE_5}{GOLD_ICON}だ。そいつは並大抵の手柄じゃないがな。" />
+		<string id="nwnxJV2rZ" text="最後まで立っていた一人になれたら、この試合の大賞金{PRIZE_CHAMP}{GOLD_ICON}はお前のものだ。" />
+		<string id="AAPfCIEuZ" text="最後まで立っていた一人になれたら、それに加えてこの試合の大賞金{PRIZE_CHAMP}{GOLD_ICON}もお前のものだ。" />
+		<string id="3UtRes0Un" text="だが、最後まで立っていた一人になれたら、この試合の大賞金{PRIZE_CHAMP}{GOLD_ICON}はお前のものだ。本当に見事な戦いぶりで、自らの手で大勢を倒せば、その何倍にもなるかもしれんぞ。" />
+		<string id="4uOu7an2u" text="へっ！お前の手下、ずいぶん派手な痣をこしらえたな。だが気にするな。誰だってたまにはこっぴどくやられるもんだ。大事なのは失敗から学んで戦い続けることだ。チャンピオンってのはそうするもんさ。" />
+		<string id="s2B3i84HL" text="ああ、経験ってやつは、苦い失敗が産み落とすありがたい子供だ！お前のチームも少しは身についただろうから、全員でもう一度下りて、そいつを活かしてこい。チャンピオンってのはそうするもんさ。" />
+		<string id="bWSPsaDyt" text="お前の手下は{OPPONENT_COUNT}人を倒したようだな。悪くない。だがそれじゃ賞金は出ん。俺がお前なら、{?COMPANION.GENDER}彼女{?}彼{\?}をすぐにまた送り出すか、いっそ自分で下りていって、己の腕前を皆に見せつけてやるがな..." />
+		<string id="0xwJY4TYS" text="お前のチームは{OPPONENT_COUNT}人を倒したようだな。悪くない。だがそれじゃ賞金は出ん。俺がお前なら、部下を集めてちょいと発破をかけ、すぐにまた下りていって、俺たちの腕前を皆に見せつけてやるがな..." />
+		<string id="tU4Oa8XN1" text="{COMPANION.LINK}はなかなかいい戦いを見せたな。実にいい動きもあった。もちろんミスもいくつかあったが、{?COMPANION.GENDER}彼女{?}彼{\?}には間違いなく見込みがある。{OPPONENT_COUNT}人を倒したから、お前に{PRIZE}{GOLD_ICON}の賞金だ。" />
+		<string id="IMAm6VMLR" text="お前のチームはなかなかいい戦いを見せたな。実にいい動きもあった。もちろんミスもいくつかあったが、お前たちには間違いなく見込みがある。{OPPONENT_COUNT}人を倒したから、{PRIZE}{GOLD_ICON}の賞金だ。" />
+		<string id="N5d76ElzV" text="いいぞ、{PLAYER.LINK}、実にいい。こちらの{COMPANION.LINK}{?COMPANION.GENDER}嬢{?}殿{\?}は{OPPONENT_COUNT}人も倒してみせた。その度胸のおかげで、{?COMPANION.GENDER}彼女{?}彼{\?}は観客の人気者だったぞ。もちろん、お前に{PRIZE}{GOLD_ICON}の賞金を稼いでくれた。" />
+		<string id="injn095f0" text="いいぞ、{PLAYER.LINK}、実にいい。お前のチームは{OPPONENT_COUNT}人も倒してみせた。その度胸のおかげで、お前たちは観客の人気者だったぞ。もちろん、{PRIZE}{GOLD_ICON}の賞金も稼いだ。" />
+		<string id="xe4cfXIBa" text="見事な戦いだったぞ、{PLAYER.LINK}。{COMPANION.LINK}は{OPPONENT_COUNT}人を倒した。あの戦いぶりなら、もちろん{?COMPANION.GENDER}彼女{?}彼{\?}は賞金に値する。{PRIZE}{GOLD_ICON}だ。いいだろう？" />
+		<string id="luDin5D4D" text="見事な戦いだったぞ、{PLAYER.LINK}。お前のチームは{OPPONENT_COUNT}人を倒した。あの戦いぶりなら、もちろん賞金に値する。{PRIZE}{GOLD_ICON}だ。いいだろう？" />
+		<string id="ETDxIDLAf" text="堂々たる戦いぶりだったぞ、{COMPANION.LINK}。バシッ！ガツン！{OPPONENT_COUNT}人も倒してみせた。観客は大喜びだ。{PLAYER.LINK}、お前のところの武芸者の卵が、たった今{PRIZE}{GOLD_ICON}の賞金を稼いでくれたぞ。" />
+		<string id="UUuKSdZ7b" text="堂々たる戦いぶりだったぞ、{PLAYER.LINK}。バシッ！ガツン！お前のチームは{OPPONENT_COUNT}人も倒してみせた。観客は大喜びだ。そして{PRIZE}{GOLD_ICON}の賞金を手にしたぞ。" />
+		<string id="GLYFl5ImO" text="さあ、お前のところの神童をよく見せてくれ、{PLAYER.LINK}。いつか子供たちに、本物の達人とはどんな姿か語ってやれるようにな... {COMPANION.LINK}は一度の試合で{OPPONENT_COUNT}人も倒したんだ！信じられん！ああ、もちろん、お前には{PRIZE}{GOLD_ICON}の賞金を払わねばならんな。" />
+		<string id="aDC8zdCmt" text="さあ、お前の顔をよく見せてくれ、{PLAYER.LINK}。いつか子供たちに、本物の達人とはどんな姿か語ってやれるようにな！一度の試合で{OPPONENT_COUNT}人も倒したんだ！信じられん！ああ、もちろん、{PRIZE}{GOLD_ICON}の賞金はお前のものだ。" />
+		<string id="b42weJbT2" text="これぞチームプレイってやつだ！お前のチームは一度の試合で{OPPONENT_COUNT}人も倒した！信じられん！{PRIZE}{GOLD_ICON}の賞金だ。一枚残らず、お前たちが稼いだ金だぞ。" />
+		<string id="YL3QBzHns" text="おめでとう、{PLAYER.LINK}。{COMPANION.LINK}がチャンピオンだ！{?COMPANION.GENDER}彼女{?}彼{\?}の戦いは記憶に残るものだった！最後まで立っていた者として、{COMPANION.LINK}は最高賞金{PRIZE}{GOLD_ICON}を勝ち取った。" />
+		<string id="DwOtDP6SQ" text="おめでとう、{PLAYER.LINK}。お前のチームがチャンピオンだ！最後まで立っていた者たちとして、最高賞金{PRIZE}{GOLD_ICON}はお前たちのものだ。" />
+		<string id="dKWMj58Bq" text="おめでとう、{PLAYER.LINK}。{COMPANION.LINK}がチャンピオンだ！{?COMPANION.GENDER}彼女{?}彼{\?}の戦いは記憶に残るものだった！最後まで立っていた者として、{COMPANION.LINK}は当然、最高賞金{PRIZE}{GOLD_ICON}を勝ち取った。{OPPONENT_COUNT}人を倒した分の{VALOR_PRIZE}{GOLD_ICON}も込みだ。" />
+		<string id="nZ1Ar0MOd" text="おめでとう、チャンピオン！お前の戦いは記憶に残るものだった！最後まで立っていた者として、当然、最高賞金{PRIZE}{GOLD_ICON}はお前のものだ。{OPPONENT_COUNT}人を倒した分の{VALOR_PRIZE}{GOLD_ICON}も込みだ。" />
+		<string id="UISWBTRY2" text="おめでとう、{PLAYER.LINK}。お前のチームがチャンピオンだ！この戦いは記憶に残るものだった！最後まで立っていた者たちとして、当然、最高賞金{PRIZE}{GOLD_ICON}はお前たちのものだ。{OPPONENT_COUNT}人を倒した分の{VALOR_PRIZE}{GOLD_ICON}も込みだ。" />
+		<string id="YZcU0ocKX" text="おめでとう、{PLAYER.LINK}。{COMPANION.LINK}がチャンピオンだ！{?COMPANION.GENDER}彼女{?}彼{\?}の戦いは間違いなく記憶に残るものだった！最後まで立っていた者として、{COMPANION.LINK}は最高賞金{PRIZE}{GOLD_ICON}を勝ち取った。{OPPONENT_COUNT}人を倒した分の{VALOR_PRIZE}{GOLD_ICON}も込みだ。正直、素晴らしい戦いで観客も大いに沸いた。お前のところの英雄は、この金を一枚残らず自分の腕で稼いだんだぞ、友よ。" />
+		<string id="oYDKCzkid" text="おめでとう、チャンピオン！お前の戦いは記憶に残るものだった！最後まで立っていた者として、当然、最高賞金{PRIZE}{GOLD_ICON}はお前のものだ。{OPPONENT_COUNT}人を倒した分の{VALOR_PRIZE}{GOLD_ICON}も込みだ。正直、素晴らしい戦いで観客も大いに沸いた。この金は一枚残らずお前が自分の腕で稼いだんだぞ、友よ。" />
+		<string id="TFRz8p0Z6" text="おめでとう、{PLAYER.LINK}。お前のチームがチャンピオンだ！この戦いは間違いなく記憶に残るものだった！最後まで立っていた者たちとして、最高賞金{PRIZE}{GOLD_ICON}はお前たちのものだ。{OPPONENT_COUNT}人を倒した分の{VALOR_PRIZE}{GOLD_ICON}も込みだ。正直、素晴らしい戦いで観客も大いに沸いた。この金は一枚残らずお前と部下たちが自分の腕で稼いだんだぞ、友よ。" />
+		<string id="6bnQLhQQB" text="おめでとう、{PLAYER.LINK}。{COMPANION.LINK}がチャンピオンだ！{?COMPANION.GENDER}彼女{?}彼{\?}の戦いは記憶に残るものだった！{COMPANION.LINK}は最後まで立っていただけでなく、獣のごとく戦い抜いた。よって通常の最高賞金の二倍、{PRIZE}{GOLD_ICON}を勝ち取った。" />
+		<string id="dKdBMUgOL" text="おめでとう、チャンピオン！お前の戦いは記憶に残るものだった！最後まで立っていただけでなく、獣のごとく戦い抜いた。よって通常の最高賞金の二倍、{PRIZE}{GOLD_ICON}はお前のものだ。" />
+		<string id="phgJ8tmZV" text="おめでとう、{PLAYER.LINK}。お前のチームがチャンピオンだ！この戦いは記憶に残るものだった！お前たちは最後まで立っていただけでなく、獣のごとく戦い抜いた。よって通常の最高賞金の二倍、{PRIZE}{GOLD_ICON}はお前たちのものだ。" />
+		<string id="41XqfyWOi" text="おめでとう、{PLAYER.LINK}。{COMPANION.LINK}がチャンピオンだ！しかも{?COMPANION.GENDER}彼女{?}彼{\?}の戦いは記憶に残るものだった！{COMPANION.LINK}は最後まで立っていただけでなく、真の英雄のごとく戦い抜いた。よって通常の最高賞金の三倍、{PRIZE}{GOLD_ICON}を勝ち取った。" />
+		<string id="BtSwRTvu9" text="おめでとう、チャンピオン！お前の戦いは記憶に残るものだった！最後まで立っていただけでなく、真の英雄のごとく戦い抜いた。よって通常の最高賞金の三倍、{PRIZE}{GOLD_ICON}はお前のものだ。" />
+		<string id="PgMuEBsXX" text="おめでとう、{PLAYER.LINK}。お前のチームがチャンピオンだ！この戦いは記憶に残るものだった！お前たちは最後まで立っていただけでなく、真の英雄のごとく戦い抜いた。よって通常の最高賞金の三倍、{PRIZE}{GOLD_ICON}はお前たちのものだ。" />
+		<string id="KPp4pG1Ky" text="おめでとう、{PLAYER.LINK}。{COMPANION.LINK}がチャンピオンだ！いやはや、{?COMPANION.GENDER}彼女{?}彼{\?}の戦いは記憶に残るものだった！{COMPANION.LINK}{?COMPANION.GENDER}嬢{?}殿{\?}は参加者のゆうに半分を自らの手で片付けた。よって通常のチャンピオン賞金の四倍を勝ち取ったぞ！さあ受け取れ、{PRIZE}{GOLD_ICON}だ。[if:convo_merry]" />
+		<string id="I2A8Heq2r" text="おめでとう、チャンピオン！お前の戦いは記憶に残るものだった！参加者のゆうに半分を自らの手で片付けた。よって通常のチャンピオン賞金の四倍を勝ち取ったぞ！さあ受け取れ、{PRIZE}{GOLD_ICON}だ。[if:convo_merry]" />
+		<string id="gmzDTwOFX" text="おめでとう、{PLAYER.LINK}。お前のチームがチャンピオンだ！この戦いは間違いなく記憶に残るものだった！お前の部下たちは参加者のゆうに半分を片付けた。よって通常のチャンピオン賞金の四倍を勝ち取ったぞ！さあ受け取れ、{PRIZE}{GOLD_ICON}だ。[if:convo_merry]" />
+		<string id="XdkGt7jFa" text="いやはや、{PLAYER.LINK}、下でのあれはまさしく真の達人の業だった！{COMPANION.LINK}のような闘士をここに迎えられて光栄だ。この傑出した戦いぶりで、{?COMPANION.GENDER}彼女{?}彼{\?}は{PRIZE}{GOLD_ICON}という堂々たる賞金を勝ち取ったぞ。[if:convo_merry]" />
+		<string id="3yLYLKZYW" text="おめでとう、達人よ！お前のような闘士をここに迎えられて光栄だ。この傑出した戦いぶりで、お前は{PRIZE}{GOLD_ICON}という堂々たる賞金を勝ち取ったぞ。[if:convo_merry]" />
+		<string id="uU3Ya5GfN" text="いやはや、{PLAYER.LINK}、下でのあれは歌に歌われるにふさわしい働きだった！いや、伝説と言ってもいい。あんな闘士たちをこのささやかな闘技場に迎えられて光栄だ。この傑出した戦いぶりで、お前たちは{PRIZE}{GOLD_ICON}という堂々たる賞金を勝ち取ったぞ。[if:convo_merry]" />
+		<string id="k0kOwkWzO" text="部下に受け流しの稽古をさせたいと言っていたな。だが下で見たかぎり、{COMPANION.LINK}はうちの闘士どもを叩きのめすことのほうに夢中だったようだ。{?COMPANION.GENDER}彼女{?}彼{\?}に、もっと防御と反撃に気を配るよう言ってやれ。さもなきゃ、こんな馬鹿げたことで俺の時間を無駄にするのはやめてくれ。[ib:closed][if:convo_confused_annoyed]" />
+		<string id="6vlrvSbAY" text="受け流しの稽古がしたいと言っていたな。だが下で見たかぎり、お前はうちの闘士どもを叩きのめすことのほうに夢中だったようだ。もっと防御と反撃に気を配れ。さもなきゃ、こんな馬鹿げたことで俺の時間を無駄にするのはやめてくれ。[ib:closed][if:convo_confused_annoyed]" />
+		<string id="VGOnRoQck" text="今見たかぎり、{COMPANION.LINK}には確かに受け流しの稽古が必要だな。続けたほうがいい。[ib:weary][if:convo_confused_normal]" />
+		<string id="y508NVoOc" text="今見たかぎり、お前には確かに受け流しの稽古が必要だな。続けたほうがいい。[ib:weary][if:convo_confused_normal]" />
+		<string id="0taUkpCCP" text="ふむ、{COMPANION.LINK}はあと一歩のところまでいった。だが{?COMPANION.GENDER}彼女{?}彼{\?}は、もっと長く集中を保つことに慣れなきゃならん。[if:convo_approving]" />
+		<string id="fdxZnnGSu" text="ふむ、あと一歩のところまでいったな。だがお前は、もっと長く集中を保つことに慣れなきゃならん。[if:convo_approving]" />
+		<string id="wDLRbc8Mh" text="{COMPANION.LINK}は下で十分よくやった。だが{?COMPANION.GENDER}彼女{?}彼{\?}に本当に白兵戦を極めさせたいなら、受け流しと反撃をひとつの動きでこなす技を身につけさせ、もっと頻繁に使わせることだ。そうすれば{?COMPANION.GENDER}彼女{?}彼{\?}は一目置かれる闘士になる。[ib:warrior][if:convo_thinking]" />
+		<string id="N0ok57asq" text="お前は下で十分よくやった。だが本当に白兵戦を極めたいなら、受け流しと反撃をひとつの動きでこなす技を身につけ、もっと頻繁に使うことだ。そうすればお前は一目置かれる闘士になる。[ib:warrior][if:convo_thinking]" />
+		<string id="cvThaH27b" text="続いている間は実に見事な戦いぶりだったと言っておこう。だが実戦なら、お前の弟子は結局死んでいた。{COMPANION.LINK}は、もっと長く集中を保てるよう{?COMPANION.GENDER}彼女自身{?}彼自身{\?}を鍛えなきゃならん。[ib:weary][if:convo_approving]" />
+		<string id="rJa1PaPJs" text="続いている間は実に見事な戦いぶりだったと言っておこう。だが実戦なら、お前は結局死んでいた。もっと長く集中を保てるよう自分を鍛えなきゃならん。[ib:weary][if:convo_approving]" />
+		<string id="KvdHaGhag" text="{COMPANION.LINK}は下で実によくやった。だが、前にも言ったとおり、この試合に賞金は出ないぞ。[if:convo_approving]" />
+		<string id="rcLuSrtwD" text="お前は下でよくやった。だが、前にも言ったとおり、この試合に賞金は出ないぞ。[if:convo_approving]" />
+		<string id="aGr4Lb6I2" text="名高い対戦相手を倒し、名声を得ました: {RENOWN_TAKEDOWN_REWARD}" />
+		<string id="3ZgMoK2dU" text="それでも、勝利したラウンドの報酬を受け取ります: {PER_ROUND_REWARD}" />
+		<string id="83tebCrzc" text="さらに、勝利したラウンドの報酬を受け取ります: {PER_ROUND_REWARD}" />
+		<string id="aV0PTEzbW" text="勝利したラウンドの報酬: {PER_ROUND_REWARD}" />
+		<string id="16t7gwMmW" text="優勝者としての賞金: {TOTAL_GOLD_REWARD}" />
+		<string id="gVZq43GDI" text="{LEADER_NAME}のチーム・{TEAM_CALL_SIGN}" />
+		<string id="WA82hgPoO" text="アルファ" />
+		<string id="bpGxcmlP6" text="ベータ" />
+		<string id="bmOsWMVsk" text="ガンマ" />
+		<string id="Tyl2ufxxy" text="デルタ" />
+		<string id="OKSzdZMr8" text="イプシロン" />
+		<string id="zsXVSOB4t" text="ゼータ" />
+		<string id="fePbjEFQI" text="イータ" />
+		<string id="9OZjTDg61" text="シータ" />
+		<string id="EmP3OR1tW" text="英雄の闘技場練習のデフォルト設定" />
+		<string id="pJ3cqM8RV" text="闘技場練習の設定" />
+		<string id="bPkF9slVr" text="大規模闘技場練習の設定" />
+		<string id="zbfho3vSj" text="受け流し練習の設定" />
+		<string id="igoj9leYB" text="チーム闘技場練習の設定" />
+		<string id="08ifYu37H" text="技術設定" />
+		<string id="RRmGS7t6x" text="トーナメントの設定" />
+		<string id="C5nJgxepr" text="報酬" />
+		<string id="oywDR1MSm" text="経験値" />
+		<string id="ZlvTL5D4T" text="物質的な報酬" />
+		<string id="BCzO2WGq9" text="無形の報酬" />
+		<string id="h6sPrqfax" text="チームトーナメント" />
+		<string id="WnQ4qOI7d" text="互換性の設定" />
+		<string id="Awg6G0iNM" text="出費を抑える最適化" />
+		<string id="56nUSQP2R" text="英雄の育成向け最適化" />
+		<string id="gknaSzMr6" text="標準" />
+		<string id="aBVrVSioz" text="加算" />
+		<string id="TY9SqFLBs" text="乗算" />
+		<string id="Hf3fpLNlh" text="しない" />
+		<string id="JHsRs730T" text="賞品のティアを上げられるとき" />
+		<string id="oVADnv9sb" text="より良い賞品の確率が上がるとき" />
+		<string id="MwOn3n7yC" text="状況が変わったとき" />
+		<string id="z6lpZ65aK" text="練習着" />
+		<string id="o5AcCZgOn" text="トーナメント用防具" />
+		<string id="sBnb12g7c" text="平服装備" />
+		<string id="kKvvYWhMH" text="戦闘装備" />
+		<string id="RYcQyTDa5" text="非ユニークアイテムのみ" />
+		<string id="y1RxvGxxl" text="常に（ユニークな騎乗動物を除く）" />
+		<string id="NsbCj2rzB" text="常に" />
+		<string id="MnVVPRkao" text="英雄の武器セットオプションの初期値として使われるデフォルト値です。有効にすると、対象の英雄は闘技場の練習試合で武器を選べるようになり、あなたはそのための通常の料金を支払うことになります。無効の場合は、他の参加者と同じくランダムな武器を使います。デフォルト: 有効。" />
+		<string id="XQY35WleC" text="英雄の武器セットオプションの初期値として使われるデフォルト値です。有効にすると、対象の英雄は、武器の優先設定があり、かつ条件に合う武器セットが闘技場に1つ以上ある場合にのみ練習用武器を選びます。それ以外の場合は、他の参加者と同じくランダムな武器を使います。デフォルト: 有効。" />
+		<string id="UO3idcKCw" text="英雄の武器セットオプションの初期値として使われるデフォルト値です。有効にすると、対象の英雄は闘技場の練習試合で、より良く高価な装備を優先して武器を選びます。無効の場合は、指定した優先設定を満たす最も安価な武器セットが選ばれます。デフォルト: 無効。" />
+		<string id="NvKLJBxsf" text="コンパニオンとしてのプレイを有効にする" />
+		<string id="wtKB2udZJ" text="総参加者数" />
+		<string id="gaGpV2GcX" text="同時に戦う参加者数" />
+		<string id="0IOg4Ureb" text="同時に戦う参加者数の下限" />
+		<string id="dAhEzcAlx" text="開始時の参加者数" />
+		<string id="vZgGTs8Nw" text="AIチーム数" />
+		<string id="BVhryIKKF" text="武器セットの選択を有効にする" />
+		<string id="L73kYZTnf" text="武器選択の料金" />
+		<string id="3HviduB7g" text="練習時の防具" />
+		<string id="v7NfMok7L" text="武勇報酬クラスI" />
+		<string id="AFzr1BhC4" text="武勇報酬クラスII" />
+		<string id="wjlHVn6cG" text="武勇報酬クラスIII" />
+		<string id="1JAQ3hGAk" text="武勇報酬クラスIV" />
+		<string id="MHzw7JXgh" text="武勇報酬クラスV" />
+		<string id="rQHQBnmZL" text="チャンピオン賞金の計算方法" />
+		<string id="oTOFfuU2c" text="チャンピオン賞金" />
+		<string id="zDfS2JtnA" text="観戦者の経験値獲得を有効にする" />
+		<string id="9dP3VJpOG" text="経験値獲得率" />
+		<string id="wFPnd1BNA" text="このオプションを有効にすると、自分の代わりにコンパニオンを闘技場練習に参加させ、闘技場内でそのコンパニオンを操作できます。バニラ: 無効。デフォルト: 有効。" />
+		<string id="89f5zrS7i" text="闘技場練習の総参加者数。3の倍数を推奨します。デフォルト = 30。" />
+		<string id="oqpocFdUs" text="闘技場練習で同時に戦う参加者数の目安。3の倍数を推奨します。デフォルト = 6。" />
+		<string id="iFjrzKw9e" text="闘技場練習で同時に戦う参加者数の下限。2の倍数を推奨します。デフォルト = 2。" />
+		<string id="UuSkcTQSd" text="闘技場練習の開始時に戦う参加者数。7より大きい値にすると、複数の闘士がまとまって出現します。デフォルト = 6。" />
+		<string id="aVm0YWzg9" text="闘技場練習試合のAIチーム数。0にすると同時に戦う参加者数と同じになり、AIの味方同士が連携してくる可能性を最小限に抑えます。1にすると全員があなたを狙います。デフォルト = 0。" />
+		<string id="zGQrZqevv" text="このオプションを有効にすると、闘技場練習で使う武器を選べます。" />
+		<string id="rZH6qYOrT" text="闘技場練習で武器を選ぶ際、武器の段階（ティア）ごとに支払う金額。デフォルト = 10。" />
+		<string id="WW4PZP2LH" text="闘技場練習の参加者が着用する防具や衣服を指定します。[トーナメント用防具]を選ぶと、他のMODで変更されていないかぎり[戦闘装備]と同じ結果になります。特別な目的がないかぎり、この設定の変更は推奨しません。面白くはなりますが、防具を着けると練習用の遠距離武器のほとんどが効かなくなります。バニラ: [練習着]。デフォルト: [練習着]。" />
+		<string id="GrjIc6hKr" text="闘技場練習で3人以上の闘士を倒したときの賞金。デフォルト = 5。" />
+		<string id="j86zigBV7" text="闘技場練習で6人以上の闘士を倒したときの賞金。デフォルト = 10。" />
+		<string id="0q32VAkkg" text="闘技場練習で10人以上の闘士を倒したときの賞金。デフォルト = 25。" />
+		<string id="VjGDrAK3N" text="闘技場練習で20人以上の闘士を倒したときの賞金。デフォルト = 60。" />
+		<string id="ws4xpzph6" text="闘技場練習で35人以上の闘士を倒したときの賞金。標準の参加者数では達成できません。デフォルト = 150。" />
+		<string id="8mGYZd0fL" text="闘技場練習で最後まで立っていた者への報酬方法を指定します。標準 - 特別賞金のみ。加算 - 特別賞金に加えて、獲得した武勇報酬。乗算 - クラスIを超えて獲得した武勇クラスごとに特別賞金。バニラ: [標準]。デフォルト: [加算]。" />
+		<string id="2ovQejh10" text="闘技場練習で最後まで立っていた者への基本賞金。デフォルト = 250。" />
+		<string id="gGEXaGsKV" text="闘技場練習の戦闘での経験値獲得率。バニラ = 6%。デフォルト = 16.5%。" />
+		<string id="3xV72YIYo" text="このオプションを有効にすると、自分の代わりにコンパニオンを大規模闘技場練習に参加させ、闘技場内でそのコンパニオンを操作できます。バニラ: 無効。デフォルト: 有効。" />
+		<string id="65Ny4vNEE" text="大規模闘技場練習の総参加者数。3の倍数を推奨します。デフォルト = 90。" />
+		<string id="sIQdRBwg9" text="大規模闘技場練習で同時に戦う参加者数の目安。3の倍数を推奨します。デフォルト = 9。" />
+		<string id="ZaLfvG7eX" text="大規模闘技場練習で同時に戦う参加者数の下限。2の倍数を推奨します。デフォルト = 4。" />
+		<string id="XwzmSDpAr" text="大規模闘技場練習の開始時に戦う参加者数。7より大きい値にすると、複数の闘士がまとまって出現します。デフォルト = 7。" />
+		<string id="VUnyu0h6n" text="大規模闘技場練習試合のAIチーム数。0にすると同時に戦う参加者数と同じになり、AIの味方同士が連携してくる可能性を最小限に抑えます。1にすると全員があなたを狙います。デフォルト = 0。" />
+		<string id="9otxYlTUa" text="このオプションを有効にすると、大規模闘技場練習で使う武器を選べます。" />
+		<string id="B9xXCFneS" text="大規模闘技場練習で武器を選ぶ際、武器の段階（ティア）ごとに支払う金額。デフォルト = 10。" />
+		<string id="sLGwAxSzA" text="大規模闘技場練習の参加者が着用する防具や衣服を指定します。[トーナメント用防具]を選ぶと、他のMODで変更されていないかぎり[戦闘装備]と同じ結果になります。特別な目的がないかぎり、この設定の変更は推奨しません。面白くはなりますが、防具を着けると練習用の遠距離武器のほとんどが効かなくなります。デフォルト: [練習着]。" />
+		<string id="M7utBJV6O" text="大規模闘技場練習で3人以上の闘士を倒したときの賞金。デフォルト = 10。" />
+		<string id="5Zkk4IRnM" text="大規模闘技場練習で6人以上の闘士を倒したときの賞金。デフォルト = 20。" />
+		<string id="ivrbCerwG" text="大規模闘技場練習で10人以上の闘士を倒したときの賞金。デフォルト = 50。" />
+		<string id="41COOOrtk" text="大規模闘技場練習で20人以上の闘士を倒したときの賞金。デフォルト = 120。" />
+		<string id="aPjrww0Yz" text="大規模闘技場練習で35人以上の闘士を倒したときの賞金。デフォルト = 300。" />
+		<string id="aUEgf6bh5" text="大規模闘技場練習で最後まで立っていた者への報酬方法を指定します。標準 - 特別賞金のみ。加算 - 特別賞金に加えて、獲得した武勇報酬。乗算 - クラスIを超えて獲得した武勇クラスごとに特別賞金。デフォルト: [加算]。" />
+		<string id="FP34ZZ1b0" text="大規模闘技場練習で最後まで立っていた者への基本賞金。デフォルト = 500。" />
+		<string id="YyniNTgz5" text="大規模闘技場練習に参加できるのは、英雄とランク3以上の兵士のみです。このオプションを有効にすると、仲間が闘技場で攻撃を当てたり相手を倒したりしたとき、ランクの低い兵士もいくらか経験値を得ます。" />
+		<string id="hTHzr3Q9U" text="大規模闘技場練習の戦闘での経験値獲得率。バニラ = 6%。デフォルト = 33.3%。" />
+		<string id="8wUeKx5yg" text="受け流し練習を有効にする" />
+		<string id="a7I7iKCIg" text="このオプションを有効にすると、闘技場で受け流し練習モードが利用できます。バニラ: 無効。デフォルト: 有効。" />
+		<string id="W1eYm1Lse" text="受け流し練習の手配料" />
+		<string id="Igd6YZwx4" text="受け流し練習試合の手配に対して闘技場の主が請求する料金。デフォルト = 200。" />
+		<string id="b1rJAny0j" text="このオプションを有効にすると、自分の代わりにコンパニオンを受け流し練習に参加させ、闘技場内でそのコンパニオンを操作できます。バニラ: 無効。デフォルト: 有効。" />
+		<string id="ZTusmPG2b" text="受け流し練習の総参加者数。デフォルト = 15。" />
+		<string id="vSxY7fMyJ" text="受け流し練習で同時に戦う参加者数の目安。デフォルト = 1。" />
+		<string id="7O4BbgHHd" text="受け流し練習で同時に戦う参加者数の下限。デフォルト = 1。" />
+		<string id="FLOs28WoN" text="受け流し練習の開始時に戦う参加者数。デフォルト = 1。" />
+		<string id="LHppRdTLa" text="受け流し練習試合のAIチーム数。1にすると全員があなたを狙います。デフォルト = 1。" />
+		<string id="PBdkpnVB9" text="このオプションを有効にすると、受け流し練習で使う武器を選べます。" />
+		<string id="vFzDsKyOM" text="受け流し練習で武器を選ぶ際、武器の段階（ティア）ごとに支払う金額。デフォルト = 10。" />
+		<string id="yEovzkoTi" text="受け流し練習の参加者が着用する防具や衣服を指定します。[トーナメント用防具]を選ぶと、他のMODで変更されていないかぎり[戦闘装備]と同じ結果になります。デフォルト: [戦闘装備]。" />
+		<string id="B0LJRZfnh" text="受け流し練習の戦闘での経験値獲得率。バニラ = 6%。デフォルト = 6%。" />
+		<string id="DxJKCdxsV" text="チーム練習を有効にする" />
+		<string id="LHCCk34mQ" text="このオプションを有効にすると、闘技場でチーム練習モードが利用できます。バニラ: 無効。デフォルト: 有効。" />
+		<string id="6DKIRQm5C" text="チーム練習の手配料" />
+		<string id="qt2gEppSr" text="チーム練習試合の手配に対して闘技場の主が請求する料金。デフォルト = 200。" />
+		<string id="S0i7VyEO8" text="このオプションを有効にすると、自分の代わりにコンパニオンをチーム闘技場練習に参加させ、闘技場内でそのコンパニオンを操作できます。バニラ: 無効。デフォルト: 有効。" />
+		<string id="L6plpq9tN" text="チーム闘技場練習の総参加者数。3の倍数かつAIチーム数の倍数を推奨します。デフォルト = 300。" />
+		<string id="F5ltwpjLD" text="チーム闘技場練習で同時に戦う参加者数の目安。AIチーム数の倍数を推奨します。デフォルト = 20。" />
+		<string id="rLeEchCEv" text="チーム闘技場練習で同時に戦う参加者数の下限。2の倍数かつAIチーム数の倍数を推奨します。デフォルト = 12。" />
+		<string id="t7SvV15zK" text="チーム闘技場練習の開始時に戦う参加者数。AIチーム数の倍数を推奨します。デフォルト = 20。" />
+		<string id="34SB5z6kv" text="チーム闘技場練習試合のAIチーム数。1にすると全員があなたのチームを狙います。デフォルト = 4。" />
+		<string id="yafmF17l3" text="このオプションを有効にすると、チーム闘技場練習で使う武器を選べます。" />
+		<string id="HzpsY1I9V" text="チーム闘技場練習で武器を選ぶ際、武器の段階（ティア）ごとに支払う金額。デフォルト = 20。" />
+		<string id="cgjoawOu3" text="チーム闘技場練習の参加者が着用する防具や衣服を指定します。[トーナメント用防具]を選ぶと、他のMODで変更されていないかぎり[戦闘装備]と同じ結果になります。特別な目的がないかぎり、この設定の変更は推奨しません。面白くはなりますが、防具を着けると練習用の遠距離武器のほとんどが効かなくなります。デフォルト: [練習着]。" />
+		<string id="8LHBbug9w" text="チーム闘技場練習であなたのチームが30人以上の闘士を倒したときの賞金。デフォルト = 30。" />
+		<string id="EzSYzJjdR" text="チーム闘技場練習であなたのチームが50人以上の闘士を倒したときの賞金。デフォルト = 60。" />
+		<string id="Z7cfjTozo" text="チーム闘技場練習であなたのチームが75人以上の闘士を倒したときの賞金。デフォルト = 150。" />
+		<string id="rXdbJb3e8" text="チーム闘技場練習であなたのチームが100人以上の闘士を倒したときの賞金。デフォルト = 350。" />
+		<string id="Nhslz7s3n" text="チーム闘技場練習であなたのチームが135人以上の闘士を倒したときの賞金。デフォルト = 800。" />
+		<string id="Hmb8Ldjuq" text="チーム闘技場練習で最後まで残ったチームへの報酬方法を指定します。標準 - 特別賞金のみ。加算 - 特別賞金に加えて、獲得した武勇報酬。乗算 - クラスIを超えて獲得した武勇クラスごとに特別賞金。デフォルト: [加算]。" />
+		<string id="QItzcF4LK" text="チーム闘技場練習で最後まで残ったチームへの基本賞金。デフォルト = 1000。" />
+		<string id="Qcap6qw2T" text="チーム闘技場練習に参加できるのは、英雄とランク3以上の兵士のみです。このオプションを有効にすると、仲間が闘技場で攻撃を当てたり相手を倒したりしたとき、ランクの低い兵士もいくらか経験値を得ます。" />
+		<string id="J0Okfl8Ey" text="チーム闘技場練習の戦闘での経験値獲得率。バニラ = 6%。デフォルト = 33.3%。" />
+		<string id="qLyrVIJoy" text="AIチーム1の色番号" />
+		<string id="KSjkzF8uD" text="AIチーム2の色番号" />
+		<string id="WB6siZI93" text="AIチーム3の色番号" />
+		<string id="MftQIDNf1" text="AIチーム4の色番号" />
+		<string id="OKS7TtFM4" text="AIチーム5の色番号" />
+		<string id="DkLWDatCO" text="AIチーム6の色番号" />
+		<string id="hS7XbrLGG" text="最大賭け金" />
+		<string id="gQvJ8Vvsk" text="トーナメントの各ラウンドで通常賭けられるゴールドの上限。バニラ = 150。デフォルト = 500。" />
+		<string id="qPAga7DLd" text="賭けの倍率のランダム化を有効にする" />
+		<string id="kGyR7NsKh" text="このオプションを有効にすると、賭けの倍率がわずかにランダム化されます。ただし、基本的にはプレイヤーの勝利予測に基づきます。バニラ: 無効。デフォルト: 有効。" />
+		<string id="hARcKe6Jt" text="名士の参加を許可する" />
+		<string id="YqIOYTV0P" text="集落の名士がトーナメントに参加できるようにします。トーナメント用防具のMODとの併用を推奨します。バニラ: 無効。デフォルト: 有効。" />
+		<string id="cCAOeRdmt" text="賞品の再抽選条件" />
+		<string id="CDGmDeYii" text="トーナメントの賞品を再抽選するかどうか、またそのタイミングを指定します。通常は、プレイヤーがトーナメントに参加した時点で、トーナメント作成時から参加する貴族の数が変わっていれば再抽選されます（賞品の品質に影響）。バニラ: [状況が変わったとき]。デフォルト: [しない]。" />
+		<string id="IfsaDqygk" text="賞金を有効にする" />
+		<string id="yVAG4f83d" text="このオプションを有効にすると、トーナメントで賞金も出るようになります。通常の賞品や賭けの配当とは別に支払われます。バニラ: 無効。デフォルト: 有効。" />
+		<string id="fH4Ev0UoC" text="賞品のスケーリングを有効にする" />
+		<string id="1THMacQwa" text="このオプションを有効にすると、トーナメントの賞品がプレイヤーの名声に応じて良くなります。やや型破りですが、中盤以降もトーナメントを有益に保つのに役立ちます。バニラ: 無効。デフォルト: 有効。" />
+		<string id="lu9G6m85v" text="高品質の賞品を有効にする" />
+		<string id="EQs8Z1eOO" text="このオプションを有効にすると、高品質版のアイテム（傑作、領主級など）がトーナメントの賞品になることがあります。バニラ: 無効。デフォルト: 有効。" />
+		<string id="ZFv8WXbGE" text="上級賞品の文化制限" />
+		<string id="ffwi4bAIs" text="トーナメントの上級賞品を、通常の賞品と同じように開催地の集落の文化に合うものへ制限するかどうか、またその条件を指定します。バニラ: [しない]。デフォルト: [常に（ユニークな騎乗動物を除く）]。" />
+		<string id="DyNe9qH4v" text="ラウンド勝利報酬" />
+		<string id="aAquVsgYJ" text="トーナメントで勝利したラウンドごとに参加者が受け取るゴールドの額。バニラ = 0。デフォルト = 0。" />
+		<string id="lkgaScPft" text="優勝者への名声報酬" />
+		<string id="GWmYOkfOs" text="トーナメントの優勝者が受け取る名声の量。バニラ = 3。デフォルト = 3。" />
+		<string id="1AR1Jq493" text="英雄撃破の名声報酬" />
+		<string id="Fbt8Iewl4" text="トーナメントの参加者が、自分と同等以上の名声、またはより多いトーナメント通算優勝数を持つ英雄を倒すたびに、指定した量の名声を得ます。1回のトーナメントを通じて、優勝者への名声報酬の2倍を超えることはありません。バニラ = 0。デフォルト = 1。" />
+		<string id="eLKi8Ptgm" text="優勝者への影響力報酬" />
+		<string id="uYmFPwO8z" text="トーナメントの優勝者がいずれかの王国の諸侯である場合に受け取る影響力の量。バニラ = 1。デフォルト = 10。" />
+		<string id="C5fcetmfG" text="トーナメントの戦闘での経験値獲得率。バニラ = 33%。デフォルト = 66.6%。" />
+		<string id="PSnYupZhT" text="チームトーナメントを有効にする" />
+		<string id="qHyqXp9tK" text="チームとしてトーナメントに参加する選択肢を追加します。" />
+		<string id="lDuOZkktY" text="チームの最小人数" />
+		<string id="Nv4MJ3oXq" text="トーナメントのチームの最小人数。チームは2人以上で構成する必要があります。" />
+		<string id="Q6qQge312" text="チームの最大人数" />
+		<string id="4q3hSTZPZ" text="トーナメントのチームの最大人数。チームは2人以上で構成する必要があります。値が矛盾する場合は、この設定が「チームの最小人数」より優先されます。" />
+		<string id="6o45aTuZi" text="最大チーム数" />
+		<string id="34r9jsdJq" text="トーナメントの最大チーム数。トーナメントには8チーム以上が必要です。" />
+		<string id="rzIC6zMIv" text="優勝チームへのスコア" />
+		<string id="lA71kgTie" text="有効にすると、優勝チームの英雄全員がトーナメントランキングのスコアを得ます。無効にすると、チームリーダーだけがスコアを得ます。" />
+		<string id="l2FTrzzXX" text="チーム1の色番号" />
+		<string id="jWYXBiEZp" text="チーム2の色番号" />
+		<string id="iRvUExaRI" text="チーム3の色番号" />
+		<string id="F6qBgeAOk" text="チーム4の色番号" />
+		<string id="3r3TStZPU" text="チームの旗の色を番号で指定します。使用できる色の一覧は https://bannerlord.party/banner-colors/ を参照してください。" />
+		<string id="Ams5ccKzh" text="メンバーを選べるのはチームトーナメントのみです。" />
+		<string id="xRkr497KP" text="チームで参加する" />
+		<string id="AOthHead01" text="開催" />
+		<string id="AOthEnabl1" text="トーナメントの開催を有効にする" />
+		<string id="AOthEnabl2" text="現在トーナメントが開かれていない街でトーナメントを開催する選択肢を闘技場メニューに追加します。ゴールドと影響力の両方が必要で、街の繁栄度、プレイヤーのクランのティアと名声に応じて増減します。デフォルト: 有効。" />
+		<string id="AOthGold01" text="基本ゴールドコスト" />
+		<string id="AOthGold02" text="トーナメント開催に必要なゴールドの基本額（補正前）。デフォルト = 2000。" />
+		<string id="AOthInfl01" text="基本影響力コスト" />
+		<string id="AOthInfl02" text="トーナメント開催に必要な影響力の基本量（クランのティアによる補正前）。デフォルト = 20。" />
+		<string id="AOthCool01" text="クールダウン（日数）" />
+		<string id="AOthCool02" text="プレイヤーが同じ街で次のトーナメントを開催できるようになるまでに必要な日数。デフォルト = 7。" />
+		<string id="AOthAffi01" text="街との所属関係を必須にする" />
+		<string id="AOthAffi02" text="有効にすると、プレイヤーは自分のクラン、自分の王国、または同盟勢力が所有する街でのみトーナメントを開催できます。デフォルト: 有効。" />
+		<string id="AOthMenu01" text="トーナメントを開催する" />
+		<string id="AOthNoWar1" text="この街は祝祭を開ける状態ではありません。" />
+		<string id="AOthNoAff1" text="あなたはこの街と所属関係がありません。" />
+		<string id="AOthCoold1" text="町の人々は、あなたが前回開いたトーナメントの疲れがまだ抜けていません。{DAYS}{?DAYS.PLURAL_FORM}日{?}日{\?}後にもう一度お試しください。" />
+		<string id="AOthPoor01" text="ここでトーナメントを開催するには{GOLD}{GOLD_ICON}{?HAS_INFLUENCE}と影響力{INFLUENCE}{?}{\?}が必要です。あなたには支払えません。" />
+		<string id="AOthCost01" text="ここでトーナメントを開催するには{GOLD}{GOLD_ICON}{?HAS_INFLUENCE}と影響力{INFLUENCE}{?}{\?}が必要です。賞金総額は街の繁栄度に応じて増えます。" />
+		<string id="AOthDone01" text="{GOLD}{GOLD_ICON}{?HAS_INFLUENCE}と影響力{INFLUENCE}{?}{\?}を費やして、{TOWN}でトーナメントを開催しました。" />
+		<string id="AOthConf01" text="{GOLD}{GOLD_ICON}{?HAS_INFLUENCE}と影響力{INFLUENCE}{?}{\?}を支払って、{TOWN}でトーナメントを開催しますか？" />
+		<string id="AOthConf02" text="トーナメントを開催する" />
+		<string id="AOtiHead01" text="負傷" />
+		<string id="AOtiEnabl1" text="トーナメントでの負傷を有効にする" />
+		<string id="AOtiEnabl2" text="このオプションを有効にすると、トーナメントの試合で倒された英雄は、プレイヤー、コンパニオン、諸侯を問わずHPを失い、その負傷をキャンペーンマップに持ち越します。バニラ: 無効。デフォルト: 有効。" />
+		<string id="AOtiLoss01" text="倒されるたびに失うHP" />
+		<string id="AOtiLoss02" text="トーナメントの試合で倒されたとき、英雄が失うHPの最大HPに対する割合。HPが1を下回ることはありません。デフォルト = 30%。" />
+		<string id="AOtiMsg001" text="あなたは倒され、HPを{HP_LOSS}失いました。" />
+		<string id="Ndc21b2NO" text="練習用武器セットの段階数" />
+		<string id="9SY3aAtv1" text="ObjectManagerで検索する練習用武器セットの段階数。闘技場練習の段階を変更し、対応するキャラクターモデルを追加するMODを使っていないかぎり、この設定は変更しないでください。バニラ = 3。デフォルト = 3。" />
+		<string id="DXiVYMIUL" text="別の英雄に切り替える" />
+		<string id="morP28atv" text="闘技場のチーム練習試合で、戦闘中の別の英雄を選んで切り替えます。" />
+		<string id="NcXn6Ow7O" text="1. クランリーダー" />
+		<string id="NowOsng0A" text="2. 家族" />
+		<string id="vTyduFjuF" text="3. コンパニオン" />
+		<string id="fFlUJjUl0" text="AO 英雄の練習設定" />
+		<string id="fL485YX24" text="武器セットの選択を有効にする" />
+		<string id="QLQYQTctQ" text="このオプションを有効にすると、対象の英雄は闘技場の練習試合で武器を選べるようになり、あなたはそのための通常の料金を支払うことになります。無効の場合は、他の参加者と同じくランダムな武器を使います。デフォルト値はMODの全体設定で指定します。" />
+		<string id="kbL2QnpuF" text="武器セットの自動選択を有効にする" />
+		<string id="vGIOM104P" text="このオプションを有効にすると、メニューからいずれかの闘技場練習モードに入るとき、ここで設定した他の優先設定に基づいてプレイヤーの武器セットが自動的に選ばれます。デフォルト値はMODの全体設定で指定します。" />
+		<string id="zC7CG8kwF" text="優先武器セットのみ" />
+		<string id="ieRmdET16" text="このオプションを有効にすると、対象の英雄は、武器の優先設定があり、かつ条件に合う武器セットが闘技場に1つ以上ある場合にのみ練習用武器を選びます。それ以外の場合は、他の参加者と同じくランダムな武器を使います。デフォルト値はMODの全体設定で指定します。" />
+		<string id="JidAUNLNo" text="このオプションを有効にすると、武器の優先設定があり、かつ条件に合う武器セットが闘技場に1つ以上ある場合にのみ、プレイヤーの武器セットが自動選択されます。それ以外の場合は、通常どおりランダムな武器を使います。デフォルト値はMODの全体設定で指定します。" />
+		<string id="cWdhDpsOS" text="高価な装備を優先する" />
+		<string id="YwbIZExy1" text="このオプションを有効にすると、対象の英雄は闘技場の練習試合で、より良く高価な装備を優先して武器を選びます。無効の場合は、指定した優先設定を満たす最も安価な武器セットが選ばれます。デフォルト値はMODの全体設定で指定します。" />
+		<string id="Wse8QGJyQ" text="このオプションを有効にすると、プレイヤーの武器セットの自動選択で、より良く高価な装備が優先されます。無効の場合は、指定した優先設定を満たす最も安価な武器セットが選ばれます。デフォルト値はMODの全体設定で指定します。" />
+		<string id="G2IdbqB8p" text="第1優先" />
+		<string id="ZWh07gP41" text="対象の英雄が最優先で鍛える武器スキルを指定します。このスキルに基づく武器を含む武器セットがあれば、この英雄は必ずそれを選びます。デフォルト: [なし]。" />
+		<string id="DOGp7LBDe" text="プレイヤーキャラクターが最優先で鍛える武器スキルを指定します。このスキルに基づく武器を含む武器セットがあれば、必ずそれが選ばれます。デフォルト: [なし]。" />
+		<string id="bcgL8E4Ol" text="第2優先" />
+		<string id="Yideeiww5" text="対象の英雄が2番目に優先して鍛える武器スキルを指定します。このスキルに基づく武器を含む武器セットがあり、より優先度の高い選択肢がない場合、この英雄はそれを選びます。デフォルト: [なし]。" />
+		<string id="bhSUfmKir" text="プレイヤーキャラクターが2番目に優先して鍛える武器スキルを指定します。このスキルに基づく武器を含む武器セットがあり、より優先度の高い選択肢がない場合、それが選ばれます。デフォルト: [なし]。" />
+		<string id="t45rwWZc5" text="第3優先" />
+		<string id="lHiP6Z2Qo" text="対象の英雄が3番目に優先して鍛える武器スキルを指定します。このスキルに基づく武器を含む武器セットがあり、より優先度の高い選択肢がない場合、この英雄はそれを選びます。デフォルト: [なし]。" />
+		<string id="IP7JZx9bb" text="プレイヤーキャラクターが3番目に優先して鍛える武器スキルを指定します。このスキルに基づく武器を含む武器セットがあり、より優先度の高い選択肢がない場合、それが選ばれます。デフォルト: [なし]。" />
+		<string id="6SD77Zo1C" text="なし" />
+		<string id="7OL4eTdan" text="片手武器" />
+		<string id="rvCVOGi0s" text="両手武器" />
+		<string id="bDnJRrfRH" text="長柄武器" />
+		<string id="KZt7cDhKn" text="弓" />
+		<string id="s0JLnYAxx" text="クロスボウ" />
+		<string id="CvVDmEhou" text="投擲武器" />
+		<string id="AOgtHead01" text="大トーナメントと王国トーナメント" />
+		<string id="AOgtSprg01" text="春" />
+		<string id="AOgtSumr01" text="夏" />
+		<string id="AOgtAutm01" text="秋" />
+		<string id="AOgtWntr01" text="冬" />
+		<string id="AOgtEnab01" text="年1回の大トーナメントを有効にする" />
+		<string id="AOgtEnab02" text="年に一度、カルラディア全土から闘技場ランキングの最強の諸侯たちが、1対1の大トーナメントに召集されます。開催地は、ランキング首位の諸侯が属する王国の首都です。諸侯はマップ上のどこにいても参加します。デフォルト: 有効。" />
+		<string id="AOgtKEna01" text="季節ごとの王国トーナメントを有効にする" />
+		<string id="AOgtKEna02" text="季節ごとに、各王国が自国に忠誠を誓った諸侯のための1対1のトーナメントを首都で開催します。すべての王国が同じ日に開催し、プレイヤーは自分の王国のトーナメントにのみ出場できます。大トーナメントが開かれる季節は、王国トーナメントの代わりに大トーナメントが行われます。デフォルト: 有効。" />
+		<string id="AOgtSeas01" text="大トーナメントの季節" />
+		<string id="AOgtSeas02" text="大トーナメントが開催される季節。デフォルト: 春。" />
+		<string id="AOgtGDay01" text="大トーナメントの開催日（季節内）" />
+		<string id="AOgtGDay02" text="大トーナメントが開幕するのが季節の何日目か。デフォルト = 11。" />
+		<string id="AOgtKDay01" text="王国トーナメントの開催日（季節内）" />
+		<string id="AOgtKDay02" text="王国トーナメントが開幕するのが季節の何日目か。デフォルト = 11。" />
+		<string id="AOgtAnnD01" text="事前告知の日数" />
+		<string id="AOgtAnnD02" text="開幕の何日前にトーナメントが告知され、開催地の街に現れるか。開幕までは参加も観戦もできません。デフォルト = 7。" />
+		<string id="AOgtDura01" text="開催期間（日数）" />
+		<string id="AOgtDura02" text="開幕後、トーナメントが何日間開かれているか。それまでにプレイヤーが参加しなかった場合、結果は自動で決まります。デフォルト = 2。" />
+		<string id="AOgtLege01" text="伝説級の賞品" />
+		<string id="AOgtLege02" text="賞品は、優勝者の文化の高ティアの武器または防具で、その種類で可能な最高の品質補正が付きます（武器なら伝説級）。騎乗動物は賞品になりません。デフォルト: 有効。" />
+		<string id="AOgtGold01" text="大トーナメントの賞金" />
+		<string id="AOgtGold02" text="通常のトーナメント報酬に加えて、大トーナメントの優勝者に与えられるゴールド。デフォルト = 100000。" />
+		<string id="AOgtReno01" text="大トーナメントの名声報酬" />
+		<string id="AOgtReno02" text="通常のトーナメント報酬に加えて、大トーナメントの優勝者に与えられる名声。デフォルト = 50。" />
+		<string id="AOgtInfl01" text="大トーナメントの影響力報酬" />
+		<string id="AOgtInfl02" text="大トーナメントの優勝者が王国に所属している場合に与えられる影響力。デフォルト = 300。" />
+		<string id="AOgtGWgt01" text="大トーナメントのランキング加算数" />
+		<string id="AOgtGWgt02" text="大トーナメントの優勝1回を、ランキング上で何勝分として数えるか。デフォルト = 3。" />
+		<string id="AOgtKWgt01" text="王国トーナメントのランキング加算数" />
+		<string id="AOgtKWgt02" text="王国トーナメントの優勝1回を、ランキング上で何勝分として数えるか。デフォルト = 2。" />
+		<string id="AOgtKPct01" text="王国トーナメントの報酬（大トーナメント比 %）" />
+		<string id="AOgtKPct02" text="王国トーナメントのゴールド、名声、影響力を、大トーナメントの値に対する割合（%）で指定します。デフォルト = 40。" />
+		<string id="AOgtMenuG1" text="カルラディア全土から、闘技場ランキングの猛者たちが大トーナメントのために{TOWN}へ集いました。優勝者には「{TOURNAMENT_PRIZE}」に加え、この大舞台にふさわしいゴールド、名声、影響力が与えられます。" />
+		<string id="AOgtMenuK1" text="{KINGDOM}の精鋭たちが、王国の季節トーナメントのために{TOWN}へ集いました。優勝者には「{TOURNAMENT_PRIZE}」に加え、この大舞台にふさわしいゴールド、名声、影響力が与えられます。" />
+		<string id="AOgtAnn001" text="カルラディア大トーナメントが{TOWN}で開催されます{?DAYS}（{DAYS}{?DAYS.PLURAL_FORM}日{?}日{\?}後に開幕）{?}{\?}。闘技場ランキングの精鋭たちが召集されました。" />
+		<string id="AOgtAnn002" text="{KINGDOM}が{TOWN}で季節トーナメントを開催します{?DAYS}（{DAYS}{?DAYS.PLURAL_FORM}日{?}日{\?}後に開幕）{?}{\?}。" />
+		<string id="AOgtLock01" text="大トーナメントは{DAYS}{?DAYS.PLURAL_FORM}日{?}日{\?}後に始まります。猛者たちはまだ到着している最中です。" />
+		<string id="AOgtLock02" text="王国トーナメントは{DAYS}{?DAYS.PLURAL_FORM}日{?}日{\?}後に始まります。出場者たちはまだ到着している最中です。" />
+		<string id="AOgtLock03" text="このトーナメントに出場できるのは、{KINGDOM}に忠誠を誓った諸侯のみです。" />
+		<string id="AOgtWin001" text="{WINNER}が{TOWN}で開かれた{KINGDOM}の季節トーナメントで優勝しました。" />
+		<string id="AOgtWin002" text="{WINNER}が{TOWN}で開かれたカルラディア大トーナメントで優勝しました！" />
+		<string id="AOgtPopA01" text="告知時のマップ通知" />
+		<string id="AOgtPopA02" text="大トーナメント、またはプレイヤーが出場できる王国トーナメントが告知されたときに、マップ通知を表示します。クリックすると詳細を確認でき、開催地の街へ画面を移動できます。デフォルト: 有効。" />
+		<string id="AOgtPopR01" text="結果のマップ通知" />
+		<string id="AOgtPopR02" text="大トーナメント、またはプレイヤーが出場できる王国トーナメントが終了したときに、優勝者を知らせるマップ通知を表示します。デフォルト: 有効。" />
+		<string id="AOgtKInt01" text="王国トーナメントの間隔（季節数）" />
+		<string id="AOgtKInt02" text="王国トーナメントを何季節ごとに開催するか。4を割り切れない値にすると、開催される季節が順に移り変わります。王国トーナメントが大トーナメントの季節と重なった場合は、大トーナメントが代わりに開催されます。デフォルト = 3。" />
+		<string id="sotK7sewA" text="すぐ近く" />
+		<string id="J5jTiUvt8" text="ここから比較的近い" />
+		<string id="ULKHRKsSV" text="ここからやや遠い" />
+		<string id="2JXPNLOm3" text="ここからかなり遠い" />
+		<string id="AOgtNtf004" text="王国トーナメント終了" />
+		<string id="AOgtNtf003" text="大トーナメント終了" />
+		<string id="AOgtNtf002" text="{KINGDOM}のトーナメント" />
+		<string id="AOgtNtf001" text="カルラディア大トーナメント" />
+		<string id="AOgtNtf013" text="{CLAN}の{WINNER}が、{TOWN}で開かれた{KINGDOM}の季節トーナメントで優勝し、「{PRIZE}」とともに{GOLD}{GOLD_ICON}、名声{RENOWN}、影響力{INFLUENCE}を手にしました。" />
+		<string id="AOgtNtf012" text="{CLAN}の{WINNER}が、カルラディアの精鋭たちを打ち破って{TOWN}で開かれた大トーナメントで優勝し、「{PRIZE}」とともに{GOLD}{GOLD_ICON}、名声{RENOWN}、影響力{INFLUENCE}を手にしました。" />
+		<string id="AOgtNtf009" text="{KINGDOM}に忠誠を誓った諸侯たちが、王国の季節トーナメントのために{TOWN}へ召集されました。{DAYS}{?DAYS.PLURAL_FORM}日{?}日{\?}後に開幕し、{DURATION}{?DURATION.PLURAL_FORM}日{?}日{\?}間開催されます。優勝者には「{PRIZE}」が与えられます。" />
+		<string id="AOgtNtf007" text="カルラディア全土から、闘技場ランキングの猛者たちが{TOWN}へ召集されました。大トーナメントは{DAYS}{?DAYS.PLURAL_FORM}日{?}日{\?}後に開幕し、{DURATION}{?DURATION.PLURAL_FORM}日{?}日{\?}間開催されます。優勝者には「{PRIZE}」が与えられます。" />
+		<string id="AOgtNtf010" text="{KINGDOM}の季節トーナメントが{TOWN}で開催中で、あと{DAYS}{?DAYS.PLURAL_FORM}日{?}日{\?}間続きます。優勝者には「{PRIZE}」が与えられます。" />
+		<string id="AOgtNtf008" text="大トーナメントが{TOWN}で開催中で、あと{DAYS}{?DAYS.PLURAL_FORM}日{?}日{\?}間続きます。優勝者には「{PRIZE}」が与えられます。" />
+		<string id="AOgtNtf011" text="{TOWN}で開かれたトーナメントが終了しました。" />
+		<string id="AOgtNtf005" text="{TOWN}で告知" />
+		<string id="AOgtNtf006" text="{WINNER}が{TOWN}で優勝" />
+		<string id="AOR_m3XpR8d" text="この英雄はまだ戦闘に参加しておらず、闘技場への入場待ちの{QUEUE_NUMBER}番目です。" />
+		<string id="AOgtWon002" text="決勝で{TOURNAMENT_FINAL_OPPONENT}を破り、{KINGDOM}の季節トーナメントで優勝しました。" />
+		<string id="AOgtWon001" text="決勝で{TOURNAMENT_FINAL_OPPONENT}を破り、カルラディア大トーナメントで優勝しました。" />
+		<string id="AOgtTitle002" text="{KINGDOM}の季節トーナメント" />
+		<string id="AOgtTitle001" text="カルラディア大トーナメント" />
+		<string id="AOgtNtf015" text="閉じる" />
+		<string id="AOgtNtf014" text="マップで表示" />
+		<string id="AOR_J5sWy1F" text="{HERO.NAME}の闘技場への入場を待っています。{?HERO.GENDER}彼女{?}彼{\?}は列の{POSITION_IN_LINE}番目です。" />
+		<string id="AOR_q7Hn2Lw" text="デバッグ用ログ" />
+		<string id="AOR_Vz4kT9c" text="デバッグ用ログ（英語のみ）。[デフォルト: 無効]" />
+	</strings>
+</base>

@@ -1,0 +1,5 @@
+﻿<Config>
+    <SpriteCategory Name="ui_arena_overhaul">
+        <AlwaysLoad/>
+    </SpriteCategory>
+</Config>

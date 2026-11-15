@@ -1,0 +1,254 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- Used only when Mod Configuration Menu (MCM) is not installed. Read every time a campaign is started or loaded. -->
+<!-- Deleted or broken: the mod writes a new file with the default values. Out-of-range numbers are clamped in game. -->
+<!-- Per-hero practice settings (weapon priorities for each clan hero) need MCM. Without it every clan hero uses HeroPracticeDefaults. -->
+<ModConfiguration>
+    <HeroPracticeDefaults>
+        <HeroDefaultEnableLoadoutChoice>true</HeroDefaultEnableLoadoutChoice>
+        <HeroDefaultOnlyPriorityLoadouts>true</HeroDefaultOnlyPriorityLoadouts>
+        <HeroDefaultPrioritizeExpensiveEquipment>false</HeroDefaultPrioritizeExpensiveEquipment>
+    </HeroPracticeDefaults>
+    <ArenaPractice>
+        <PracticeEnableAgentSwitching>true</PracticeEnableAgentSwitching>
+        <!-- 10 to 150 -->
+        <PracticeTotalParticipants>30</PracticeTotalParticipants>
+        <!-- 1 to 21 -->
+        <PracticeActiveParticipants>6</PracticeActiveParticipants>
+        <!-- 1 to 10 -->
+        <PracticeActiveParticipantsMinimum>2</PracticeActiveParticipantsMinimum>
+        <!-- 1 to 15 -->
+        <PracticeInitialParticipants>6</PracticeInitialParticipants>
+        <!-- 0 to 21 -->
+        <PracticeAITeamsCount>0</PracticeAITeamsCount>
+        <PracticeEnableLoadoutChoice>true</PracticeEnableLoadoutChoice>
+        <!-- 0 to 100 -->
+        <PracticeLoadoutChoiceCost>10</PracticeLoadoutChoiceCost>
+        <!-- PracticeClothes, TournamentArmor, CivilianEquipment or BattleEquipment -->
+        <PracticeEquipment>PracticeClothes</PracticeEquipment>
+        <!-- == Rewards == -->
+        <!-- 0 to 50 -->
+        <PracticeValorReward1>5</PracticeValorReward1>
+        <!-- 0 to 100 -->
+        <PracticeValorReward2>10</PracticeValorReward2>
+        <!-- 0 to 250 -->
+        <PracticeValorReward3>25</PracticeValorReward3>
+        <!-- 0 to 600 -->
+        <PracticeValorReward4>60</PracticeValorReward4>
+        <!-- 0 to 1500 -->
+        <PracticeValorReward5>150</PracticeValorReward5>
+        <!-- Standard, Additive or Multiplicative -->
+        <PracticeChampionPrizeCalculation>Additive</PracticeChampionPrizeCalculation>
+        <!-- 0 to 2500 -->
+        <PracticeChampionReward>250</PracticeChampionReward>
+        <!-- == Experience == -->
+        <!-- 0 to 1 (1 = 100%) -->
+        <PracticeExperienceRate>0.165</PracticeExperienceRate>
+    </ArenaPractice>
+    <ExpansiveArenaPractice>
+        <ExpansivePracticeEnableAgentSwitching>true</ExpansivePracticeEnableAgentSwitching>
+        <!-- 10 to 300 -->
+        <ExpansivePracticeTotalParticipants>90</ExpansivePracticeTotalParticipants>
+        <!-- 1 to 30 -->
+        <ExpansivePracticeActiveParticipants>9</ExpansivePracticeActiveParticipants>
+        <!-- 1 to 20 -->
+        <ExpansivePracticeActiveParticipantsMinimum>4</ExpansivePracticeActiveParticipantsMinimum>
+        <!-- 1 to 15 -->
+        <ExpansivePracticeInitialParticipants>7</ExpansivePracticeInitialParticipants>
+        <!-- 0 to 30 -->
+        <ExpansivePracticeAITeamsCount>0</ExpansivePracticeAITeamsCount>
+        <ExpansivePracticeEnableLoadoutChoice>true</ExpansivePracticeEnableLoadoutChoice>
+        <!-- 0 to 100 -->
+        <ExpansivePracticeLoadoutChoiceCost>10</ExpansivePracticeLoadoutChoiceCost>
+        <!-- PracticeClothes, TournamentArmor, CivilianEquipment or BattleEquipment -->
+        <ExpansivePracticeEquipment>PracticeClothes</ExpansivePracticeEquipment>
+        <!-- == Rewards == -->
+        <!-- 0 to 50 -->
+        <ExpansivePracticeValorReward1>10</ExpansivePracticeValorReward1>
+        <!-- 0 to 100 -->
+        <ExpansivePracticeValorReward2>20</ExpansivePracticeValorReward2>
+        <!-- 0 to 250 -->
+        <ExpansivePracticeValorReward3>50</ExpansivePracticeValorReward3>
+        <!-- 0 to 600 -->
+        <ExpansivePracticeValorReward4>120</ExpansivePracticeValorReward4>
+        <!-- 0 to 1500 -->
+        <ExpansivePracticeValorReward5>300</ExpansivePracticeValorReward5>
+        <!-- Standard, Additive or Multiplicative -->
+        <ExpansivePracticeChampionPrizeCalculation>Additive</ExpansivePracticeChampionPrizeCalculation>
+        <!-- 0 to 2500 -->
+        <ExpansivePracticeChampionReward>500</ExpansivePracticeChampionReward>
+        <!-- == Experience == -->
+        <ExpansivePracticeEnableViewerExperienceGain>true</ExpansivePracticeEnableViewerExperienceGain>
+        <!-- 0 to 1 (1 = 100%) -->
+        <ExpansivePracticeExperienceRate>0.333</ExpansivePracticeExperienceRate>
+    </ExpansiveArenaPractice>
+    <ParryPractice>
+        <ParryPracticeEnabled>true</ParryPracticeEnabled>
+        <!-- 0 to 1000 -->
+        <ParryPracticeSetupCost>200</ParryPracticeSetupCost>
+        <ParryPracticeEnableAgentSwitching>true</ParryPracticeEnableAgentSwitching>
+        <!-- 3 to 30 -->
+        <ParryPracticeTotalParticipants>15</ParryPracticeTotalParticipants>
+        <!-- 1 to 5 -->
+        <ParryPracticeActiveParticipants>1</ParryPracticeActiveParticipants>
+        <!-- 1 to 5 -->
+        <ParryPracticeActiveParticipantsMinimum>1</ParryPracticeActiveParticipantsMinimum>
+        <!-- 1 to 5 -->
+        <ParryPracticeInitialParticipants>1</ParryPracticeInitialParticipants>
+        <!-- 1 to 5 -->
+        <ParryPracticeAITeamsCount>1</ParryPracticeAITeamsCount>
+        <ParryPracticeEnableLoadoutChoice>true</ParryPracticeEnableLoadoutChoice>
+        <!-- 0 to 100 -->
+        <ParryPracticeLoadoutChoiceCost>10</ParryPracticeLoadoutChoiceCost>
+        <!-- PracticeClothes, TournamentArmor, CivilianEquipment or BattleEquipment -->
+        <ParryPracticeEquipment>BattleEquipment</ParryPracticeEquipment>
+        <!-- == Experience == -->
+        <!-- 0 to 1 (1 = 100%) -->
+        <ParryPracticeExperienceRate>0.06</ParryPracticeExperienceRate>
+    </ParryPractice>
+    <TeamArenaPractice>
+        <TeamPracticeEnabled>true</TeamPracticeEnabled>
+        <!-- 0 to 1000 -->
+        <TeamPracticeSetupCost>200</TeamPracticeSetupCost>
+        <TeamPracticeEnableAgentSwitching>true</TeamPracticeEnableAgentSwitching>
+        <!-- 50 to 600 -->
+        <TeamPracticeTotalParticipants>300</TeamPracticeTotalParticipants>
+        <!-- 10 to 120 -->
+        <TeamPracticeActiveParticipants>20</TeamPracticeActiveParticipants>
+        <!-- 5 to 90 -->
+        <TeamPracticeActiveParticipantsMinimum>12</TeamPracticeActiveParticipantsMinimum>
+        <!-- 5 to 90 -->
+        <TeamPracticeInitialParticipants>20</TeamPracticeInitialParticipants>
+        <!-- 1 to 6 -->
+        <TeamPracticeAITeamsCount>4</TeamPracticeAITeamsCount>
+        <TeamPracticeEnableLoadoutChoice>true</TeamPracticeEnableLoadoutChoice>
+        <!-- 0 to 100 -->
+        <TeamPracticeLoadoutChoiceCost>20</TeamPracticeLoadoutChoiceCost>
+        <!-- PracticeClothes, TournamentArmor, CivilianEquipment or BattleEquipment -->
+        <TeamPracticeEquipment>PracticeClothes</TeamPracticeEquipment>
+        <!-- == Rewards == -->
+        <!-- 0 to 50 -->
+        <TeamPracticeValorReward1>30</TeamPracticeValorReward1>
+        <!-- 0 to 100 -->
+        <TeamPracticeValorReward2>60</TeamPracticeValorReward2>
+        <!-- 0 to 250 -->
+        <TeamPracticeValorReward3>150</TeamPracticeValorReward3>
+        <!-- 0 to 600 -->
+        <TeamPracticeValorReward4>350</TeamPracticeValorReward4>
+        <!-- 0 to 1500 -->
+        <TeamPracticeValorReward5>800</TeamPracticeValorReward5>
+        <!-- Standard, Additive or Multiplicative -->
+        <TeamPracticeChampionPrizeCalculation>Additive</TeamPracticeChampionPrizeCalculation>
+        <!-- 0 to 2500 -->
+        <TeamPracticeChampionReward>1000</TeamPracticeChampionReward>
+        <!-- == Experience == -->
+        <TeamPracticeEnableViewerExperienceGain>true</TeamPracticeEnableViewerExperienceGain>
+        <!-- 0 to 1 (1 = 100%) -->
+        <TeamPracticeExperienceRate>0.333</TeamPracticeExperienceRate>
+        <!-- == Technical settings == -->
+        <!-- 0 to 157 (banner color index) -->
+        <TeamPracticeTeamOneColor>83</TeamPracticeTeamOneColor>
+        <!-- 0 to 157 (banner color index) -->
+        <TeamPracticeTeamTwoColor>119</TeamPracticeTeamTwoColor>
+        <!-- 0 to 157 (banner color index) -->
+        <TeamPracticeTeamThreeColor>88</TeamPracticeTeamThreeColor>
+        <!-- 0 to 157 (banner color index) -->
+        <TeamPracticeTeamFourColor>84</TeamPracticeTeamFourColor>
+        <!-- 0 to 157 (banner color index) -->
+        <TeamPracticeTeamFiveColor>82</TeamPracticeTeamFiveColor>
+        <!-- 0 to 157 (banner color index) -->
+        <TeamPracticeTeamSixColor>35</TeamPracticeTeamSixColor>
+    </TeamArenaPractice>
+    <Tournaments>
+        <!-- 100 to 1500 -->
+        <TournamentMaximumBet>500</TournamentMaximumBet>
+        <TournamentEnableRandomizedBettingOdds>true</TournamentEnableRandomizedBettingOdds>
+        <TournamentAllowNotablesParticipation>true</TournamentAllowNotablesParticipation>
+        <!-- Never, OnPrizeTierImprovement, OnImprovement or OnChange -->
+        <TournamentPrizeRerollCondition>Never</TournamentPrizeRerollCondition>
+        <!-- == Material rewards == -->
+        <TournamentEnableGoldPrizes>true</TournamentEnableGoldPrizes>
+        <TournamentEnablePrizeScaling>true</TournamentEnablePrizeScaling>
+        <TournamentEnableHighQualityPrizes>true</TournamentEnableHighQualityPrizes>
+        <!-- Never, StandardItemsOnly, AlwaysExceptForMounts or Always -->
+        <TournamentCultureRestrictedPrizes>AlwaysExceptForMounts</TournamentCultureRestrictedPrizes>
+        <!-- 0 to 1000 -->
+        <TournamentRoundWonReward>0</TournamentRoundWonReward>
+        <!-- == Intangible rewards == -->
+        <!-- 0 to 10 -->
+        <TournamentBaseRenownReward>3</TournamentBaseRenownReward>
+        <!-- 0 to 5 -->
+        <TournamentTakedownRenownReward>1</TournamentTakedownRenownReward>
+        <!-- 0 to 100 -->
+        <TournamentInfluenceReward>10</TournamentInfluenceReward>
+        <!-- == Experience == -->
+        <!-- 0 to 1 (1 = 100%) -->
+        <TournamentExperienceRate>0.666</TournamentExperienceRate>
+        <!-- == Injuries == -->
+        <TournamentEnableInjuries>true</TournamentEnableInjuries>
+        <!-- 5 to 100 (%) -->
+        <TournamentInjuryHitPointsLoss>30</TournamentInjuryHitPointsLoss>
+        <!-- == Hosting == -->
+        <TournamentHostingEnabled>true</TournamentHostingEnabled>
+        <!-- 500 to 10000 -->
+        <TournamentHostingBaseGold>2000</TournamentHostingBaseGold>
+        <!-- 0 to 200 -->
+        <TournamentHostingBaseInfluence>20</TournamentHostingBaseInfluence>
+        <!-- 0 to 60 -->
+        <TournamentHostingCooldownDays>7</TournamentHostingCooldownDays>
+        <TournamentHostingRequireAffiliation>true</TournamentHostingRequireAffiliation>
+        <!-- == Grand and Kingdom Tournaments == -->
+        <GrandTournamentEnabled>true</GrandTournamentEnabled>
+        <KingdomTournamentsEnabled>true</KingdomTournamentsEnabled>
+        <!-- Spring, Summer, Autumn or Winter -->
+        <GrandTournamentSeason>Spring</GrandTournamentSeason>
+        <!-- 1 to 21 -->
+        <GrandTournamentDayOfSeason>11</GrandTournamentDayOfSeason>
+        <!-- 1 to 21 -->
+        <KingdomTournamentDayOfSeason>11</KingdomTournamentDayOfSeason>
+        <!-- 0 to 20 -->
+        <GrandTournamentAnnounceDays>7</GrandTournamentAnnounceDays>
+        <!-- 1 to 7 -->
+        <GrandTournamentDurationDays>2</GrandTournamentDurationDays>
+        <GrandTournamentLegendaryPrize>true</GrandTournamentLegendaryPrize>
+        <!-- 0 to 200000 -->
+        <GrandTournamentGoldPrize>100000</GrandTournamentGoldPrize>
+        <!-- 0 to 1000 -->
+        <GrandTournamentRenownReward>50</GrandTournamentRenownReward>
+        <!-- 0 to 1000 -->
+        <GrandTournamentInfluenceReward>300</GrandTournamentInfluenceReward>
+        <!-- 1 to 10 -->
+        <GrandTournamentLeaderboardWeight>3</GrandTournamentLeaderboardWeight>
+        <!-- 1 to 10 -->
+        <KingdomTournamentLeaderboardWeight>2</KingdomTournamentLeaderboardWeight>
+        <!-- 0 to 100 -->
+        <KingdomTournamentRewardPercent>40</KingdomTournamentRewardPercent>
+        <GrandTournamentAnnouncePopup>true</GrandTournamentAnnouncePopup>
+        <GrandTournamentResultPopup>true</GrandTournamentResultPopup>
+        <!-- 1 to 8 -->
+        <KingdomTournamentIntervalSeasons>3</KingdomTournamentIntervalSeasons>
+        <!-- == Team Tournaments == -->
+        <TeamTournamentEnabled>true</TeamTournamentEnabled>
+        <!-- 2 to 16 -->
+        <TeamTournamentTeamSizeMin>2</TeamTournamentTeamSizeMin>
+        <!-- 2 to 16 -->
+        <TeamTournamentTeamSizeMax>8</TeamTournamentTeamSizeMax>
+        <!-- 8, 16 or 32 -->
+        <TeamTournamentTeamsCountMax>16</TeamTournamentTeamsCountMax>
+        <TeamTournamentScoresForWinningTeam>true</TeamTournamentScoresForWinningTeam>
+        <!-- 0 to 157 (banner color index) -->
+        <TeamTournamentTeamOneColor>83</TeamTournamentTeamOneColor>
+        <!-- 0 to 157 (banner color index) -->
+        <TeamTournamentTeamTwoColor>119</TeamTournamentTeamTwoColor>
+        <!-- 0 to 157 (banner color index) -->
+        <TeamTournamentTeamThreeColor>88</TeamTournamentTeamThreeColor>
+        <!-- 0 to 157 (banner color index) -->
+        <TeamTournamentTeamFourColor>84</TeamTournamentTeamFourColor>
+    </Tournaments>
+    <Compatibility>
+        <!-- 1 to 10 -->
+        <PracticeLoadoutStages>3</PracticeLoadoutStages>
+    </Compatibility>
+    <TechnicalSettings>
+        <LoggingEnabled>false</LoggingEnabled>
+    </TechnicalSettings>
+</ModConfiguration>

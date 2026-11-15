@@ -1,0 +1,472 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" type="string">
+	<tags>
+		<tag language="Deutsch" />
+	</tags>
+	<strings>
+		<string id="n3lrq7FfM" text="Arena-Überarbeitung Redux" />
+		<string id="a3uuVmMKR" text="Ausgedehnter Übungskampf" />
+		<string id="QI6a1mxh9" text="Parier-Übungskampf" />
+		<string id="wWZ82hgqV" text="Team-Übungskampf" />
+		<string id="aiDNBFQ4U" text="Turniere in der Nähe" />
+		<string id="uBC62Jdh1" text="Nächste Seite..." />
+		<string id="De0boqLm0" text="Vorherige Seite..." />
+		<string id="fakGolQMf" text="Zurück zur Arena" />
+		<string id="ForHVzTkJ" text="Außerdem finden von Zeit zu Zeit sogenannte ausgedehnte Übungskämpfe statt. Im Grunde ist es dasselbe, nur länger und deutlich härter. Ich würde Euch raten, ein paar Eurer Männer mitzubringen, das könnte eine gute Übung für sie sein. Vergesst nur eines nicht - dort unten gibt es keine Teams, sonst werdet Ihr disqualifiziert.[ib:closed][if:convo_bared_teeth]" />
+		<string id="nZVbLJnVn" text="Und was ist mit diesen ausgedehnten Übungskämpfen, gibt es dafür auch Belohnungen? Wie hoch sind die Preisgelder?" />
+		<string id="fpPMPCNp5" text="Meine Männer haben das Training nötiger als ich. Ich denke, ich bleibe hier und schicke stattdessen jemand anderen." />
+		<string id="7ONiAo9q0" text="Na schön, wer soll der Glückliche sein?[ib:closed][if:convo_bared_teeth]" />
+		<string id="cB4QnrtWM" text="Sonst noch etwas?[ib:normal]" />
+		<string id="y9zNkuGg0" text="Ich möchte die Ausrüstung für meinen Gefährten auswählen." />
+		<string id="0uFoXskRW" text="Nein, lasst das Spektakel beginnen." />
+		<string id="BbpYVQSc6" text="Ich habe es mir anders überlegt und werde selbst kämpfen." />
+		<string id="VVjb1EG4d" text="Wartet, ich habe da doch meine Zweifel." />
+		<string id="MqTDJG0uG" text="Ich möchte meine Ausrüstung auswählen." />
+		<string id="iDGR9F0Gn" text="Na schön{?WEAPON_CHOICE_HAS_PRICE}, aber das kostet Euch {WEAPON_CHOICE_PRICE}{GOLD_ICON}{?}{\?}! Welches Waffenset nehmt Ihr?[ib:closed][if:convo_bared_teeth]" />
+		<string id="DGsGeb4LA" text="Ich hätte gern eine bessere Ausrüstung." />
+		<string id="lIBwkFipY" text="Ach, vergesst es." />
+		<string id="7f21TSn5W" text="Ich möchte an einem ausgedehnten Übungskampf teilnehmen..." />
+		<string id="MnhLtl9Nn" text="Nun, dann sammelt Eure Männer und legt los! Vergesst nicht, Euch auf dem Weg nach unten eine Übungswaffe zu schnappen.[if:convo_approving]" />
+		<string id="jBqErWEjU" text="Könnt Ihr einen besonderen Kampf für mich arrangieren?" />
+		<string id="EYXQnjEvK" text="Kommt darauf an. Woran genau denkt Ihr?[ib:hip][if:convo_thinking]" />
+		<string id="h2Gv6NA8J" text="Ich möchte das Parieren üben." />
+		<string id="RyUSbmDhf" text="In dieser Arena ist es nicht üblich, Waffensets zu verwenden, die sich für einen Parier-Übungskampf eignen würden." />
+		<string id="9yIQ6Qd1E" text="Das ist eine wirklich wichtige Fertigkeit, und davon, dass Ihr sie übt, haben auch andere etwas... Ich denke, ich kann diesen Kampf möglich machen{?PRACTICE_CHOICE_HAS_PRICE}, aber das kostet Euch {PRACTICE_CHOICE_PRICE}{GOLD_ICON}{?}{\?}. Ach ja, und rechnet nicht mit Preisgeldern, denn diese Art von Übung dürfte die Menge kaum interessieren. Wenn Ihr immer noch wollt, vergesst nicht, Euch auf dem Weg nach unten eine Übungswaffe zu schnappen.[if:convo_calm_friendly][ib:confident]" />
+		<string id="iXwumAizJ" text="Ich möchte Seite an Seite mit meinen Kameraden als Team kämpfen. Besteht die Möglichkeit, dass Ihr einen Team-Übungskampf ausrichtet?" />
+		<string id="LTfWl2OPC" text="Das bringt auf jeden Fall frischen Wind herein! {?PRACTICE_CHOICE_HAS_PRICE}Die Idee gefällt mir, aber um einen solchen Wettkampf ordentlich auf die Beine zu stellen, muss ich einigen Aufwand betreiben, also kostet Euch das {PRACTICE_CHOICE_PRICE}{GOLD_ICON}. Aber es gibt auch eine gute Seite: {?}{\?}Ich denke, das wird eine großartige Unterhaltung für die Menge, was sich günstig auf die Preisgelder auswirken wird. Wenn Ihr immer noch dabei seid, vergesst nicht, Euch auf dem Weg nach unten eine Übungswaffe zu schnappen.[ib:nervous2][if:convo_excited]" />
+		<string id="wuuxg3Lkg" text="Also... Wollt Ihr es noch einmal versuchen?[ib:normal]" />
+		<string id="6kW561DVB" text="Ich muss mich ein wenig ausruhen, und meine Männer brauchen Training. Ich denke, ich bleibe diesmal hier und schicke stattdessen jemand anderen." />
+		<string id="RKNcniRPk" text="Diesmal möchte ich jemand anderen schicken." />
+		<string id="7NfBn2JvL" text="Ich möchte mich aufwärmen, diesmal nehme ich selbst am Kampf teil." />
+		<string id="8k8br8lfq" text="{?COMPANION_GENDER}Sie{?}Er{\?} macht das mit der Standardausrüstung." />
+		<string id="rPVHszLLs" text="Sicher. Allerdings möchte ich ein neues Waffenset für {COMPANION_NAME} aussuchen." />
+		<string id="WRO1rFtQm" text="Ich mache das mit der Standardausrüstung." />
+		<string id="uLNYivCXl" text="Sicher. Allerdings möchte ich ein neues Waffenset nehmen." />
+		<string id="zvb5PZ5OA" text="Derzeit {?TOURNAMENTS.PLURAL_FORM}finden in {TOURNAMENTS} Städten Turniere{?}findet in {TOURNAMENTS} Stadt ein Turnier{\?} statt.{?SHOW_PAGES} Seite {PAGE} von {PAGES}.{?}{\?}{NEW_LINE}{NEW_LINE}{TORNAMENT_LIST.START}{?TORNAMENT_LIST.IS_PLURAL}{NEW_LINE}{NEW_LINE}{?}{\?}{TORNAMENT_LIST.END}" />
+		<string id="UOpsoG57t" text="{NAME}{NEW_LINE}    [{TYPE} der Stufe {TIER}, Wert: {GOLD} {GOLD_ICON}]" />
+		<string id="AOtlEntry1" text="{INDEX}. {TOWN_LINK} [{DISTANCE_ESTIMATE}, {TAG}]{NEW_LINE}    Begann vor {TOURNAMENT_AGE} {?TOURNAMENT_AGE.PLURAL_FORM}Tagen{?}Tag{\?}.{NEW_LINE}    Preis: {ITEM_PRIZE}{?GOLD_PRIZES_ENABLED}{NEW_LINE}    Gold: {GOLD_PRIZE}{GOLD_ICON}{?}{\?}" />
+		<string id="AOtlTag000" text="frisch begonnen" />
+		<string id="AOtlTag001" text="noch erreichbar" />
+		<string id="AOtlTag002" text="Eile geboten" />
+		<string id="AOtlTag003" text="erreichbar" />
+		<string id="AOtlTag004" text="Eile geboten" />
+		<string id="AOtlTag005" text="geringe Chance" />
+		<string id="EPjU6L6kg" text="Ihr habt nicht genug Gold!{NEW_LINE}{NEW_LINE}{EXPENSES_BREAKDOWN}" />
+		<string id="9REfw5FN6" text="{EXPENSES_BREAKDOWN}{NEW_LINE}{NEW_LINE}Derzeit könnt Ihr Euch zu diesem Preis {AFFORDABLE_ROUNDS} {?AFFORDABLE_ROUNDS.PLURAL_FORM}Übungsrunden{?}Übungsrunde{\?} leisten." />
+		<string id="OXad58sEV" text="{?PRACTICE_CHOICE_HAS_PRICE}{NEW_LINE} - Gebühr für eine besondere Art des Übungskampfes in Höhe von {PRACTICE_CHOICE_PRICE}{GOLD_ICON}.{?}{\?}" />
+		<string id="bO70zCDVt" text="{?WEAPON_CHOICE_HAS_PRICE}{NEW_LINE} - Gebühr für die Nutzung eines eigenen Waffensets in Höhe von {WEAPON_CHOICE_PRICE}{GOLD_ICON}.{?}{\?}" />
+		<string id="M8fIDW2lQ" text="{?COMPANION_WEAPON_CHOICES_HAVE_PRICE}{NEW_LINE} - Gebühr für die Nutzung eigener Waffensets durch Eure Gefährten in Höhe von insgesamt {COMPANION_WEAPON_CHOICES_PRICE}{GOLD_ICON}.{?}{\?}" />
+		<string id="Oz5qSUyk9" text="Eine Übungsrunde nach den gewünschten Regeln und Vorlieben auszurichten, kostet Euch insgesamt {TOTAL_EXPENSES}{GOLD_ICON}.{NEW_LINE}{NEW_LINE}Das setzt sich zusammen aus:{ARRANGEMENT_EXPENSES}{PLAYER_LOADOUT_EXPENSES}{COMPANION_LOADOUT_EXPENSES}" />
+		<string id="YxVkSN8sn" text="Ihr seid besiegt, aber Euer Team kämpft noch, und Ihr könnt zu einem anderen Helden wechseln, wenn Ihr möchtet." />
+		<string id="xRdn4pEme" text="Verfügbare Charaktere" />
+		<string id="jq2jXUcse" text="Wählt ein Teammitglied, zu dem Ihr wechseln möchtet" />
+		<string id="XZcFEonSW" text="In Eurem Team gibt es keine verfügbaren Charaktere, zu denen Ihr wechseln könnt!" />
+		<string id="Iz2BWpesF" text="Derzeit könnt Ihr nicht zu einem anderen Charakter wechseln!" />
+		<string id="UuAz2vxM3" text="Euer Team kämpft noch. Wollt Ihr die Arena verlassen?" />
+		<string id="PumaUhrt2" text="Vorbereitete Blocks: {PREPARED_BLOCKS}" />
+		<string id="XiR0Srf50" text="Perfekte Blocks: {PERFECT_BLOCKS}" />
+		<string id="R0UCmq6Jn" text="Chamber-Blocks: {CHAMBER_BLOCKS}" />
+		<string id="CSGg2vSS3" text="Eingesteckte Treffer: {HITS_TAKEN}" />
+		<string id="l1z9vuw8B" text="Verbleibende Verbündete: {ALLIES_REMAINING}" />
+		<string id="HxdMLgPrk" text="ungültiger Gegenstand" />
+		<string id="ZMHaMWEhM" text="Pferd" />
+		<string id="8G7OMyMbp" text="Einhandwaffe" />
+		<string id="XuZG0Aoio" text="Zweihandwaffe" />
+		<string id="CqFjTkLpa" text="Stangenwaffe" />
+		<string id="a0BgoRSGt" text="Pfeile" />
+		<string id="cGVcwzcts" text="Bolzen" />
+		<string id="1w2htuOn2" text="Schild" />
+		<string id="KsH4vdaKZ" text="Bogen" />
+		<string id="wXthM7Mmt" text="Armbrust" />
+		<string id="t3EkeJDz6" text="Wurfwaffe" />
+		<string id="FjujPkPsk" text="Waren" />
+		<string id="6p4MDI4FN" text="Kopfrüstung" />
+		<string id="JH2tZrJmd" text="Körperrüstung" />
+		<string id="aMMn9E0nk" text="Beinrüstung" />
+		<string id="3LtYT36O8" text="Handrüstung" />
+		<string id="OBZsswRvq" text="Pistole" />
+		<string id="mwmowr3Pl" text="Muskete" />
+		<string id="RnZzjAmRe" text="Kugeln" />
+		<string id="5PmQkkEOf" text="Tier" />
+		<string id="IA8SfaiLs" text="Buch" />
+		<string id="zWPK2mgHx" text="Brustrüstung" />
+		<string id="z3x97kWhJ" text="Umhang" />
+		<string id="PxZJzp7zk" text="Pferdegeschirr" />
+		<string id="G5Tk9ZJwy" text="Banner" />
+		<string id="hWj4T9N6e" text="Gegenstand" />
+		<string id="gaJDVkvHa" text="{VALOR_PRIZES_DESCRIPTION}{CHAMPION_PRIZE_DESCRIPTION} Klingt gut, was?[if:convo_nonchalant]" />
+		<string id="hsDqRWEYr" text="Wenn Ihr {OPPONENT_COUNT_1} Gegner besiegt, bevor Ihr zu Boden geht, verdient Ihr {PRIZE_1}{GOLD_ICON}. " />
+		<string id="8qZeWlW2A" text="Wenn Ihr {OPPONENT_COUNT_1} Gegner besiegt, bevor Ihr zu Boden geht, verdient Ihr {PRIZE_1}{GOLD_ICON}. Und Ihr bekommt {PRIZE_2}{GOLD_ICON}, wenn Ihr mindestens {OPPONENT_COUNT_2} Gegner niederstreckt. " />
+		<string id="pBCjfH33W" text="Wenn Ihr {OPPONENT_COUNT_1} Gegner besiegt, bevor Ihr zu Boden geht, verdient Ihr {PRIZE_1}{GOLD_ICON}. Ihr bekommt {PRIZE_2}{GOLD_ICON}, wenn Ihr mindestens {OPPONENT_COUNT_2} Gegner niederstreckt, und {PRIZE_3}{GOLD_ICON}, wenn Ihr {OPPONENT_COUNT_3} Gegner besiegt. " />
+		<string id="S0uBAbZiF" text="Wenn Ihr {OPPONENT_COUNT_1} Gegner besiegt, bevor Ihr zu Boden geht, verdient Ihr {PRIZE_1}{GOLD_ICON}. Ihr bekommt {PRIZE_2}{GOLD_ICON}, wenn Ihr mindestens {OPPONENT_COUNT_2} Gegner niederstreckt, {PRIZE_3}{GOLD_ICON}, wenn Ihr {OPPONENT_COUNT_3} Gegner besiegt, und {PRIZE_4}{GOLD_ICON}, wenn Ihr lange genug durchhaltet, um {OPPONENT_COUNT_4} Gegner zu schlagen. " />
+		<string id="jhJZqz0OL" text="Wenn Ihr {OPPONENT_COUNT_1} Gegner besiegt, bevor Ihr zu Boden geht, verdient Ihr {PRIZE_1}{GOLD_ICON}. Ihr bekommt {PRIZE_2}{GOLD_ICON}, wenn Ihr mindestens {OPPONENT_COUNT_2} Gegner niederstreckt, {PRIZE_3}{GOLD_ICON}, wenn Ihr {OPPONENT_COUNT_3} Gegner besiegt, {PRIZE_4}{GOLD_ICON}, wenn Ihr lange genug durchhaltet, um {OPPONENT_COUNT_4} Gegner zu schlagen, und {PRIZE_5}{GOLD_ICON}, wenn Ihr es irgendwie schafft, {OPPONENT_COUNT_5} Gegner zu besiegen - wahrlich keine Kleinigkeit. " />
+		<string id="nwnxJV2rZ" text="Wenn Ihr es schafft, als letzter Kämpfer auf den Beinen zu bleiben, gewinnt Ihr den großen Preis der Kämpfe, {PRIZE_CHAMP}{GOLD_ICON}. " />
+		<string id="AAPfCIEuZ" text="Wenn Ihr es schafft, als letzter Kämpfer auf den Beinen zu bleiben, gewinnt Ihr obendrein den großen Preis der Kämpfe, {PRIZE_CHAMP}{GOLD_ICON}. " />
+		<string id="3UtRes0Un" text="Aber wenn Ihr es schafft, als letzter Kämpfer auf den Beinen zu bleiben, gewinnt Ihr den großen Preis der Kämpfe, {PRIZE_CHAMP}{GOLD_ICON}. Vielleicht sogar ein Vielfaches davon, wenn Ihr einen wirklich guten Kampf zeigt und viele Gegner eigenhändig besiegt. " />
+		<string id="4uOu7an2u" text="Heh! Da hat sich Euer Schützling aber einen ordentlichen blauen Fleck eingefangen. Aber keine Sorge; jeder bezieht hin und wieder Prügel. Wichtig ist, aus seinen Fehlern zu lernen und weiterzukämpfen. So machen es Champions." />
+		<string id="s2B3i84HL" text="Ah, die Erfahrung, das willkommene Kind schmerzhafter Fehler! Jetzt, da Euer Team hoffentlich etwas davon gesammelt hat, schlage ich vor, dass Ihr alle wieder hinuntergeht und sie gut nutzt. So machen es Champions." />
+		<string id="bWSPsaDyt" text="Sieht so aus, als hätte Euer Schützling {OPPONENT_COUNT} Gegner zu Boden geschickt. Nicht schlecht. Aber Preisgeld bringt Euch das keines ein. An Eurer Stelle würde ich {?COMPANION.GENDER}sie{?}ihn{\?} gleich wieder hinunterschicken oder, besser noch, selbst hinuntergehen und allen zeigen, wozu ich fähig bin..." />
+		<string id="0xwJY4TYS" text="Sieht so aus, als hätte Euer Team {OPPONENT_COUNT} Gegner zu Boden geschickt. Nicht schlecht. Aber Preisgeld bringt Euch das keines ein. An Eurer Stelle würde ich meine Männer zusammentrommeln, ihnen eine kleine Ansprache halten, gleich wieder hinuntergehen und allen zeigen, wozu wir fähig sind..." />
+		<string id="tU4Oa8XN1" text="{COMPANION.LINK} hat sich da unten recht wacker geschlagen. Ein paar sehr gute Manöver. Ein paar Fehler, sicher, aber {?COMPANION.GENDER}sie{?}er{\?} ist auf jeden Fall vielversprechend. Und hat Euch für {OPPONENT_COUNT} niedergeschlagene Gegner einen Preis von {PRIZE}{GOLD_ICON} eingebracht." />
+		<string id="IMAm6VMLR" text="Euer Team hat sich da unten recht wacker geschlagen. Ein paar sehr gute Manöver. Ein paar Fehler, sicher, aber Ihr seid auf jeden Fall vielversprechend. Und Ihr habt Euch für {OPPONENT_COUNT} niedergeschlagene Gegner einen Preis von {PRIZE}{GOLD_ICON} verdient." />
+		<string id="N5d76ElzV" text="Schön, {PLAYER.LINK}, schön. {?COMPANION.GENDER}Frau{?}Herr{\?} {COMPANION.LINK} hier hat nicht weniger als {OPPONENT_COUNT} Gegner zu Boden geschickt. {?COMPANION.GENDER}Sie{?}Er{\?} war mit {?COMPANION.GENDER}ihrem{?}seinem{\?} Schneid der Liebling der Menge. Und hat Euch natürlich ein Preisgeld von {PRIZE}{GOLD_ICON} eingebracht." />
+		<string id="injn095f0" text="Schön, {PLAYER.LINK}, schön. Euer Team hat nicht weniger als {OPPONENT_COUNT} Gegner zu Boden geschickt. Mit Eurem Schneid wart Ihr die Lieblinge der Menge. Und natürlich habt Ihr Euch ein Preisgeld von {PRIZE}{GOLD_ICON} verdient." />
+		<string id="xe4cfXIBa" text="Das war ein feiner Kampf, {PLAYER.LINK}. {COMPANION.LINK} hat {OPPONENT_COUNT} Gegner zu Boden geschickt. Für diese Leistung verdient {?COMPANION.GENDER}sie{?}er{\?} natürlich einen Preis: {PRIZE}{GOLD_ICON}. Nicht übel, was?" />
+		<string id="luDin5D4D" text="Das war ein feiner Kampf, {PLAYER.LINK}. Euer Team hat {OPPONENT_COUNT} Gegner zu Boden geschickt. Für diese Leistung verdient Ihr natürlich einen Preis: {PRIZE}{GOLD_ICON}. Nicht übel, was?" />
+		<string id="ETDxIDLAf" text="Eine meisterhafte Vorstellung, {COMPANION.LINK}. Zack! Krach! Ihr habt {OPPONENT_COUNT} von ihnen zu Boden geschickt. Die Menge war begeistert. {PLAYER.LINK}, Euer aufstrebendes Kampftalent hier hat Euch soeben einen Preis von {PRIZE}{GOLD_ICON} eingebracht." />
+		<string id="UUuKSdZ7b" text="Eine meisterhafte Vorstellung, {PLAYER.LINK}. Zack! Krach! Euer Team hat {OPPONENT_COUNT} von ihnen zu Boden geschickt. Die Menge war begeistert. Und Ihr habt Euch einen Preis von {PRIZE}{GOLD_ICON} verdient." />
+		<string id="GLYFl5ImO" text="Lasst mich Euer Wunderkind einmal genauer ansehen, {PLAYER.LINK}. Damit ich meinen Kindern eines Tages erzählen kann, wie ein echter Großmeister aussieht... {COMPANION.LINK} hat {OPPONENT_COUNT} Gegner in einem Zug besiegt! Unglaublich! Oh, und das heißt natürlich, dass ich Euch einen Preis von {PRIZE}{GOLD_ICON} schulde." />
+		<string id="aDC8zdCmt" text="Lasst mich Euch einmal genauer ansehen, {PLAYER.LINK}. Damit ich meinen Kindern eines Tages erzählen kann, wie ein echter Großmeister aussieht! Ihr habt {OPPONENT_COUNT} Gegner in einem Zug besiegt! Unglaublich! Oh, und natürlich habt Ihr Euch einen Preis von {PRIZE}{GOLD_ICON} verdient." />
+		<string id="b42weJbT2" text="Das nenne ich Zusammenspiel! Euer Team hat {OPPONENT_COUNT} Gegner in einem Zug besiegt! Unglaublich! Ihr habt Euch einen Preis von {PRIZE}{GOLD_ICON} verdient, und zwar jede einzelne Münze davon." />
+		<string id="YL3QBzHns" text="Glückwunsch, {PLAYER.LINK}, {COMPANION.LINK} ist der Champion! Den Kampf, den {?COMPANION.GENDER}sie{?}er{\?} da unten geliefert hat, wird man nicht so schnell vergessen! Als {?COMPANION.GENDER}Letzte{?}Letzter{\?} auf den Beinen gewinnt {COMPANION.LINK} den Hauptpreis: {PRIZE}{GOLD_ICON}." />
+		<string id="DwOtDP6SQ" text="Glückwunsch, {PLAYER.LINK}, Euer Team ist der Champion! Da am Ende nur noch Ihr auf den Beinen wart, gewinnt Ihr den Hauptpreis: {PRIZE}{GOLD_ICON}." />
+		<string id="dKWMj58Bq" text="Glückwunsch, {PLAYER.LINK}, {COMPANION.LINK} ist der Champion! Den Kampf, den {?COMPANION.GENDER}sie{?}er{\?} da unten geliefert hat, wird man nicht so schnell vergessen! Als {?COMPANION.GENDER}Letzte{?}Letzter{\?} auf den Beinen gewinnt {COMPANION.LINK} natürlich den Hauptpreis: {PRIZE}{GOLD_ICON}, einschließlich {VALOR_PRIZE}{GOLD_ICON} für {OPPONENT_COUNT} niedergeschlagene Gegner." />
+		<string id="nZ1Ar0MOd" text="Glückwunsch, Champion! Euren Kampf da unten wird man nicht so schnell vergessen! Da am Ende nur noch Ihr auf den Beinen wart, gewinnt Ihr natürlich den Hauptpreis: {PRIZE}{GOLD_ICON}, einschließlich {VALOR_PRIZE}{GOLD_ICON} für {OPPONENT_COUNT} niedergeschlagene Gegner." />
+		<string id="UISWBTRY2" text="Glückwunsch, {PLAYER.LINK}, Euer Team ist der Champion! Diesen Kampf wird man nicht so schnell vergessen! Da am Ende nur noch Ihr auf den Beinen wart, gewinnt Ihr natürlich den Hauptpreis: {PRIZE}{GOLD_ICON}, einschließlich {VALOR_PRIZE}{GOLD_ICON} für {OPPONENT_COUNT} niedergeschlagene Gegner." />
+		<string id="YZcU0ocKX" text="Glückwunsch, {PLAYER.LINK}, {COMPANION.LINK} ist der Champion! Den Kampf, den {?COMPANION.GENDER}sie{?}er{\?} da unten geliefert hat, wird man ganz sicher nicht so schnell vergessen! Als {?COMPANION.GENDER}Letzte{?}Letzter{\?} auf den Beinen gewinnt {COMPANION.LINK} den Hauptpreis: {PRIZE}{GOLD_ICON}, einschließlich {VALOR_PRIZE}{GOLD_ICON} für {OPPONENT_COUNT} niedergeschlagene Gegner. Ich muss sagen, es war ein großartiger Kampf, und die Menge war hellauf begeistert, also hat sich {?COMPANION.GENDER}Eure Heldin{?}Euer Held{\?} hier jede Münze verdient, das lasst Euch gesagt sein." />
+		<string id="oYDKCzkid" text="Glückwunsch, Champion! Euren Kampf da unten wird man nicht so schnell vergessen! Da am Ende nur noch Ihr auf den Beinen wart, gewinnt Ihr natürlich den Hauptpreis: {PRIZE}{GOLD_ICON}, einschließlich {VALOR_PRIZE}{GOLD_ICON} für {OPPONENT_COUNT} niedergeschlagene Gegner. Ich muss sagen, es war ein großartiger Kampf, und die Menge war hellauf begeistert, also habt Ihr Euch hier jede Münze verdient, das lasst Euch gesagt sein." />
+		<string id="TFRz8p0Z6" text="Glückwunsch, {PLAYER.LINK}, Euer Team ist der Champion! Diesen Kampf wird man ganz sicher nicht so schnell vergessen! Da am Ende nur noch Ihr auf den Beinen wart, gewinnt Ihr den Hauptpreis: {PRIZE}{GOLD_ICON}, einschließlich {VALOR_PRIZE}{GOLD_ICON} für {OPPONENT_COUNT} niedergeschlagene Gegner. Ich muss sagen, es war ein großartiger Kampf, und die Menge war hellauf begeistert, also habt Ihr und Eure Männer Euch hier jede Münze verdient, das lasst Euch gesagt sein." />
+		<string id="6bnQLhQQB" text="Glückwunsch, {PLAYER.LINK}, {COMPANION.LINK} ist der Champion! Den Kampf, den {?COMPANION.GENDER}sie{?}er{\?} da unten geliefert hat, wird man nicht so schnell vergessen! {COMPANION.LINK} stand nicht nur als {?COMPANION.GENDER}Letzte{?}Letzter{\?} noch auf den Beinen, sondern hat auch gekämpft wie eine Bestie und damit das Doppelte des üblichen Hauptpreises gewonnen: {PRIZE}{GOLD_ICON}." />
+		<string id="dKdBMUgOL" text="Glückwunsch, Champion! Euren Kampf da unten wird man nicht so schnell vergessen! Ihr habt nicht nur alle anderen überdauert, sondern auch gekämpft wie eine Bestie und damit das Doppelte des üblichen Hauptpreises gewonnen: {PRIZE}{GOLD_ICON}." />
+		<string id="phgJ8tmZV" text="Glückwunsch, {PLAYER.LINK}, Euer Team ist der Champion! Diesen Kampf wird man nicht so schnell vergessen! Ihr habt nicht nur alle anderen überdauert, sondern auch gekämpft wie die Bestien und damit das Doppelte des üblichen Hauptpreises gewonnen: {PRIZE}{GOLD_ICON}." />
+		<string id="41XqfyWOi" text="Glückwunsch, {PLAYER.LINK}, {COMPANION.LINK} ist der Champion! Und den Kampf, den {?COMPANION.GENDER}sie{?}er{\?} da unten geliefert hat, wird man nicht so schnell vergessen! {COMPANION.LINK} stand nicht nur als {?COMPANION.GENDER}Letzte{?}Letzter{\?} noch auf den Beinen, sondern hat auch gekämpft wie {?COMPANION.GENDER}eine wahre Heldin{?}ein wahrer Held{\?} und damit das Dreifache des üblichen Hauptpreises gewonnen: {PRIZE}{GOLD_ICON}." />
+		<string id="BtSwRTvu9" text="Glückwunsch, Champion! Euren Kampf da unten wird man nicht so schnell vergessen! Ihr habt nicht nur alle anderen überdauert, sondern auch wahrhaft heldenhaft gekämpft und damit das Dreifache des üblichen Hauptpreises gewonnen: {PRIZE}{GOLD_ICON}." />
+		<string id="PgMuEBsXX" text="Glückwunsch, {PLAYER.LINK}, Euer Team ist der Champion! Diesen Kampf wird man nicht so schnell vergessen! Ihr habt nicht nur alle anderen überdauert, sondern auch gekämpft wie wahre Helden und damit das Dreifache des üblichen Hauptpreises gewonnen: {PRIZE}{GOLD_ICON}." />
+		<string id="KPp4pG1Ky" text="Glückwunsch, {PLAYER.LINK}, {COMPANION.LINK} ist der Champion! Und meine Güte, den Kampf, den {?COMPANION.GENDER}sie{?}er{\?} da unten geliefert hat, wird man nicht so schnell vergessen! {?COMPANION.GENDER}Frau{?}Herr{\?} {COMPANION.LINK} hat eigenhändig gut die Hälfte der Teilnehmer erledigt und damit das Vierfache des üblichen Siegerpreises verdient! Hier, bitte: {PRIZE}{GOLD_ICON}.[if:convo_merry]" />
+		<string id="I2A8Heq2r" text="Glückwunsch, Champion! Euren Kampf da unten wird man nicht so schnell vergessen! Ihr habt eigenhändig gut die Hälfte der Teilnehmer erledigt und damit das Vierfache des üblichen Siegerpreises verdient! Hier, bitte: {PRIZE}{GOLD_ICON}.[if:convo_merry]" />
+		<string id="gmzDTwOFX" text="Glückwunsch, {PLAYER.LINK}, Euer Team ist der Champion! Diesen Kampf wird man ganz sicher nicht so schnell vergessen! Eure Männer haben gut die Hälfte der Teilnehmer erledigt und damit das Vierfache des üblichen Siegerpreises verdient! Hier, bitte: {PRIZE}{GOLD_ICON}.[if:convo_merry]" />
+		<string id="XdkGt7jFa" text="Nun, {PLAYER.LINK}, das da unten war eine wahrhaft großmeisterliche Tat! Es ist mir eine Ehre, {?COMPANION.GENDER}eine Kämpferin{?}einen Kämpfer{\?} wie {COMPANION.LINK} hier zu Gast zu haben. Für diese herausragende Leistung hat {?COMPANION.GENDER}sie{?}er{\?} sich einen fürstlichen Preis von {PRIZE}{GOLD_ICON} verdient.[if:convo_merry]" />
+		<string id="3yLYLKZYW" text="Glückwunsch, das war wahrhaft großmeisterlich! Es ist mir eine Ehre, jemanden wie Euch hier kämpfen zu sehen. Für diese herausragende Leistung habt Ihr Euch einen fürstlichen Preis von {PRIZE}{GOLD_ICON} verdient.[if:convo_merry]" />
+		<string id="uU3Ya5GfN" text="Nun, {PLAYER.LINK}, das da unten war eine Tat, die ein Lied verdient! Oder eine Legende. Es ist mir eine Ehre, solche Kämpfer in meiner bescheidenen Arena zu Gast zu haben. Für diese herausragende Leistung habt Ihr Euch einen fürstlichen Preis von {PRIZE}{GOLD_ICON} verdient.[if:convo_merry]" />
+		<string id="k0kOwkWzO" text="Ihr habt mir gesagt, Eure Männer müssten das Parieren üben, aber nach dem, was ich da unten gesehen habe, war {COMPANION.LINK} offenbar mehr daran interessiert, meine Kämpfer windelweich zu prügeln. Ich schlage vor, Ihr sagt {?COMPANION.GENDER}ihr{?}ihm{\?}, dass mehr auf Verteidigung und Gegenangriffe zu achten ist - oder Ihr hört einfach auf, meine Zeit mit diesem Unsinn zu verschwenden.[ib:closed][if:convo_confused_annoyed]" />
+		<string id="6vlrvSbAY" text="Ihr habt mir gesagt, Ihr müsstet das Parieren üben, aber nach dem, was ich da unten gesehen habe, wart Ihr offenbar mehr daran interessiert, meine Kämpfer windelweich zu prügeln. Ich schlage vor, Ihr achtet mehr auf Verteidigung und Gegenangriffe - oder Ihr hört einfach auf, meine Zeit mit diesem Unsinn zu verschwenden.[ib:closed][if:convo_confused_annoyed]" />
+		<string id="VGOnRoQck" text="Nach dem, was ich gerade gesehen habe, hat {COMPANION.LINK} Parierübungen wirklich nötig. Ich schlage vor, wir machen weiter.[ib:weary][if:convo_confused_normal]" />
+		<string id="y508NVoOc" text="Nach dem, was ich gerade gesehen habe, habt Ihr Parierübungen wirklich nötig. Ich schlage vor, Ihr macht weiter.[ib:weary][if:convo_confused_normal]" />
+		<string id="0taUkpCCP" text="Nun, {COMPANION.LINK} hätte es da unten beinahe geschafft, aber {?COMPANION.GENDER}sie{?}er{\?} muss sich daran gewöhnen, die Konzentration über längere Zeit aufrechtzuerhalten.[if:convo_approving]" />
+		<string id="fdxZnnGSu" text="Nun, Ihr hättet es da unten beinahe geschafft, aber Ihr müsst Euch daran gewöhnen, die Konzentration über längere Zeit aufrechtzuerhalten.[if:convo_approving]" />
+		<string id="wDLRbc8Mh" text="{COMPANION.LINK} hat sich da unten ganz ordentlich geschlagen. Aber wenn Ihr wollt, dass {?COMPANION.GENDER}sie{?}er{\?} den Nahkampf wirklich meistert, muss {?COMPANION.GENDER}sie{?}er{\?} lernen, in einer einzigen Bewegung zu parieren und zu kontern, und diese Technik öfter einsetzen. Das macht {?COMPANION.GENDER}sie zu einer Kämpferin, mit der{?}ihn zu einem Kämpfer, mit dem{\?} man rechnen muss.[ib:warrior][if:convo_thinking]" />
+		<string id="N0ok57asq" text="Ihr habt Euch da unten ganz ordentlich geschlagen. Aber wenn Ihr den Nahkampf wirklich meistern wollt, müsst Ihr lernen, in einer einzigen Bewegung zu parieren und zu kontern, und diese Technik öfter einsetzen. Dann wird man im Kampf mit Euch rechnen müssen.[ib:warrior][if:convo_thinking]" />
+		<string id="cvThaH27b" text="Ich muss sagen, das war eine sehr beeindruckende Vorstellung, solange sie dauerte, aber in einem echten Kampf wäre Euer Schützling trotzdem tot. {COMPANION.LINK} muss lernen, {?COMPANION.GENDER}ihre{?}seine{\?} Konzentration über längere Zeit aufrechtzuerhalten.[ib:weary][if:convo_approving]" />
+		<string id="rJa1PaPJs" text="Ich muss sagen, das war eine sehr beeindruckende Vorstellung, solange sie dauerte, aber in einem echten Kampf wärt Ihr trotzdem tot. Ihr müsst lernen, Eure Konzentration über längere Zeit aufrechtzuerhalten.[ib:weary][if:convo_approving]" />
+		<string id="KvdHaGhag" text="{COMPANION.LINK} hat sich da unten wirklich gut geschlagen. Aber wie ich schon sagte, gibt es für diesen Kampf keine Belohnung.[if:convo_approving]" />
+		<string id="rcLuSrtwD" text="Ihr habt Euch da unten gut geschlagen. Aber wie ich schon sagte, gibt es für diesen Kampf keine Belohnung.[if:convo_approving]" />
+		<string id="aGr4Lb6I2" text="Ihr habt einige angesehene Kontrahenten besiegt und dadurch Ansehen gewonnen: {RENOWN_TAKEDOWN_REWARD}" />
+		<string id="3ZgMoK2dU" text="Für gewonnene Runden erhaltet Ihr dennoch eine Belohnung: {PER_ROUND_REWARD}" />
+		<string id="83tebCrzc" text="Und für gewonnene Runden erhaltet Ihr eine Belohnung: {PER_ROUND_REWARD}" />
+		<string id="aV0PTEzbW" text="Eure Belohnung für gewonnene Runden: {PER_ROUND_REWARD}" />
+		<string id="16t7gwMmW" text="Eure Geldprämie als Champion: {TOTAL_GOLD_REWARD}" />
+		<string id="gVZq43GDI" text="Team {TEAM_CALL_SIGN} von {LEADER_NAME}" />
+		<string id="WA82hgPoO" text="Alpha" />
+		<string id="bpGxcmlP6" text="Beta" />
+		<string id="bmOsWMVsk" text="Gamma" />
+		<string id="Tyl2ufxxy" text="Delta" />
+		<string id="OKSzdZMr8" text="Epsilon" />
+		<string id="zsXVSOB4t" text="Zeta" />
+		<string id="fePbjEFQI" text="Eta" />
+		<string id="9OZjTDg61" text="Theta" />
+		<string id="EmP3OR1tW" text="Standardeinstellungen der Helden für Übungskämpfe" />
+		<string id="pJ3cqM8RV" text="Einstellungen für Arena-Übungskämpfe" />
+		<string id="bPkF9slVr" text="Einstellungen für ausgedehnte Übungskämpfe" />
+		<string id="zbfho3vSj" text="Einstellungen für Parier-Übungskämpfe" />
+		<string id="igoj9leYB" text="Einstellungen für Team-Übungskämpfe" />
+		<string id="08ifYu37H" text="Technische Einstellungen" />
+		<string id="RRmGS7t6x" text="Turniereinstellungen" />
+		<string id="C5nJgxepr" text="Belohnungen" />
+		<string id="oywDR1MSm" text="Erfahrung" />
+		<string id="ZlvTL5D4T" text="Materielle Belohnungen" />
+		<string id="BCzO2WGq9" text="Immaterielle Belohnungen" />
+		<string id="h6sPrqfax" text="Team-Turniere" />
+		<string id="WnQ4qOI7d" text="Kompatibilitätseinstellungen" />
+		<string id="Awg6G0iNM" text="Auf Sparsamkeit optimiert" />
+		<string id="56nUSQP2R" text="Auf Heldentraining optimiert" />
+		<string id="gknaSzMr6" text="Normal" />
+		<string id="aBVrVSioz" text="Additiv" />
+		<string id="TY9SqFLBs" text="Multiplikativ" />
+		<string id="Hf3fpLNlh" text="Nie" />
+		<string id="JHsRs730T" text="Wenn die Preisstufe verbessert werden kann" />
+		<string id="oVADnv9sb" text="Wenn die Chancen auf einen besseren Preis steigen" />
+		<string id="MwOn3n7yC" text="Wenn sich die Lage geändert hat" />
+		<string id="z6lpZ65aK" text="Übungskleidung" />
+		<string id="o5AcCZgOn" text="Turnierrüstung" />
+		<string id="sBnb12g7c" text="Zivile Ausrüstung" />
+		<string id="kKvvYWhMH" text="Kampfausrüstung" />
+		<string id="RYcQyTDa5" text="Nur nicht einzigartige Gegenstände" />
+		<string id="y1RxvGxxl" text="Immer, außer bei einzigartigen Reittieren" />
+		<string id="NsbCj2rzB" text="Immer" />
+		<string id="MnVVPRkao" text="Dies ist ein Standardwert, mit dem die Waffenset-Optionen der Helden vorbelegt werden. Wenn aktiviert, darf der jeweilige Held seine Waffen für Arena-Übungskämpfe wählen, und Ihr müsst dafür die übliche Gebühr zahlen. Andernfalls nutzt er zufällige Waffen wie alle anderen. Standard: aktiviert." />
+		<string id="XQY35WleC" text="Dies ist ein Standardwert, mit dem die Waffenset-Optionen der Helden vorbelegt werden. Wenn aktiviert, wählt der jeweilige Held nur dann Übungswaffen, wenn eine Waffenvorliebe festgelegt ist und in der Arena mindestens ein passendes Waffenset verfügbar ist. Andernfalls nutzt er zufällige Waffen wie alle anderen. Standard: aktiviert." />
+		<string id="UO3idcKCw" text="Dies ist ein Standardwert, mit dem die Waffenset-Optionen der Helden vorbelegt werden. Wenn aktiviert, wählt der jeweilige Held seine Waffen für Arena-Übungskämpfe so, dass bessere und teurere Ausrüstung bevorzugt wird. Andernfalls wird das günstigste Waffenset gewählt, das den festgelegten Vorlieben entspricht. Standard: deaktiviert." />
+		<string id="NvKLJBxsf" text="Spielen als Gefährte aktivieren" />
+		<string id="wtKB2udZJ" text="Teilnehmer insgesamt" />
+		<string id="gaGpV2GcX" text="Aktive Teilnehmer" />
+		<string id="0IOg4Ureb" text="Mindestzahl aktiver Teilnehmer" />
+		<string id="dAhEzcAlx" text="Teilnehmer zu Beginn" />
+		<string id="vZgGTs8Nw" text="KI-Teams" />
+		<string id="BVhryIKKF" text="Waffenset-Auswahl aktivieren" />
+		<string id="L73kYZTnf" text="Preis für die Waffenwahl" />
+		<string id="3HviduB7g" text="Schutzausrüstung im Übungskampf" />
+		<string id="v7NfMok7L" text="Tapferkeitsprämie Klasse I" />
+		<string id="AFzr1BhC4" text="Tapferkeitsprämie Klasse II" />
+		<string id="wjlHVn6cG" text="Tapferkeitsprämie Klasse III" />
+		<string id="1JAQ3hGAk" text="Tapferkeitsprämie Klasse IV" />
+		<string id="MHzw7JXgh" text="Tapferkeitsprämie Klasse V" />
+		<string id="rQHQBnmZL" text="Berechnung des Siegerpreises" />
+		<string id="oTOFfuU2c" text="Siegerpreis" />
+		<string id="zDfS2JtnA" text="Erfahrungsgewinn für Zuschauer aktivieren" />
+		<string id="9dP3VJpOG" text="Erfahrungsgewinnrate" />
+		<string id="wFPnd1BNA" text="Wenn diese Option aktiviert ist, könnt Ihr einen Gefährten an Eurer Stelle in den Arena-Übungskampf schicken und ihn in der Arena steuern. Originalspiel: deaktiviert. Standard: aktiviert." />
+		<string id="89f5zrS7i" text="Die Gesamtzahl der Teilnehmer am Arena-Übungskampf. Empfohlen wird ein Vielfaches von 3. Standard = 30." />
+		<string id="oqpocFdUs" text="Ungefähre Anzahl der aktiven Teilnehmer am Arena-Übungskampf. Empfohlen wird ein Vielfaches von 3. Standard = 6." />
+		<string id="iFjrzKw9e" text="Die Mindestzahl aktiver Teilnehmer am Arena-Übungskampf. Empfohlen wird ein Vielfaches von 2. Standard = 2." />
+		<string id="UuSkcTQSd" text="Anfängliche Anzahl der aktiven Teilnehmer am Arena-Übungskampf. Bei jedem Wert über 7 erscheinen mehrere Kämpfer zusammen an einer Stelle. Standard = 6." />
+		<string id="aVm0YWzg9" text="Anzahl der KI-Teams im Arena-Übungskampf. Null bedeutet, dass sie der Anzahl der aktiven Teilnehmer entspricht, wodurch es am unwahrscheinlichsten wird, auf zusammenarbeitende KI-Teamkameraden zu treffen. Bei 1 kämpfen alle gegen Euch. Standard = 0." />
+		<string id="zGQrZqevv" text="Wenn diese Option aktiviert ist, dürft Ihr Eure Waffen für den Arena-Übungskampf wählen." />
+		<string id="rZH6qYOrT" text="Diesen Betrag müsst Ihr pro Waffenstufe zahlen, wenn Ihr eine Waffe für den Arena-Übungskampf auswählt. Standard = 10." />
+		<string id="WW4PZP2LH" text="Legt fest, welche Rüstung oder Kleidung die Teilnehmer am Arena-Übungskampf tragen. [Turnierrüstung] führt zum selben Ergebnis wie [Kampfausrüstung], sofern andere Mods nichts daran ändern. Es wird nicht empfohlen, diese Einstellung zu ändern, außer Ihr verfolgt ein bestimmtes Ziel. Das kann zwar Spaß machen, aber mit Rüstung werden die meisten Fernkampf-Übungswaffen wirkungslos. Originalspiel: [Übungskleidung]. Standard: [Übungskleidung]." />
+		<string id="GrjIc6hKr" text="Preis für das Besiegen von mindestens 3 Kämpfern im Arena-Übungskampf. Standard = 5." />
+		<string id="j86zigBV7" text="Preis für das Besiegen von mindestens 6 Kämpfern im Arena-Übungskampf. Standard = 10." />
+		<string id="0q32VAkkg" text="Preis für das Besiegen von mindestens 10 Kämpfern im Arena-Übungskampf. Standard = 25." />
+		<string id="VjGDrAK3N" text="Preis für das Besiegen von mindestens 20 Kämpfern im Arena-Übungskampf. Standard = 60." />
+		<string id="ws4xpzph6" text="Preis für das Besiegen von mindestens 35 Kämpfern im Arena-Übungskampf. Mit der üblichen Teilnehmerzahl nicht erreichbar. Standard = 150." />
+		<string id="8mGYZd0fL" text="Legt fest, wie der letzte verbliebene Kämpfer im Arena-Übungskampf belohnt wird. Normal - mit einem Sonderpreis. Additiv - mit einem Sonderpreis und jeder verdienten Tapferkeitsprämie. Multiplikativ - mit einem Sonderpreis für jede verdiente Tapferkeitsklasse oberhalb von Klasse I. Originalspiel: [Normal]. Standard: [Additiv]." />
+		<string id="2ovQejh10" text="Grundpreis für den letzten verbliebenen Kämpfer im Arena-Übungskampf. Standard = 250." />
+		<string id="gGEXaGsKV" text="Erfahrungsgewinnrate in Arena-Übungskämpfen. Originalspiel = 6%. Standard = 16.5%." />
+		<string id="3xV72YIYo" text="Wenn diese Option aktiviert ist, könnt Ihr einen Gefährten an Eurer Stelle in den ausgedehnten Übungskampf schicken und ihn in der Arena steuern. Originalspiel: deaktiviert. Standard: aktiviert." />
+		<string id="65Ny4vNEE" text="Die Gesamtzahl der Teilnehmer am ausgedehnten Übungskampf. Empfohlen wird ein Vielfaches von 3. Standard = 90." />
+		<string id="sIQdRBwg9" text="Ungefähre Anzahl der aktiven Teilnehmer am ausgedehnten Übungskampf. Empfohlen wird ein Vielfaches von 3. Standard = 9." />
+		<string id="ZaLfvG7eX" text="Die Mindestzahl aktiver Teilnehmer am ausgedehnten Übungskampf. Empfohlen wird ein Vielfaches von 2. Standard = 4." />
+		<string id="XwzmSDpAr" text="Anfängliche Anzahl der aktiven Teilnehmer am ausgedehnten Übungskampf. Bei jedem Wert über 7 erscheinen mehrere Kämpfer zusammen an einer Stelle. Standard = 7." />
+		<string id="VUnyu0h6n" text="Anzahl der KI-Teams im ausgedehnten Übungskampf. Null bedeutet, dass sie der Anzahl der aktiven Teilnehmer entspricht, wodurch es am unwahrscheinlichsten wird, auf zusammenarbeitende KI-Teamkameraden zu treffen. Bei 1 kämpfen alle gegen Euch. Standard = 0." />
+		<string id="9otxYlTUa" text="Wenn diese Option aktiviert ist, dürft Ihr Eure Waffen für den ausgedehnten Übungskampf wählen." />
+		<string id="B9xXCFneS" text="Diesen Betrag müsst Ihr pro Waffenstufe zahlen, wenn Ihr eine Waffe für den ausgedehnten Übungskampf auswählt. Standard = 10." />
+		<string id="sLGwAxSzA" text="Legt fest, welche Rüstung oder Kleidung die Teilnehmer am ausgedehnten Übungskampf tragen. [Turnierrüstung] führt zum selben Ergebnis wie [Kampfausrüstung], sofern andere Mods nichts daran ändern. Es wird nicht empfohlen, diese Einstellung zu ändern, außer Ihr verfolgt ein bestimmtes Ziel. Das kann zwar Spaß machen, aber mit Rüstung werden die meisten Fernkampf-Übungswaffen wirkungslos. Standard: [Übungskleidung]." />
+		<string id="M7utBJV6O" text="Preis für das Besiegen von mindestens 3 Kämpfern im ausgedehnten Übungskampf. Standard = 10." />
+		<string id="5Zkk4IRnM" text="Preis für das Besiegen von mindestens 6 Kämpfern im ausgedehnten Übungskampf. Standard = 20." />
+		<string id="ivrbCerwG" text="Preis für das Besiegen von mindestens 10 Kämpfern im ausgedehnten Übungskampf. Standard = 50." />
+		<string id="41COOOrtk" text="Preis für das Besiegen von mindestens 20 Kämpfern im ausgedehnten Übungskampf. Standard = 120." />
+		<string id="aPjrww0Yz" text="Preis für das Besiegen von mindestens 35 Kämpfern im ausgedehnten Übungskampf. Standard = 300." />
+		<string id="aUEgf6bh5" text="Legt fest, wie der letzte verbliebene Kämpfer im ausgedehnten Übungskampf belohnt wird. Normal - mit einem Sonderpreis. Additiv - mit einem Sonderpreis und jeder verdienten Tapferkeitsprämie. Multiplikativ - mit einem Sonderpreis für jede verdiente Tapferkeitsklasse oberhalb von Klasse I. Standard: [Additiv]." />
+		<string id="FP34ZZ1b0" text="Grundpreis für den letzten verbliebenen Kämpfer im ausgedehnten Übungskampf. Standard = 500." />
+		<string id="YyniNTgz5" text="Nur Helden und Truppen ab Stufe 3 dürfen am ausgedehnten Übungskampf teilnehmen. Wenn diese Option aktiviert ist, erhalten Truppen niedrigerer Stufe etwas Erfahrung, wenn ihre Kameraden in der Arena Treffer landen und Gegner niederstrecken." />
+		<string id="hTHzr3Q9U" text="Erfahrungsgewinnrate in ausgedehnten Übungskämpfen. Originalspiel = 6%. Standard = 33.3%." />
+		<string id="8wUeKx5yg" text="Parier-Übungskampf aktivieren" />
+		<string id="a7I7iKCIg" text="Wenn diese Option aktiviert ist, steht in der Arena der Modus Parier-Übungskampf zur Verfügung. Originalspiel: deaktiviert. Standard: aktiviert." />
+		<string id="W1eYm1Lse" text="Kosten für das Ausrichten eines Parier-Übungskampfes" />
+		<string id="Igd6YZwx4" text="Der Betrag, den der Arenameister für das Ausrichten eines Parier-Übungskampfes verlangt. Standard = 200." />
+		<string id="b1rJAny0j" text="Wenn diese Option aktiviert ist, könnt Ihr einen Gefährten an Eurer Stelle zum Parier-Übungskampf schicken und ihn in der Arena steuern. Originalspiel: deaktiviert. Standard: aktiviert." />
+		<string id="ZTusmPG2b" text="Die Gesamtzahl der Teilnehmer am Parier-Übungskampf. Standard = 15." />
+		<string id="vSxY7fMyJ" text="Ungefähre Anzahl der aktiven Teilnehmer am Parier-Übungskampf. Standard = 1." />
+		<string id="7O4BbgHHd" text="Die Mindestzahl aktiver Teilnehmer am Parier-Übungskampf. Standard = 1." />
+		<string id="FLOs28WoN" text="Anfängliche Anzahl der aktiven Teilnehmer am Parier-Übungskampf. Standard = 1." />
+		<string id="LHppRdTLa" text="Anzahl der KI-Teams im Parier-Übungskampf. Bei 1 kämpfen alle gegen Euch. Standard = 1." />
+		<string id="PBdkpnVB9" text="Wenn diese Option aktiviert ist, dürft Ihr Eure Waffen für den Parier-Übungskampf wählen." />
+		<string id="vFzDsKyOM" text="Diesen Betrag müsst Ihr pro Waffenstufe zahlen, wenn Ihr eine Waffe für den Parier-Übungskampf auswählt. Standard = 10." />
+		<string id="yEovzkoTi" text="Legt fest, welche Rüstung oder Kleidung die Teilnehmer am Parier-Übungskampf tragen. [Turnierrüstung] führt zum selben Ergebnis wie [Kampfausrüstung], sofern andere Mods nichts daran ändern. Standard: [Kampfausrüstung]." />
+		<string id="B0LJRZfnh" text="Erfahrungsgewinnrate in Parier-Übungskämpfen. Originalspiel = 6%. Standard = 6%." />
+		<string id="DxJKCdxsV" text="Team-Übungskampf aktivieren" />
+		<string id="LHCCk34mQ" text="Wenn diese Option aktiviert ist, steht in der Arena der Modus Team-Übungskampf zur Verfügung. Originalspiel: deaktiviert. Standard: aktiviert." />
+		<string id="6DKIRQm5C" text="Kosten für das Ausrichten eines Team-Übungskampfes" />
+		<string id="qt2gEppSr" text="Der Betrag, den der Arenameister für das Ausrichten eines Team-Übungskampfes verlangt. Standard = 200." />
+		<string id="S0i7VyEO8" text="Wenn diese Option aktiviert ist, könnt Ihr einen Gefährten an Eurer Stelle in den Team-Übungskampf schicken und ihn in der Arena steuern. Originalspiel: deaktiviert. Standard: aktiviert." />
+		<string id="L6plpq9tN" text="Die Gesamtzahl der Teilnehmer am Team-Übungskampf. Empfohlen wird ein Vielfaches von 3 und der Anzahl der KI-Teams. Standard = 300." />
+		<string id="F5ltwpjLD" text="Ungefähre Anzahl der aktiven Teilnehmer am Team-Übungskampf. Empfohlen wird ein Vielfaches der Anzahl der KI-Teams. Standard = 20." />
+		<string id="rLeEchCEv" text="Die Mindestzahl aktiver Teilnehmer am Team-Übungskampf. Empfohlen wird ein Vielfaches von 2 und der Anzahl der KI-Teams. Standard = 12." />
+		<string id="t7SvV15zK" text="Anfängliche Anzahl der aktiven Teilnehmer am Team-Übungskampf. Empfohlen wird ein Vielfaches der Anzahl der KI-Teams. Standard = 20." />
+		<string id="34SB5z6kv" text="Anzahl der KI-Teams im Team-Übungskampf. Bei 1 kämpfen alle gegen Euer Team. Standard = 4." />
+		<string id="yafmF17l3" text="Wenn diese Option aktiviert ist, dürft Ihr Eure Waffen für den Team-Übungskampf wählen." />
+		<string id="HzpsY1I9V" text="Diesen Betrag müsst Ihr pro Waffenstufe zahlen, wenn Ihr eine Waffe für den Team-Übungskampf auswählt. Standard = 20." />
+		<string id="cgjoawOu3" text="Legt fest, welche Rüstung oder Kleidung die Teilnehmer am Team-Übungskampf tragen. [Turnierrüstung] führt zum selben Ergebnis wie [Kampfausrüstung], sofern andere Mods nichts daran ändern. Es wird nicht empfohlen, diese Einstellung zu ändern, außer Ihr verfolgt ein bestimmtes Ziel. Das kann zwar Spaß machen, aber mit Rüstung werden die meisten Fernkampf-Übungswaffen wirkungslos. Standard: [Übungskleidung]." />
+		<string id="8LHBbug9w" text="Preis dafür, dass Euer Team im Team-Übungskampf mindestens 30 Kämpfer besiegt. Standard = 30." />
+		<string id="EzSYzJjdR" text="Preis dafür, dass Euer Team im Team-Übungskampf mindestens 50 Kämpfer besiegt. Standard = 60." />
+		<string id="Z7cfjTozo" text="Preis dafür, dass Euer Team im Team-Übungskampf mindestens 75 Kämpfer besiegt. Standard = 150." />
+		<string id="rXdbJb3e8" text="Preis dafür, dass Euer Team im Team-Übungskampf mindestens 100 Kämpfer besiegt. Standard = 350." />
+		<string id="Nhslz7s3n" text="Preis dafür, dass Euer Team im Team-Übungskampf mindestens 135 Kämpfer besiegt. Standard = 800." />
+		<string id="Hmb8Ldjuq" text="Legt fest, wie das letzte verbliebene Team im Team-Übungskampf belohnt wird. Normal - mit einem Sonderpreis. Additiv - mit einem Sonderpreis und jeder verdienten Tapferkeitsprämie. Multiplikativ - mit einem Sonderpreis für jede verdiente Tapferkeitsklasse oberhalb von Klasse I. Standard: [Additiv]." />
+		<string id="QItzcF4LK" text="Grundpreis für das letzte verbliebene Team im Team-Übungskampf. Standard = 1000." />
+		<string id="Qcap6qw2T" text="Nur Helden und Truppen ab Stufe 3 dürfen am Team-Übungskampf teilnehmen. Wenn diese Option aktiviert ist, erhalten Truppen niedrigerer Stufe etwas Erfahrung, wenn ihre Kameraden in der Arena Treffer landen und Gegner niederstrecken." />
+		<string id="J0Okfl8Ey" text="Erfahrungsgewinnrate in Team-Übungskämpfen. Originalspiel = 6%. Standard = 33.3%." />
+		<string id="qLyrVIJoy" text="Farbindex von KI-Team 1" />
+		<string id="KSjkzF8uD" text="Farbindex von KI-Team 2" />
+		<string id="WB6siZI93" text="Farbindex von KI-Team 3" />
+		<string id="MftQIDNf1" text="Farbindex von KI-Team 4" />
+		<string id="OKS7TtFM4" text="Farbindex von KI-Team 5" />
+		<string id="DkLWDatCO" text="Farbindex von KI-Team 6" />
+		<string id="hS7XbrLGG" text="Höchsteinsatz" />
+		<string id="gQvJ8Vvsk" text="Der Höchstbetrag an Gold, der üblicherweise in jeder Turnierrunde gewettet werden darf. Originalspiel = 150. Standard = 500." />
+		<string id="qPAga7DLd" text="Zufällige Wettquoten aktivieren" />
+		<string id="kGyR7NsKh" text="Wenn diese Option aktiviert ist, schwanken die Wettquoten leicht zufällig, beruhen aber weiterhin größtenteils auf der Erfolgsprognose für den Spieler. Originalspiel: deaktiviert. Standard: aktiviert." />
+		<string id="hARcKe6Jt" text="Teilnahme von Würdenträgern erlauben" />
+		<string id="YqIOYTV0P" text="Erlaubt den Würdenträgern der Siedlungen die Teilnahme an Turnieren. Empfohlen in Verbindung mit Mods für Turnierrüstungen. Originalspiel: deaktiviert. Standard: aktiviert." />
+		<string id="cCAOeRdmt" text="Bedingung für das Neuauswürfeln des Preises" />
+		<string id="CDGmDeYii" text="Legt fest, ob und wann Turnierpreise neu ausgewürfelt werden. Normalerweise werden Preise neu ausgewürfelt, wenn der Spieler dem Turnier beitritt - sofern sich die Zahl der teilnehmenden Adligen seit der Erstellung des Turniers geändert hat (beeinflusst die Qualität des Preises). Originalspiel: [Wenn sich die Lage geändert hat]. Standard: [Nie]." />
+		<string id="IfsaDqygk" text="Goldpreise aktivieren" />
+		<string id="yVAG4f83d" text="Wenn diese Option aktiviert ist, gibt es in Turnieren auch Goldpreise. Sie kommen zu den üblichen Sachpreisen und Wettgewinnen hinzu. Originalspiel: deaktiviert. Standard: aktiviert." />
+		<string id="fH4Ev0UoC" text="Preisskalierung aktivieren" />
+		<string id="1THMacQwa" text="Wenn diese Option aktiviert ist, skalieren die Turnierpreise mit dem Ansehen des Spielers. Etwas unkonventionell, sorgt aber dafür, dass Turniere auch im mittleren und späten Spiel lohnend bleiben. Originalspiel: deaktiviert. Standard: aktiviert." />
+		<string id="lu9G6m85v" text="Hochwertige Preise aktivieren" />
+		<string id="EQs8Z1eOO" text="Wenn diese Option aktiviert ist, können hochwertige Ausführungen von Gegenständen (Meisterwerk, fürstlich usw.) als Turnierpreise vergeben werden. Originalspiel: deaktiviert. Standard: aktiviert." />
+		<string id="ZFv8WXbGE" text="Elitepreise auf Kultur beschränken" />
+		<string id="ffwi4bAIs" text="Legt fest, ob und wann Elite-Turnierpreise - wie die einfachen Preise auch - auf die Kultur der ausrichtenden Siedlung beschränkt werden. Originalspiel: [Nie]. Standard: [Immer, außer bei einzigartigen Reittieren]." />
+		<string id="DyNe9qH4v" text="Belohnung für eine gewonnene Runde" />
+		<string id="aAquVsgYJ" text="Der Goldbetrag, den Teilnehmer für jede gewonnene Turnierrunde erhalten. Originalspiel = 0. Standard = 0." />
+		<string id="lkgaScPft" text="Ansehensbelohnung für den Turniersieger" />
+		<string id="GWmYOkfOs" text="Das Ansehen, das der Turniersieger erhält. Originalspiel = 3. Standard = 3." />
+		<string id="1AR1Jq493" text="Ansehensbelohnung für besiegte Helden" />
+		<string id="Fbt8Iewl4" text="Immer wenn ein Turnierteilnehmer einen Helden niederstreckt, der ein vergleichbares oder höheres Ansehen oder insgesamt mehr Turniersiege hat, erhält er die angegebene Menge an Ansehen. Im Verlauf eines Turniers kann dies das Doppelte der Ansehensbelohnung für den Turniersieger nicht übersteigen. Originalspiel = 0. Standard = 1." />
+		<string id="eLKi8Ptgm" text="Einflussbelohnung für den Turniersieger" />
+		<string id="uYmFPwO8z" text="Der Einfluss, den der Turniersieger erhält, sofern er ein adliger Lord eines Königreichs ist. Originalspiel = 1. Standard = 10." />
+		<string id="C5fcetmfG" text="Erfahrungsgewinnrate in Turnierkämpfen. Originalspiel = 33%. Standard = 66.6%." />
+		<string id="PSnYupZhT" text="Team-Turniere aktivieren" />
+		<string id="qHyqXp9tK" text="Fügt die Möglichkeit hinzu, Turnieren als Team beizutreten und daran teilzunehmen." />
+		<string id="lDuOZkktY" text="Minimale Teamgröße" />
+		<string id="Nv4MJ3oXq" text="Mindestzahl der Mitglieder eines Turnierteams. Ein Team muss aus mindestens zwei Teilnehmern bestehen." />
+		<string id="Q6qQge312" text="Maximale Teamgröße" />
+		<string id="4q3hSTZPZ" text="Höchstzahl der Mitglieder eines Turnierteams. Ein Team muss aus mindestens zwei Teilnehmern bestehen. Bei widersprüchlichen Werten hat diese Einstellung Vorrang vor der minimalen Teamgröße." />
+		<string id="6o45aTuZi" text="Maximale Anzahl der Teams" />
+		<string id="34r9jsdJq" text="Die Höchstzahl der Teams in einem Turnier. Ein Turnier muss mindestens 8 Teams haben." />
+		<string id="rzIC6zMIv" text="Punkte für das Siegerteam" />
+		<string id="lA71kgTie" text="Wenn aktiviert, erhält jeder Held des Siegerteams einen Punkt in der Turnier-Rangliste. Wenn deaktiviert, erhält nur der Teamanführer einen Punkt." />
+		<string id="l2FTrzzXX" text="Farbindex von Team 1" />
+		<string id="jWYXBiEZp" text="Farbindex von Team 2" />
+		<string id="iRvUExaRI" text="Farbindex von Team 3" />
+		<string id="F6qBgeAOk" text="Farbindex von Team 4" />
+		<string id="3r3TStZPU" text="Legt die Bannerfarbe des Teams per Indexwert fest. Unter https://bannerlord.party/banner-colors/ findet Ihr die Liste der verfügbaren Farben." />
+		<string id="Ams5ccKzh" text="Die Aufstellung kann nur für Team-Turniere gewählt werden." />
+		<string id="xRkr497KP" text="Als Team beitreten" />
+		<string id="AOthHead01" text="Turnierausrichtung" />
+		<string id="AOthEnabl1" text="Ausrichten von Turnieren aktivieren" />
+		<string id="AOthEnabl2" text="Fügt dem Arenamenü eine Option hinzu, um in einer Stadt, in der gerade kein Turnier stattfindet, eines auszurichten. Kostet Gold und Einfluss, skaliert mit dem Wohlstand der Stadt sowie der Clanstufe und dem Ansehen des Spielers. Standard: aktiviert." />
+		<string id="AOthGold01" text="Grundkosten in Gold" />
+		<string id="AOthGold02" text="Grundbetrag an Gold, der für das Ausrichten eines Turniers nötig ist, vor der Skalierung. Standard = 2000." />
+		<string id="AOthInfl01" text="Grundkosten in Einfluss" />
+		<string id="AOthInfl02" text="Grundbetrag an Einfluss, der für das Ausrichten eines Turniers nötig ist, vor der Skalierung mit der Clanstufe. Standard = 20." />
+		<string id="AOthCool01" text="Wartezeit in Tagen" />
+		<string id="AOthCool02" text="Anzahl der Tage, die vergehen müssen, bevor der Spieler in derselben Stadt ein weiteres Turnier ausrichten kann. Standard = 7." />
+		<string id="AOthAffi01" text="Zugehörigkeit zur Stadt erforderlich" />
+		<string id="AOthAffi02" text="Wenn aktiviert, kann der Spieler Turniere nur in Städten ausrichten, die seinem Clan, seinem Königreich oder einer verbündeten Fraktion gehören. Standard: aktiviert." />
+		<string id="AOthMenu01" text="Ein Turnier ausrichten" />
+		<string id="AOthNoWar1" text="Die Stadt ist nicht in der Verfassung, Festlichkeiten abzuhalten." />
+		<string id="AOthNoAff1" text="Ihr habt keine Verbindung zu dieser Stadt." />
+		<string id="AOthCoold1" text="Die Stadtbewohner erholen sich noch von Eurem letzten Turnier. Versucht es in {DAYS} {?DAYS.PLURAL_FORM}Tagen{?}Tag{\?} erneut." />
+		<string id="AOthPoor01" text="Hier ein Turnier auszurichten, kostet {GOLD}{GOLD_ICON}{?HAS_INFLUENCE} und {INFLUENCE} Einfluss{?}{\?}. Das könnt Ihr Euch nicht leisten." />
+		<string id="AOthCost01" text="Hier ein Turnier auszurichten, kostet {GOLD}{GOLD_ICON}{?HAS_INFLUENCE} und {INFLUENCE} Einfluss{?}{\?}. Der Preisfonds wächst mit dem Wohlstand der Stadt." />
+		<string id="AOthDone01" text="Ihr habt {GOLD}{GOLD_ICON}{?HAS_INFLUENCE} und {INFLUENCE} Einfluss{?}{\?} ausgegeben, um in {TOWN} ein Turnier auszurichten." />
+		<string id="AOthConf01" text="Für {GOLD}{GOLD_ICON}{?HAS_INFLUENCE} und {INFLUENCE} Einfluss{?}{\?} ein Turnier in {TOWN} ausrichten?" />
+		<string id="AOthConf02" text="Ein Turnier ausrichten" />
+		<string id="AOtiHead01" text="Verletzungen" />
+		<string id="AOtiEnabl1" text="Turnierverletzungen aktivieren" />
+		<string id="AOtiEnabl2" text="Wenn diese Option aktiviert ist, verliert jeder Held, der in einem Turnierkampf niedergeschlagen wird - ob Spieler, Gefährte oder Lord -, Trefferpunkte und nimmt diese Verletzung mit zurück auf die Kampagnenkarte. Originalspiel: deaktiviert. Standard: aktiviert." />
+		<string id="AOtiLoss01" text="Trefferpunktverlust pro Niederschlag" />
+		<string id="AOtiLoss02" text="Prozentsatz der maximalen Trefferpunkte, den ein Held verliert, wenn er in einem Turnierkampf niedergeschlagen wird. Die Trefferpunkte fallen nie unter 1. Standard = 30%." />
+		<string id="AOtiMsg001" text="Ihr wurdet niedergeschlagen und habt {HP_LOSS} Trefferpunkte verloren." />
+		<string id="Ndc21b2NO" text="Stufen der Übungs-Waffensets" />
+		<string id="9SY3aAtv1" text="Die Anzahl der Stufen von Übungs-Waffensets, nach denen im ObjectManager gesucht wird. Ändert diese Einstellung nur, wenn Ihr Mods nutzt, die die Stufen der Arena-Übungskämpfe ändern und entsprechende Charaktervorlagen hinzufügen. Originalspiel = 3. Standard = 3." />
+		<string id="DXiVYMIUL" text="Zu anderem Helden wechseln" />
+		<string id="morP28atv" text="Wechselt in einem Team-Übungskampf in der Arena zu einem anderen aktiven Helden Eurer Wahl." />
+		<string id="NcXn6Ow7O" text="1. Clananführer" />
+		<string id="NowOsng0A" text="2. Familienmitglieder" />
+		<string id="vTyduFjuF" text="3. Gefährten" />
+		<string id="fFlUJjUl0" text="AO-Übungseinstellungen der Helden" />
+		<string id="fL485YX24" text="Waffenset-Auswahl aktivieren" />
+		<string id="QLQYQTctQ" text="Wenn diese Option aktiviert ist, darf der jeweilige Held seine Waffen für Arena-Übungskämpfe wählen, und Ihr müsst dafür die übliche Gebühr zahlen. Andernfalls nutzt er zufällige Waffen wie alle anderen. Der Standardwert wird in den globalen Mod-Einstellungen festgelegt." />
+		<string id="kbL2QnpuF" text="Automatische Waffenset-Auswahl aktivieren" />
+		<string id="vGIOM104P" text="Wenn diese Option aktiviert ist, wird das Waffenset für den Spieler anhand der übrigen hier festgelegten Vorlieben automatisch gewählt, sobald er über das Menü einen beliebigen Übungskampf-Modus der Arena betritt. Der Standardwert wird in den globalen Mod-Einstellungen festgelegt." />
+		<string id="zC7CG8kwF" text="Nur Waffensets mit Priorität" />
+		<string id="ieRmdET16" text="Wenn diese Option aktiviert ist, wählt der jeweilige Held nur dann Übungswaffen, wenn eine Waffenvorliebe festgelegt ist und in der Arena mindestens ein passendes Waffenset verfügbar ist. Andernfalls nutzt er zufällige Waffen wie alle anderen. Der Standardwert wird in den globalen Mod-Einstellungen festgelegt." />
+		<string id="JidAUNLNo" text="Wenn diese Option aktiviert ist, erfolgt die automatische Waffenset-Auswahl für den Spieler nur dann, wenn eine Waffenvorliebe festgelegt ist und in der Arena mindestens ein passendes Waffenset verfügbar ist. Andernfalls nutzt er wie gewohnt zufällige Waffen. Der Standardwert wird in den globalen Mod-Einstellungen festgelegt." />
+		<string id="cWdhDpsOS" text="Teure Ausrüstung bevorzugen" />
+		<string id="YwbIZExy1" text="Wenn diese Option aktiviert ist, wählt der jeweilige Held seine Waffen für Arena-Übungskämpfe so, dass bessere und teurere Ausrüstung bevorzugt wird. Andernfalls wird das günstigste Waffenset gewählt, das den festgelegten Vorlieben entspricht. Der Standardwert wird in den globalen Mod-Einstellungen festgelegt." />
+		<string id="Wse8QGJyQ" text="Wenn diese Option aktiviert ist, wird bei der automatischen Waffenset-Auswahl für den Spieler bessere und teurere Ausrüstung bevorzugt. Andernfalls wird das günstigste Waffenset gewählt, das den festgelegten Vorlieben entspricht. Der Standardwert wird in den globalen Mod-Einstellungen festgelegt." />
+		<string id="G2IdbqB8p" text="Erste Priorität" />
+		<string id="ZWh07gP41" text="Legt die Waffenfertigkeit fest, deren Training für den jeweiligen Helden die höchste Priorität hat. Dieser Held wählt immer ein Waffenset mit einer Waffe, die auf dieser Fertigkeit beruht, sofern eines verfügbar ist. Standard: [Keine]." />
+		<string id="DOGp7LBDe" text="Legt die Waffenfertigkeit fest, deren Training für den Spielercharakter die höchste Priorität hat. Es wird immer ein Waffenset mit einer Waffe gewählt, die auf dieser Fertigkeit beruht, sofern eines verfügbar ist. Standard: [Keine]." />
+		<string id="bcgL8E4Ol" text="Zweite Priorität" />
+		<string id="Yideeiww5" text="Legt die Waffenfertigkeit fest, deren Training für den jeweiligen Helden die zweithöchste Priorität hat. Dieser Held wählt ein Waffenset mit einer Waffe, die auf dieser Fertigkeit beruht, sofern eines verfügbar ist und es keine Alternativen mit höherer Priorität gibt. Standard: [Keine]." />
+		<string id="bhSUfmKir" text="Legt die Waffenfertigkeit fest, deren Training für den Spielercharakter die zweithöchste Priorität hat. Es wird ein Waffenset mit einer Waffe gewählt, die auf dieser Fertigkeit beruht, sofern eines verfügbar ist und es keine Alternativen mit höherer Priorität gibt. Standard: [Keine]." />
+		<string id="t45rwWZc5" text="Dritte Priorität" />
+		<string id="lHiP6Z2Qo" text="Legt die Waffenfertigkeit fest, deren Training für den jeweiligen Helden die dritthöchste Priorität hat. Dieser Held wählt ein Waffenset mit einer Waffe, die auf dieser Fertigkeit beruht, sofern eines verfügbar ist und es keine Alternativen mit höherer Priorität gibt. Standard: [Keine]." />
+		<string id="IP7JZx9bb" text="Legt die Waffenfertigkeit fest, deren Training für den Spielercharakter die dritthöchste Priorität hat. Es wird ein Waffenset mit einer Waffe gewählt, die auf dieser Fertigkeit beruht, sofern eines verfügbar ist und es keine Alternativen mit höherer Priorität gibt. Standard: [Keine]." />
+		<string id="6SD77Zo1C" text="Keine" />
+		<string id="7OL4eTdan" text="Einhandwaffen" />
+		<string id="rvCVOGi0s" text="Zweihandwaffen" />
+		<string id="bDnJRrfRH" text="Stangenwaffen" />
+		<string id="KZt7cDhKn" text="Bögen" />
+		<string id="s0JLnYAxx" text="Armbrüste" />
+		<string id="CvVDmEhou" text="Wurfwaffen" />
+		<string id="AOgtHead01" text="Großes Turnier und Königreichsturniere" />
+		<string id="AOgtSprg01" text="Frühling" />
+		<string id="AOgtSumr01" text="Sommer" />
+		<string id="AOgtAutm01" text="Herbst" />
+		<string id="AOgtWntr01" text="Winter" />
+		<string id="AOgtEnab01" text="Jährliches Großes Turnier aktivieren" />
+		<string id="AOgtEnab02" text="Einmal im Jahr werden die stärksten Lords der Arena-Rangliste aus ganz Calradia zu einem Großen Turnier im 1-gegen-1 gerufen, das in der Hauptstadt des Königreichs des Ranglistenersten stattfindet. Die Lords nehmen unabhängig von ihrem Aufenthaltsort auf der Karte teil. Standard: aktiviert." />
+		<string id="AOgtKEna01" text="Saisonale Königreichsturniere aktivieren" />
+		<string id="AOgtKEna02" text="In jeder Jahreszeit richtet jedes Königreich in seiner Hauptstadt ein 1-gegen-1-Turnier für seine eigenen vereidigten Lords aus. Alle Königreiche halten es am selben Tag ab; der Spieler darf nur am Turnier seines eigenen Königreichs teilnehmen. Das Große Turnier ersetzt die Königreichsturniere seiner Jahreszeit. Standard: aktiviert." />
+		<string id="AOgtSeas01" text="Jahreszeit des Großen Turniers" />
+		<string id="AOgtSeas02" text="Jahreszeit, in der das Große Turnier stattfindet. Standard: Frühling." />
+		<string id="AOgtGDay01" text="Tag der Jahreszeit für das Große Turnier" />
+		<string id="AOgtGDay02" text="Tag der Jahreszeit, an dem das Große Turnier beginnt. Standard = 11." />
+		<string id="AOgtKDay01" text="Tag der Jahreszeit für die Königreichsturniere" />
+		<string id="AOgtKDay02" text="Tag der Jahreszeit, an dem die Königreichsturniere beginnen. Standard = 11." />
+		<string id="AOgtAnnD01" text="Vorlaufzeit der Ankündigung in Tagen" />
+		<string id="AOgtAnnD02" text="Wie viele Tage vor der Eröffnung das Turnier angekündigt wird und in seiner Gastgeberstadt erscheint. Teilnahme und Zuschauen sind bis zur Eröffnung gesperrt. Standard = 7." />
+		<string id="AOgtDura01" text="Dauer in Tagen" />
+		<string id="AOgtDura02" text="Wie viele Tage das Turnier nach seinem Beginn geöffnet bleibt. Ist der Spieler bis dahin nicht beigetreten, wird es simuliert. Standard = 2." />
+		<string id="AOgtLege01" text="Preisgegenstand in legendärer Qualität" />
+		<string id="AOgtLege02" text="Der Preis ist eine hochstufige Waffe oder Rüstung aus der Kultur des Siegers mit dem besten Modifikator, den ihr Typ zulässt (Legendär bei Waffen). Reittiere werden nie angeboten. Standard: aktiviert." />
+		<string id="AOgtGold01" text="Goldpreis des Großen Turniers" />
+		<string id="AOgtGold02" text="Gold, das der Sieger des Großen Turniers zusätzlich zu den regulären Turnierbelohnungen erhält. Standard = 100000." />
+		<string id="AOgtReno01" text="Ansehensbelohnung des Großen Turniers" />
+		<string id="AOgtReno02" text="Ansehen, das der Sieger des Großen Turniers zusätzlich zu den regulären Turnierbelohnungen erhält. Standard = 50." />
+		<string id="AOgtInfl01" text="Einflussbelohnung des Großen Turniers" />
+		<string id="AOgtInfl02" text="Einfluss, den der Sieger des Großen Turniers erhält, sofern er einem Königreich angehört. Standard = 300." />
+		<string id="AOgtGWgt01" text="Ranglistengewicht des Großen Turniers" />
+		<string id="AOgtGWgt02" text="Als wie viele Ranglistensiege ein Sieg im Großen Turnier zählt. Standard = 3." />
+		<string id="AOgtKWgt01" text="Ranglistengewicht der Königreichsturniere" />
+		<string id="AOgtKWgt02" text="Als wie viele Ranglistensiege ein Sieg in einem Königreichsturnier zählt. Standard = 2." />
+		<string id="AOgtKPct01" text="Belohnungen der Königreichsturniere, % des Großen Turniers" />
+		<string id="AOgtKPct02" text="Gold, Ansehen und Einfluss eines Königreichsturniers als Prozentsatz der Werte des Großen Turniers. Standard = 40." />
+		<string id="AOgtMenuG1" text="Die Champions der Arena-Rangliste aus ganz Calradia haben sich in {TOWN} zum Großen Turnier versammelt. Der Sieger erhält &quot;{TOURNAMENT_PRIZE}&quot; sowie Gold, Ansehen und Einfluss, wie es dem Anlass gebührt." />
+		<string id="AOgtMenuK1" text="Die besten Kämpfer des Königreichs {KINGDOM} haben sich in {TOWN} zum Saisonturnier des Königreichs versammelt. Der Sieger erhält &quot;{TOURNAMENT_PRIZE}&quot; sowie Gold, Ansehen und Einfluss, wie es dem Anlass gebührt." />
+		<string id="AOgtAnn001" text="Das Große Turnier von Calradia wird in {TOWN} ausgetragen{?DAYS} und beginnt in {DAYS} {?DAYS.PLURAL_FORM}Tagen{?}Tag{\?}{?}{\?}. Die besten Kämpfer der Arena-Rangliste wurden einberufen." />
+		<string id="AOgtAnn002" text="Das Königreich {KINGDOM} richtet sein Saisonturnier in {TOWN} aus{?DAYS}, Beginn in {DAYS} {?DAYS.PLURAL_FORM}Tagen{?}Tag{\?}{?}{\?}." />
+		<string id="AOgtLock01" text="Das Große Turnier beginnt in {DAYS} {?DAYS.PLURAL_FORM}Tagen{?}Tag{\?}. Die Champions treffen noch ein." />
+		<string id="AOgtLock02" text="Das Königreichsturnier beginnt in {DAYS} {?DAYS.PLURAL_FORM}Tagen{?}Tag{\?}. Die Teilnehmer treffen noch ein." />
+		<string id="AOgtLock03" text="Nur vereidigte Lords des Königreichs {KINGDOM} dürfen an diesem Turnier teilnehmen." />
+		<string id="AOgtWin001" text="{WINNER} hat das Saisonturnier des Königreichs {KINGDOM} in {TOWN} gewonnen." />
+		<string id="AOgtWin002" text="{WINNER} hat das Große Turnier von Calradia in {TOWN} gewonnen!" />
+		<string id="AOgtPopA01" text="Kartenmeldung bei Ankündigung" />
+		<string id="AOgtPopA02" text="Zeigt eine Kartenbenachrichtigung an, wenn das Große Turnier oder ein Königreichsturnier, an dem der Spieler teilnehmen darf, angekündigt wird. Ein Klick darauf zeigt Einzelheiten und springt zur Gastgeberstadt. Standard: aktiviert." />
+		<string id="AOgtPopR01" text="Kartenmeldung bei Ergebnissen" />
+		<string id="AOgtPopR02" text="Zeigt eine Kartenbenachrichtigung mit dem Namen des Siegers an, wenn das Große Turnier oder ein Königreichsturnier, an dem der Spieler teilnehmen darf, endet. Standard: aktiviert." />
+		<string id="AOgtKInt01" text="Abstand der Königreichsturniere in Jahreszeiten" />
+		<string id="AOgtKInt02" text="Wie viele Jahreszeiten zwischen den Königreichsturnieren vergehen. Bei Werten, die kein Teiler von 4 sind, wandern die Turniere durch die Jahreszeiten. Fällt ein Königreichsturnier in die Jahreszeit des Großen Turniers, wird es durch das Große Turnier ersetzt. Standard = 3." />
+		<string id="sotK7sewA" text="in der Nähe" />
+		<string id="J5jTiUvt8" text="recht nah von hier" />
+		<string id="ULKHRKsSV" text="recht weit von hier" />
+		<string id="2JXPNLOm3" text="sehr weit von hier" />
+		<string id="AOgtNtf004" text="Königreichsturnier beendet" />
+		<string id="AOgtNtf003" text="Großes Turnier beendet" />
+		<string id="AOgtNtf002" text="Turnier des Königreichs {KINGDOM}" />
+		<string id="AOgtNtf001" text="Das Große Turnier von Calradia" />
+		<string id="AOgtNtf013" text="{WINNER} vom Clan {CLAN} hat das in {TOWN} ausgetragene Saisonturnier des Königreichs {KINGDOM} gewonnen und dafür &quot;{PRIZE}&quot; sowie {GOLD}{GOLD_ICON}, {RENOWN} Ansehen und {INFLUENCE} Einfluss erhalten." />
+		<string id="AOgtNtf012" text="{WINNER} vom Clan {CLAN} hat über die besten Kämpfer Calradias triumphiert, das in {TOWN} ausgetragene Große Turnier gewonnen und dafür &quot;{PRIZE}&quot; sowie {GOLD}{GOLD_ICON}, {RENOWN} Ansehen und {INFLUENCE} Einfluss erhalten." />
+		<string id="AOgtNtf009" text="Die vereidigten Lords des Königreichs {KINGDOM} wurden zum Saisonturnier des Königreichs nach {TOWN} gerufen. Es beginnt in {DAYS} {?DAYS.PLURAL_FORM}Tagen{?}Tag{\?} und bleibt {DURATION} {?DURATION.PLURAL_FORM}Tage{?}Tag{\?} lang geöffnet. Der Sieger erhält &quot;{PRIZE}&quot;." />
+		<string id="AOgtNtf007" text="Die Champions der Arena-Rangliste aus ganz Calradia wurden nach {TOWN} gerufen. Das Große Turnier beginnt in {DAYS} {?DAYS.PLURAL_FORM}Tagen{?}Tag{\?} und bleibt {DURATION} {?DURATION.PLURAL_FORM}Tage{?}Tag{\?} lang geöffnet. Der Sieger erhält &quot;{PRIZE}&quot;." />
+		<string id="AOgtNtf010" text="Das Saisonturnier des Königreichs {KINGDOM} ist in {TOWN} im Gange und bleibt noch {DAYS} {?DAYS.PLURAL_FORM}Tage{?}Tag{\?} geöffnet. Der Sieger erhält &quot;{PRIZE}&quot;." />
+		<string id="AOgtNtf008" text="Das Große Turnier ist in {TOWN} im Gange und bleibt noch {DAYS} {?DAYS.PLURAL_FORM}Tage{?}Tag{\?} geöffnet. Der Sieger erhält &quot;{PRIZE}&quot;." />
+		<string id="AOgtNtf011" text="Das in {TOWN} ausgetragene Turnier ist beendet." />
+		<string id="AOgtNtf005" text="Angekündigt in {TOWN}" />
+		<string id="AOgtNtf006" text="{WINNER} triumphierte in {TOWN}" />
+		<string id="AOR_m3XpR8d" text="Dieser Held ist noch nicht im Kampf und steht an Position {QUEUE_NUMBER} der Warteschlange für die Arena." />
+		<string id="AOgtWon002" text="Ihr gewinnt das Saisonturnier des Königreichs {KINGDOM}, indem Ihr {TOURNAMENT_FINAL_OPPONENT} in der Finalrunde besiegt." />
+		<string id="AOgtWon001" text="Ihr gewinnt das Große Turnier von Calradia, indem Ihr {TOURNAMENT_FINAL_OPPONENT} in der Finalrunde besiegt." />
+		<string id="AOgtTitle002" text="Saisonturnier des Königreichs {KINGDOM}" />
+		<string id="AOgtTitle001" text="Großes Turnier von Calradia" />
+		<string id="AOgtNtf015" text="Schließen" />
+		<string id="AOgtNtf014" text="Auf der Karte zeigen" />
+		<string id="AOR_J5sWy1F" text="Warten darauf, dass {HERO.NAME} die Arena betritt. {?HERO.GENDER}Sie{?}Er{\?} steht an Position {POSITION_IN_LINE} der Warteschlange." />
+		<string id="AOR_q7Hn2Lw" text="Protokollierung für Debugging" />
+		<string id="AOR_Vz4kT9c" text="Protokollierung für Debugging (nur Englisch). [Standard: deaktiviert]" />
+	</strings>
+</base>
