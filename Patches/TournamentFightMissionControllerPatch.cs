@@ -1,4 +1,5 @@
-﻿using ArenaOverhaul.Managers;
+using ArenaOverhaul.Diagnostics;
+using ArenaOverhaul.Managers;
 
 using HarmonyLib;
 
@@ -35,26 +36,50 @@ public static class TournamentFightMissionControllerPatch
 
     [HarmonyTranspiler]
     [HarmonyPatch("Simulate")]
-    public static IEnumerable<CodeInstruction> SimulateTranspiler(IEnumerable<CodeInstruction> instructions)
+    public static IEnumerable<CodeInstruction> SimulateTranspiler(IEnumerable<CodeInstruction> instructions, MethodBase __originalMethod)
     {
         List<CodeInstruction> codes = new(instructions);
-        int num = 0;
+        int numberOfEdits = 0;
         int aliveParticipant1LoadIndex = 0;
-        for (int i = 4; i < codes.Count; ++i)
+        int insertIndex = 0;
+        if (miListRemove != null && miTupleItem2Getter != null && miUpdateNoticableTakedowns != null)
         {
-            if (num == 0 && codes[i].opcode == OpCodes.Ldloc_S && codes[i - 1].opcode == OpCodes.Ldloc_1 && codes[i - 2].Calls(miTupleItem2Getter))
+            for (int i = 4; i < codes.Count; ++i)
             {
-                aliveParticipant1LoadIndex = i;
-                ++num;
-            }
-            else if (num == 1 && codes[i].opcode == OpCodes.Ldarg_0 && codes[i - 1].opcode == OpCodes.Pop && codes[i - 2].Calls(miListRemove) && codes[i - 3].opcode == OpCodes.Ldloc_S)
-            {
-                codes.InsertRange(i, [new CodeInstruction(opcode: OpCodes.Ldloc_S, operand: codes[aliveParticipant1LoadIndex].operand),
-                    new CodeInstruction(opcode: OpCodes.Ldloc_S, operand: codes[i - 3].operand),
-                    new CodeInstruction(opcode: OpCodes.Call, operand: miUpdateNoticableTakedowns)]);
-                break;
+                if (numberOfEdits == 0 && codes[i].opcode == OpCodes.Ldloc_S && codes[i - 1].opcode == OpCodes.Ldloc_1 && codes[i - 2].Calls(miTupleItem2Getter))
+                {
+                    aliveParticipant1LoadIndex = i;
+                    ++numberOfEdits;
+                }
+                else if (numberOfEdits == 1 && codes[i].opcode == OpCodes.Ldarg_0 && codes[i - 1].opcode == OpCodes.Pop && codes[i - 2].Calls(miListRemove) && codes[i - 3].opcode == OpCodes.Ldloc_S)
+                {
+                    insertIndex = i;
+                    codes.InsertRange(i, [new CodeInstruction(opcode: OpCodes.Ldloc_S, operand: codes[aliveParticipant1LoadIndex].operand),
+                        new CodeInstruction(opcode: OpCodes.Ldloc_S, operand: codes[i - 3].operand),
+                        new CodeInstruction(opcode: OpCodes.Call, operand: miUpdateNoticableTakedowns)]);
+                    ++numberOfEdits;
+                    break;
+                }
             }
         }
+
+        //Logging
+        const int RequiredNumberOfEdits = 2;
+        if (numberOfEdits < RequiredNumberOfEdits)
+        {
+            TranspilerReport.HooksNotFound(
+                codes, numberOfEdits, RequiredNumberOfEdits, __originalMethod,
+                [
+                    (nameof(aliveParticipant1LoadIndex), aliveParticipant1LoadIndex),
+                    (nameof(insertIndex), insertIndex),
+                ],
+                [
+                    (nameof(miListRemove), miListRemove),
+                    (nameof(miTupleItem2Getter), miTupleItem2Getter),
+                    (nameof(miUpdateNoticableTakedowns), miUpdateNoticableTakedowns),
+                ]);
+        }
+
         return codes.AsEnumerable();
     }
 }

@@ -31,33 +31,68 @@ public static class TournamentBehaviorPatch
 
     [HarmonyTranspiler]
     [HarmonyPatch("GetMaximumBet")]
-    public static IEnumerable<CodeInstruction> GetMaximumBetTranspiler(IEnumerable<CodeInstruction> instructions)
+    public static IEnumerable<CodeInstruction> GetMaximumBetTranspiler(IEnumerable<CodeInstruction> instructions, MethodBase __originalMethod)
     {
         List<CodeInstruction> codes = new(instructions);
-        for (int i = 0; i < codes.Count; ++i)
+        int numberOfEdits = 0;
+        if (miGetMaximumBet != null)
         {
-            if (codes[i].LoadsConstant(150))
+            for (int i = 0; i < codes.Count; ++i)
             {
-                codes[i] = new CodeInstruction(opcode: OpCodes.Call, operand: miGetMaximumBet);
-                break;
+                if (codes[i].LoadsConstant(150))
+                {
+                    codes[i] = new CodeInstruction(opcode: OpCodes.Call, operand: miGetMaximumBet);
+                    ++numberOfEdits;
+                    break;
+                }
             }
         }
+
+        //Logging
+        const int RequiredNumberOfEdits = 1;
+        if (numberOfEdits < RequiredNumberOfEdits)
+        {
+            TranspilerReport.HooksNotFound(
+                codes, numberOfEdits, RequiredNumberOfEdits, __originalMethod, [],
+                [
+                    (nameof(miGetMaximumBet), miGetMaximumBet),
+                ]);
+        }
+
         return codes.AsEnumerable();
     }
 
     [HarmonyTranspiler]
     [HarmonyPatch("CalculateBet")]
-    public static IEnumerable<CodeInstruction> CalculateBetTranspiler(IEnumerable<CodeInstruction> instructions)
+    public static IEnumerable<CodeInstruction> CalculateBetTranspiler(IEnumerable<CodeInstruction> instructions, MethodBase __originalMethod)
     {
         List<CodeInstruction> codes = new(instructions);
-        for (int i = 0; i < codes.Count; ++i)
+        int numberOfEdits = 0;
+        if (miMathFPow != null && miGetBettingOddRandomFactor != null)
         {
-            if (codes[i].LoadsConstant(1.1f) && codes[i - 1].Calls(miMathFPow))
+            for (int i = 1; i < codes.Count; ++i)
             {
-                codes.InsertRange(i, [new CodeInstruction(opcode: OpCodes.Call, operand: miGetBettingOddRandomFactor), new CodeInstruction(OpCodes.Mul)]);
-                break;
+                if (codes[i].LoadsConstant(1.1f) && codes[i - 1].Calls(miMathFPow))
+                {
+                    codes.InsertRange(i, [new CodeInstruction(opcode: OpCodes.Call, operand: miGetBettingOddRandomFactor), new CodeInstruction(OpCodes.Mul)]);
+                    ++numberOfEdits;
+                    break;
+                }
             }
         }
+
+        //Logging
+        const int RequiredNumberOfEdits = 1;
+        if (numberOfEdits < RequiredNumberOfEdits)
+        {
+            TranspilerReport.HooksNotFound(
+                codes, numberOfEdits, RequiredNumberOfEdits, __originalMethod, [],
+                [
+                    (nameof(miMathFPow), miMathFPow),
+                    (nameof(miGetBettingOddRandomFactor), miGetBettingOddRandomFactor),
+                ]);
+        }
+
         return codes.AsEnumerable();
     }
 

@@ -1,4 +1,5 @@
 ﻿using ArenaOverhaul.Core;
+using ArenaOverhaul.Diagnostics;
 
 using HarmonyLib;
 
@@ -18,17 +19,34 @@ public static class DefaultTournamentModelPatch
 
     [HarmonyTranspiler]
     [HarmonyPatch("GetRenownReward")]
-    public static IEnumerable<CodeInstruction> GetRenownRewardTranspiler(IEnumerable<CodeInstruction> instructions)
+    public static IEnumerable<CodeInstruction> GetRenownRewardTranspiler(IEnumerable<CodeInstruction> instructions, MethodBase __originalMethod)
     {
         List<CodeInstruction> codes = new(instructions);
-        for (int i = 0; i < codes.Count; ++i)
+        int numberOfEdits = 0;
+        if (miGetRenownReward != null)
         {
-            if (codes[i].LoadsConstant(3f) && codes[i + 1].opcode == OpCodes.Stloc_0)
+            for (int i = 0; i < codes.Count - 1; ++i)
             {
-                codes[i] = new CodeInstruction(opcode: OpCodes.Call, operand: miGetRenownReward);
-                break;
+                if (codes[i].LoadsConstant(3f) && codes[i + 1].opcode == OpCodes.Stloc_0)
+                {
+                    codes[i] = new CodeInstruction(opcode: OpCodes.Call, operand: miGetRenownReward);
+                    ++numberOfEdits;
+                    break;
+                }
             }
         }
+
+        //Logging
+        const int RequiredNumberOfEdits = 1;
+        if (numberOfEdits < RequiredNumberOfEdits)
+        {
+            TranspilerReport.HooksNotFound(
+                codes, numberOfEdits, RequiredNumberOfEdits, __originalMethod, [],
+                [
+                    (nameof(miGetRenownReward), miGetRenownReward),
+                ]);
+        }
+
         return codes.AsEnumerable();
     }
 

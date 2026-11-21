@@ -714,7 +714,7 @@ public class AOArenaBehavior : CampaignBehaviorBase
         shouldBeDisabled &= TeamTournamentHelpers.IsTournamentActive;
         canPlayerDo &= TeamTournamentHelpers.IsTournamentActive;
 
-        if (shouldBeDisabled || string.IsNullOrEmpty(disabledText?.ToString()))
+        if (!shouldBeDisabled && string.IsNullOrEmpty(disabledText?.ToString()))
             disabledText = new TextObject(Texts.Ids.RosterOnlyForTeamTournaments);
 
         return TWHelpers.MenuHelper.SetOptionProperties(args, canPlayerDo, shouldBeDisabled, disabledText);

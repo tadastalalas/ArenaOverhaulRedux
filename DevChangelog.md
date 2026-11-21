@@ -1,3 +1,30 @@
+## AOR v1.5.7.1
+
+- Merged a new Russian translation into `_Module\ModuleData\Languages\RU\std_module_strings_xml_rus.xml` (329 strings changed, ids not in the English file skipped: `miUO4w1hn`, `5KIeqRJJX`, `LRhyA9mqB`, `awGzg6S1d`, `FOtSSoEAh`, `37S9xfodK`).
+  - Fixed in the supplied text: lost `[ib:]`/`[if:]` tags (9 dialog lines), missing `{VALOR_PRIZES_DESCRIPTION}{CHAMPION_PRIZE_DESCRIPTION}` in `gaJDVkvHa`, invalid `{.%}` in `AOgtMenuG1`/`AOgtMenuK1`, missing spaces in `8k8br8lfq`/`LTfWl2OPC`.
+  - Restored female forms (`{?COMPANION.GENDER}`) in the companion result lines; setting hints now use the dropdown names ("Суммарный", "Множительный", reroll options).
+  - 33 ids added after the paste (`AOgt*Pop*`, `AOgtNtf*`, `AOR_*`, …) keep their previous Russian text. Save-compat: none. Test: Russian UI, arena dialogs with a female companion.
+- Fixed a possible native crash (`System.AccessViolationException`) during team tournament fights on 1.5.7 (reported while spectating, round 1, fight 5; no crash report).
+  - The fight controller now matches the 1.5.7 vanilla `TournamentFightMissionController` where our copy differed. All in `Missions\TeamTournamentMissionController.cs`, inside `#if !LOWER_THAN_1_5` / `#else`; the `LOWER_THAN_1_5` branch keeps the old code (1.4.7 / 1.4.8 unchanged).
+  - Routing: `OnBehaviorInitialize` / `OnEndMission` add / remove `CanAgentRout` (returns `false`) on `Mission.CanAgentRout_AdditionalCondition`, as vanilla (1.4.8 vanilla has it too; not added there, 1.4.x had no problems).
+  - Own agent lists `_currentTournamentAgents` / `_currentTournamentMountAgents`: filled in `SpawnAgentWithRandomItems`, fighter removed in `OnAgentRemoved`, cleared in `OnMatchEnded`.
+  - `OnMatchEnded` fades out only those lists (was every active agent of `Mission.Agents` with `TeamIndex >= 0`).
+  - `IsMatchEnded`: victory cheer once per match (`_cheerStarted`, reset in `StartMatch`), only on our own AI fighters through `StartVictoryCheer` (was every AI agent of `Mission.Agents`, horses included, and could repeat).
+  - `CheckIfIsThereAnyEnemies`, `Simulate` (alive-list reset) and `IsThereAnyPlayerAgent` use the own list, as vanilla.
+  - Not mirrored: vanilla 1.5.7 spawns the player first in a team and no longer sets `ClothingColor2`.
+  - Ruled out: UIExtenderEx prefab compile (finishes when the mission opens), `TeamTournamentBehavior` (matches 1.5.7 `TournamentBehavior`), `TournamentMissionStarterPatch` behavior list (matches 1.5.7).
+  - Save-compat: none. Test on 1.5.7: team tournament as spectator and as participant (all rounds, free camera), skip / forfeit a match, victory cheer once per match; 1.4.8 team tournament still works.
+- Bug-hunt fixes (all versions, no `#if`). Save-compat: none.
+  - `Behaviors\AOArenaBehavior.cs` `team_game_select_roster_condition`: the access model's disabled reason was overwritten by `RosterOnlyForTeamTournaments`; the default text is now set only when not disabled and no reason was given.
+  - `Managers\AOArenaBehaviorManager.cs` `FillParticipantsForExpansivePractice`: troops need `WoundedNumber < Number` (as Team practice) and the troop branch skips heroes (wounded heroes fell through it). `Sync()`: `PlayerHostedTournaments ??= []`.
+  - `Patches\ArenaPracticeFightMissionControllerPatch.cs` `GetParticipantCharactersTranspiler`: `codes[i + 1]` is now bounds-checked (could throw on the last instruction and stop `PatchAll`).
+  - Silent transpilers now report through `TranspilerReport.HooksNotFound` and skip when their members are null: `TournamentBehaviorPatch` `GetMaximumBet` / `CalculateBet` (loop starts at 1, reads `codes[i - 1]`), `DefaultTournamentModelPatch` `GetRenownReward` (loop ends at `Count - 1`), `TournamentFightMissionControllerPatch` `Simulate` (2 edits).
+  - Removed unused `TeamTournamentBehavior.MaximumBetInstance`.
+- `_Module\GUI\Brushes\ArenaOverhaulMapNotification.xml` rebuilt from the vanilla 1.5.7 SandBox `MapNotification.xml` (it replaces the vanilla `Map.Notification.*` brushes).
+  - Added the missing 1.5.7 `blood_feud_*` layers and styles (6 each); blood feud notifications had no icon with the mod loaded. The new layers are hidden unless a notification selects them.
+  - Vanilla layout (2-space indent, vanilla order); other mods' entries grouped under one comment, ours last. Same entries otherwise; kept the 1.5 s `Map.Notification.More.Panel` pulse (vanilla 1.5.7: 0.75 s).
+  - Note comment placed inside `<Layers>` (comments there already worked), not before `<Brushes>`. Save-compat: none. Test on 1.5.7: blood feud and Grand Tournament notification icons; 1.4.8 notifications still show.
+
 ## AOR v1.5.7.0
 
 - Migrated the mod to the multi-version standard (one code base, one DLL per game version, `Bannerlord.ModuleLoader`).

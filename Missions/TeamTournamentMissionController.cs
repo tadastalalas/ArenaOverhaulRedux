@@ -29,6 +29,32 @@ public class TeamTournamentMissionController : MissionLogic, ITournamentGameBeha
 {
     private const float XpShareForDamage = 0.5f;
 
+#if !LOWER_THAN_1_5
+    // 1.5.7 only: as vanilla TournamentFightMissionController, tournament fighters never rout.
+    public override void OnBehaviorInitialize()
+    {
+        Mission.CanAgentRout_AdditionalCondition += CanAgentRout;
+    }
+
+    protected override void OnEndMission()
+    {
+        Mission.CanAgentRout_AdditionalCondition -= CanAgentRout;
+    }
+
+    public bool CanAgentRout(Agent agent) => false;
+
+    private void StartVictoryCheer()
+    {
+        _cheerStarted = true;
+        AgentVictoryLogic victoryLogic = Mission.GetMissionBehavior<AgentVictoryLogic>();
+        foreach (Agent agent in _currentTournamentAgents)
+        {
+            if (agent.IsAIControlled)
+                victoryLogic.SetTimersOfVictoryReactionsOnTournamentVictoryForAgent(agent, VictoryReactionMinDelay, VictoryReactionMaxDelay);
+        }
+    }
+#endif
+
     public override void AfterStart()
     {
         TournamentBehavior.DeleteTournamentSetsExcept(Mission.Scene.FindEntityWithTag("tournament_fight"));
@@ -65,6 +91,9 @@ public class TeamTournamentMissionController : MissionLogic, ITournamentGameBeha
 
     public void StartMatch(TeamTournamentMatch match, bool isLastRound)
     {
+#if !LOWER_THAN_1_5
+        _cheerStarted = false;
+#endif
         _match = match;
         _isLastRound = isLastRound;
         PrepareForMatch();
@@ -139,16 +168,25 @@ public class TeamTournamentMissionController : MissionLogic, ITournamentGameBeha
             return true;
         }
 
+#if LOWER_THAN_1_5
         if (_cheerTimer != null && _cheerTimer.ElapsedTime > 1f)
+#else
+        // 1.5.7 only: as vanilla, the victory cheer runs once per match.
+        if (_cheerTimer != null && !_cheerStarted && _cheerTimer.ElapsedTime > 1f)
+#endif
         {
             OnMatchResultsReady();
             _cheerTimer = null;
 
+#if LOWER_THAN_1_5
             foreach (Agent agent in Mission.Agents)
             {
                 if (agent.IsAIControlled)
                     Mission.GetMissionBehavior<AgentVictoryLogic>().SetTimersOfVictoryReactionsOnTournamentVictoryForAgent(agent, 1f, 3f);
             }
+#else
+            StartVictoryCheer();
+#endif
 
             return false;
         }
@@ -156,7 +194,12 @@ public class TeamTournamentMissionController : MissionLogic, ITournamentGameBeha
         if (_endTimer == null && !CheckIfIsThereAnyEnemies())
         {
             _endTimer = new BasicMissionTimer();
+#if LOWER_THAN_1_5
             _cheerTimer = new BasicMissionTimer();
+#else
+            if (!_cheerStarted)
+                _cheerTimer = new BasicMissionTimer();
+#endif
         }
 
         return false;
@@ -179,7 +222,13 @@ public class TeamTournamentMissionController : MissionLogic, ITournamentGameBeha
 
     public void OnMatchEnded()
     {
+#if LOWER_THAN_1_5
         SandBoxHelpers.MissionHelper.FadeOutAgents(Mission.Agents.Where(a => a.IsActive() && (a.Team is null || a.Team.TeamIndex >= 0)), true, false);
+#else
+        // 1.5.7 only: as vanilla, fade out only the fighters and mounts this controller spawned.
+        SandBoxHelpers.MissionHelper.FadeOutAgents(_currentTournamentAgents.Where(a => a.IsActive()), true, false);
+        SandBoxHelpers.MissionHelper.FadeOutAgents(_currentTournamentMountAgents.Where(a => a.IsActive()), true, false);
+#endif
         Mission.ClearCorpses(false);
         Mission.Teams.Clear();
         Mission.RemoveSpawnedItemsAndMissiles();
@@ -187,6 +236,10 @@ public class TeamTournamentMissionController : MissionLogic, ITournamentGameBeha
         _endTimer = null;
         _cheerTimer = null;
         _isSimulated = false;
+#if !LOWER_THAN_1_5
+        _currentTournamentAgents.Clear();
+        _currentTournamentMountAgents.Clear();
+#endif
     }
 
     private void SpawnAgentWithRandomItems(TeamTournamentMember member, Team team, MatrixFrame frame)
@@ -210,6 +263,12 @@ public class TeamTournamentMissionController : MissionLogic, ITournamentGameBeha
             agent.SetWatchState(Agent.WatchState.Alarmed);
         }
         agent.WieldInitialWeapons(Agent.WeaponWieldActionType.InstantAfterPickUp);
+#if !LOWER_THAN_1_5
+        // 1.5.7 only: as vanilla, track the spawned fighter and its mount.
+        _currentTournamentAgents.Add(agent);
+        if (agent.HasMount)
+            _currentTournamentMountAgents.Add(agent.MountAgent);
+#endif
     }
 
     private void AddRandomClothes(TeamTournamentMember member)
@@ -241,6 +300,10 @@ public class TeamTournamentMissionController : MissionLogic, ITournamentGameBeha
     {
         if (IsMatchEnded() || affectedAgent is null || !affectedAgent.IsHuman)
             return;
+#if !LOWER_THAN_1_5
+        // 1.5.7 only: as vanilla, a removed fighter is no longer tracked.
+        _currentTournamentAgents.Remove(affectedAgent);
+#endif
 
         TeamTournamentMember? member = _match!.MatchMembers.FirstOrDefault(x => x.IsCharWithDescriptor(affectedAgent.Origin.UniqueSeed));
         if (member is null)
@@ -308,7 +371,12 @@ public class TeamTournamentMissionController : MissionLogic, ITournamentGameBeha
     public bool CheckIfIsThereAnyEnemies()
     {
         Team? team = null;
+#if LOWER_THAN_1_5
         foreach (Agent? agent in Mission.Agents.Where(x => x.IsHuman && x.Team != null && x.Team.TeamIndex >= 0))
+#else
+        // 1.5.7 only: vanilla checks only the active agents it spawned.
+        foreach (Agent agent in _currentTournamentAgents.Where(x => x.IsHuman && x.IsActive() && x.Team != null))
+#endif
         {
             if (team == null)
                 team = agent.Team;
@@ -322,7 +390,12 @@ public class TeamTournamentMissionController : MissionLogic, ITournamentGameBeha
     {
         _isSimulated = false;
 
+#if LOWER_THAN_1_5
         if (base.Mission.Agents.Count == 0 || _aliveMembers is null || _aliveTeams is null)
+#else
+        // 1.5.7 only: vanilla resets the alive lists when none of its own agents are spawned.
+        if (_currentTournamentAgents.Count == 0 || _aliveMembers is null || _aliveTeams is null)
+#endif
         {
             _aliveMembers = new List<TeamTournamentMember>(_match!.MatchMembers);
             _aliveTeams = new List<TeamTournamentTeam>(_match.Teams);
@@ -390,7 +463,12 @@ public class TeamTournamentMissionController : MissionLogic, ITournamentGameBeha
         _isSimulated = true;
     }
 
+#if LOWER_THAN_1_5
     private bool IsThereAnyPlayerAgent() => (Mission.MainAgent != null && base.Mission.MainAgent.IsActive()) || Mission.Agents.Any(agent => agent.IsPlayerControlled);
+#else
+    // 1.5.7 only: vanilla checks only the agents it spawned.
+    private bool IsThereAnyPlayerAgent() => (Mission.MainAgent != null && base.Mission.MainAgent.IsActive()) || _currentTournamentAgents.Any(agent => agent.IsPlayerControlled);
+#endif
 
     public override InquiryData? OnEndMissionRequest(out bool canPlayerLeave)
     {
@@ -473,4 +551,12 @@ public class TeamTournamentMissionController : MissionLogic, ITournamentGameBeha
     private bool _forceEndMatch;
     private List<TeamTournamentMember>? _aliveMembers;
     private List<TeamTournamentTeam>? _aliveTeams;
+#if !LOWER_THAN_1_5
+    // 1.5.7 only: as vanilla TournamentFightMissionController, track the agents this controller spawned and cheer once per match.
+    private const float VictoryReactionMinDelay = 1f;
+    private const float VictoryReactionMaxDelay = 3f;
+    private readonly List<Agent> _currentTournamentAgents = new();
+    private readonly List<Agent> _currentTournamentMountAgents = new();
+    private bool _cheerStarted;
+#endif
 }

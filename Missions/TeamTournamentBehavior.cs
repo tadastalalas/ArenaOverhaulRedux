@@ -46,7 +46,6 @@ public class TeamTournamentBehavior : MissionLogic, ICameraModeLogic
     public TeamTournamentRound? NextRound => CurrentRoundIndex < Rounds.Length - 1 ? Rounds[CurrentRoundIndex + 1] : null;
     public TeamTournamentMatch? CurrentMatch => CurrentRound?.CurrentMatch;
     public int PlayerDenars => Hero.MainHero.Gold;
-    public int MaximumBetInstance => Math.Min(150, PlayerDenars);
 
     public TeamTournamentBehavior(TournamentGame tournamentGame, Settlement settlement, ITournamentGameBehavior gameBehavior, bool isPlayerParticipating)
     {

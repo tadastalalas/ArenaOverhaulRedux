@@ -33,7 +33,8 @@ apply: always
 
 ## Multi-version (1.5.7, 1.4.8, 1.4.7)
 - 1.4.7 / 1.4.8 behavior is the reference. 1.5.7 adaptations live only in `#else` / `#if !LOWER_THAN_1_5` and must behave the same.
-- The only `#if` block so far: `Missions\TeamTournamentBehavior.cs` (`OnAfterMissionLoadingFinished`, 1.5.7 only).
+- `#if` blocks so far (all 1.5.7 only): `Missions\TeamTournamentBehavior.cs` (`OnAfterMissionLoadingFinished`) and
+  `Missions\TeamTournamentMissionController.cs` (no routing, own agent lists, victory cheer once per match, as vanilla 1.5.7).
 - Not checked by the compiler, re-verify on every new game version: the string-named patch targets and the transpilers in
   `Patches\`, the `FieldAccessHelper` members, the prefab XPath in `UI\ArenaPracticeFightPrefabExtension.cs`
   (`ArenaPracticeFight`, `ListPanel[@IsVisible='@IsPlayerPracticing']`), the copied vanilla tournament VM bindings in `UI\TeamTournament*VM.cs`.

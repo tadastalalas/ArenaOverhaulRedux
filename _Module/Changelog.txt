@@ -1,4 +1,11 @@
-﻿AOR v1.5.7.0 :
+﻿AOR v1.5.7.1 :
+- Updated the Russian translation by @Lingaraja.
+- Fixed a possible crash during team tournament fights on game version 1.5.7.
+- Fixed the team tournament roster option showing the wrong reason when it is disabled.
+- Fixed wounded troops and wounded heroes joining Expansive arena practice.
+- Fixed blood feud map notifications showing no icon on game version 1.5.7.
+
+AOR v1.5.7.0 :
 - Added support for game version 1.5.7. Game versions 1.4.8 and 1.4.7 are still supported.
 	Version numbers now follow the game version: v1.5.7.0 is the update after v1.6.5.
 - Mod Configuration Menu is now optional. Without it, change the settings in Modules\ArenaOverhaulRedux\ModConfiguration.xml.

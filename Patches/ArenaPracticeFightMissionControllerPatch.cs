@@ -450,7 +450,7 @@ public static class ArenaPracticeFightMissionControllerPatch
                     codes[i] = new CodeInstruction(opcode: OpCodes.Call, operand: miGetTotalParticipantsCount);
                     ++numberOfEdits;
                 }
-                else if (codes[i + 1].opcode == OpCodes.Stloc_1 && codes[i].opcode == OpCodes.Newobj)
+                else if (codes[i].opcode == OpCodes.Newobj && i + 1 < codes.Count && codes[i + 1].opcode == OpCodes.Stloc_1)
                 {
                     codes[i] = new CodeInstruction(opcode: OpCodes.Call, operand: miGetParticipantCharactersLocal);
                     ++numberOfEdits;

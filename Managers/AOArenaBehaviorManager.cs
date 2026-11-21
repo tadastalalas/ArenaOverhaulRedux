@@ -473,7 +473,7 @@ public class AOArenaBehaviorManager
                 {
                     characterObjectList.Add(troopRosterElement.Character);
                 }
-                else if (!characterObjectList.Contains(troopRosterElement.Character) && troopRosterElement.Character.Tier >= 3)
+                else if (!characterObjectList.Contains(troopRosterElement.Character) && !troopRosterElement.Character.IsHero && troopRosterElement.Character.Tier >= 3 && troopRosterElement.WoundedNumber < troopRosterElement.Number)
                 {
                     troopTierCounter.TryGetValue(troopRosterElement.Character.Tier, out int currentCount);
                     if (requiredParticipantsCount * Math.Max(0.5 - 0.1 * (troopRosterElement.Character.Tier - 3), 0.1) > currentCount)
@@ -735,6 +735,7 @@ public class AOArenaBehaviorManager
         WeaponLoadoutInformation ??= [];
         ParryWeaponLoadoutInformation ??= [];
         TournamentPrizes ??= [];
+        PlayerHostedTournaments ??= [];
     }
 
     internal record class WeaponLoadoutInfo(string ItemIDs, int LoadoutStage, int LoadoutIndex, int OneHandedScore, int TwoHandedScore, int PolearmScore, int BowScore, int CrossbowScore, int ThrowingScore)
